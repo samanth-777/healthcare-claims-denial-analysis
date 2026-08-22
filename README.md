@@ -9,11 +9,11 @@
 
 ## Project Overview
 
-Riverside Health System, a regional nonprofit health network in Milwaukee, WI submitting ~680,000 claims annually, engaged a Business Analyst to investigate a claim denial rate spike from 8.2% to 11.7% over three quarters — representing an estimated $2.1M in incremental annual revenue exposure above baseline.
+Riverside Health System, a regional nonprofit health network in Milwaukee, WI submitting ~680,000 claims annually, engaged a Business Analyst to investigate a claim denial rate spike from 8.2% to 11.7% over three quarters, representing an estimated $2.1M in incremental annual revenue exposure above baseline.
 
 The audit focused on the top three denial reason codes by volume (CO-4, CO-16, PR-96), which together accounted for 71% of all denials. Root causes were traced across three workflows: patient registration and insurance verification, medical coding and modifier application, and payer configuration management.
 
-**Note:** This is a simulated engagement. All stakeholders, clinic names, and organizational details are fictional and constructed for portfolio demonstration purposes. Claim-level data was generated synthetically and calibrated to real CMS and industry benchmarks — see Data Sources below.
+**Note:** This is a simulated engagement. All stakeholders, clinic names, and organizational details are fictional and constructed for portfolio demonstration purposes. Claim-level data was generated synthetically and calibrated to real CMS and industry benchmarks. see Data Sources below.
 
 ---
 
