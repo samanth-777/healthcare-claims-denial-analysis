@@ -1,0 +1,501 @@
+Claim_ID,Quarter,Denial_Code,Denial_Description,Payer_Name,Payer_Type,Clinic_Location,HCPCS_Code,Procedure_Description,Submitted_Charge,Allowed_Amount,Service_Line
+RHS-100029,Q1 2025,CO-16,Missing or incomplete claim information,Aetna,Commercial,Downtown Milwaukee,99214,Office/outpatient visit est,167.92,113.0,E&M
+RHS-100030,Q1 2025,CO-16,Missing or incomplete claim information,Anthem MedicarePreferred,Medicare Advantage,Southside,99215,Office/outpatient visit est,227.95,159.16,E&M
+RHS-100032,Q1 2025,CO-16,Missing or incomplete claim information,Blue Cross Blue Shield WI,Commercial,West Allis,93000,Electrocardiogram complete,54.19,27.73,Other
+RHS-100049,Q1 2025,CO-16,Missing or incomplete claim information,Aetna,Commercial,Brookfield,97110,Therapeutic exercises,102.37,71.7,Physical Therapy
+RHS-100052,Q1 2025,CO-16,Missing or incomplete claim information,UnitedHealthcare,Commercial,Downtown Milwaukee,97530,Therapeutic activities,97.97,71.0,Physical Therapy
+RHS-100058,Q1 2025,CO-16,Missing or incomplete claim information,Anthem MedicarePreferred,Medicare Advantage,West Allis,97530,Therapeutic activities,97.89,71.62,Physical Therapy
+RHS-100059,Q1 2025,CO-16,Missing or incomplete claim information,Humana Gold Plus,Medicare Advantage,Brookfield,73721,MRI joint of lower extremity,573.52,272.35,Radiology
+RHS-100060,Q1 2025,CO-16,Missing or incomplete claim information,UnitedHealthcare,Commercial,West Allis,97110,Therapeutic exercises,95.56,67.95,Physical Therapy
+RHS-100070,Q1 2025,CO-16,Missing or incomplete claim information,WellCare Alliant,Medicare Advantage,Downtown Milwaukee,97140,Manual therapy,87.41,59.8,Physical Therapy
+RHS-100079,Q1 2025,CO-16,Missing or incomplete claim information,Anthem MedicarePreferred,Medicare Advantage,West Allis,97140,Manual therapy,82.73,59.56,Physical Therapy
+RHS-100087,Q1 2025,CO-16,Missing or incomplete claim information,UnitedHealthcare,Commercial,West Allis,97110,Therapeutic exercises,101.63,70.82,Physical Therapy
+RHS-100089,Q1 2025,CO-16,Missing or incomplete claim information,WellCare Alliant,Medicare Advantage,Brookfield,73721,MRI joint of lower extremity,576.62,274.1,Radiology
+RHS-100095,Q1 2025,CO-16,Missing or incomplete claim information,Blue Cross Blue Shield WI,Commercial,Downtown Milwaukee,99215,Office/outpatient visit est,216.13,165.98,E&M
+RHS-100098,Q1 2025,CO-16,Missing or incomplete claim information,Blue Cross Blue Shield WI,Commercial,Downtown Milwaukee,93000,Electrocardiogram complete,58.39,29.37,Other
+RHS-100108,Q1 2025,CO-16,Missing or incomplete claim information,Blue Cross Blue Shield WI,Commercial,Downtown Milwaukee,97530,Therapeutic activities,104.48,75.87,Physical Therapy
+RHS-100111,Q1 2025,CO-16,Missing or incomplete claim information,WellCare Alliant,Medicare Advantage,Southside,97530,Therapeutic activities,102.07,75.34,Physical Therapy
+RHS-100121,Q1 2025,CO-16,Missing or incomplete claim information,WellCare Alliant,Medicare Advantage,West Allis,99214,Office/outpatient visit est,160.11,113.12,E&M
+RHS-100122,Q1 2025,CO-16,Missing or incomplete claim information,Blue Cross Blue Shield WI,Commercial,Downtown Milwaukee,97110,Therapeutic exercises,87.42,66.43,Physical Therapy
+RHS-100141,Q1 2025,CO-16,Missing or incomplete claim information,WellCare Alliant,Medicare Advantage,West Allis,93000,Electrocardiogram complete,57.25,28.2,Other
+RHS-100147,Q1 2025,CO-16,Missing or incomplete claim information,Anthem MedicarePreferred,Medicare Advantage,Wauwatosa,97140,Manual therapy,86.21,62.5,Physical Therapy
+RHS-100151,Q1 2025,CO-16,Missing or incomplete claim information,UnitedHealthcare,Commercial,West Allis,97110,Therapeutic exercises,102.33,69.13,Physical Therapy
+RHS-100157,Q1 2025,CO-16,Missing or incomplete claim information,WellCare Alliant,Medicare Advantage,Downtown Milwaukee,70450,CT head/brain w/o contrast,270.79,140.57,Radiology
+RHS-100159,Q1 2025,CO-16,Missing or incomplete claim information,Humana Gold Plus,Medicare Advantage,Southside,99213,Office/outpatient visit est,117.07,80.26,E&M
+RHS-100160,Q1 2025,CO-16,Missing or incomplete claim information,Anthem MedicarePreferred,Medicare Advantage,Downtown Milwaukee,97110,Therapeutic exercises,95.53,71.78,Physical Therapy
+RHS-100171,Q1 2025,CO-16,Missing or incomplete claim information,Humana Gold Plus,Medicare Advantage,Downtown Milwaukee,99214,Office/outpatient visit est,172.39,111.79,E&M
+RHS-100178,Q1 2025,CO-16,Missing or incomplete claim information,Humana Gold Plus,Medicare Advantage,Downtown Milwaukee,73721,MRI joint of lower extremity,534.63,276.81,Radiology
+RHS-100192,Q1 2025,CO-16,Missing or incomplete claim information,Blue Cross Blue Shield WI,Commercial,Brookfield,72148,MRI lumbar spine w/o dye,597.44,286.78,Radiology
+RHS-100220,Q1 2025,CO-16,Missing or incomplete claim information,UnitedHealthcare,Commercial,Wauwatosa,97110,Therapeutic exercises,97.16,69.7,Physical Therapy
+RHS-100232,Q1 2025,CO-16,Missing or incomplete claim information,Blue Cross Blue Shield WI,Commercial,Wauwatosa,99214,Office/outpatient visit est,171.58,110.02,E&M
+RHS-100247,Q1 2025,CO-16,Missing or incomplete claim information,Humana Gold Plus,Medicare Advantage,Brookfield,72148,MRI lumbar spine w/o dye,640.83,302.45,Radiology
+RHS-100249,Q1 2025,CO-16,Missing or incomplete claim information,WellCare Alliant,Medicare Advantage,Brookfield,99213,Office/outpatient visit est,116.01,78.01,E&M
+RHS-100259,Q1 2025,CO-16,Missing or incomplete claim information,Blue Cross Blue Shield WI,Commercial,Brookfield,72148,MRI lumbar spine w/o dye,599.67,300.45,Radiology
+RHS-100273,Q1 2025,CO-16,Missing or incomplete claim information,WellCare Alliant,Medicare Advantage,Brookfield,70450,CT head/brain w/o contrast,285.01,146.46,Radiology
+RHS-100276,Q1 2025,CO-16,Missing or incomplete claim information,UnitedHealthcare,Commercial,Southside,99215,Office/outpatient visit est,232.67,164.94,E&M
+RHS-100283,Q1 2025,CO-16,Missing or incomplete claim information,UnitedHealthcare,Commercial,Downtown Milwaukee,73721,MRI joint of lower extremity,524.13,256.44,Radiology
+RHS-100305,Q1 2025,CO-16,Missing or incomplete claim information,Aetna,Commercial,Downtown Milwaukee,97530,Therapeutic activities,105.15,77.08,Physical Therapy
+RHS-100312,Q1 2025,CO-16,Missing or incomplete claim information,UnitedHealthcare,Commercial,Downtown Milwaukee,70450,CT head/brain w/o contrast,263.66,144.43,Radiology
+RHS-100318,Q1 2025,CO-16,Missing or incomplete claim information,WellCare Alliant,Medicare Advantage,Wauwatosa,93000,Electrocardiogram complete,56.16,30.14,Other
+RHS-100342,Q1 2025,CO-16,Missing or incomplete claim information,Aetna,Commercial,Brookfield,97530,Therapeutic activities,100.93,75.46,Physical Therapy
+RHS-100384,Q1 2025,CO-16,Missing or incomplete claim information,Anthem MedicarePreferred,Medicare Advantage,Downtown Milwaukee,97530,Therapeutic activities,99.59,71.94,Physical Therapy
+RHS-100390,Q1 2025,CO-16,Missing or incomplete claim information,UnitedHealthcare,Commercial,Downtown Milwaukee,73721,MRI joint of lower extremity,511.52,253.58,Radiology
+RHS-100396,Q1 2025,CO-16,Missing or incomplete claim information,Aetna,Commercial,Southside,93000,Electrocardiogram complete,56.63,28.22,Other
+RHS-100463,Q1 2025,CO-16,Missing or incomplete claim information,UnitedHealthcare,Commercial,Wauwatosa,73721,MRI joint of lower extremity,521.95,275.11,Radiology
+RHS-100493,Q1 2025,CO-16,Missing or incomplete claim information,Blue Cross Blue Shield WI,Commercial,Wauwatosa,97110,Therapeutic exercises,102.46,66.09,Physical Therapy
+RHS-100494,Q1 2025,CO-16,Missing or incomplete claim information,Aetna,Commercial,Downtown Milwaukee,99215,Office/outpatient visit est,228.94,155.8,E&M
+RHS-100017,Q1 2025,CO-29,The time limit for filing has expired,WellCare Alliant,Medicare Advantage,Wauwatosa,97140,Manual therapy,93.01,60.57,Physical Therapy
+RHS-100033,Q1 2025,CO-29,The time limit for filing has expired,Wisconsin Medicaid,Medicaid,West Allis,99213,Office/outpatient visit est,113.73,76.42,E&M
+RHS-100048,Q1 2025,CO-29,The time limit for filing has expired,UnitedHealthcare,Commercial,Downtown Milwaukee,70450,CT head/brain w/o contrast,273.71,139.87,Radiology
+RHS-100090,Q1 2025,CO-29,The time limit for filing has expired,Medicare Part B,Traditional Medicare,Wauwatosa,97110,Therapeutic exercises,99.02,70.2,Physical Therapy
+RHS-100134,Q1 2025,CO-29,The time limit for filing has expired,Blue Cross Blue Shield WI,Commercial,Brookfield,97530,Therapeutic activities,100.05,72.75,Physical Therapy
+RHS-100153,Q1 2025,CO-29,The time limit for filing has expired,Medicare Part B,Traditional Medicare,Wauwatosa,97140,Manual therapy,84.96,60.88,Physical Therapy
+RHS-100166,Q1 2025,CO-29,The time limit for filing has expired,Blue Cross Blue Shield WI,Commercial,Brookfield,99213,Office/outpatient visit est,103.33,82.11,E&M
+RHS-100222,Q1 2025,CO-29,The time limit for filing has expired,WellCare Alliant,Medicare Advantage,Wauwatosa,99213,Office/outpatient visit est,115.0,76.01,E&M
+RHS-100228,Q1 2025,CO-29,The time limit for filing has expired,Wisconsin Medicaid,Medicaid,Downtown Milwaukee,97140,Manual therapy,93.88,64.28,Physical Therapy
+RHS-100237,Q1 2025,CO-29,The time limit for filing has expired,Medicare Part B,Traditional Medicare,West Allis,99214,Office/outpatient visit est,168.65,112.11,E&M
+RHS-100250,Q1 2025,CO-29,The time limit for filing has expired,Medicare Part B,Traditional Medicare,Downtown Milwaukee,70450,CT head/brain w/o contrast,306.54,148.55,Radiology
+RHS-100302,Q1 2025,CO-29,The time limit for filing has expired,WellCare Alliant,Medicare Advantage,West Allis,97140,Manual therapy,83.42,60.36,Physical Therapy
+RHS-100307,Q1 2025,CO-29,The time limit for filing has expired,Anthem MedicarePreferred,Medicare Advantage,West Allis,99214,Office/outpatient visit est,171.7,109.98,E&M
+RHS-100368,Q1 2025,CO-29,The time limit for filing has expired,Anthem MedicarePreferred,Medicare Advantage,West Allis,99215,Office/outpatient visit est,214.56,158.64,E&M
+RHS-100378,Q1 2025,CO-29,The time limit for filing has expired,Humana Gold Plus,Medicare Advantage,Downtown Milwaukee,72148,MRI lumbar spine w/o dye,666.83,304.61,Radiology
+RHS-100003,Q1 2025,CO-4,Inconsistent modifier / procedure code,Anthem MedicarePreferred,Medicare Advantage,West Allis,99214,Office/outpatient visit est,163.23,107.18,E&M
+RHS-100004,Q1 2025,CO-4,Inconsistent modifier / procedure code,Medicare Part B,Traditional Medicare,Downtown Milwaukee,93000,Electrocardiogram complete,50.96,28.17,Other
+RHS-100013,Q1 2025,CO-4,Inconsistent modifier / procedure code,WellCare Alliant,Medicare Advantage,Downtown Milwaukee,93000,Electrocardiogram complete,51.82,30.11,Other
+RHS-100015,Q1 2025,CO-4,Inconsistent modifier / procedure code,Aetna,Commercial,Downtown Milwaukee,99213,Office/outpatient visit est,111.72,79.91,E&M
+RHS-100020,Q1 2025,CO-4,Inconsistent modifier / procedure code,WellCare Alliant,Medicare Advantage,West Allis,99215,Office/outpatient visit est,213.58,151.43,E&M
+RHS-100023,Q1 2025,CO-4,Inconsistent modifier / procedure code,Medicare Part B,Traditional Medicare,Southside,99214,Office/outpatient visit est,155.13,108.4,E&M
+RHS-100025,Q1 2025,CO-4,Inconsistent modifier / procedure code,Medicare Part B,Traditional Medicare,Brookfield,70450,CT head/brain w/o contrast,288.86,137.47,Radiology
+RHS-100036,Q1 2025,CO-4,Inconsistent modifier / procedure code,Aetna,Commercial,West Allis,93000,Electrocardiogram complete,55.15,29.6,Other
+RHS-100044,Q1 2025,CO-4,Inconsistent modifier / procedure code,Anthem MedicarePreferred,Medicare Advantage,Brookfield,99213,Office/outpatient visit est,105.97,76.02,E&M
+RHS-100057,Q1 2025,CO-4,Inconsistent modifier / procedure code,UnitedHealthcare,Commercial,Downtown Milwaukee,99213,Office/outpatient visit est,114.22,81.98,E&M
+RHS-100063,Q1 2025,CO-4,Inconsistent modifier / procedure code,WellCare Alliant,Medicare Advantage,Downtown Milwaukee,93000,Electrocardiogram complete,51.65,30.1,Other
+RHS-100066,Q1 2025,CO-4,Inconsistent modifier / procedure code,Aetna,Commercial,West Allis,73721,MRI joint of lower extremity,510.01,276.15,Radiology
+RHS-100085,Q1 2025,CO-4,Inconsistent modifier / procedure code,Anthem MedicarePreferred,Medicare Advantage,Southside,72148,MRI lumbar spine w/o dye,602.19,312.61,Radiology
+RHS-100093,Q1 2025,CO-4,Inconsistent modifier / procedure code,WellCare Alliant,Medicare Advantage,Wauwatosa,99215,Office/outpatient visit est,232.69,152.85,E&M
+RHS-100094,Q1 2025,CO-4,Inconsistent modifier / procedure code,Humana Gold Plus,Medicare Advantage,West Allis,97110,Therapeutic exercises,99.52,70.72,Physical Therapy
+RHS-100097,Q1 2025,CO-4,Inconsistent modifier / procedure code,Medicare Part B,Traditional Medicare,Brookfield,99214,Office/outpatient visit est,153.64,108.33,E&M
+RHS-100104,Q1 2025,CO-4,Inconsistent modifier / procedure code,Aetna,Commercial,Wauwatosa,99213,Office/outpatient visit est,109.03,77.79,E&M
+RHS-100110,Q1 2025,CO-4,Inconsistent modifier / procedure code,Blue Cross Blue Shield WI,Commercial,Wauwatosa,97530,Therapeutic activities,95.35,72.72,Physical Therapy
+RHS-100117,Q1 2025,CO-4,Inconsistent modifier / procedure code,WellCare Alliant,Medicare Advantage,Southside,70450,CT head/brain w/o contrast,275.38,146.15,Radiology
+RHS-100145,Q1 2025,CO-4,Inconsistent modifier / procedure code,Medicare Part B,Traditional Medicare,Downtown Milwaukee,97530,Therapeutic activities,105.97,76.09,Physical Therapy
+RHS-100161,Q1 2025,CO-4,Inconsistent modifier / procedure code,UnitedHealthcare,Commercial,Downtown Milwaukee,97140,Manual therapy,90.9,60.87,Physical Therapy
+RHS-100169,Q1 2025,CO-4,Inconsistent modifier / procedure code,Blue Cross Blue Shield WI,Commercial,Brookfield,97110,Therapeutic exercises,102.17,69.8,Physical Therapy
+RHS-100196,Q1 2025,CO-4,Inconsistent modifier / procedure code,Anthem MedicarePreferred,Medicare Advantage,Downtown Milwaukee,99215,Office/outpatient visit est,221.77,161.34,E&M
+RHS-100209,Q1 2025,CO-4,Inconsistent modifier / procedure code,Wisconsin Medicaid,Medicaid,Brookfield,73721,MRI joint of lower extremity,526.58,266.51,Radiology
+RHS-100221,Q1 2025,CO-4,Inconsistent modifier / procedure code,Medicare Part B,Traditional Medicare,West Allis,99214,Office/outpatient visit est,162.45,117.16,E&M
+RHS-100243,Q1 2025,CO-4,Inconsistent modifier / procedure code,Humana Gold Plus,Medicare Advantage,West Allis,97140,Manual therapy,93.14,59.19,Physical Therapy
+RHS-100245,Q1 2025,CO-4,Inconsistent modifier / procedure code,Anthem MedicarePreferred,Medicare Advantage,Wauwatosa,97530,Therapeutic activities,106.02,76.33,Physical Therapy
+RHS-100246,Q1 2025,CO-4,Inconsistent modifier / procedure code,WellCare Alliant,Medicare Advantage,West Allis,99215,Office/outpatient visit est,229.83,154.08,E&M
+RHS-100254,Q1 2025,CO-4,Inconsistent modifier / procedure code,Wisconsin Medicaid,Medicaid,Southside,99213,Office/outpatient visit est,117.26,80.3,E&M
+RHS-100256,Q1 2025,CO-4,Inconsistent modifier / procedure code,Humana Gold Plus,Medicare Advantage,Wauwatosa,97530,Therapeutic activities,98.09,70.95,Physical Therapy
+RHS-100270,Q1 2025,CO-4,Inconsistent modifier / procedure code,UnitedHealthcare,Commercial,Wauwatosa,70450,CT head/brain w/o contrast,295.65,136.12,Radiology
+RHS-100316,Q1 2025,CO-4,Inconsistent modifier / procedure code,Wisconsin Medicaid,Medicaid,West Allis,97110,Therapeutic exercises,88.92,70.33,Physical Therapy
+RHS-100319,Q1 2025,CO-4,Inconsistent modifier / procedure code,Medicare Part B,Traditional Medicare,Downtown Milwaukee,93000,Electrocardiogram complete,54.52,29.04,Other
+RHS-100327,Q1 2025,CO-4,Inconsistent modifier / procedure code,WellCare Alliant,Medicare Advantage,West Allis,99215,Office/outpatient visit est,203.49,156.39,E&M
+RHS-100343,Q1 2025,CO-4,Inconsistent modifier / procedure code,Wisconsin Medicaid,Medicaid,West Allis,72148,MRI lumbar spine w/o dye,662.58,286.3,Radiology
+RHS-100344,Q1 2025,CO-4,Inconsistent modifier / procedure code,Medicare Part B,Traditional Medicare,Wauwatosa,93000,Electrocardiogram complete,51.42,29.35,Other
+RHS-100347,Q1 2025,CO-4,Inconsistent modifier / procedure code,UnitedHealthcare,Commercial,Downtown Milwaukee,70450,CT head/brain w/o contrast,280.11,141.73,Radiology
+RHS-100353,Q1 2025,CO-4,Inconsistent modifier / procedure code,WellCare Alliant,Medicare Advantage,Wauwatosa,97530,Therapeutic activities,103.37,71.76,Physical Therapy
+RHS-100356,Q1 2025,CO-4,Inconsistent modifier / procedure code,Blue Cross Blue Shield WI,Commercial,Downtown Milwaukee,97530,Therapeutic activities,104.66,70.7,Physical Therapy
+RHS-100363,Q1 2025,CO-4,Inconsistent modifier / procedure code,Aetna,Commercial,Downtown Milwaukee,97140,Manual therapy,81.51,63.05,Physical Therapy
+RHS-100371,Q1 2025,CO-4,Inconsistent modifier / procedure code,Aetna,Commercial,Southside,97530,Therapeutic activities,109.94,73.19,Physical Therapy
+RHS-100386,Q1 2025,CO-4,Inconsistent modifier / procedure code,Medicare Part B,Traditional Medicare,West Allis,99214,Office/outpatient visit est,153.92,109.73,E&M
+RHS-100389,Q1 2025,CO-4,Inconsistent modifier / procedure code,WellCare Alliant,Medicare Advantage,West Allis,97110,Therapeutic exercises,97.88,70.92,Physical Therapy
+RHS-100394,Q1 2025,CO-4,Inconsistent modifier / procedure code,UnitedHealthcare,Commercial,Wauwatosa,72148,MRI lumbar spine w/o dye,618.9,298.42,Radiology
+RHS-100397,Q1 2025,CO-4,Inconsistent modifier / procedure code,UnitedHealthcare,Commercial,West Allis,73721,MRI joint of lower extremity,541.85,264.0,Radiology
+RHS-100407,Q1 2025,CO-4,Inconsistent modifier / procedure code,Medicare Part B,Traditional Medicare,Southside,97530,Therapeutic activities,109.75,72.89,Physical Therapy
+RHS-100411,Q1 2025,CO-4,Inconsistent modifier / procedure code,Aetna,Commercial,Downtown Milwaukee,93000,Electrocardiogram complete,56.69,29.28,Other
+RHS-100415,Q1 2025,CO-4,Inconsistent modifier / procedure code,Humana Gold Plus,Medicare Advantage,West Allis,97140,Manual therapy,87.74,62.54,Physical Therapy
+RHS-100416,Q1 2025,CO-4,Inconsistent modifier / procedure code,Humana Gold Plus,Medicare Advantage,West Allis,99215,Office/outpatient visit est,222.92,159.45,E&M
+RHS-100419,Q1 2025,CO-4,Inconsistent modifier / procedure code,Humana Gold Plus,Medicare Advantage,West Allis,70450,CT head/brain w/o contrast,302.01,145.36,Radiology
+RHS-100426,Q1 2025,CO-4,Inconsistent modifier / procedure code,Wisconsin Medicaid,Medicaid,Wauwatosa,99214,Office/outpatient visit est,154.73,113.62,E&M
+RHS-100427,Q1 2025,CO-4,Inconsistent modifier / procedure code,Medicare Part B,Traditional Medicare,West Allis,72148,MRI lumbar spine w/o dye,575.45,311.03,Radiology
+RHS-100436,Q1 2025,CO-4,Inconsistent modifier / procedure code,Anthem MedicarePreferred,Medicare Advantage,Southside,93000,Electrocardiogram complete,56.23,29.45,Other
+RHS-100457,Q1 2025,CO-4,Inconsistent modifier / procedure code,WellCare Alliant,Medicare Advantage,Wauwatosa,99215,Office/outpatient visit est,231.37,164.46,E&M
+RHS-100475,Q1 2025,CO-4,Inconsistent modifier / procedure code,Medicare Part B,Traditional Medicare,Brookfield,99213,Office/outpatient visit est,117.13,76.55,E&M
+RHS-100476,Q1 2025,CO-4,Inconsistent modifier / procedure code,Wisconsin Medicaid,Medicaid,Downtown Milwaukee,73721,MRI joint of lower extremity,530.78,274.82,Radiology
+RHS-100478,Q1 2025,CO-4,Inconsistent modifier / procedure code,Humana Gold Plus,Medicare Advantage,Brookfield,70450,CT head/brain w/o contrast,272.69,138.09,Radiology
+RHS-100480,Q1 2025,CO-4,Inconsistent modifier / procedure code,Wisconsin Medicaid,Medicaid,Wauwatosa,70450,CT head/brain w/o contrast,272.52,142.85,Radiology
+RHS-100487,Q1 2025,CO-4,Inconsistent modifier / procedure code,WellCare Alliant,Medicare Advantage,Wauwatosa,97530,Therapeutic activities,99.72,75.58,Physical Therapy
+RHS-100081,Q1 2025,CO-50,Non-covered services — not deemed medically necessary,Anthem MedicarePreferred,Medicare Advantage,Downtown Milwaukee,73721,MRI joint of lower extremity,564.03,274.56,Radiology
+RHS-100114,Q1 2025,CO-50,Non-covered services — not deemed medically necessary,WellCare Alliant,Medicare Advantage,Wauwatosa,99214,Office/outpatient visit est,162.32,117.91,E&M
+RHS-100128,Q1 2025,CO-50,Non-covered services — not deemed medically necessary,WellCare Alliant,Medicare Advantage,West Allis,99214,Office/outpatient visit est,158.79,113.64,E&M
+RHS-100179,Q1 2025,CO-50,Non-covered services — not deemed medically necessary,UnitedHealthcare,Commercial,Wauwatosa,73721,MRI joint of lower extremity,543.5,256.59,Radiology
+RHS-100183,Q1 2025,CO-50,Non-covered services — not deemed medically necessary,Medicare Part B,Traditional Medicare,Brookfield,99214,Office/outpatient visit est,164.64,112.15,E&M
+RHS-100190,Q1 2025,CO-50,Non-covered services — not deemed medically necessary,Anthem MedicarePreferred,Medicare Advantage,Wauwatosa,93000,Electrocardiogram complete,54.65,28.08,Other
+RHS-100204,Q1 2025,CO-50,Non-covered services — not deemed medically necessary,Medicare Part B,Traditional Medicare,Wauwatosa,73721,MRI joint of lower extremity,536.62,253.9,Radiology
+RHS-100224,Q1 2025,CO-50,Non-covered services — not deemed medically necessary,Anthem MedicarePreferred,Medicare Advantage,Wauwatosa,99215,Office/outpatient visit est,234.35,162.89,E&M
+RHS-100268,Q1 2025,CO-50,Non-covered services — not deemed medically necessary,Anthem MedicarePreferred,Medicare Advantage,West Allis,99213,Office/outpatient visit est,118.67,78.81,E&M
+RHS-100320,Q1 2025,CO-50,Non-covered services — not deemed medically necessary,WellCare Alliant,Medicare Advantage,Downtown Milwaukee,97530,Therapeutic activities,109.96,69.94,Physical Therapy
+RHS-100328,Q1 2025,CO-50,Non-covered services — not deemed medically necessary,WellCare Alliant,Medicare Advantage,Wauwatosa,97530,Therapeutic activities,96.8,74.78,Physical Therapy
+RHS-100329,Q1 2025,CO-50,Non-covered services — not deemed medically necessary,Anthem MedicarePreferred,Medicare Advantage,West Allis,97110,Therapeutic exercises,92.7,69.88,Physical Therapy
+RHS-100354,Q1 2025,CO-50,Non-covered services — not deemed medically necessary,Medicare Part B,Traditional Medicare,Downtown Milwaukee,99214,Office/outpatient visit est,166.69,114.88,E&M
+RHS-100442,Q1 2025,CO-50,Non-covered services — not deemed medically necessary,Anthem MedicarePreferred,Medicare Advantage,Wauwatosa,99215,Office/outpatient visit est,203.28,154.34,E&M
+RHS-100027,Q1 2025,CO-97,Benefit for this service is included in payment for another service,WellCare Alliant,Medicare Advantage,Downtown Milwaukee,73721,MRI joint of lower extremity,548.17,259.56,Radiology
+RHS-100051,Q1 2025,CO-97,Benefit for this service is included in payment for another service,WellCare Alliant,Medicare Advantage,Downtown Milwaukee,93000,Electrocardiogram complete,58.04,29.24,Other
+RHS-100069,Q1 2025,CO-97,Benefit for this service is included in payment for another service,Blue Cross Blue Shield WI,Commercial,Southside,72148,MRI lumbar spine w/o dye,570.63,313.12,Radiology
+RHS-100125,Q1 2025,CO-97,Benefit for this service is included in payment for another service,WellCare Alliant,Medicare Advantage,Southside,97110,Therapeutic exercises,90.37,69.63,Physical Therapy
+RHS-100174,Q1 2025,CO-97,Benefit for this service is included in payment for another service,Aetna,Commercial,Brookfield,99215,Office/outpatient visit est,210.72,150.97,E&M
+RHS-100184,Q1 2025,CO-97,Benefit for this service is included in payment for another service,Medicare Part B,Traditional Medicare,Downtown Milwaukee,97140,Manual therapy,89.31,60.41,Physical Therapy
+RHS-100275,Q1 2025,CO-97,Benefit for this service is included in payment for another service,Aetna,Commercial,Southside,73721,MRI joint of lower extremity,582.64,277.99,Radiology
+RHS-100299,Q1 2025,CO-97,Benefit for this service is included in payment for another service,Blue Cross Blue Shield WI,Commercial,Southside,99213,Office/outpatient visit est,109.04,79.77,E&M
+RHS-100351,Q1 2025,CO-97,Benefit for this service is included in payment for another service,UnitedHealthcare,Commercial,Downtown Milwaukee,99214,Office/outpatient visit est,177.4,115.6,E&M
+RHS-100374,Q1 2025,CO-97,Benefit for this service is included in payment for another service,Medicare Part B,Traditional Medicare,Wauwatosa,97530,Therapeutic activities,107.59,76.21,Physical Therapy
+RHS-100438,Q1 2025,CO-97,Benefit for this service is included in payment for another service,WellCare Alliant,Medicare Advantage,Downtown Milwaukee,99213,Office/outpatient visit est,110.67,79.26,E&M
+RHS-100465,Q1 2025,CO-97,Benefit for this service is included in payment for another service,Humana Gold Plus,Medicare Advantage,West Allis,72148,MRI lumbar spine w/o dye,651.14,305.7,Radiology
+RHS-100497,Q1 2025,CO-97,Benefit for this service is included in payment for another service,Anthem MedicarePreferred,Medicare Advantage,Wauwatosa,99214,Office/outpatient visit est,169.93,112.84,E&M
+RHS-100054,Q1 2025,OA-23,Impact of prior payer adjudication,Anthem MedicarePreferred,Medicare Advantage,West Allis,73721,MRI joint of lower extremity,562.47,272.22,Radiology
+RHS-100144,Q1 2025,OA-23,Impact of prior payer adjudication,Medicare Part B,Traditional Medicare,Downtown Milwaukee,99213,Office/outpatient visit est,102.34,80.63,E&M
+RHS-100251,Q1 2025,OA-23,Impact of prior payer adjudication,Aetna,Commercial,Downtown Milwaukee,97530,Therapeutic activities,96.6,71.38,Physical Therapy
+RHS-100355,Q1 2025,OA-23,Impact of prior payer adjudication,Humana Gold Plus,Medicare Advantage,Southside,99215,Office/outpatient visit est,231.12,151.26,E&M
+RHS-100035,Q1 2025,PR-1,Deductible amount,Medicare Part B,Traditional Medicare,Downtown Milwaukee,93000,Electrocardiogram complete,54.73,29.57,Other
+RHS-100045,Q1 2025,PR-1,Deductible amount,Wisconsin Medicaid,Medicaid,Brookfield,97140,Manual therapy,84.88,60.25,Physical Therapy
+RHS-100068,Q1 2025,PR-1,Deductible amount,Humana Gold Plus,Medicare Advantage,Wauwatosa,97110,Therapeutic exercises,90.62,71.3,Physical Therapy
+RHS-100084,Q1 2025,PR-1,Deductible amount,Blue Cross Blue Shield WI,Commercial,Wauwatosa,93000,Electrocardiogram complete,58.99,29.22,Other
+RHS-100129,Q1 2025,PR-1,Deductible amount,UnitedHealthcare,Commercial,Brookfield,99213,Office/outpatient visit est,118.1,76.03,E&M
+RHS-100142,Q1 2025,PR-1,Deductible amount,Blue Cross Blue Shield WI,Commercial,Brookfield,97110,Therapeutic exercises,96.48,69.56,Physical Therapy
+RHS-100284,Q1 2025,PR-1,Deductible amount,Aetna,Commercial,Downtown Milwaukee,99215,Office/outpatient visit est,204.69,151.06,E&M
+RHS-100292,Q1 2025,PR-1,Deductible amount,UnitedHealthcare,Commercial,Southside,97110,Therapeutic exercises,96.68,70.29,Physical Therapy
+RHS-100323,Q1 2025,PR-1,Deductible amount,Anthem MedicarePreferred,Medicare Advantage,Southside,93000,Electrocardiogram complete,51.4,28.68,Other
+RHS-100361,Q1 2025,PR-1,Deductible amount,Medicare Part B,Traditional Medicare,Downtown Milwaukee,70450,CT head/brain w/o contrast,278.4,142.12,Radiology
+RHS-100380,Q1 2025,PR-1,Deductible amount,Humana Gold Plus,Medicare Advantage,Downtown Milwaukee,70450,CT head/brain w/o contrast,262.42,146.08,Radiology
+RHS-100498,Q1 2025,PR-1,Deductible amount,Blue Cross Blue Shield WI,Commercial,West Allis,99215,Office/outpatient visit est,231.82,151.38,E&M
+RHS-100008,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,WellCare Alliant,Medicare Advantage,Downtown Milwaukee,70450,CT head/brain w/o contrast,267.31,147.98,Radiology
+RHS-100067,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Humana Gold Plus,Medicare Advantage,West Allis,70450,CT head/brain w/o contrast,298.43,144.55,Radiology
+RHS-100072,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,West Allis,70450,CT head/brain w/o contrast,292.29,144.22,Radiology
+RHS-100074,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,WellCare Alliant,Medicare Advantage,Brookfield,97140,Manual therapy,81.53,61.79,Physical Therapy
+RHS-100080,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,WellCare Alliant,Medicare Advantage,Southside,97110,Therapeutic exercises,97.48,65.12,Physical Therapy
+RHS-100083,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Humana Gold Plus,Medicare Advantage,Southside,99215,Office/outpatient visit est,234.44,153.4,E&M
+RHS-100107,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Humana Gold Plus,Medicare Advantage,Downtown Milwaukee,97110,Therapeutic exercises,87.41,67.96,Physical Therapy
+RHS-100113,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,Downtown Milwaukee,97140,Manual therapy,82.17,60.09,Physical Therapy
+RHS-100131,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,Wauwatosa,99214,Office/outpatient visit est,165.69,117.98,E&M
+RHS-100148,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Humana Gold Plus,Medicare Advantage,Wauwatosa,99213,Office/outpatient visit est,110.44,79.49,E&M
+RHS-100158,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,West Allis,99214,Office/outpatient visit est,173.16,117.73,E&M
+RHS-100164,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,Southside,72148,MRI lumbar spine w/o dye,609.81,296.76,Radiology
+RHS-100167,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,Wauwatosa,99215,Office/outpatient visit est,236.75,163.51,E&M
+RHS-100176,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,Southside,99214,Office/outpatient visit est,168.33,109.05,E&M
+RHS-100181,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,Downtown Milwaukee,73721,MRI joint of lower extremity,577.73,256.73,Radiology
+RHS-100185,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,WellCare Alliant,Medicare Advantage,Downtown Milwaukee,97140,Manual therapy,94.78,61.91,Physical Therapy
+RHS-100202,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,Brookfield,97140,Manual therapy,87.97,62.99,Physical Therapy
+RHS-100206,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,WellCare Alliant,Medicare Advantage,Wauwatosa,97140,Manual therapy,82.49,60.39,Physical Therapy
+RHS-100210,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Humana Gold Plus,Medicare Advantage,Downtown Milwaukee,70450,CT head/brain w/o contrast,271.1,136.49,Radiology
+RHS-100214,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Humana Gold Plus,Medicare Advantage,Brookfield,99214,Office/outpatient visit est,158.79,111.61,E&M
+RHS-100229,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Humana Gold Plus,Medicare Advantage,Downtown Milwaukee,99215,Office/outpatient visit est,232.93,155.03,E&M
+RHS-100234,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Humana Gold Plus,Medicare Advantage,Wauwatosa,97530,Therapeutic activities,108.74,71.64,Physical Therapy
+RHS-100236,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,Brookfield,72148,MRI lumbar spine w/o dye,642.01,310.87,Radiology
+RHS-100255,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,West Allis,97140,Manual therapy,85.83,61.9,Physical Therapy
+RHS-100272,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Humana Gold Plus,Medicare Advantage,Southside,97140,Manual therapy,86.76,63.71,Physical Therapy
+RHS-100274,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,Downtown Milwaukee,97140,Manual therapy,85.0,60.55,Physical Therapy
+RHS-100279,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Humana Gold Plus,Medicare Advantage,Downtown Milwaukee,97530,Therapeutic activities,102.77,73.95,Physical Therapy
+RHS-100293,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,Downtown Milwaukee,97530,Therapeutic activities,101.59,74.26,Physical Therapy
+RHS-100310,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,WellCare Alliant,Medicare Advantage,Downtown Milwaukee,97110,Therapeutic exercises,89.72,69.68,Physical Therapy
+RHS-100322,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,WellCare Alliant,Medicare Advantage,Downtown Milwaukee,97140,Manual therapy,81.69,64.87,Physical Therapy
+RHS-100333,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,Brookfield,97110,Therapeutic exercises,96.62,69.84,Physical Therapy
+RHS-100345,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,Wauwatosa,99214,Office/outpatient visit est,167.7,116.41,E&M
+RHS-100349,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,WellCare Alliant,Medicare Advantage,West Allis,72148,MRI lumbar spine w/o dye,595.93,298.48,Radiology
+RHS-100359,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,West Allis,72148,MRI lumbar spine w/o dye,656.96,297.87,Radiology
+RHS-100360,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,Downtown Milwaukee,99214,Office/outpatient visit est,154.81,117.23,E&M
+RHS-100376,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,WellCare Alliant,Medicare Advantage,West Allis,99213,Office/outpatient visit est,104.99,77.93,E&M
+RHS-100391,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,Downtown Milwaukee,97110,Therapeutic exercises,98.4,65.43,Physical Therapy
+RHS-100398,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Humana Gold Plus,Medicare Advantage,Downtown Milwaukee,97140,Manual therapy,86.1,59.93,Physical Therapy
+RHS-100400,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,Downtown Milwaukee,73721,MRI joint of lower extremity,509.81,251.98,Radiology
+RHS-100432,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,WellCare Alliant,Medicare Advantage,Downtown Milwaukee,93000,Electrocardiogram complete,51.45,28.13,Other
+RHS-100435,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Humana Gold Plus,Medicare Advantage,Brookfield,99215,Office/outpatient visit est,234.17,163.3,E&M
+RHS-100440,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Humana Gold Plus,Medicare Advantage,Brookfield,97140,Manual therapy,83.39,60.98,Physical Therapy
+RHS-100459,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,WellCare Alliant,Medicare Advantage,Southside,93000,Electrocardiogram complete,53.61,28.29,Other
+RHS-100462,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Humana Gold Plus,Medicare Advantage,Wauwatosa,70450,CT head/brain w/o contrast,271.25,145.89,Radiology
+RHS-100468,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Humana Gold Plus,Medicare Advantage,West Allis,93000,Electrocardiogram complete,57.69,30.04,Other
+RHS-100469,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Humana Gold Plus,Medicare Advantage,Southside,97110,Therapeutic exercises,94.5,69.18,Physical Therapy
+RHS-100472,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,Brookfield,99213,Office/outpatient visit est,104.37,79.85,E&M
+RHS-100486,Q1 2025,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,Southside,97110,Therapeutic exercises,88.82,70.76,Physical Therapy
+RHS-100005,Q3 2024,CO-16,Missing or incomplete claim information,Blue Cross Blue Shield WI,Commercial,West Allis,93000,Electrocardiogram complete,55.14,28.36,Other
+RHS-100021,Q3 2024,CO-16,Missing or incomplete claim information,Humana Gold Plus,Medicare Advantage,West Allis,73721,MRI joint of lower extremity,498.44,256.14,Radiology
+RHS-100034,Q3 2024,CO-16,Missing or incomplete claim information,Anthem MedicarePreferred,Medicare Advantage,Downtown Milwaukee,73721,MRI joint of lower extremity,514.04,274.51,Radiology
+RHS-100053,Q3 2024,CO-16,Missing or incomplete claim information,Wisconsin Medicaid,Medicaid,Southside,99214,Office/outpatient visit est,171.21,110.11,E&M
+RHS-100062,Q3 2024,CO-16,Missing or incomplete claim information,Wisconsin Medicaid,Medicaid,Downtown Milwaukee,99214,Office/outpatient visit est,166.44,109.11,E&M
+RHS-100075,Q3 2024,CO-16,Missing or incomplete claim information,Medicare Part B,Traditional Medicare,Southside,99215,Office/outpatient visit est,237.31,158.6,E&M
+RHS-100099,Q3 2024,CO-16,Missing or incomplete claim information,Humana Gold Plus,Medicare Advantage,Wauwatosa,97140,Manual therapy,83.44,61.62,Physical Therapy
+RHS-100143,Q3 2024,CO-16,Missing or incomplete claim information,Medicare Part B,Traditional Medicare,Brookfield,73721,MRI joint of lower extremity,530.71,276.23,Radiology
+RHS-100149,Q3 2024,CO-16,Missing or incomplete claim information,WellCare Alliant,Medicare Advantage,Brookfield,99215,Office/outpatient visit est,232.52,153.16,E&M
+RHS-100175,Q3 2024,CO-16,Missing or incomplete claim information,Anthem MedicarePreferred,Medicare Advantage,Downtown Milwaukee,93000,Electrocardiogram complete,52.32,29.1,Other
+RHS-100195,Q3 2024,CO-16,Missing or incomplete claim information,Anthem MedicarePreferred,Medicare Advantage,West Allis,72148,MRI lumbar spine w/o dye,585.02,291.64,Radiology
+RHS-100207,Q3 2024,CO-16,Missing or incomplete claim information,WellCare Alliant,Medicare Advantage,Wauwatosa,97530,Therapeutic activities,110.08,76.24,Physical Therapy
+RHS-100208,Q3 2024,CO-16,Missing or incomplete claim information,Humana Gold Plus,Medicare Advantage,West Allis,72148,MRI lumbar spine w/o dye,610.24,291.48,Radiology
+RHS-100217,Q3 2024,CO-16,Missing or incomplete claim information,Anthem MedicarePreferred,Medicare Advantage,Downtown Milwaukee,73721,MRI joint of lower extremity,514.77,265.5,Radiology
+RHS-100218,Q3 2024,CO-16,Missing or incomplete claim information,Aetna,Commercial,Downtown Milwaukee,93000,Electrocardiogram complete,54.08,29.61,Other
+RHS-100219,Q3 2024,CO-16,Missing or incomplete claim information,WellCare Alliant,Medicare Advantage,Downtown Milwaukee,73721,MRI joint of lower extremity,513.69,262.62,Radiology
+RHS-100235,Q3 2024,CO-16,Missing or incomplete claim information,Wisconsin Medicaid,Medicaid,Southside,97530,Therapeutic activities,102.38,71.21,Physical Therapy
+RHS-100241,Q3 2024,CO-16,Missing or incomplete claim information,Blue Cross Blue Shield WI,Commercial,Southside,99215,Office/outpatient visit est,231.6,150.58,E&M
+RHS-100242,Q3 2024,CO-16,Missing or incomplete claim information,WellCare Alliant,Medicare Advantage,Southside,97140,Manual therapy,88.89,62.07,Physical Therapy
+RHS-100267,Q3 2024,CO-16,Missing or incomplete claim information,Humana Gold Plus,Medicare Advantage,West Allis,97140,Manual therapy,87.74,64.72,Physical Therapy
+RHS-100271,Q3 2024,CO-16,Missing or incomplete claim information,Blue Cross Blue Shield WI,Commercial,Downtown Milwaukee,99215,Office/outpatient visit est,235.53,152.84,E&M
+RHS-100278,Q3 2024,CO-16,Missing or incomplete claim information,UnitedHealthcare,Commercial,Brookfield,93000,Electrocardiogram complete,59.27,30.07,Other
+RHS-100294,Q3 2024,CO-16,Missing or incomplete claim information,Aetna,Commercial,Downtown Milwaukee,73721,MRI joint of lower extremity,516.12,263.8,Radiology
+RHS-100296,Q3 2024,CO-16,Missing or incomplete claim information,WellCare Alliant,Medicare Advantage,Brookfield,97140,Manual therapy,81.21,64.74,Physical Therapy
+RHS-100313,Q3 2024,CO-16,Missing or incomplete claim information,Anthem MedicarePreferred,Medicare Advantage,Southside,97140,Manual therapy,82.49,59.08,Physical Therapy
+RHS-100339,Q3 2024,CO-16,Missing or incomplete claim information,Anthem MedicarePreferred,Medicare Advantage,Downtown Milwaukee,99214,Office/outpatient visit est,152.47,109.05,E&M
+RHS-100357,Q3 2024,CO-16,Missing or incomplete claim information,Medicare Part B,Traditional Medicare,Brookfield,97110,Therapeutic exercises,90.23,67.19,Physical Therapy
+RHS-100367,Q3 2024,CO-16,Missing or incomplete claim information,Blue Cross Blue Shield WI,Commercial,West Allis,97530,Therapeutic activities,97.05,71.75,Physical Therapy
+RHS-100370,Q3 2024,CO-16,Missing or incomplete claim information,Anthem MedicarePreferred,Medicare Advantage,Brookfield,72148,MRI lumbar spine w/o dye,649.13,285.23,Radiology
+RHS-100393,Q3 2024,CO-16,Missing or incomplete claim information,Humana Gold Plus,Medicare Advantage,Wauwatosa,73721,MRI joint of lower extremity,517.08,266.28,Radiology
+RHS-100412,Q3 2024,CO-16,Missing or incomplete claim information,Wisconsin Medicaid,Medicaid,Wauwatosa,99215,Office/outpatient visit est,227.69,159.46,E&M
+RHS-100421,Q3 2024,CO-16,Missing or incomplete claim information,Medicare Part B,Traditional Medicare,Southside,99213,Office/outpatient visit est,112.12,77.92,E&M
+RHS-100423,Q3 2024,CO-16,Missing or incomplete claim information,Anthem MedicarePreferred,Medicare Advantage,Downtown Milwaukee,97140,Manual therapy,82.97,60.19,Physical Therapy
+RHS-100428,Q3 2024,CO-16,Missing or incomplete claim information,Medicare Part B,Traditional Medicare,West Allis,93000,Electrocardiogram complete,55.46,28.07,Other
+RHS-100443,Q3 2024,CO-16,Missing or incomplete claim information,Anthem MedicarePreferred,Medicare Advantage,Downtown Milwaukee,99215,Office/outpatient visit est,224.14,160.92,E&M
+RHS-100458,Q3 2024,CO-16,Missing or incomplete claim information,Medicare Part B,Traditional Medicare,Brookfield,97110,Therapeutic exercises,90.87,71.35,Physical Therapy
+RHS-100484,Q3 2024,CO-16,Missing or incomplete claim information,Medicare Part B,Traditional Medicare,Downtown Milwaukee,97530,Therapeutic activities,98.72,73.9,Physical Therapy
+RHS-100026,Q3 2024,CO-29,The time limit for filing has expired,Blue Cross Blue Shield WI,Commercial,Brookfield,99213,Office/outpatient visit est,111.14,80.16,E&M
+RHS-100103,Q3 2024,CO-29,The time limit for filing has expired,WellCare Alliant,Medicare Advantage,Southside,93000,Electrocardiogram complete,53.71,29.73,Other
+RHS-100152,Q3 2024,CO-29,The time limit for filing has expired,Medicare Part B,Traditional Medicare,West Allis,73721,MRI joint of lower extremity,532.88,254.89,Radiology
+RHS-100231,Q3 2024,CO-29,The time limit for filing has expired,Medicare Part B,Traditional Medicare,Wauwatosa,99214,Office/outpatient visit est,163.45,116.63,E&M
+RHS-100309,Q3 2024,CO-29,The time limit for filing has expired,UnitedHealthcare,Commercial,Brookfield,99213,Office/outpatient visit est,113.17,76.16,E&M
+RHS-100362,Q3 2024,CO-29,The time limit for filing has expired,UnitedHealthcare,Commercial,Downtown Milwaukee,72148,MRI lumbar spine w/o dye,659.52,291.04,Radiology
+RHS-100481,Q3 2024,CO-29,The time limit for filing has expired,Blue Cross Blue Shield WI,Commercial,Downtown Milwaukee,99214,Office/outpatient visit est,166.49,112.54,E&M
+RHS-100006,Q3 2024,CO-4,Inconsistent modifier / procedure code,Humana Gold Plus,Medicare Advantage,Downtown Milwaukee,99213,Office/outpatient visit est,108.46,75.72,E&M
+RHS-100031,Q3 2024,CO-4,Inconsistent modifier / procedure code,Wisconsin Medicaid,Medicaid,Brookfield,99215,Office/outpatient visit est,217.16,158.33,E&M
+RHS-100038,Q3 2024,CO-4,Inconsistent modifier / procedure code,Medicare Part B,Traditional Medicare,Wauwatosa,72148,MRI lumbar spine w/o dye,649.57,286.46,Radiology
+RHS-100071,Q3 2024,CO-4,Inconsistent modifier / procedure code,WellCare Alliant,Medicare Advantage,Southside,97140,Manual therapy,86.49,64.72,Physical Therapy
+RHS-100109,Q3 2024,CO-4,Inconsistent modifier / procedure code,WellCare Alliant,Medicare Advantage,Downtown Milwaukee,97110,Therapeutic exercises,100.48,70.61,Physical Therapy
+RHS-100139,Q3 2024,CO-4,Inconsistent modifier / procedure code,Anthem MedicarePreferred,Medicare Advantage,West Allis,97110,Therapeutic exercises,92.27,67.34,Physical Therapy
+RHS-100154,Q3 2024,CO-4,Inconsistent modifier / procedure code,Aetna,Commercial,Downtown Milwaukee,72148,MRI lumbar spine w/o dye,622.03,297.32,Radiology
+RHS-100187,Q3 2024,CO-4,Inconsistent modifier / procedure code,Aetna,Commercial,Wauwatosa,72148,MRI lumbar spine w/o dye,612.87,302.52,Radiology
+RHS-100216,Q3 2024,CO-4,Inconsistent modifier / procedure code,Aetna,Commercial,Downtown Milwaukee,97140,Manual therapy,81.02,62.54,Physical Therapy
+RHS-100252,Q3 2024,CO-4,Inconsistent modifier / procedure code,WellCare Alliant,Medicare Advantage,Downtown Milwaukee,93000,Electrocardiogram complete,51.23,30.32,Other
+RHS-100281,Q3 2024,CO-4,Inconsistent modifier / procedure code,Wisconsin Medicaid,Medicaid,West Allis,97530,Therapeutic activities,95.92,71.21,Physical Therapy
+RHS-100301,Q3 2024,CO-4,Inconsistent modifier / procedure code,Blue Cross Blue Shield WI,Commercial,West Allis,99214,Office/outpatient visit est,160.04,117.68,E&M
+RHS-100317,Q3 2024,CO-4,Inconsistent modifier / procedure code,Wisconsin Medicaid,Medicaid,Downtown Milwaukee,97110,Therapeutic exercises,96.54,70.2,Physical Therapy
+RHS-100324,Q3 2024,CO-4,Inconsistent modifier / procedure code,Medicare Part B,Traditional Medicare,West Allis,99213,Office/outpatient visit est,118.83,77.29,E&M
+RHS-100325,Q3 2024,CO-4,Inconsistent modifier / procedure code,Blue Cross Blue Shield WI,Commercial,Wauwatosa,73721,MRI joint of lower extremity,535.53,259.16,Radiology
+RHS-100330,Q3 2024,CO-4,Inconsistent modifier / procedure code,UnitedHealthcare,Commercial,West Allis,97140,Manual therapy,92.96,62.55,Physical Therapy
+RHS-100332,Q3 2024,CO-4,Inconsistent modifier / procedure code,UnitedHealthcare,Commercial,Downtown Milwaukee,97530,Therapeutic activities,97.73,75.32,Physical Therapy
+RHS-100338,Q3 2024,CO-4,Inconsistent modifier / procedure code,Anthem MedicarePreferred,Medicare Advantage,West Allis,99215,Office/outpatient visit est,215.96,155.55,E&M
+RHS-100350,Q3 2024,CO-4,Inconsistent modifier / procedure code,Humana Gold Plus,Medicare Advantage,West Allis,97110,Therapeutic exercises,96.0,67.81,Physical Therapy
+RHS-100366,Q3 2024,CO-4,Inconsistent modifier / procedure code,Wisconsin Medicaid,Medicaid,West Allis,72148,MRI lumbar spine w/o dye,576.41,294.49,Radiology
+RHS-100379,Q3 2024,CO-4,Inconsistent modifier / procedure code,Blue Cross Blue Shield WI,Commercial,West Allis,99214,Office/outpatient visit est,159.7,107.22,E&M
+RHS-100406,Q3 2024,CO-4,Inconsistent modifier / procedure code,WellCare Alliant,Medicare Advantage,West Allis,99215,Office/outpatient visit est,212.87,155.41,E&M
+RHS-100422,Q3 2024,CO-4,Inconsistent modifier / procedure code,Aetna,Commercial,Wauwatosa,73721,MRI joint of lower extremity,559.29,265.52,Radiology
+RHS-100425,Q3 2024,CO-4,Inconsistent modifier / procedure code,Medicare Part B,Traditional Medicare,West Allis,97110,Therapeutic exercises,99.8,67.6,Physical Therapy
+RHS-100439,Q3 2024,CO-4,Inconsistent modifier / procedure code,Humana Gold Plus,Medicare Advantage,West Allis,97110,Therapeutic exercises,91.2,68.59,Physical Therapy
+RHS-100444,Q3 2024,CO-4,Inconsistent modifier / procedure code,Humana Gold Plus,Medicare Advantage,West Allis,97140,Manual therapy,89.46,61.45,Physical Therapy
+RHS-100450,Q3 2024,CO-4,Inconsistent modifier / procedure code,WellCare Alliant,Medicare Advantage,West Allis,99215,Office/outpatient visit est,216.56,162.33,E&M
+RHS-100453,Q3 2024,CO-4,Inconsistent modifier / procedure code,UnitedHealthcare,Commercial,Southside,93000,Electrocardiogram complete,54.62,29.63,Other
+RHS-100474,Q3 2024,CO-4,Inconsistent modifier / procedure code,Anthem MedicarePreferred,Medicare Advantage,West Allis,99214,Office/outpatient visit est,176.84,111.07,E&M
+RHS-100495,Q3 2024,CO-4,Inconsistent modifier / procedure code,Aetna,Commercial,West Allis,72148,MRI lumbar spine w/o dye,596.17,287.52,Radiology
+RHS-100496,Q3 2024,CO-4,Inconsistent modifier / procedure code,UnitedHealthcare,Commercial,Downtown Milwaukee,70450,CT head/brain w/o contrast,291.28,140.68,Radiology
+RHS-100007,Q3 2024,CO-50,Non-covered services — not deemed medically necessary,Medicare Part B,Traditional Medicare,Downtown Milwaukee,99213,Office/outpatient visit est,107.0,78.36,E&M
+RHS-100046,Q3 2024,CO-50,Non-covered services — not deemed medically necessary,WellCare Alliant,Medicare Advantage,Southside,93000,Electrocardiogram complete,54.72,28.2,Other
+RHS-100198,Q3 2024,CO-50,Non-covered services — not deemed medically necessary,Wisconsin Medicaid,Medicaid,West Allis,99214,Office/outpatient visit est,173.46,109.49,E&M
+RHS-100226,Q3 2024,CO-50,Non-covered services — not deemed medically necessary,Medicare Part B,Traditional Medicare,West Allis,99213,Office/outpatient visit est,105.63,81.95,E&M
+RHS-100257,Q3 2024,CO-50,Non-covered services — not deemed medically necessary,Wisconsin Medicaid,Medicaid,Brookfield,99214,Office/outpatient visit est,160.52,114.49,E&M
+RHS-100260,Q3 2024,CO-50,Non-covered services — not deemed medically necessary,WellCare Alliant,Medicare Advantage,Southside,99215,Office/outpatient visit est,224.29,159.84,E&M
+RHS-100451,Q3 2024,CO-50,Non-covered services — not deemed medically necessary,Medicare Part B,Traditional Medicare,Southside,70450,CT head/brain w/o contrast,267.87,139.88,Radiology
+RHS-100489,Q3 2024,CO-50,Non-covered services — not deemed medically necessary,Humana Gold Plus,Medicare Advantage,Wauwatosa,99215,Office/outpatient visit est,205.24,164.14,E&M
+RHS-100012,Q3 2024,CO-97,Benefit for this service is included in payment for another service,WellCare Alliant,Medicare Advantage,Downtown Milwaukee,99215,Office/outpatient visit est,218.62,161.44,E&M
+RHS-100039,Q3 2024,CO-97,Benefit for this service is included in payment for another service,WellCare Alliant,Medicare Advantage,Wauwatosa,99213,Office/outpatient visit est,102.07,83.0,E&M
+RHS-100076,Q3 2024,CO-97,Benefit for this service is included in payment for another service,Aetna,Commercial,Downtown Milwaukee,72148,MRI lumbar spine w/o dye,664.4,294.41,Radiology
+RHS-100146,Q3 2024,CO-97,Benefit for this service is included in payment for another service,WellCare Alliant,Medicare Advantage,West Allis,97530,Therapeutic activities,93.93,75.61,Physical Therapy
+RHS-100173,Q3 2024,CO-97,Benefit for this service is included in payment for another service,Wisconsin Medicaid,Medicaid,Brookfield,93000,Electrocardiogram complete,52.52,28.95,Other
+RHS-100227,Q3 2024,CO-97,Benefit for this service is included in payment for another service,UnitedHealthcare,Commercial,Downtown Milwaukee,70450,CT head/brain w/o contrast,269.58,144.79,Radiology
+RHS-100282,Q3 2024,CO-97,Benefit for this service is included in payment for another service,Blue Cross Blue Shield WI,Commercial,West Allis,97110,Therapeutic exercises,90.86,70.17,Physical Therapy
+RHS-100286,Q3 2024,CO-97,Benefit for this service is included in payment for another service,WellCare Alliant,Medicare Advantage,West Allis,97530,Therapeutic activities,95.01,75.73,Physical Therapy
+RHS-100290,Q3 2024,CO-97,Benefit for this service is included in payment for another service,Anthem MedicarePreferred,Medicare Advantage,West Allis,97530,Therapeutic activities,99.71,71.47,Physical Therapy
+RHS-100358,Q3 2024,CO-97,Benefit for this service is included in payment for another service,Blue Cross Blue Shield WI,Commercial,Wauwatosa,99214,Office/outpatient visit est,163.49,108.54,E&M
+RHS-100490,Q3 2024,CO-97,Benefit for this service is included in payment for another service,UnitedHealthcare,Commercial,Brookfield,72148,MRI lumbar spine w/o dye,639.68,303.6,Radiology
+RHS-100050,Q3 2024,OA-23,Impact of prior payer adjudication,Anthem MedicarePreferred,Medicare Advantage,Downtown Milwaukee,72148,MRI lumbar spine w/o dye,584.07,292.57,Radiology
+RHS-100106,Q3 2024,OA-23,Impact of prior payer adjudication,WellCare Alliant,Medicare Advantage,Brookfield,99215,Office/outpatient visit est,205.78,152.62,E&M
+RHS-100123,Q3 2024,OA-23,Impact of prior payer adjudication,Medicare Part B,Traditional Medicare,Southside,97530,Therapeutic activities,96.65,76.37,Physical Therapy
+RHS-100225,Q3 2024,OA-23,Impact of prior payer adjudication,Anthem MedicarePreferred,Medicare Advantage,Downtown Milwaukee,70450,CT head/brain w/o contrast,273.82,137.59,Radiology
+RHS-100289,Q3 2024,OA-23,Impact of prior payer adjudication,Aetna,Commercial,Southside,99214,Office/outpatient visit est,176.96,112.33,E&M
+RHS-100408,Q3 2024,OA-23,Impact of prior payer adjudication,Blue Cross Blue Shield WI,Commercial,West Allis,99214,Office/outpatient visit est,154.63,109.44,E&M
+RHS-100000,Q3 2024,PR-1,Deductible amount,Blue Cross Blue Shield WI,Commercial,West Allis,72148,MRI lumbar spine w/o dye,617.64,313.16,Radiology
+RHS-100002,Q3 2024,PR-1,Deductible amount,UnitedHealthcare,Commercial,Southside,70450,CT head/brain w/o contrast,266.85,144.98,Radiology
+RHS-100040,Q3 2024,PR-1,Deductible amount,UnitedHealthcare,Commercial,Wauwatosa,93000,Electrocardiogram complete,58.41,28.6,Other
+RHS-100155,Q3 2024,PR-1,Deductible amount,UnitedHealthcare,Commercial,Downtown Milwaukee,73721,MRI joint of lower extremity,554.54,261.73,Radiology
+RHS-100264,Q3 2024,PR-1,Deductible amount,Wisconsin Medicaid,Medicaid,Wauwatosa,99213,Office/outpatient visit est,111.31,81.26,E&M
+RHS-100303,Q3 2024,PR-1,Deductible amount,Aetna,Commercial,Brookfield,72148,MRI lumbar spine w/o dye,643.23,289.9,Radiology
+RHS-100414,Q3 2024,PR-1,Deductible amount,UnitedHealthcare,Commercial,Wauwatosa,97110,Therapeutic exercises,102.56,66.08,Physical Therapy
+RHS-100445,Q3 2024,PR-1,Deductible amount,UnitedHealthcare,Commercial,Downtown Milwaukee,72148,MRI lumbar spine w/o dye,635.38,313.19,Radiology
+RHS-100010,Q3 2024,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,Brookfield,99213,Office/outpatient visit est,106.26,77.79,E&M
+RHS-100016,Q3 2024,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,Downtown Milwaukee,70450,CT head/brain w/o contrast,301.11,144.5,Radiology
+RHS-100055,Q3 2024,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,Downtown Milwaukee,99213,Office/outpatient visit est,117.5,76.04,E&M
+RHS-100064,Q3 2024,PR-96,Non-covered charge / payer ID mismatch,Humana Gold Plus,Medicare Advantage,Southside,99215,Office/outpatient visit est,218.77,156.53,E&M
+RHS-100086,Q3 2024,PR-96,Non-covered charge / payer ID mismatch,WellCare Alliant,Medicare Advantage,Downtown Milwaukee,97530,Therapeutic activities,100.37,76.26,Physical Therapy
+RHS-100105,Q3 2024,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,Wauwatosa,73721,MRI joint of lower extremity,539.24,275.42,Radiology
+RHS-100118,Q3 2024,PR-96,Non-covered charge / payer ID mismatch,WellCare Alliant,Medicare Advantage,Wauwatosa,99213,Office/outpatient visit est,114.22,75.45,E&M
+RHS-100138,Q3 2024,PR-96,Non-covered charge / payer ID mismatch,Humana Gold Plus,Medicare Advantage,West Allis,72148,MRI lumbar spine w/o dye,626.74,297.26,Radiology
+RHS-100177,Q3 2024,PR-96,Non-covered charge / payer ID mismatch,WellCare Alliant,Medicare Advantage,Brookfield,97530,Therapeutic activities,109.33,72.38,Physical Therapy
+RHS-100188,Q3 2024,PR-96,Non-covered charge / payer ID mismatch,WellCare Alliant,Medicare Advantage,West Allis,99214,Office/outpatient visit est,169.29,114.33,E&M
+RHS-100212,Q3 2024,PR-96,Non-covered charge / payer ID mismatch,Humana Gold Plus,Medicare Advantage,Wauwatosa,70450,CT head/brain w/o contrast,274.27,148.7,Radiology
+RHS-100295,Q3 2024,PR-96,Non-covered charge / payer ID mismatch,WellCare Alliant,Medicare Advantage,Downtown Milwaukee,99215,Office/outpatient visit est,231.42,164.83,E&M
+RHS-100297,Q3 2024,PR-96,Non-covered charge / payer ID mismatch,Humana Gold Plus,Medicare Advantage,Wauwatosa,97530,Therapeutic activities,109.67,76.48,Physical Therapy
+RHS-100300,Q3 2024,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,Downtown Milwaukee,97530,Therapeutic activities,105.75,76.06,Physical Therapy
+RHS-100385,Q3 2024,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,West Allis,99215,Office/outpatient visit est,234.76,150.71,E&M
+RHS-100387,Q3 2024,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,Downtown Milwaukee,99213,Office/outpatient visit est,105.16,79.78,E&M
+RHS-100401,Q3 2024,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,Brookfield,99214,Office/outpatient visit est,152.98,115.19,E&M
+RHS-100429,Q3 2024,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,West Allis,73721,MRI joint of lower extremity,499.73,269.85,Radiology
+RHS-100433,Q3 2024,PR-96,Non-covered charge / payer ID mismatch,Humana Gold Plus,Medicare Advantage,Downtown Milwaukee,97110,Therapeutic exercises,95.74,66.45,Physical Therapy
+RHS-100447,Q3 2024,PR-96,Non-covered charge / payer ID mismatch,WellCare Alliant,Medicare Advantage,Wauwatosa,97110,Therapeutic exercises,100.46,65.82,Physical Therapy
+RHS-100449,Q3 2024,PR-96,Non-covered charge / payer ID mismatch,Humana Gold Plus,Medicare Advantage,Downtown Milwaukee,93000,Electrocardiogram complete,54.52,28.42,Other
+RHS-100455,Q3 2024,PR-96,Non-covered charge / payer ID mismatch,WellCare Alliant,Medicare Advantage,West Allis,99213,Office/outpatient visit est,117.34,81.73,E&M
+RHS-100009,Q4 2024,CO-16,Missing or incomplete claim information,UnitedHealthcare,Commercial,West Allis,99214,Office/outpatient visit est,160.59,111.63,E&M
+RHS-100011,Q4 2024,CO-16,Missing or incomplete claim information,UnitedHealthcare,Commercial,Southside,97530,Therapeutic activities,97.57,72.26,Physical Therapy
+RHS-100018,Q4 2024,CO-16,Missing or incomplete claim information,Anthem MedicarePreferred,Medicare Advantage,Southside,99215,Office/outpatient visit est,237.06,155.91,E&M
+RHS-100028,Q4 2024,CO-16,Missing or incomplete claim information,Blue Cross Blue Shield WI,Commercial,Wauwatosa,99215,Office/outpatient visit est,203.04,159.61,E&M
+RHS-100037,Q4 2024,CO-16,Missing or incomplete claim information,Blue Cross Blue Shield WI,Commercial,Wauwatosa,73721,MRI joint of lower extremity,546.04,254.52,Radiology
+RHS-100043,Q4 2024,CO-16,Missing or incomplete claim information,Anthem MedicarePreferred,Medicare Advantage,Downtown Milwaukee,70450,CT head/brain w/o contrast,269.63,145.44,Radiology
+RHS-100056,Q4 2024,CO-16,Missing or incomplete claim information,WellCare Alliant,Medicare Advantage,Wauwatosa,99215,Office/outpatient visit est,208.72,156.73,E&M
+RHS-100082,Q4 2024,CO-16,Missing or incomplete claim information,Blue Cross Blue Shield WI,Commercial,Downtown Milwaukee,72148,MRI lumbar spine w/o dye,597.7,287.62,Radiology
+RHS-100101,Q4 2024,CO-16,Missing or incomplete claim information,Aetna,Commercial,West Allis,99213,Office/outpatient visit est,103.34,81.0,E&M
+RHS-100140,Q4 2024,CO-16,Missing or incomplete claim information,Anthem MedicarePreferred,Medicare Advantage,Downtown Milwaukee,70450,CT head/brain w/o contrast,269.77,145.99,Radiology
+RHS-100150,Q4 2024,CO-16,Missing or incomplete claim information,UnitedHealthcare,Commercial,Wauwatosa,93000,Electrocardiogram complete,53.9,27.75,Other
+RHS-100163,Q4 2024,CO-16,Missing or incomplete claim information,Humana Gold Plus,Medicare Advantage,Downtown Milwaukee,93000,Electrocardiogram complete,57.95,27.91,Other
+RHS-100193,Q4 2024,CO-16,Missing or incomplete claim information,Humana Gold Plus,Medicare Advantage,Downtown Milwaukee,99213,Office/outpatient visit est,106.81,79.43,E&M
+RHS-100194,Q4 2024,CO-16,Missing or incomplete claim information,Aetna,Commercial,Wauwatosa,93000,Electrocardiogram complete,56.83,27.96,Other
+RHS-100215,Q4 2024,CO-16,Missing or incomplete claim information,WellCare Alliant,Medicare Advantage,Wauwatosa,93000,Electrocardiogram complete,57.39,28.55,Other
+RHS-100230,Q4 2024,CO-16,Missing or incomplete claim information,UnitedHealthcare,Commercial,Southside,73721,MRI joint of lower extremity,507.88,272.44,Radiology
+RHS-100233,Q4 2024,CO-16,Missing or incomplete claim information,Humana Gold Plus,Medicare Advantage,Downtown Milwaukee,97530,Therapeutic activities,102.05,73.54,Physical Therapy
+RHS-100248,Q4 2024,CO-16,Missing or incomplete claim information,Blue Cross Blue Shield WI,Commercial,West Allis,99215,Office/outpatient visit est,219.16,157.3,E&M
+RHS-100258,Q4 2024,CO-16,Missing or incomplete claim information,Aetna,Commercial,Downtown Milwaukee,99215,Office/outpatient visit est,229.33,155.06,E&M
+RHS-100269,Q4 2024,CO-16,Missing or incomplete claim information,WellCare Alliant,Medicare Advantage,Downtown Milwaukee,97140,Manual therapy,82.3,59.0,Physical Therapy
+RHS-100285,Q4 2024,CO-16,Missing or incomplete claim information,Humana Gold Plus,Medicare Advantage,Wauwatosa,93000,Electrocardiogram complete,51.97,29.21,Other
+RHS-100288,Q4 2024,CO-16,Missing or incomplete claim information,UnitedHealthcare,Commercial,Downtown Milwaukee,73721,MRI joint of lower extremity,514.32,269.24,Radiology
+RHS-100304,Q4 2024,CO-16,Missing or incomplete claim information,Aetna,Commercial,West Allis,97140,Manual therapy,92.95,60.5,Physical Therapy
+RHS-100311,Q4 2024,CO-16,Missing or incomplete claim information,Humana Gold Plus,Medicare Advantage,West Allis,73721,MRI joint of lower extremity,508.88,263.44,Radiology
+RHS-100315,Q4 2024,CO-16,Missing or incomplete claim information,UnitedHealthcare,Commercial,Southside,99213,Office/outpatient visit est,102.05,79.32,E&M
+RHS-100321,Q4 2024,CO-16,Missing or incomplete claim information,Aetna,Commercial,West Allis,99213,Office/outpatient visit est,110.14,82.99,E&M
+RHS-100336,Q4 2024,CO-16,Missing or incomplete claim information,Aetna,Commercial,Downtown Milwaukee,97110,Therapeutic exercises,88.0,65.72,Physical Therapy
+RHS-100352,Q4 2024,CO-16,Missing or incomplete claim information,Aetna,Commercial,Wauwatosa,73721,MRI joint of lower extremity,509.08,265.7,Radiology
+RHS-100365,Q4 2024,CO-16,Missing or incomplete claim information,Aetna,Commercial,Downtown Milwaukee,73721,MRI joint of lower extremity,524.46,261.51,Radiology
+RHS-100395,Q4 2024,CO-16,Missing or incomplete claim information,Humana Gold Plus,Medicare Advantage,Wauwatosa,73721,MRI joint of lower extremity,501.27,264.41,Radiology
+RHS-100403,Q4 2024,CO-16,Missing or incomplete claim information,Humana Gold Plus,Medicare Advantage,Southside,99213,Office/outpatient visit est,119.19,77.28,E&M
+RHS-100413,Q4 2024,CO-16,Missing or incomplete claim information,Blue Cross Blue Shield WI,Commercial,Brookfield,97140,Manual therapy,89.23,63.12,Physical Therapy
+RHS-100434,Q4 2024,CO-16,Missing or incomplete claim information,Humana Gold Plus,Medicare Advantage,West Allis,73721,MRI joint of lower extremity,528.6,268.34,Radiology
+RHS-100446,Q4 2024,CO-16,Missing or incomplete claim information,Humana Gold Plus,Medicare Advantage,West Allis,99213,Office/outpatient visit est,114.94,81.79,E&M
+RHS-100466,Q4 2024,CO-16,Missing or incomplete claim information,Anthem MedicarePreferred,Medicare Advantage,Brookfield,93000,Electrocardiogram complete,54.07,29.09,Other
+RHS-100473,Q4 2024,CO-16,Missing or incomplete claim information,WellCare Alliant,Medicare Advantage,Southside,97110,Therapeutic exercises,91.03,69.57,Physical Therapy
+RHS-100477,Q4 2024,CO-16,Missing or incomplete claim information,UnitedHealthcare,Commercial,West Allis,73721,MRI joint of lower extremity,566.98,270.55,Radiology
+RHS-100488,Q4 2024,CO-16,Missing or incomplete claim information,WellCare Alliant,Medicare Advantage,West Allis,99214,Office/outpatient visit est,152.67,109.31,E&M
+RHS-100014,Q4 2024,CO-29,The time limit for filing has expired,Humana Gold Plus,Medicare Advantage,Downtown Milwaukee,99214,Office/outpatient visit est,152.63,108.02,E&M
+RHS-100041,Q4 2024,CO-29,The time limit for filing has expired,Anthem MedicarePreferred,Medicare Advantage,Southside,70450,CT head/brain w/o contrast,288.69,141.5,Radiology
+RHS-100112,Q4 2024,CO-29,The time limit for filing has expired,Aetna,Commercial,West Allis,72148,MRI lumbar spine w/o dye,592.14,289.7,Radiology
+RHS-100120,Q4 2024,CO-29,The time limit for filing has expired,UnitedHealthcare,Commercial,Wauwatosa,99215,Office/outpatient visit est,231.5,159.07,E&M
+RHS-100127,Q4 2024,CO-29,The time limit for filing has expired,Humana Gold Plus,Medicare Advantage,Brookfield,99215,Office/outpatient visit est,213.68,155.9,E&M
+RHS-100165,Q4 2024,CO-29,The time limit for filing has expired,Medicare Part B,Traditional Medicare,Brookfield,97530,Therapeutic activities,98.91,71.22,Physical Therapy
+RHS-100170,Q4 2024,CO-29,The time limit for filing has expired,UnitedHealthcare,Commercial,West Allis,72148,MRI lumbar spine w/o dye,608.73,294.27,Radiology
+RHS-100172,Q4 2024,CO-29,The time limit for filing has expired,WellCare Alliant,Medicare Advantage,Southside,97110,Therapeutic exercises,87.93,66.06,Physical Therapy
+RHS-100182,Q4 2024,CO-29,The time limit for filing has expired,Wisconsin Medicaid,Medicaid,West Allis,99215,Office/outpatient visit est,220.69,158.23,E&M
+RHS-100186,Q4 2024,CO-29,The time limit for filing has expired,Medicare Part B,Traditional Medicare,West Allis,97140,Manual therapy,81.81,64.1,Physical Therapy
+RHS-100244,Q4 2024,CO-29,The time limit for filing has expired,UnitedHealthcare,Commercial,Brookfield,73721,MRI joint of lower extremity,501.2,271.62,Radiology
+RHS-100262,Q4 2024,CO-29,The time limit for filing has expired,Blue Cross Blue Shield WI,Commercial,Downtown Milwaukee,70450,CT head/brain w/o contrast,282.58,141.5,Radiology
+RHS-100280,Q4 2024,CO-29,The time limit for filing has expired,WellCare Alliant,Medicare Advantage,Southside,72148,MRI lumbar spine w/o dye,610.91,305.84,Radiology
+RHS-100337,Q4 2024,CO-29,The time limit for filing has expired,Wisconsin Medicaid,Medicaid,Downtown Milwaukee,99213,Office/outpatient visit est,102.24,77.45,E&M
+RHS-100364,Q4 2024,CO-29,The time limit for filing has expired,Anthem MedicarePreferred,Medicare Advantage,Southside,99214,Office/outpatient visit est,154.28,117.46,E&M
+RHS-100369,Q4 2024,CO-29,The time limit for filing has expired,Medicare Part B,Traditional Medicare,West Allis,70450,CT head/brain w/o contrast,288.99,149.46,Radiology
+RHS-100381,Q4 2024,CO-29,The time limit for filing has expired,Medicare Part B,Traditional Medicare,Wauwatosa,72148,MRI lumbar spine w/o dye,617.19,297.98,Radiology
+RHS-100417,Q4 2024,CO-29,The time limit for filing has expired,Anthem MedicarePreferred,Medicare Advantage,Wauwatosa,99213,Office/outpatient visit est,113.0,81.5,E&M
+RHS-100001,Q4 2024,CO-4,Inconsistent modifier / procedure code,Blue Cross Blue Shield WI,Commercial,Wauwatosa,72148,MRI lumbar spine w/o dye,659.93,306.98,Radiology
+RHS-100061,Q4 2024,CO-4,Inconsistent modifier / procedure code,Anthem MedicarePreferred,Medicare Advantage,Downtown Milwaukee,97530,Therapeutic activities,109.38,73.37,Physical Therapy
+RHS-100065,Q4 2024,CO-4,Inconsistent modifier / procedure code,Blue Cross Blue Shield WI,Commercial,Downtown Milwaukee,97530,Therapeutic activities,109.97,75.84,Physical Therapy
+RHS-100077,Q4 2024,CO-4,Inconsistent modifier / procedure code,Aetna,Commercial,West Allis,72148,MRI lumbar spine w/o dye,626.13,304.96,Radiology
+RHS-100088,Q4 2024,CO-4,Inconsistent modifier / procedure code,Anthem MedicarePreferred,Medicare Advantage,West Allis,97110,Therapeutic exercises,94.85,69.3,Physical Therapy
+RHS-100092,Q4 2024,CO-4,Inconsistent modifier / procedure code,Anthem MedicarePreferred,Medicare Advantage,Downtown Milwaukee,70450,CT head/brain w/o contrast,288.92,141.51,Radiology
+RHS-100096,Q4 2024,CO-4,Inconsistent modifier / procedure code,Anthem MedicarePreferred,Medicare Advantage,Downtown Milwaukee,99214,Office/outpatient visit est,162.96,113.75,E&M
+RHS-100102,Q4 2024,CO-4,Inconsistent modifier / procedure code,Humana Gold Plus,Medicare Advantage,West Allis,93000,Electrocardiogram complete,54.66,28.68,Other
+RHS-100124,Q4 2024,CO-4,Inconsistent modifier / procedure code,UnitedHealthcare,Commercial,West Allis,99213,Office/outpatient visit est,118.2,75.71,E&M
+RHS-100156,Q4 2024,CO-4,Inconsistent modifier / procedure code,Wisconsin Medicaid,Medicaid,Downtown Milwaukee,70450,CT head/brain w/o contrast,283.25,143.12,Radiology
+RHS-100162,Q4 2024,CO-4,Inconsistent modifier / procedure code,Blue Cross Blue Shield WI,Commercial,Downtown Milwaukee,93000,Electrocardiogram complete,58.84,29.88,Other
+RHS-100180,Q4 2024,CO-4,Inconsistent modifier / procedure code,Anthem MedicarePreferred,Medicare Advantage,Southside,70450,CT head/brain w/o contrast,292.88,141.87,Radiology
+RHS-100189,Q4 2024,CO-4,Inconsistent modifier / procedure code,Medicare Part B,Traditional Medicare,West Allis,73721,MRI joint of lower extremity,533.53,273.27,Radiology
+RHS-100191,Q4 2024,CO-4,Inconsistent modifier / procedure code,Blue Cross Blue Shield WI,Commercial,Downtown Milwaukee,97530,Therapeutic activities,97.08,74.43,Physical Therapy
+RHS-100197,Q4 2024,CO-4,Inconsistent modifier / procedure code,Humana Gold Plus,Medicare Advantage,West Allis,99214,Office/outpatient visit est,172.45,115.19,E&M
+RHS-100199,Q4 2024,CO-4,Inconsistent modifier / procedure code,Anthem MedicarePreferred,Medicare Advantage,Downtown Milwaukee,97110,Therapeutic exercises,94.51,67.66,Physical Therapy
+RHS-100201,Q4 2024,CO-4,Inconsistent modifier / procedure code,Humana Gold Plus,Medicare Advantage,West Allis,99215,Office/outpatient visit est,215.4,153.93,E&M
+RHS-100211,Q4 2024,CO-4,Inconsistent modifier / procedure code,Medicare Part B,Traditional Medicare,West Allis,70450,CT head/brain w/o contrast,300.24,145.39,Radiology
+RHS-100213,Q4 2024,CO-4,Inconsistent modifier / procedure code,Wisconsin Medicaid,Medicaid,Southside,99214,Office/outpatient visit est,173.3,109.42,E&M
+RHS-100223,Q4 2024,CO-4,Inconsistent modifier / procedure code,UnitedHealthcare,Commercial,Downtown Milwaukee,97140,Manual therapy,83.57,61.88,Physical Therapy
+RHS-100238,Q4 2024,CO-4,Inconsistent modifier / procedure code,Medicare Part B,Traditional Medicare,Downtown Milwaukee,99213,Office/outpatient visit est,108.95,82.17,E&M
+RHS-100240,Q4 2024,CO-4,Inconsistent modifier / procedure code,Medicare Part B,Traditional Medicare,West Allis,97140,Manual therapy,91.8,61.09,Physical Therapy
+RHS-100261,Q4 2024,CO-4,Inconsistent modifier / procedure code,WellCare Alliant,Medicare Advantage,Downtown Milwaukee,99215,Office/outpatient visit est,226.81,160.86,E&M
+RHS-100265,Q4 2024,CO-4,Inconsistent modifier / procedure code,Medicare Part B,Traditional Medicare,West Allis,99215,Office/outpatient visit est,224.21,164.87,E&M
+RHS-100266,Q4 2024,CO-4,Inconsistent modifier / procedure code,Medicare Part B,Traditional Medicare,West Allis,97140,Manual therapy,89.44,63.57,Physical Therapy
+RHS-100277,Q4 2024,CO-4,Inconsistent modifier / procedure code,WellCare Alliant,Medicare Advantage,West Allis,97110,Therapeutic exercises,100.06,67.05,Physical Therapy
+RHS-100291,Q4 2024,CO-4,Inconsistent modifier / procedure code,Humana Gold Plus,Medicare Advantage,West Allis,72148,MRI lumbar spine w/o dye,640.97,284.03,Radiology
+RHS-100306,Q4 2024,CO-4,Inconsistent modifier / procedure code,Blue Cross Blue Shield WI,Commercial,Downtown Milwaukee,70450,CT head/brain w/o contrast,292.94,140.51,Radiology
+RHS-100331,Q4 2024,CO-4,Inconsistent modifier / procedure code,WellCare Alliant,Medicare Advantage,Brookfield,99215,Office/outpatient visit est,214.46,150.81,E&M
+RHS-100334,Q4 2024,CO-4,Inconsistent modifier / procedure code,UnitedHealthcare,Commercial,Brookfield,99214,Office/outpatient visit est,160.82,108.61,E&M
+RHS-100340,Q4 2024,CO-4,Inconsistent modifier / procedure code,Anthem MedicarePreferred,Medicare Advantage,Brookfield,97110,Therapeutic exercises,101.51,68.43,Physical Therapy
+RHS-100341,Q4 2024,CO-4,Inconsistent modifier / procedure code,Wisconsin Medicaid,Medicaid,West Allis,72148,MRI lumbar spine w/o dye,647.17,306.3,Radiology
+RHS-100372,Q4 2024,CO-4,Inconsistent modifier / procedure code,Humana Gold Plus,Medicare Advantage,West Allis,97140,Manual therapy,82.74,63.66,Physical Therapy
+RHS-100383,Q4 2024,CO-4,Inconsistent modifier / procedure code,Anthem MedicarePreferred,Medicare Advantage,Brookfield,97140,Manual therapy,94.97,59.48,Physical Therapy
+RHS-100388,Q4 2024,CO-4,Inconsistent modifier / procedure code,UnitedHealthcare,Commercial,Southside,97140,Manual therapy,86.26,64.13,Physical Therapy
+RHS-100404,Q4 2024,CO-4,Inconsistent modifier / procedure code,WellCare Alliant,Medicare Advantage,Downtown Milwaukee,97110,Therapeutic exercises,95.84,69.06,Physical Therapy
+RHS-100409,Q4 2024,CO-4,Inconsistent modifier / procedure code,Blue Cross Blue Shield WI,Commercial,Downtown Milwaukee,93000,Electrocardiogram complete,58.8,27.81,Other
+RHS-100418,Q4 2024,CO-4,Inconsistent modifier / procedure code,Wisconsin Medicaid,Medicaid,West Allis,70450,CT head/brain w/o contrast,289.84,137.11,Radiology
+RHS-100424,Q4 2024,CO-4,Inconsistent modifier / procedure code,WellCare Alliant,Medicare Advantage,Brookfield,97110,Therapeutic exercises,95.08,66.59,Physical Therapy
+RHS-100431,Q4 2024,CO-4,Inconsistent modifier / procedure code,Aetna,Commercial,West Allis,93000,Electrocardiogram complete,56.25,28.79,Other
+RHS-100437,Q4 2024,CO-4,Inconsistent modifier / procedure code,Blue Cross Blue Shield WI,Commercial,Brookfield,70450,CT head/brain w/o contrast,288.9,146.82,Radiology
+RHS-100448,Q4 2024,CO-4,Inconsistent modifier / procedure code,WellCare Alliant,Medicare Advantage,Downtown Milwaukee,97530,Therapeutic activities,107.49,70.39,Physical Therapy
+RHS-100456,Q4 2024,CO-4,Inconsistent modifier / procedure code,UnitedHealthcare,Commercial,Wauwatosa,97530,Therapeutic activities,98.26,73.46,Physical Therapy
+RHS-100461,Q4 2024,CO-4,Inconsistent modifier / procedure code,Blue Cross Blue Shield WI,Commercial,West Allis,99215,Office/outpatient visit est,217.49,157.54,E&M
+RHS-100464,Q4 2024,CO-4,Inconsistent modifier / procedure code,Anthem MedicarePreferred,Medicare Advantage,Wauwatosa,72148,MRI lumbar spine w/o dye,636.33,308.73,Radiology
+RHS-100467,Q4 2024,CO-4,Inconsistent modifier / procedure code,Humana Gold Plus,Medicare Advantage,Downtown Milwaukee,97530,Therapeutic activities,107.56,72.74,Physical Therapy
+RHS-100471,Q4 2024,CO-4,Inconsistent modifier / procedure code,Blue Cross Blue Shield WI,Commercial,West Allis,99215,Office/outpatient visit est,231.19,161.98,E&M
+RHS-100482,Q4 2024,CO-4,Inconsistent modifier / procedure code,Medicare Part B,Traditional Medicare,West Allis,93000,Electrocardiogram complete,54.21,27.94,Other
+RHS-100492,Q4 2024,CO-4,Inconsistent modifier / procedure code,Blue Cross Blue Shield WI,Commercial,Downtown Milwaukee,97530,Therapeutic activities,109.26,73.1,Physical Therapy
+RHS-100499,Q4 2024,CO-4,Inconsistent modifier / procedure code,UnitedHealthcare,Commercial,Brookfield,93000,Electrocardiogram complete,58.05,29.13,Other
+RHS-100073,Q4 2024,CO-50,Non-covered services — not deemed medically necessary,Humana Gold Plus,Medicare Advantage,Brookfield,97110,Therapeutic exercises,92.61,66.19,Physical Therapy
+RHS-100078,Q4 2024,CO-50,Non-covered services — not deemed medically necessary,Blue Cross Blue Shield WI,Commercial,Brookfield,97530,Therapeutic activities,100.68,74.58,Physical Therapy
+RHS-100116,Q4 2024,CO-50,Non-covered services — not deemed medically necessary,Medicare Part B,Traditional Medicare,Brookfield,99214,Office/outpatient visit est,174.84,108.94,E&M
+RHS-100168,Q4 2024,CO-50,Non-covered services — not deemed medically necessary,Medicare Part B,Traditional Medicare,Downtown Milwaukee,97110,Therapeutic exercises,99.5,68.71,Physical Therapy
+RHS-100205,Q4 2024,CO-50,Non-covered services — not deemed medically necessary,Humana Gold Plus,Medicare Advantage,West Allis,72148,MRI lumbar spine w/o dye,619.44,295.64,Radiology
+RHS-100239,Q4 2024,CO-50,Non-covered services — not deemed medically necessary,Anthem MedicarePreferred,Medicare Advantage,Wauwatosa,99213,Office/outpatient visit est,108.43,83.0,E&M
+RHS-100326,Q4 2024,CO-50,Non-covered services — not deemed medically necessary,Wisconsin Medicaid,Medicaid,West Allis,97140,Manual therapy,88.43,65.06,Physical Therapy
+RHS-100348,Q4 2024,CO-50,Non-covered services — not deemed medically necessary,Medicare Part B,Traditional Medicare,Downtown Milwaukee,99213,Office/outpatient visit est,117.46,78.61,E&M
+RHS-100373,Q4 2024,CO-50,Non-covered services — not deemed medically necessary,Humana Gold Plus,Medicare Advantage,Wauwatosa,99213,Office/outpatient visit est,117.03,80.22,E&M
+RHS-100375,Q4 2024,CO-50,Non-covered services — not deemed medically necessary,Humana Gold Plus,Medicare Advantage,Southside,70450,CT head/brain w/o contrast,272.06,147.95,Radiology
+RHS-100392,Q4 2024,CO-50,Non-covered services — not deemed medically necessary,Wisconsin Medicaid,Medicaid,Wauwatosa,93000,Electrocardiogram complete,51.38,27.52,Other
+RHS-100399,Q4 2024,CO-50,Non-covered services — not deemed medically necessary,Wisconsin Medicaid,Medicaid,Southside,97110,Therapeutic exercises,89.43,69.73,Physical Therapy
+RHS-100410,Q4 2024,CO-50,Non-covered services — not deemed medically necessary,WellCare Alliant,Medicare Advantage,Wauwatosa,99213,Office/outpatient visit est,103.37,82.37,E&M
+RHS-100287,Q4 2024,CO-97,Benefit for this service is included in payment for another service,Aetna,Commercial,Downtown Milwaukee,97140,Manual therapy,83.47,64.61,Physical Therapy
+RHS-100402,Q4 2024,CO-97,Benefit for this service is included in payment for another service,Humana Gold Plus,Medicare Advantage,Southside,99213,Office/outpatient visit est,115.03,78.08,E&M
+RHS-100420,Q4 2024,CO-97,Benefit for this service is included in payment for another service,Anthem MedicarePreferred,Medicare Advantage,Southside,99215,Office/outpatient visit est,210.21,161.8,E&M
+RHS-100454,Q4 2024,CO-97,Benefit for this service is included in payment for another service,UnitedHealthcare,Commercial,Downtown Milwaukee,97140,Manual therapy,89.61,60.44,Physical Therapy
+RHS-100460,Q4 2024,CO-97,Benefit for this service is included in payment for another service,Aetna,Commercial,Downtown Milwaukee,97530,Therapeutic activities,101.94,76.35,Physical Therapy
+RHS-100470,Q4 2024,CO-97,Benefit for this service is included in payment for another service,UnitedHealthcare,Commercial,West Allis,97530,Therapeutic activities,101.54,74.1,Physical Therapy
+RHS-100022,Q4 2024,OA-23,Impact of prior payer adjudication,Aetna,Commercial,Wauwatosa,70450,CT head/brain w/o contrast,295.88,140.19,Radiology
+RHS-100047,Q4 2024,OA-23,Impact of prior payer adjudication,Humana Gold Plus,Medicare Advantage,West Allis,99214,Office/outpatient visit est,177.13,114.11,E&M
+RHS-100203,Q4 2024,OA-23,Impact of prior payer adjudication,Wisconsin Medicaid,Medicaid,Brookfield,99213,Office/outpatient visit est,112.51,82.29,E&M
+RHS-100263,Q4 2024,OA-23,Impact of prior payer adjudication,UnitedHealthcare,Commercial,Downtown Milwaukee,70450,CT head/brain w/o contrast,282.31,146.27,Radiology
+RHS-100491,Q4 2024,OA-23,Impact of prior payer adjudication,Blue Cross Blue Shield WI,Commercial,Southside,72148,MRI lumbar spine w/o dye,661.58,286.48,Radiology
+RHS-100100,Q4 2024,PR-1,Deductible amount,Blue Cross Blue Shield WI,Commercial,Southside,97530,Therapeutic activities,105.04,74.62,Physical Therapy
+RHS-100115,Q4 2024,PR-1,Deductible amount,WellCare Alliant,Medicare Advantage,Southside,73721,MRI joint of lower extremity,535.57,262.16,Radiology
+RHS-100382,Q4 2024,PR-1,Deductible amount,Wisconsin Medicaid,Medicaid,Downtown Milwaukee,93000,Electrocardiogram complete,55.19,28.7,Other
+RHS-100405,Q4 2024,PR-1,Deductible amount,Wisconsin Medicaid,Medicaid,Wauwatosa,99215,Office/outpatient visit est,233.82,162.93,E&M
+RHS-100479,Q4 2024,PR-1,Deductible amount,Blue Cross Blue Shield WI,Commercial,Brookfield,97140,Manual therapy,84.44,60.55,Physical Therapy
+RHS-100019,Q4 2024,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,Downtown Milwaukee,93000,Electrocardiogram complete,57.63,29.19,Other
+RHS-100024,Q4 2024,PR-96,Non-covered charge / payer ID mismatch,Humana Gold Plus,Medicare Advantage,Southside,70450,CT head/brain w/o contrast,307.42,135.72,Radiology
+RHS-100042,Q4 2024,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,West Allis,99213,Office/outpatient visit est,105.14,78.23,E&M
+RHS-100091,Q4 2024,PR-96,Non-covered charge / payer ID mismatch,WellCare Alliant,Medicare Advantage,West Allis,93000,Electrocardiogram complete,52.71,29.32,Other
+RHS-100119,Q4 2024,PR-96,Non-covered charge / payer ID mismatch,Humana Gold Plus,Medicare Advantage,Southside,97530,Therapeutic activities,101.77,71.74,Physical Therapy
+RHS-100126,Q4 2024,PR-96,Non-covered charge / payer ID mismatch,Humana Gold Plus,Medicare Advantage,Downtown Milwaukee,99213,Office/outpatient visit est,109.13,76.64,E&M
+RHS-100130,Q4 2024,PR-96,Non-covered charge / payer ID mismatch,Humana Gold Plus,Medicare Advantage,Downtown Milwaukee,99215,Office/outpatient visit est,224.21,152.12,E&M
+RHS-100132,Q4 2024,PR-96,Non-covered charge / payer ID mismatch,Humana Gold Plus,Medicare Advantage,West Allis,73721,MRI joint of lower extremity,524.79,276.89,Radiology
+RHS-100133,Q4 2024,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,Downtown Milwaukee,99213,Office/outpatient visit est,118.96,79.19,E&M
+RHS-100135,Q4 2024,PR-96,Non-covered charge / payer ID mismatch,WellCare Alliant,Medicare Advantage,Downtown Milwaukee,97140,Manual therapy,85.48,60.19,Physical Therapy
+RHS-100136,Q4 2024,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,Southside,93000,Electrocardiogram complete,53.76,28.64,Other
+RHS-100137,Q4 2024,PR-96,Non-covered charge / payer ID mismatch,WellCare Alliant,Medicare Advantage,Southside,99214,Office/outpatient visit est,176.27,117.26,E&M
+RHS-100200,Q4 2024,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,Downtown Milwaukee,72148,MRI lumbar spine w/o dye,597.46,287.39,Radiology
+RHS-100253,Q4 2024,PR-96,Non-covered charge / payer ID mismatch,Humana Gold Plus,Medicare Advantage,Downtown Milwaukee,99213,Office/outpatient visit est,116.29,79.84,E&M
+RHS-100298,Q4 2024,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,Southside,93000,Electrocardiogram complete,51.29,29.91,Other
+RHS-100308,Q4 2024,PR-96,Non-covered charge / payer ID mismatch,Humana Gold Plus,Medicare Advantage,Brookfield,99213,Office/outpatient visit est,110.85,81.91,E&M
+RHS-100314,Q4 2024,PR-96,Non-covered charge / payer ID mismatch,Humana Gold Plus,Medicare Advantage,West Allis,97110,Therapeutic exercises,93.39,70.52,Physical Therapy
+RHS-100335,Q4 2024,PR-96,Non-covered charge / payer ID mismatch,WellCare Alliant,Medicare Advantage,Southside,72148,MRI lumbar spine w/o dye,588.05,301.78,Radiology
+RHS-100346,Q4 2024,PR-96,Non-covered charge / payer ID mismatch,Humana Gold Plus,Medicare Advantage,Downtown Milwaukee,99213,Office/outpatient visit est,108.98,75.58,E&M
+RHS-100377,Q4 2024,PR-96,Non-covered charge / payer ID mismatch,Humana Gold Plus,Medicare Advantage,Downtown Milwaukee,72148,MRI lumbar spine w/o dye,658.49,306.28,Radiology
+RHS-100430,Q4 2024,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,Downtown Milwaukee,72148,MRI lumbar spine w/o dye,575.69,311.54,Radiology
+RHS-100441,Q4 2024,PR-96,Non-covered charge / payer ID mismatch,WellCare Alliant,Medicare Advantage,West Allis,93000,Electrocardiogram complete,56.26,30.2,Other
+RHS-100452,Q4 2024,PR-96,Non-covered charge / payer ID mismatch,Humana Gold Plus,Medicare Advantage,West Allis,72148,MRI lumbar spine w/o dye,663.9,311.85,Radiology
+RHS-100483,Q4 2024,PR-96,Non-covered charge / payer ID mismatch,Anthem MedicarePreferred,Medicare Advantage,Wauwatosa,73721,MRI joint of lower extremity,508.61,262.18,Radiology
+RHS-100485,Q4 2024,PR-96,Non-covered charge / payer ID mismatch,Humana Gold Plus,Medicare Advantage,West Allis,99213,Office/outpatient visit est,104.87,79.43,E&M

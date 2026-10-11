@@ -17,7 +17,7 @@
 
 ## Purpose
 
-This document presents the root cause analysis (RCA) findings for the three denial reason codes driving Riverside Health System's claim denial rate spike from 8.2% (Q3 2024) to 11.7% (Q1 2025): CO-4 (inconsistent modifier/procedure code), CO-16 (missing or incomplete information), and PR-96 (non-covered charge / payer ID mismatch). Together these three codes account for 71% of total denial volume and an estimated $1.42M in combined annual revenue impact.
+This document presents the root cause analysis (RCA) findings for the three denial reason codes driving Riverside Health System's claim denial rate spike from 8.2% (Q3 2024) to 11.7% (Q1 2025): CO-4 (inconsistent modifier/procedure code), CO-16 (missing or incomplete information), and PR-96 (non-covered charge / payer ID mismatch). Together these three codes account for **71.0%** of the synthetic denial-log sample and **$1,132,562.26** in combined estimated impact (share × Q1 2025 revenue at risk of $1,595,158.11 — see `02_denial_analysis/sql/05_revenue_at_risk.sql` 5C). Claim-level data is synthetic and CMS-calibrated.
 
 Each denial driver is analyzed using the 5-Why methodology to trace the observable symptom back to its process, system, or governance root cause. Each section documents the current state workflow, the desired state, and remediation ownership -- inputs that will flow directly into the Business Requirements Document (Phase 4).
 
@@ -40,17 +40,19 @@ Each chain terminates when the identified cause is one that, if addressed, would
 
 | Denial Code | Root Cause | Primary Owner | Est. Impact |
 |---|---|---|---|
-| CO-4 | No change management process for CMS modifier policy updates -- policy change not operationalized into provider documentation or billing system validation | Marcus Webb | ~$560K |
-| CO-16 (Track A) | Epic-to-Waystar HL7 interface mapping failure post-November 2024 upgrade -- rendering provider NPI field dropped on ~62% of Medicare Advantage claims | James Tirado | ~$300K (est.) |
-| CO-16 (Track B) | Registration workflow gap at West Allis clinic -- front desk staff not completing insurance verification at point of registration | Patricia Nguyen | ~$180K (est.) |
-| PR-96 | Payer ID configuration not updated in Waystar before Q1 2025 billing cycle for three Medicare Advantage contract renewals | Sandra Kim / James Tirado | ~$380K |
+| CO-4 | No change management process for CMS modifier policy updates -- policy change not operationalized into provider documentation or billing system validation | Marcus Webb | $446,644.27 (28.0% share) |
+| CO-16 (Track A) | Epic-to-Waystar HL7 interface mapping failure post-November 2024 upgrade -- rendering provider NPI field dropped on ~62% of Medicare Advantage claims | James Tirado | Portion of CO-16 $382,837.95 |
+| CO-16 (Track B) | Registration workflow gap at West Allis clinic -- front desk staff not completing insurance verification at point of registration | Patricia Nguyen | Portion of CO-16 $382,837.95 |
+| PR-96 | Payer ID configuration not updated in Waystar before Q1 2025 billing cycle for three Medicare Advantage contract renewals | Sandra Kim / James Tirado | $303,080.04 (19.0% share) |
+
+Est. Impact values for CO-4 / CO-16 / PR-96 are query outputs from `05_revenue_at_risk.sql` statement 5C (not independently estimated).
 
 ---
 
 # Section 1: CO-4 -- Inconsistent Modifier / Procedure Code
 
-**Volume:** 28% of total denials
-**Estimated Annual Impact:** ~$560K
+**Volume:** 28.0% of denial-log sample
+**Estimated Impact:** $446,644.27 (`05_revenue_at_risk.sql` 5C)
 **Primary Stakeholder:** Marcus Webb, Director of Coding and Compliance
 
 ---
@@ -124,8 +126,8 @@ The root cause of CO-4 denials is the absence of an operationalized change manag
 
 # Section 2: CO-16 -- Missing or Incomplete Claim Information
 
-**Volume:** 24% of total denials
-**Estimated Annual Impact:** ~$480K
+**Volume:** 24.0% of denial-log sample
+**Estimated Impact:** $382,837.95 (`05_revenue_at_risk.sql` 5C)
 **Primary Stakeholders:** James Tirado (Track A), Patricia Nguyen (Track B)
 
 ---
@@ -143,7 +145,7 @@ Both tracks are analyzed separately below.
 
 ## Track A: Epic-to-Waystar Interface Mapping Failure
 
-**Estimated Impact:** ~$300K (est. 62% of CO-16 volume)
+**Estimated Impact:** Portion of CO-16 $382,837.95 (RCA sample: ~62% of CO-16 MA NPI misses)
 **Primary Owner:** James Tirado, IT Systems Manager
 
 ### 2A.1 Observation
@@ -204,7 +206,7 @@ The root cause of CO-16 Track A denials is a field mapping failure in the Epic-t
 
 ## Track B: West Allis Registration Workflow Gap
 
-**Estimated Impact:** ~$180K (est. 38% of CO-16 volume)
+**Estimated Impact:** Portion of CO-16 $382,837.95 (residual commercial / West Allis track)
 **Primary Owner:** Patricia Nguyen, Revenue Cycle Director
 
 ### 2B.1 Observation
@@ -265,8 +267,8 @@ The root cause of CO-16 Track B denials is the absence of a standardized clinic 
 
 # Section 3: PR-96 -- Non-Covered Charge / Payer ID Mismatch
 
-**Volume:** 19% of total denials
-**Estimated Annual Impact:** ~$380K
+**Volume:** 19.0% of denial-log sample
+**Estimated Impact:** $303,080.04 (`05_revenue_at_risk.sql` 5C)
 **Primary Stakeholders:** Sandra Kim (Payer Contracting), James Tirado (IT Systems)
 
 ---
@@ -361,13 +363,13 @@ Riverside's current revenue cycle operations are optimized for denial remediatio
 
 # Section 5: Projected Impact of Remediation
 
-| Denial Code | Current Denial Rate Contribution | Projected Post-Remediation Contribution | Est. Recovery |
+| Denial Code | Current Share (denial log) | Current Est. Impact | Projected Post-Remediation Share |
 |---|---|---|---|
-| CO-4 | 28% of denials | ~10% (residual modifier complexity) | ~$390K |
-| CO-16 | 24% of denials | ~8% (residual registration variability) | ~$330K |
-| PR-96 | 19% of denials | ~2% (configuration corrected) | ~$350K |
-| **Total** | **71% of denials** | **~20% combined** | **~$1.07M** |
+| CO-4 | 28.0% | $446,644.27 | ~10% (residual modifier complexity) |
+| CO-16 | 24.0% | $382,837.95 | ~8% (residual registration variability) |
+| PR-96 | 19.0% | $303,080.04 | ~2% (configuration corrected) |
+| **Total** | **71.0%** | **$1,132,562.26** | **~20% combined** |
 
-If remediation is fully implemented before Q4 2025 billing cycle, projected overall denial rate: **~8.3%** -- within the CFO target of 8.5%.
+If remediation is fully implemented before Q4 2025 billing cycle, projected overall denial rate: **~8.3%** -- within the CFO target of 8.5%. Current impact dollars are from `05_revenue_at_risk.sql` 5C; post-remediation shares are planning targets, not measured outcomes.
 
 ---

@@ -7,6 +7,8 @@ __pycache__/
 *.pyc
 *.pyo
 .env
+.venv/
+venv/
 
 # Excel temp files
 ~$*.xlsx
@@ -16,8 +18,9 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Jupyter notebooks (if used)
+# Jupyter
 .ipynb_checkpoints/
 
 # Power BI temp files
 *.pbix.bak
+*.pbit.bak
