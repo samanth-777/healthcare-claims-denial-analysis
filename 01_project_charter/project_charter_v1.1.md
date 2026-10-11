@@ -70,6 +70,6 @@ The CFO declined additional billing headcount until root causes and a remediatio
 ## 8. Assumptions & Constraints
 
 - Claim-level data is synthetic and CMS-calibrated (no PHI).
-- Population quarterly volumes are engagement inputs stored in `data/quarterly_claims_summary.csv`.
+- Population quarterly volumes are engagement inputs stored in `data/processed/quarterly_claims_summary.csv`.
 - Average allowed amount fixed at $79.73 for all revenue-at-risk calculations.
 - Processed datasets live under `data/processed/`; CMS sample anchors under `data/raw/`.

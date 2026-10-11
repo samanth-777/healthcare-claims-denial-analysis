@@ -36,9 +36,12 @@ def main() -> None:
     args = parser.parse_args()
 
     con = duckdb.connect()
+    # Force HCPCS_Code to VARCHAR — numeric-looking codes otherwise bind as BIGINT.
     con.execute(
         f"CREATE OR REPLACE TABLE riverside_denial_log AS "
-        f"SELECT * FROM read_csv_auto('{PROCESSED / 'riverside_denial_log.csv'}')"
+        f"SELECT * FROM read_csv_auto("
+        f"'{PROCESSED / 'riverside_denial_log.csv'}', "
+        f"types={{'HCPCS_Code': 'VARCHAR'}})"
     )
     con.execute(
         f"CREATE OR REPLACE TABLE quarterly_claims_summary AS "

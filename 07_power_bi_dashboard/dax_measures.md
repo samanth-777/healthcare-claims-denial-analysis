@@ -83,4 +83,8 @@ RETURN
 
 ## Screenshots
 
-See `07_power_bi_dashboard/screenshots/` for chart exports generated from the same processed datasets (used when `.pbix` is opened/refreshed in Power BI Desktop).
+See `07_power_bi_dashboard/screenshots/` for chart exports generated from the same processed datasets.
+
+## `.pbix` package note
+
+`denial_dashboard.pbix` is a portable zip package with rebuild instructions (`README.txt` inside the archive). Open Power BI Desktop, import the three `data/processed/*.csv` files, paste the measures above, and recreate visuals to match `screenshots/`. Verified dollar/rate values must match this file and `05_revenue_at_risk.sql` — do not hard-code alternate figures.

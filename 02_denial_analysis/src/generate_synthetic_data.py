@@ -277,6 +277,9 @@ def main() -> None:
     constants = build_constants(quarterly)
     denial_log = build_denial_log(rng)
 
+    # Keep HCPCS as text so SQL string functions (e.g. SUBSTR) work in DuckDB.
+    denial_log["HCPCS_Code"] = denial_log["HCPCS_Code"].astype(str)
+
     quarterly.to_csv(out / "quarterly_claims_summary.csv", index=False)
     constants.to_csv(out / "analysis_constants.csv", index=False)
     denial_log.to_csv(out / "riverside_denial_log.csv", index=False)

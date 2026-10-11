@@ -30,7 +30,7 @@ Each denial driver is analyzed using the 5-Why methodology to trace the observab
 - SQL denial profiling findings (Phase 2)
 - Stakeholder interview notes (Week 1)
 - CMS public use file benchmarking data
-- Claim-level denial log (denial_log.xlsx)
+- Claim-level denial log (`data/processed/riverside_denial_log.csv`)
 
 Each chain terminates when the identified cause is one that, if addressed, would prevent recurrence -- not merely resolve the immediate instance.
 

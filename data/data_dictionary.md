@@ -21,6 +21,14 @@
 | State | string | WI |
 | Source_Note | string | Provenance note |
 
+## `data/processed/` overview
+
+| File | Role |
+|---|---|
+| `riverside_denial_log.csv` | 500-row synthetic denial sample (LAYOUT primary processed file) |
+| `quarterly_claims_summary.csv` | Population quarterly volumes/rates for 8.2% / 9.6% / 11.7% |
+| `analysis_constants.csv` | Shared constants including headline incremental exposure |
+
 ## `data/processed/quarterly_claims_summary.csv`
 
 | Column | Type | Description |

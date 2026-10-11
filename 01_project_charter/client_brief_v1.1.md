@@ -19,7 +19,7 @@ Denial rate increased across three quarters:
 
 | Quarter | Denial Rate | Source |
 |---|---|---|
-| Q3 2024 | 8.2% | `data/quarterly_claims_summary.csv` / notebook |
+| Q3 2024 | 8.2% | `data/processed/quarterly_claims_summary.csv` / notebook |
 | Q4 2024 | 9.6% | same |
 | Q1 2025 | 11.7% | same |
 

@@ -27,8 +27,9 @@ GROUP BY Service_Line, Denial_Code
 ORDER BY Total_Claims DESC;
 
 -- 4C. By HCPCS family (first two characters)
+-- Cast: DuckDB may infer numeric HCPCS codes as BIGINT from CSV.
 SELECT
-    SUBSTR(HCPCS_Code, 1, 2) AS Code_Family,
+    SUBSTR(CAST(HCPCS_Code AS VARCHAR), 1, 2) AS Code_Family,
     Denial_Code,
     COUNT(*) AS Total_Claims,
     ROUND(SUM(Submitted_Charge), 2) AS Total_Submitted
