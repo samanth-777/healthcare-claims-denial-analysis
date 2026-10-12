@@ -1,204 +1,171 @@
-# Riverside Health System — Claims Denial Root Cause Analysis
+# Healthcare Revenue Cycle Management (RCM) & Claims Denial Analytics
 
-**Business Analyst portfolio project** · Simulated healthcare revenue-cycle engagement  
-**Tools:** SQL · Python · Excel · Power BI · workflow diagramming  
-**Timeline:** August–September 2025 (5-week simulation)
+**Enterprise portfolio project** · Synthetic hospital claims · Predictive appeal prioritization  
+**Primary run path:** `python run_pipeline.py`  
+**Stack:** Python · pandas · scikit-learn · matplotlib · Excel / openpyxl · Jupyter
 
-> **Data disclaimer (read first):** Claim-level data in this repository is **synthetic**. Denial outcomes, clinics, payers, and claim IDs were generated for portfolio demonstration and **calibrated to CMS** Medicare Physician & Other Practitioners PUF 2024 (Wisconsin) allowed-amount benchmarks. Stakeholders and organizational details are fictional. No PHI is included. See [Data sources](#8-data-sources--dictionary) and `data/data_dictionary.md`.
+> **Data disclaimer:** Claim-level data in this repository is **synthetic**. Patient identifiers are hashed (`HPT-*`). No PHI is included. Denial patterns are calibrated to industry benchmarks (Medicare FFS denial-rate reference **10.8%**). Stakeholders and organizational framing are fictional portfolio constructs.
 
----
-
-## 1. At a glance
-
-| Metric | Value | Source |
-|---|---|---|
-| Denial rate trend | **8.2% → 9.6% → 11.7%** (Q3 2024–Q1 2025) | `02_denial_analysis/sql/01_denial_rate_by_quarter.sql` · notebook `02_denial_eda` |
-| Avg allowed amount | **$79.73** | `data/processed/analysis_constants.csv` |
-| Incremental annual revenue exposure | **$1,897,574.00** | `05_revenue_at_risk.sql` 5B → `RECONCILED` |
-| Top-3 denial share (sample) | **71.0%** (CO-4 28.0% · CO-16 24.0% · PR-96 19.0%) | `02_top_reason_codes.sql` |
-
-**Headline formula:**  
-`680,000 × (0.117 − 0.082) × $79.73 = $1,897,574.00`
-
-![Quarterly denial rates](docs/images/quarterly_denial_rates.png)
+![Payer denial rates vs benchmark](reports/figures/payer_denial_rates_vs_benchmark.png)
 
 ---
 
-## 2. Business problem
+## 1. Business problem
 
-Riverside Health System (simulated regional nonprofit, Milwaukee, WI) submits **680,000** claims annually. Denial rate rose across three quarters; the CFO declined additional billing FTEs until root causes and a remediation plan were documented.
+Hospital revenue cycle teams lose cash when denials rise above industry benchmarks and when appeal queues are worked FIFO instead of by expected recovery. This project builds an end-to-end RCM analytics system that:
 
-| Quarter | Denial Rate | Claims Submitted | Claims Denied | Revenue at Risk |
-|---|---|---|---|---|
-| Q3 2024 | 8.2% | 168,000 | 13,776 | $1,098,360.48 |
-| Q4 2024 | 9.6% | 172,000 | 16,512 | $1,316,501.76 |
-| Q1 2025 | 11.7% | 171,000 | 20,007 | $1,595,158.11 |
+1. Ingests / simulates an enterprise claims extract (~12,500 claims)
+2. Validates schema and applies HIPAA-oriented sanitization
+3. Computes Gross Denial Rate, Initial Clean Claim Rate, payer variance vs Medicare FFS, and recoverable revenue by root cause
+4. Trains a Gradient Boosting model to predict appeal **Overturned/Recovered** outcomes and ranks a prioritized worklist
+5. Publishes executive Excel / CSV outputs and visual analytics
 
-**Source:** `01_denial_rate_by_quarter.sql` and `05_revenue_at_risk.sql` (5A).  
-**Formula:** `Revenue_at_Risk = Claims_Denied × $79.73`.
-
-![Revenue at risk by quarter](docs/images/revenue_at_risk.png)
+Legacy BA engagement artifacts (charter, SQL profiling, BRD, UAT, Power BI stubs) remain under `01_`–`08_` for portfolio storytelling; **`run_pipeline.py` + `src/` is the primary runnable path**.
 
 ---
 
-## 3. Engagement deliverables (maps to repo folders)
-
-| Phase | Folder | Deliverable |
-|---|---|---|
-| 1. Charter | `01_project_charter/` | Project charter + client brief |
-| 2. Denial analysis | `02_denial_analysis/` | Synthetic data generator, SQL profiling, notebooks |
-| 3. Root cause | `03_root_cause_analysis/` | 5-Why RCA per top denial code |
-| 4. Requirements | `04_brd/` | BRD with IDs and acceptance criteria |
-| 5. Workflows | `05_workflow_diagrams/` | Current- and future-state claims submission |
-| 6. UAT | `06_uat_plan/` | Test plan workbook + BRD↔UAT traceability matrix |
-| 7. Dashboard | `07_power_bi_dashboard/` | DAX measures, screenshots, `.pbix` package |
-| 8. Executive close | `08_executive_summary/` | CFO-ready one-pager |
-
-Supporting assets: `data/` (raw CMS sample + processed outputs), `docs/images/` (README figures), MIT `LICENSE`, `requirements.txt`.
-
----
-
-## 4. Repository layout
+## 2. Architecture & methodology
 
 ```
-healthcare-claims-denial-analysis/
-├── README.md
-├── LICENSE
-├── requirements.txt
-├── .gitignore
-├── data/
-│   ├── raw/                      # CMS PUF filtered sample or download link
-│   ├── processed/riverside_denial_log.csv
-│   └── data_dictionary.md
-├── 01_project_charter/
-│   ├── project_charter_v1.1.md
-│   └── client_brief_v1.1.md
-├── 02_denial_analysis/
-│   ├── sql/
-│   │   ├── 01_denial_rate_by_quarter.sql
-│   │   ├── 02_top_reason_codes.sql
-│   │   ├── 03_payer_breakdown.sql
-│   │   ├── 04_clinic_service_line.sql
-│   │   └── 05_revenue_at_risk.sql
-│   ├── notebooks/
-│   │   ├── 01_synthetic_data_generation.ipynb
-│   │   └── 02_denial_eda.ipynb
-│   └── src/generate_synthetic_data.py
-├── 03_root_cause_analysis/
-│   └── rca_document.md
-├── 04_brd/
-│   └── brd.md
-├── 05_workflow_diagrams/
-│   ├── current_state_claims_submission.png
-│   └── future_state_claims_submission.png
-├── 06_uat_plan/
-│   ├── uat_test_plan.xlsx
-│   └── requirements_traceability_matrix.md
-├── 07_power_bi_dashboard/
-│   ├── denial_dashboard.pbix
-│   ├── dax_measures.md
-│   └── screenshots/
-├── 08_executive_summary/
-│   └── executive_summary.md
-└── docs/images/
+python run_pipeline.py
+        │
+        ├─ src/etl_pipeline.py      → data/raw_claims.csv (~12,500 synthetic claims)
+        ├─ src/schema.py            → canonical column contract
+        ├─ src/data_validator.py    → validation + patient_id hashing
+        ├─ src/carc_taxonomy.py     → CARC/RARC definitions, severity, recoverability
+        ├─ src/payer_variance.py    → denial rates vs 10.8% Medicare FFS benchmark
+        ├─ src/rcm_analytics.py     → KPIs + multi-tab Excel
+        ├─ src/appeal_prediction.py → GradientBoosting overturn model + worklist
+        ├─ src/model_evaluation.py  → ROC-AUC, Precision, Recall, feature importance
+        └─ src/visualize_rcm.py     → reports/figures/*.png
 ```
 
-`data/processed/` also includes `quarterly_claims_summary.csv` and `analysis_constants.csv` (used by rate/RAR SQL). Helper scripts: `src/run_sql.py`, `src/verify_outputs.py`.
-
----
-
-## 5. Findings and recommendations
-
-Documented in `03_root_cause_analysis/rca_document.md` and summarized in `08_executive_summary/executive_summary.md`.
-
-| Code | Root cause (summary) | Primary owner |
+| Layer | Module | Output |
 |---|---|---|
-| **CO-4** | CMS modifier policy change (Jan 2025) not operationalized into Epic templates or pre-submission validation | Marcus Webb |
-| **CO-16** | Dual track: Epic–Waystar NPI mapping failure on Medicare Advantage after Nov 2024 upgrade; West Allis registration/eligibility gap | James Tirado / Patricia Nguyen |
-| **PR-96** | Three MA payer ID updates not confirmed in Waystar before Q1 2025 billing cycle | Sandra Kim / James Tirado |
+| Data | `etl_pipeline` / `schema` / `data_validator` | `data/raw_claims.csv`, `data/processed_claims_sanitized.csv` |
+| Analytics | `rcm_analytics` / `payer_variance` / `carc_taxonomy` | `output/claims_denial_kpi_summary.csv`, `output/rcm_executive_metrics.xlsx` |
+| ML | `appeal_prediction` / `model_evaluation` | `output/appeal_worklist_prioritized.csv`, model metric CSVs |
+| Visuals | `visualize_rcm` | `reports/figures/` |
+| Exploration | `notebooks/denial_root_cause_deepdive.ipynb` | Interactive deep dive |
 
-**Planning target (not a measured output):** projected denial rate ~8.3% if remediation lands before Q4 2025 (CFO target ≤ 8.5%).
-
-![Current-state workflow](docs/images/current_state_claims_submission.png)
-
-![Future-state workflow](docs/images/future_state_claims_submission.png)
-
-Requirements: `04_brd/brd.md` (BR-01–BR-06). UAT + traceability: `06_uat_plan/`.
+**Claim columns:** `claim_id`, `patient_id`, `service_date`, `claim_amount`, `payer_name` (Medicare FFS, Medicaid, BCBS, UnitedHealthcare, Aetna), `carc_code` (CO-16, CO-18, CO-27, CO-50, CO-97, PR-1), `rarc_code`, `denial_category` (Prior Authorization, Medical Necessity, Eligibility/Coverage, Timely Filing, Coding & Billing), `claim_status` (Paid / Denied), `documentation_completeness_score` (0–1), `appeal_status` (Overturned/Recovered, Upheld, Not Appealed).
 
 ---
 
-## 6. Top denial drivers
+## 3. Key financial findings *(pipeline outputs only)*
 
-| Code | Description | Share of Denials | Est. Impact |
-|---|---|---|---|
-| CO-4 | Inconsistent modifier / procedure code | 28.0% | $446,644.27 |
-| CO-16 | Missing or incomplete claim information | 24.0% | $382,837.95 |
-| PR-96 | Non-covered charge / payer ID mismatch | 19.0% | $303,080.04 |
+Figures below are produced by a fresh `python run_pipeline.py` run and sourced from `output/claims_denial_kpi_summary.csv` / `output/rcm_executive_metrics.xlsx`. Re-run the pipeline before citing.
 
-**Source:** `05_revenue_at_risk.sql` (5C).  
-**Formula:** `Est_Impact = denial-log share × Q1 2025 Revenue_at_Risk ($1,595,158.11)`.
+| KPI | Value | Source |
+|---|---|---|
+| Total claims | **12,500** | ETL |
+| Gross Denial Rate | **12.51%** | `claims_denial_kpi_summary.csv` |
+| Initial Clean Claim Rate | **87.49%** | same |
+| Total billed | **$16,353,385.49** | same |
+| Denied revenue | **$2,094,501.77** | same |
+| Estimated recoverable revenue (taxonomy-weighted) | **$924,794.71** | same |
+| Actual recovered via overturned appeals | **$428,027.63** | same |
+| Medicare FFS observed denial rate | **10.01%** (−0.79 pp vs 10.8% benchmark) | `Payer_Variance` sheet |
+| Highest payer variance | **UnitedHealthcare 15.33%** (+4.53 pp vs benchmark) | same |
+| Appeal overturn rate (among appealed) | **50.16%** (306 / 610) | KPI summary |
 
-![Top denial codes](docs/images/top_denial_codes.png)
+![CARC/RARC Pareto](reports/figures/carc_rarc_root_cause_pareto.png)
 
 ---
 
-## 7. Reproduce the numbers
+## 4. Model evaluation & appeal strategy
+
+**Model:** `GradientBoostingClassifier` trained on appealed denials; scored across all denied claims.
+
+| Metric | Hold-out value | Source |
+|---|---|---|
+| ROC-AUC | **0.7179** | `output/appeal_model_metrics.csv` |
+| Precision | **0.6517** | same |
+| Recall | **0.7532** | same |
+| Accuracy | **0.6732** | same |
+| Train / test sizes | 457 / 153 | `pipeline_run_summary.json` |
+
+**Top features** (`output/appeal_feature_importance.csv`): documentation completeness score, log claim amount, CARC severity, payer weight.
+
+**Operating strategy:** Work the ranked file `output/appeal_worklist_prioritized.csv` by `priority_score` / `expected_recovery`. The cumulative recovery curve contrasts model order vs random FIFO:
+
+![Cumulative recovery curve](reports/figures/cumulative_revenue_recovery_curve.png)
+
+---
+
+## 5. Reproduce
 
 ```bash
 python -m pip install -r requirements.txt
-python 02_denial_analysis/src/generate_synthetic_data.py
-python 02_denial_analysis/src/verify_outputs.py
-python 02_denial_analysis/src/run_sql.py 02_denial_analysis/sql/01_denial_rate_by_quarter.sql
-python 02_denial_analysis/src/run_sql.py 02_denial_analysis/sql/05_revenue_at_risk.sql
+python run_pipeline.py
 ```
 
-Notebooks:
+On systems where only `python3` is available, use `python3 run_pipeline.py`.
 
-1. `02_denial_analysis/notebooks/01_synthetic_data_generation.ipynb` — regenerate synthetic datasets  
-2. `02_denial_analysis/notebooks/02_denial_eda.ipynb` — reproduce **8.2% / 9.6% / 11.7%** and RAR maths  
+Optional exploration:
 
-### Dollar / rate → query map
+```bash
+jupyter notebook notebooks/denial_root_cause_deepdive.ipynb
+```
 
-| Figure | Value | Query / artifact |
-|---|---|---|
-| Denial rates | 8.2% / 9.6% / 11.7% | `01_denial_rate_by_quarter.sql` |
-| Avg allowed amount | $79.73 | `analysis_constants.csv` |
-| Q3 / Q4 / Q1 revenue at risk | $1,098,360.48 / $1,316,501.76 / $1,595,158.11 | `05_revenue_at_risk.sql` 5A |
-| Incremental annual exposure | $1,897,574.00 | `05_revenue_at_risk.sql` 5B |
-| CO-4 / CO-16 / PR-96 est. impact | $446,644.27 / $382,837.95 / $303,080.04 | `05_revenue_at_risk.sql` 5C |
-
-CI runs `verify_outputs.py` via `.github/workflows/verify.yml`.
+**BA portfolio path (preserved):** `python 02_denial_analysis/src/verify_outputs.py` regenerates the Riverside 500-row denial sample and asserts legacy headline figures.
 
 ---
 
-## 8. Data sources & dictionary
+## 6. Repository layout
 
-| Source | How it was used |
+```
+healthcare-claims-denial-analysis/
+├── run_pipeline.py                 ← primary entrypoint
+├── requirements.txt
+├── src/                            ← enterprise RCM package
+│   ├── etl_pipeline.py
+│   ├── schema.py
+│   ├── data_validator.py
+│   ├── carc_taxonomy.py
+│   ├── payer_variance.py
+│   ├── rcm_analytics.py
+│   ├── appeal_prediction.py
+│   ├── model_evaluation.py
+│   └── visualize_rcm.py
+├── data/
+│   ├── raw_claims.csv              ← generated by pipeline
+│   ├── processed_claims_sanitized.csv
+│   ├── raw/ · processed/           ← BA portfolio CMS-calibrated assets
+│   └── data_dictionary.md
+├── output/                         ← KPIs, Excel, appeal worklist
+├── reports/figures/                ← RCM charts
+├── notebooks/denial_root_cause_deepdive.ipynb
+├── 01_project_charter/ … 08_executive_summary/   ← BA engagement deliverables
+└── docs/images/                    ← BA README screenshots
+```
+
+---
+
+## 7. Resume bullets (Data Analyst / Healthcare Analyst)
+
+- Built an end-to-end **Healthcare RCM analytics pipeline** simulating **12,500** hospital claims with CARC/RARC taxonomy, HIPAA-oriented ID hashing, and executive Excel exports.
+- Quantified **Gross Denial Rate (12.51%)** and **Initial Clean Claim Rate (87.49%)**, with payer denial variances vs a **10.8% Medicare FFS** benchmark (UnitedHealthcare **+4.53 pp**).
+- Estimated **$924.8K** recoverable denied revenue by root cause and tracked **$428.0K** actual overturn recoveries in the synthetic appeal cohort.
+- Trained a **Gradient Boosting** appeal-overturn model (**ROC-AUC 0.72**, Precision **0.65**, Recall **0.75**) and shipped a ranked appeal worklist with cumulative recovery ROI visuals.
+- Preserved a full BA engagement packet (SQL profiling, BRD, UAT, Power BI measures) alongside the production-style `src/` architecture for dual-track portfolio storytelling.
+
+---
+
+## 8. Legacy BA portfolio (Riverside engagement)
+
+The numbered folders `01_`–`08_` document a simulated Riverside Health System denial spike analysis (8.2% → 11.7%). Headline BA figures remain reproducible via `02_denial_analysis/src/verify_outputs.py` and are independent of the enterprise RCM pipeline above.
+
+| BA metric | Value |
 |---|---|
-| CMS Medicare Physician & Other Practitioners PUF 2024 | WI HCPCS charge/allowed anchors in `data/raw/cms_puf_wi_hcpcs_sample.csv`; avg allowed **$79.73** |
-| Experian Health 2025 State of Claims Report | Qualitative industry context only — **not** used for dollar maths |
-| Synthetic denial log | `data/processed/riverside_denial_log.csv` (500 rows) from `generate_synthetic_data.py` |
-| CMS ANSI CARC | Official definitions for CO-4, CO-16, PR-96 and other codes |
+| Denial rate trend | 8.2% → 9.6% → 11.7% |
+| Incremental annual revenue exposure | $1,897,574.00 |
+| Top-3 denial share (sample) | 71.0% (CO-4 / CO-16 / PR-96) |
 
-Full column definitions: `data/data_dictionary.md`.
-
-**Power BI note:** `07_power_bi_dashboard/denial_dashboard.pbix` is a portable package with rebuild instructions. Measures and verified values live in `dax_measures.md`; chart screenshots in `screenshots/` are generated from the same processed CSVs.
+See `data/data_dictionary.md` and `08_executive_summary/executive_summary.md` for that engagement track.
 
 ---
 
-## 9. Skills demonstrated
-
-- Python synthetic data generation calibrated to CMS PUF anchors  
-- SQL denial profiling (reason code, payer, clinic, service line) with RAR reconciliation  
-- Root cause analysis (5-Why)  
-- BRD authoring with acceptance criteria  
-- UAT design + requirements traceability matrix (BRD ↔ UAT)  
-- Current/future-state workflow diagramming  
-- Power BI measure design for revenue-cycle KPIs  
-- CFO-ready executive communication  
-
----
-
-## 10. License
+## License
 
 MIT — see `LICENSE`.

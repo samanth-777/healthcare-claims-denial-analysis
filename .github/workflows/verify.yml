@@ -15,7 +15,9 @@ jobs:
           python-version: "3.12"
       - name: Install dependencies
         run: python -m pip install -r requirements.txt
-      - name: Regenerate data and assert headline figures
+      - name: Run enterprise RCM pipeline
+        run: python run_pipeline.py
+      - name: Regenerate BA portfolio data and assert headline figures
         run: python 02_denial_analysis/src/verify_outputs.py
       - name: Execute denial EDA notebook
         run: |

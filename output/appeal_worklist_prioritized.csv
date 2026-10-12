@@ -1,0 +1,1565 @@
+worklist_rank,claim_id,payer_name,carc_code,rarc_code,denial_category,claim_amount,documentation_completeness_score,appeal_status,overturn_probability,expected_recovery,priority_score,carc_severity,recoverability_weight
+1,CLM-0042-009635,BCBS,CO-16,N29,Timely Filing,4652.52,0.945,Overturned/Recovered,0.9486,3177.77,0.9608,2,0.72
+2,CLM-0042-002983,Medicare FFS,CO-16,N29,Coding & Billing,4103.69,0.925,Overturned/Recovered,0.9506,2808.74,0.9578,2,0.72
+3,CLM-0042-001577,UnitedHealthcare,CO-16,N29,Coding & Billing,4425.35,0.899,Overturned/Recovered,0.8984,2862.66,0.9239,2,0.72
+4,CLM-0042-001466,BCBS,CO-50,N115,Medical Necessity,6972.77,0.965,Overturned/Recovered,0.8654,3319.01,0.919,3,0.55
+5,CLM-0042-007571,BCBS,CO-50,N115,Medical Necessity,4161.92,0.843,Overturned/Recovered,0.8944,2047.32,0.9105,3,0.55
+6,CLM-0042-006404,BCBS,CO-50,N115,Prior Authorization,4158.19,0.92,Overturned/Recovered,0.8308,1899.99,0.8909,3,0.55
+7,CLM-0042-012397,Medicare FFS,CO-50,N115,Medical Necessity,3724.41,0.817,Overturned/Recovered,0.8593,1760.18,0.8819,3,0.55
+8,CLM-0042-005855,Medicare FFS,CO-97,N19,Prior Authorization,2850.97,0.9,Overturned/Recovered,0.9262,1267.52,0.8776,3,0.48
+9,CLM-0042-007147,Medicaid,CO-16,N29,Timely Filing,5672.54,0.796,Not Appealed,0.8455,3453.16,0.8742,2,0.72
+10,CLM-0042-002500,BCBS,CO-16,N29,Coding & Billing,2850.63,0.892,Overturned/Recovered,0.8855,1817.52,0.8536,2,0.72
+11,CLM-0042-001826,Medicare FFS,CO-16,N29,Prior Authorization,2263.76,0.833,Not Appealed,0.9748,1588.87,0.8522,2,0.72
+12,CLM-0042-002090,BCBS,CO-50,N115,Medical Necessity,2865.85,0.833,Not Appealed,0.89,1402.91,0.8453,3,0.55
+13,CLM-0042-007868,Medicare FFS,CO-16,N29,Prior Authorization,3001.41,0.803,Overturned/Recovered,0.8845,1911.36,0.8452,2,0.72
+14,CLM-0042-011364,Medicaid,CO-16,N29,Coding & Billing,7623.58,0.865,Not Appealed,0.7663,4205.97,0.8444,2,0.72
+15,CLM-0042-010808,Medicaid,CO-27,N30,Eligibility/Coverage,7665.19,0.739,Not Appealed,0.8113,1119.35,0.844,4,0.18
+16,CLM-0042-009937,Medicaid,CO-27,N30,Eligibility/Coverage,7632.37,0.67,Overturned/Recovered,0.8331,1144.59,0.8422,4,0.18
+17,CLM-0042-011975,Medicare FFS,CO-50,N115,Prior Authorization,2488.66,0.816,Overturned/Recovered,0.9321,1275.83,0.8401,3,0.55
+18,CLM-0042-001081,Medicare FFS,CO-50,N115,Medical Necessity,2385.12,0.844,Overturned/Recovered,0.9328,1223.6,0.8393,3,0.55
+19,CLM-0042-000768,Medicare FFS,CO-16,N29,Coding & Billing,3026.36,0.791,Overturned/Recovered,0.8707,1897.14,0.8368,2,0.72
+20,CLM-0042-005874,Medicare FFS,CO-16,N29,Coding & Billing,2605.6,0.861,Overturned/Recovered,0.8943,1677.75,0.8361,2,0.72
+21,CLM-0042-011349,Medicaid,CO-16,N29,Coding & Billing,4525.07,0.719,Overturned/Recovered,0.802,2613.09,0.8349,2,0.72
+22,CLM-0042-002460,BCBS,CO-50,N115,Medical Necessity,4361.34,0.506,Upheld,0.8768,2103.25,0.8334,3,0.55
+23,CLM-0042-006245,Medicare FFS,CO-16,N29,Prior Authorization,1762.03,0.895,Overturned/Recovered,0.9777,1240.33,0.833,2,0.72
+24,CLM-0042-005876,BCBS,CO-16,N29,Prior Authorization,3324.84,0.849,Not Appealed,0.8031,1922.42,0.831,2,0.72
+25,CLM-0042-006116,UnitedHealthcare,CO-50,N115,Medical Necessity,3375.5,0.838,Upheld,0.7973,1480.16,0.8289,3,0.55
+26,CLM-0042-008141,Medicaid,CO-16,N29,Coding & Billing,5737.42,0.74,Not Appealed,0.783,3234.44,0.8286,2,0.72
+27,CLM-0042-009215,Medicare FFS,CO-16,N29,Coding & Billing,3610.96,0.773,Upheld,0.791,2056.51,0.828,2,0.72
+28,CLM-0042-006506,Medicare FFS,CO-16,N29,Timely Filing,2805.05,0.773,Overturned/Recovered,0.8855,1788.45,0.8268,2,0.72
+29,CLM-0042-002095,Aetna,CO-16,N29,Coding & Billing,4224.03,0.803,Overturned/Recovered,0.7549,2295.78,0.8258,2,0.72
+30,CLM-0042-004796,Medicare FFS,CO-16,N29,Coding & Billing,2585.96,0.773,Overturned/Recovered,0.8976,1671.32,0.819,2,0.72
+31,CLM-0042-002595,Medicaid,CO-16,N29,Prior Authorization,1830.57,0.894,Overturned/Recovered,0.9425,1242.24,0.818,2,0.72
+32,CLM-0042-004707,Medicare FFS,CO-97,N19,Coding & Billing,2373.41,0.87,Overturned/Recovered,0.885,1008.23,0.8174,3,0.48
+33,CLM-0042-005783,BCBS,CO-50,N115,Medical Necessity,4439.85,0.603,Overturned/Recovered,0.8101,1978.16,0.8161,3,0.55
+34,CLM-0042-010987,Medicare FFS,CO-50,N115,Medical Necessity,1729.73,0.84,Upheld,0.9701,922.91,0.8157,3,0.55
+35,CLM-0042-008584,Medicare FFS,CO-97,N19,Coding & Billing,4296.63,0.889,Not Appealed,0.7031,1450.08,0.8145,3,0.48
+36,CLM-0042-009223,Medicaid,CO-16,N29,Coding & Billing,1899.78,0.948,Not Appealed,0.9068,1240.32,0.8137,2,0.72
+37,CLM-0042-005539,Medicaid,CO-50,N115,Medical Necessity,2683.94,0.841,Not Appealed,0.8484,1252.44,0.812,3,0.55
+38,CLM-0042-008989,Medicare FFS,CO-16,N29,Coding & Billing,1541.2,0.89,Overturned/Recovered,0.9618,1067.26,0.8087,2,0.72
+39,CLM-0042-006465,BCBS,CO-16,N29,Coding & Billing,6906.98,0.64,Not Appealed,0.7824,3890.81,0.8083,2,0.72
+40,CLM-0042-009036,Medicaid,CO-50,N115,Medical Necessity,5387.37,0.764,Overturned/Recovered,0.7363,2181.76,0.8078,3,0.55
+41,CLM-0042-002002,Medicaid,CO-50,N115,Medical Necessity,4027.4,0.799,Not Appealed,0.7216,1598.33,0.8067,3,0.55
+42,CLM-0042-005164,Medicaid,CO-16,N29,Timely Filing,5709.49,0.519,Not Appealed,0.8223,3380.28,0.8061,2,0.72
+43,CLM-0042-012442,BCBS,CO-16,N29,Coding & Billing,1784.49,0.829,Not Appealed,0.9484,1218.54,0.8052,2,0.72
+44,CLM-0042-000115,Medicare FFS,CO-16,N29,Coding & Billing,4131.05,0.624,Not Appealed,0.7817,2325.2,0.8048,2,0.72
+45,CLM-0042-007018,Medicare FFS,CO-97,N19,Coding & Billing,1879.02,0.85,Overturned/Recovered,0.9286,837.52,0.8048,3,0.48
+46,CLM-0042-011262,Aetna,CO-16,N29,Timely Filing,4067.33,0.568,Overturned/Recovered,0.8002,2343.4,0.8037,2,0.72
+47,CLM-0042-000334,Aetna,CO-16,N29,Coding & Billing,4786.24,0.567,Overturned/Recovered,0.8002,2757.6,0.8035,2,0.72
+48,CLM-0042-002515,Medicare FFS,CO-16,N29,Timely Filing,2089.78,0.911,Not Appealed,0.8746,1315.94,0.8012,2,0.72
+49,CLM-0042-000035,BCBS,CO-50,N115,Medical Necessity,5387.55,0.577,Not Appealed,0.7922,2347.28,0.8011,3,0.55
+50,CLM-0042-004137,BCBS,CO-16,N29,Coding & Billing,2257.79,0.873,Upheld,0.8673,1409.94,0.8007,2,0.72
+51,CLM-0042-012119,Medicare FFS,CO-97,N19,Coding & Billing,2726.56,0.767,Overturned/Recovered,0.8464,1107.69,0.7989,3,0.48
+52,CLM-0042-002838,Medicare FFS,CO-97,N19,Coding & Billing,2708.14,0.977,Not Appealed,0.7697,1000.55,0.7975,3,0.48
+53,CLM-0042-003625,BCBS,PR-1,N130,Eligibility/Coverage,8206.96,0.85,Not Appealed,0.6847,280.98,0.7966,5,0.05
+54,CLM-0042-001961,BCBS,CO-16,N29,Coding & Billing,2278.83,0.849,Overturned/Recovered,0.866,1420.84,0.7965,2,0.72
+55,CLM-0042-004871,Medicaid,CO-50,N115,Medical Necessity,1723.16,0.934,Not Appealed,0.8998,852.79,0.7954,3,0.55
+56,CLM-0042-000953,Medicare FFS,CO-16,N29,Coding & Billing,2848.17,0.748,Not Appealed,0.8317,1705.51,0.795,2,0.72
+57,CLM-0042-009957,UnitedHealthcare,CO-50,N115,Medical Necessity,2803.5,0.844,Overturned/Recovered,0.7973,1229.34,0.7924,3,0.55
+58,CLM-0042-001834,Medicare FFS,CO-50,N115,Prior Authorization,1713.9,0.917,Overturned/Recovered,0.9012,849.56,0.7922,3,0.55
+59,CLM-0042-006458,UnitedHealthcare,CO-16,N29,Coding & Billing,2243.16,0.891,Not Appealed,0.8452,1365.02,0.7911,2,0.72
+60,CLM-0042-005105,UnitedHealthcare,CO-16,N29,Timely Filing,6790.5,0.627,Overturned/Recovered,0.7556,3694.03,0.791,2,0.72
+61,CLM-0042-007055,Medicare FFS,CO-16,N29,Timely Filing,1732.68,0.777,Not Appealed,0.9448,1178.67,0.7894,2,0.72
+62,CLM-0042-000583,Medicare FFS,CO-16,N29,Coding & Billing,1241.18,0.899,Overturned/Recovered,0.9594,857.4,0.7894,2,0.72
+63,CLM-0042-002222,Medicaid,CO-16,N29,Timely Filing,2429.82,0.857,Overturned/Recovered,0.8309,1453.68,0.7888,2,0.72
+64,CLM-0042-006411,Medicare FFS,CO-16,N29,Coding & Billing,1274.27,0.943,Overturned/Recovered,0.9376,860.27,0.7884,2,0.72
+65,CLM-0042-007473,Medicaid,CO-50,N115,Prior Authorization,4317.49,0.898,Not Appealed,0.6497,1542.86,0.787,3,0.55
+66,CLM-0042-008479,Medicaid,CO-50,N115,Medical Necessity,1885.27,0.846,Not Appealed,0.8956,928.68,0.7862,3,0.55
+67,CLM-0042-008428,Medicare FFS,CO-16,N29,Coding & Billing,1326.52,0.823,Overturned/Recovered,0.9704,926.81,0.7859,2,0.72
+68,CLM-0042-000022,Medicaid,CO-97,N19,Coding & Billing,2608.08,0.869,Not Appealed,0.7976,998.46,0.7846,3,0.48
+69,CLM-0042-009496,Medicare FFS,CO-97,N19,Prior Authorization,1590.04,0.949,Not Appealed,0.8895,678.88,0.784,3,0.48
+70,CLM-0042-008335,Medicare FFS,CO-16,N29,Coding & Billing,3630.24,0.488,Not Appealed,0.8076,2110.91,0.7814,2,0.72
+71,CLM-0042-007239,BCBS,CO-16,N29,Prior Authorization,2068.96,0.932,Not Appealed,0.832,1239.34,0.7806,2,0.72
+72,CLM-0042-008006,UnitedHealthcare,CO-97,N19,Coding & Billing,2339.84,0.816,Not Appealed,0.8373,940.38,0.7782,3,0.48
+73,CLM-0042-007833,Medicare FFS,CO-16,N29,Coding & Billing,1350.89,0.869,Overturned/Recovered,0.9333,907.79,0.7763,2,0.72
+74,CLM-0042-011399,Medicare FFS,CO-16,N29,Timely Filing,1729.58,0.809,Not Appealed,0.9095,1132.63,0.7762,2,0.72
+75,CLM-0042-011240,Medicare FFS,CO-16,N29,Timely Filing,1802.28,0.751,Overturned/Recovered,0.9217,1196.07,0.7761,2,0.72
+76,CLM-0042-010637,Aetna,CO-97,N19,Coding & Billing,3215.01,0.868,Overturned/Recovered,0.7083,1092.99,0.7754,3,0.48
+77,CLM-0042-002375,Medicaid,CO-97,N19,Coding & Billing,1913.49,0.986,Overturned/Recovered,0.818,751.3,0.7734,3,0.48
+78,CLM-0042-004799,UnitedHealthcare,CO-97,N19,Coding & Billing,3693.65,0.916,Overturned/Recovered,0.6287,1114.58,0.7728,3,0.48
+79,CLM-0042-010370,Aetna,CO-97,N19,Coding & Billing,1680.66,0.842,Not Appealed,0.8948,721.88,0.7715,3,0.48
+80,CLM-0042-011497,Medicare FFS,CO-50,N115,Medical Necessity,2366.52,0.779,Not Appealed,0.8343,1085.98,0.7709,3,0.55
+81,CLM-0042-004239,BCBS,CO-16,N29,Timely Filing,1402.83,0.895,Overturned/Recovered,0.9077,916.77,0.7708,2,0.72
+82,CLM-0042-007849,Medicare FFS,CO-50,N115,Medical Necessity,3851.63,0.607,Overturned/Recovered,0.7231,1531.84,0.7691,3,0.55
+83,CLM-0042-009705,Medicaid,CO-16,N29,Coding & Billing,1475.87,0.817,Not Appealed,0.9208,978.5,0.7673,2,0.72
+84,CLM-0042-007529,Medicaid,CO-97,N19,Coding & Billing,2140.71,0.942,Not Appealed,0.7886,810.31,0.7634,3,0.48
+85,CLM-0042-007954,Medicare FFS,CO-50,N115,Medical Necessity,3788.48,0.781,Not Appealed,0.6483,1350.86,0.7628,3,0.55
+86,CLM-0042-007576,Aetna,CO-16,N29,Coding & Billing,6104.59,0.647,Not Appealed,0.6945,3052.41,0.7614,2,0.72
+87,CLM-0042-007804,BCBS,CO-50,N115,Prior Authorization,3117.54,0.79,Overturned/Recovered,0.7224,1238.61,0.7611,3,0.55
+88,CLM-0042-009729,BCBS,CO-97,N19,Coding & Billing,1828.39,0.866,Overturned/Recovered,0.8421,739.01,0.757,3,0.48
+89,CLM-0042-008191,BCBS,CO-50,N115,Medical Necessity,4272.42,0.716,Overturned/Recovered,0.6574,1544.77,0.7548,3,0.55
+90,CLM-0042-005552,Medicare FFS,CO-97,N19,Coding & Billing,1602.95,0.907,Not Appealed,0.8502,654.13,0.7548,3,0.48
+91,CLM-0042-003283,Medicare FFS,CO-97,N19,Coding & Billing,1578.96,0.913,Not Appealed,0.8502,644.34,0.7544,3,0.48
+92,CLM-0042-010616,Medicaid,CO-97,N19,Coding & Billing,1585.28,0.873,Overturned/Recovered,0.8636,657.12,0.7542,3,0.48
+93,CLM-0042-012324,Medicaid,CO-50,N115,Medical Necessity,4544.49,0.712,Not Appealed,0.6574,1643.15,0.754,3,0.55
+94,CLM-0042-008809,Aetna,CO-50,N115,Medical Necessity,1848.09,0.962,Overturned/Recovered,0.7964,809.55,0.7524,3,0.55
+95,CLM-0042-005674,BCBS,CO-16,N29,Coding & Billing,1264.11,0.833,Overturned/Recovered,0.9129,830.89,0.7521,2,0.72
+96,CLM-0042-011293,Medicare FFS,CO-16,N29,Coding & Billing,2112.02,0.736,Overturned/Recovered,0.8436,1282.79,0.7506,2,0.72
+97,CLM-0042-003862,Medicare FFS,CO-97,N19,Prior Authorization,2150.14,0.779,Not Appealed,0.8235,849.86,0.7506,3,0.48
+98,CLM-0042-006983,Medicare FFS,CO-16,N29,Timely Filing,1376.92,0.78,Not Appealed,0.9155,907.58,0.7504,2,0.72
+99,CLM-0042-001587,Medicaid,CO-50,N115,Medical Necessity,1684.53,0.777,Overturned/Recovered,0.8755,811.17,0.7481,3,0.55
+100,CLM-0042-001347,Medicaid,CO-50,N115,Medical Necessity,1753.95,0.791,Overturned/Recovered,0.8596,829.2,0.7467,3,0.55
+101,CLM-0042-001234,BCBS,CO-16,N29,Timely Filing,3239.51,0.972,Overturned/Recovered,0.6141,1432.36,0.746,2,0.72
+102,CLM-0042-012069,Medicare FFS,CO-16,N29,Timely Filing,4123.21,0.525,Not Appealed,0.7099,2107.36,0.7454,2,0.72
+103,CLM-0042-011793,BCBS,CO-97,N19,Coding & Billing,3158.78,0.509,Not Appealed,0.7905,1198.51,0.7451,3,0.48
+104,CLM-0042-005532,UnitedHealthcare,CO-97,N19,Coding & Billing,5126.57,0.604,Overturned/Recovered,0.68,1673.41,0.7448,3,0.48
+105,CLM-0042-001918,UnitedHealthcare,CO-16,N29,Coding & Billing,2960.88,0.875,Upheld,0.6757,1440.39,0.7421,2,0.72
+106,CLM-0042-004718,BCBS,CO-50,N115,Medical Necessity,1651.42,0.861,Not Appealed,0.8365,759.8,0.7413,3,0.55
+107,CLM-0042-009852,UnitedHealthcare,CO-50,N115,Medical Necessity,1769.6,0.954,Overturned/Recovered,0.7877,766.68,0.7409,3,0.55
+108,CLM-0042-006698,Medicare FFS,CO-16,N29,Coding & Billing,5852.39,0.706,Not Appealed,0.634,2671.33,0.7399,2,0.72
+109,CLM-0042-011509,UnitedHealthcare,CO-97,N19,Coding & Billing,3296.62,0.861,Not Appealed,0.6363,1006.95,0.7398,3,0.48
+110,CLM-0042-010606,Medicare FFS,CO-16,N29,Coding & Billing,855.69,0.949,Not Appealed,0.8973,552.81,0.7398,2,0.72
+111,CLM-0042-002207,UnitedHealthcare,CO-16,N29,Coding & Billing,1705.27,0.939,Not Appealed,0.7968,978.36,0.7386,2,0.72
+112,CLM-0042-003869,BCBS,CO-16,N29,Timely Filing,1534.72,0.882,Not Appealed,0.8341,921.68,0.7365,2,0.72
+113,CLM-0042-012300,Medicare FFS,CO-16,N29,Coding & Billing,1901.98,0.722,Overturned/Recovered,0.8473,1160.36,0.736,2,0.72
+114,CLM-0042-005256,Aetna,CO-50,N115,Medical Necessity,5013.48,0.776,Upheld,0.6006,1656.05,0.7355,3,0.55
+115,CLM-0042-006861,Medicare FFS,CO-16,N29,Coding & Billing,835.57,0.821,Not Appealed,0.9382,564.43,0.7354,2,0.72
+116,CLM-0042-001994,Medicare FFS,CO-50,N115,Medical Necessity,1461.62,0.756,Upheld,0.8851,711.53,0.7345,3,0.55
+117,CLM-0042-003532,Medicare FFS,CO-16,N29,Coding & Billing,1880.74,0.715,Not Appealed,0.8473,1147.41,0.7332,2,0.72
+118,CLM-0042-001134,UnitedHealthcare,CO-16,N29,Coding & Billing,3128.91,0.478,Overturned/Recovered,0.7835,1765.18,0.7331,2,0.72
+119,CLM-0042-011885,Medicaid,CO-50,N115,Medical Necessity,3131.36,0.907,Not Appealed,0.6251,1076.63,0.7319,3,0.55
+120,CLM-0042-006748,BCBS,CO-16,N29,Coding & Billing,2351.21,0.758,Not Appealed,0.771,1305.21,0.7309,2,0.72
+121,CLM-0042-004949,BCBS,CO-16,N29,Coding & Billing,2511.03,0.777,Overturned/Recovered,0.7437,1344.64,0.7302,2,0.72
+122,CLM-0042-000737,Medicare FFS,CO-50,N115,Medical Necessity,1364.26,0.765,Overturned/Recovered,0.8851,664.14,0.7299,3,0.55
+123,CLM-0042-011826,Medicaid,CO-97,N19,Coding & Billing,4669.81,0.73,Upheld,0.6061,1358.65,0.7294,3,0.48
+124,CLM-0042-007284,Medicare FFS,CO-97,N19,Coding & Billing,1435.55,0.951,Not Appealed,0.8056,555.14,0.7281,3,0.48
+125,CLM-0042-002157,Medicare FFS,CO-50,N115,Medical Necessity,2010.33,0.866,Not Appealed,0.7666,847.57,0.7275,3,0.55
+126,CLM-0042-003926,BCBS,CO-16,N29,Coding & Billing,1109.19,0.898,Not Appealed,0.8628,689.03,0.7273,2,0.72
+127,CLM-0042-003864,Medicaid,CO-50,N115,Prior Authorization,1528.75,0.883,Overturned/Recovered,0.8162,686.3,0.7264,3,0.55
+128,CLM-0042-002034,Medicaid,CO-97,N19,Coding & Billing,2322.61,0.485,Overturned/Recovered,0.8627,961.78,0.7248,3,0.48
+129,CLM-0042-002810,Medicare FFS,CO-50,N115,Medical Necessity,1399.94,0.907,Not Appealed,0.8173,629.32,0.7233,3,0.55
+130,CLM-0042-012475,BCBS,CO-50,N115,Medical Necessity,1992.13,0.976,Not Appealed,0.718,786.71,0.7216,3,0.55
+131,CLM-0042-011014,Medicaid,CO-50,N115,Medical Necessity,1489.47,0.858,Not Appealed,0.8207,672.36,0.7213,3,0.55
+132,CLM-0042-009080,Medicaid,CO-16,N29,Coding & Billing,1346.21,0.855,Not Appealed,0.8382,812.45,0.7209,2,0.72
+133,CLM-0042-010894,BCBS,CO-50,N115,Prior Authorization,1112.0,0.834,Overturned/Recovered,0.8729,533.84,0.7203,3,0.55
+134,CLM-0042-012108,Medicare FFS,CO-16,N29,Coding & Billing,1570.2,0.49,Not Appealed,0.9428,1065.84,0.7202,2,0.72
+135,CLM-0042-002708,Medicare FFS,CO-16,N29,Coding & Billing,565.58,0.893,Not Appealed,0.9154,372.77,0.7194,2,0.72
+136,CLM-0042-008033,BCBS,CO-50,N115,Medical Necessity,2319.51,0.766,Not Appealed,0.7504,957.3,0.719,3,0.55
+137,CLM-0042-005651,Aetna,CO-16,N29,Coding & Billing,2956.74,0.861,Overturned/Recovered,0.6383,1358.85,0.7184,2,0.72
+138,CLM-0042-007048,Medicaid,CO-50,N115,Medical Necessity,1140.41,0.842,Overturned/Recovered,0.862,540.7,0.7178,3,0.55
+139,CLM-0042-001515,Aetna,CO-50,N115,Prior Authorization,959.91,0.823,Not Appealed,0.89,469.88,0.7175,3,0.55
+140,CLM-0042-008836,Medicare FFS,CO-97,N19,Coding & Billing,953.25,0.832,Not Appealed,0.8872,405.96,0.7173,3,0.48
+141,CLM-0042-005711,UnitedHealthcare,CO-50,N115,Medical Necessity,3944.71,0.564,Not Appealed,0.6427,1394.49,0.7163,3,0.55
+142,CLM-0042-000509,BCBS,CO-50,N115,Medical Necessity,3323.72,0.453,Overturned/Recovered,0.7326,1339.14,0.7129,3,0.55
+143,CLM-0042-009873,BCBS,CO-16,N29,Coding & Billing,1043.35,0.83,Not Appealed,0.8681,652.16,0.7124,2,0.72
+144,CLM-0042-005636,BCBS,CO-16,N29,Coding & Billing,2645.76,0.474,Not Appealed,0.8028,1529.39,0.711,2,0.72
+145,CLM-0042-001932,BCBS,CO-50,N115,Medical Necessity,1640.83,0.757,Overturned/Recovered,0.8201,740.1,0.7108,3,0.55
+146,CLM-0042-004568,Medicare FFS,CO-16,N29,Coding & Billing,284.64,0.868,Not Appealed,0.9409,192.84,0.7099,2,0.72
+147,CLM-0042-010508,Medicare FFS,CO-16,N29,Coding & Billing,1196.71,0.812,Overturned/Recovered,0.8515,733.66,0.7097,2,0.72
+148,CLM-0042-009677,BCBS,CO-50,N115,Prior Authorization,1465.83,0.863,Overturned/Recovered,0.8002,645.09,0.7094,3,0.55
+149,CLM-0042-006796,BCBS,CO-16,N29,Coding & Billing,1014.06,0.822,Not Appealed,0.8681,633.86,0.7088,2,0.72
+150,CLM-0042-008520,Medicare FFS,CO-16,N29,Timely Filing,647.03,0.835,Not Appealed,0.907,422.52,0.7085,2,0.72
+151,CLM-0042-008752,Medicaid,CO-97,N19,Coding & Billing,1523.96,0.789,Overturned/Recovered,0.8169,597.6,0.7077,3,0.48
+152,CLM-0042-012337,Medicare FFS,CO-16,N29,Coding & Billing,492.36,0.963,Not Appealed,0.8767,310.79,0.7073,2,0.72
+153,CLM-0042-005057,BCBS,PR-1,N130,Eligibility/Coverage,9342.33,0.874,Not Appealed,0.5124,239.35,0.7066,5,0.05
+154,CLM-0042-009849,Medicaid,CO-16,N29,Coding & Billing,2144.05,0.804,Overturned/Recovered,0.7344,1133.74,0.7063,2,0.72
+155,CLM-0042-001908,Medicare FFS,CO-97,N19,Coding & Billing,2134.39,0.812,Not Appealed,0.7326,750.55,0.7062,3,0.48
+156,CLM-0042-010823,Medicare FFS,CO-97,N19,Coding & Billing,1465.3,0.862,Not Appealed,0.7946,558.91,0.7062,3,0.48
+157,CLM-0042-003022,UnitedHealthcare,CO-97,N19,Coding & Billing,963.56,0.818,Overturned/Recovered,0.8695,402.16,0.7054,3,0.48
+158,CLM-0042-009947,UnitedHealthcare,CO-16,N29,Timely Filing,1193.81,0.819,Not Appealed,0.841,722.83,0.7051,2,0.72
+159,CLM-0042-006553,UnitedHealthcare,CO-16,N29,Coding & Billing,1312.04,0.821,Overturned/Recovered,0.8245,778.85,0.7043,2,0.72
+160,CLM-0042-001019,Medicare FFS,CO-50,N115,Medical Necessity,939.47,0.836,Not Appealed,0.861,444.89,0.7028,3,0.55
+161,CLM-0042-004667,UnitedHealthcare,CO-97,N19,Coding & Billing,1471.33,0.89,Upheld,0.7764,548.34,0.7022,3,0.48
+162,CLM-0042-012054,Medicaid,CO-16,N29,Coding & Billing,986.51,0.893,Overturned/Recovered,0.833,591.66,0.7019,2,0.72
+163,CLM-0042-003583,Medicaid,CO-16,N29,Coding & Billing,1862.54,0.743,Not Appealed,0.7817,1048.34,0.7015,2,0.72
+164,CLM-0042-008150,Medicare FFS,CO-16,N29,Coding & Billing,283.71,0.863,Overturned/Recovered,0.9274,189.44,0.7014,2,0.72
+165,CLM-0042-006115,Medicaid,CO-50,N115,Medical Necessity,2409.7,0.89,Not Appealed,0.6604,875.3,0.7003,3,0.55
+166,CLM-0042-005994,Aetna,CO-50,N115,Medical Necessity,4281.37,0.659,Not Appealed,0.5788,1362.87,0.7001,3,0.55
+167,CLM-0042-011481,BCBS,CO-50,N115,Medical Necessity,1742.01,0.681,Overturned/Recovered,0.8153,781.12,0.6996,3,0.55
+168,CLM-0042-003605,Aetna,CO-16,N29,Coding & Billing,295.77,0.896,Not Appealed,0.9102,193.83,0.6993,2,0.72
+169,CLM-0042-011773,Medicaid,CO-16,N29,Coding & Billing,2082.73,0.78,Not Appealed,0.7364,1104.35,0.6985,2,0.72
+170,CLM-0042-011275,Medicare FFS,CO-16,N29,Timely Filing,1163.62,0.513,Not Appealed,0.9435,790.51,0.6984,2,0.72
+171,CLM-0042-005800,Medicaid,CO-50,N115,Medical Necessity,1843.59,0.597,Not Appealed,0.8303,841.9,0.6978,3,0.55
+172,CLM-0042-009526,BCBS,CO-97,N19,Coding & Billing,1751.17,0.741,Overturned/Recovered,0.7886,662.9,0.6975,3,0.48
+173,CLM-0042-004210,Medicare FFS,CO-50,N115,Medical Necessity,1811.45,0.611,Overturned/Recovered,0.8281,824.99,0.6972,3,0.55
+174,CLM-0042-001143,UnitedHealthcare,CO-97,N19,Coding & Billing,1234.09,0.831,Overturned/Recovered,0.8142,482.33,0.6955,3,0.48
+175,CLM-0042-003228,Medicare FFS,CO-16,N29,Coding & Billing,85.0,0.892,Not Appealed,0.9295,56.89,0.6952,2,0.72
+176,CLM-0042-010098,Aetna,CO-16,N29,Coding & Billing,2254.34,0.79,Not Appealed,0.706,1145.88,0.6951,2,0.72
+177,CLM-0042-009110,Medicaid,CO-16,N29,Coding & Billing,1903.7,0.723,Overturned/Recovered,0.769,1054.1,0.6932,2,0.72
+178,CLM-0042-008401,BCBS,CO-50,N115,Medical Necessity,2091.62,0.788,Upheld,0.7228,831.52,0.6932,3,0.55
+179,CLM-0042-001082,Aetna,CO-97,N19,Coding & Billing,3284.03,0.796,Overturned/Recovered,0.5753,906.88,0.6924,3,0.48
+180,CLM-0042-002441,Aetna,CO-50,N115,Medical Necessity,4747.11,0.72,Not Appealed,0.5424,1416.12,0.6923,3,0.55
+181,CLM-0042-005040,UnitedHealthcare,CO-97,N19,Coding & Billing,4908.75,0.7,Overturned/Recovered,0.5497,1295.16,0.6923,3,0.48
+182,CLM-0042-012052,Medicare FFS,CO-50,N115,Medical Necessity,1259.41,0.793,Not Appealed,0.8176,566.36,0.6914,3,0.55
+183,CLM-0042-011466,UnitedHealthcare,CO-16,N29,Coding & Billing,1182.98,0.829,Upheld,0.8132,692.62,0.6911,2,0.72
+184,CLM-0042-003632,Aetna,CO-50,N115,Medical Necessity,1775.07,0.799,Overturned/Recovered,0.752,734.19,0.6906,3,0.55
+185,CLM-0042-003168,Medicare FFS,CO-97,N19,Coding & Billing,1605.03,0.747,Overturned/Recovered,0.7914,609.72,0.6906,3,0.48
+186,CLM-0042-003639,UnitedHealthcare,CO-50,N115,Medical Necessity,888.89,0.823,Overturned/Recovered,0.8494,415.25,0.6904,3,0.55
+187,CLM-0042-012482,BCBS,CO-16,N29,Prior Authorization,187.14,0.834,Not Appealed,0.9292,125.2,0.6902,2,0.72
+188,CLM-0042-010337,BCBS,CO-16,N29,Coding & Billing,2276.13,0.718,Overturned/Recovered,0.7198,1179.64,0.6897,2,0.72
+189,CLM-0042-008919,Aetna,CO-16,N29,Timely Filing,283.7,0.824,Overturned/Recovered,0.9192,187.77,0.6891,2,0.72
+190,CLM-0042-000609,UnitedHealthcare,CO-97,N19,Coding & Billing,4762.3,0.653,Not Appealed,0.558,1275.56,0.6875,3,0.48
+191,CLM-0042-000654,Medicare FFS,CO-16,N29,Timely Filing,1140.09,0.812,Overturned/Recovered,0.8176,671.13,0.6873,2,0.72
+192,CLM-0042-000043,UnitedHealthcare,CO-97,N19,Coding & Billing,3296.85,0.8,Not Appealed,0.5623,889.87,0.6869,3,0.48
+193,CLM-0042-005327,BCBS,CO-97,N19,Coding & Billing,1726.28,0.712,Not Appealed,0.7762,643.2,0.6833,3,0.48
+194,CLM-0042-011185,Medicare FFS,CO-97,N19,Coding & Billing,1800.34,0.725,Overturned/Recovered,0.7622,658.69,0.6831,3,0.48
+195,CLM-0042-006232,BCBS,CO-97,N19,Coding & Billing,297.35,0.815,Overturned/Recovered,0.9092,129.77,0.6827,3,0.48
+196,CLM-0042-006102,Medicare FFS,CO-97,N19,Coding & Billing,3379.29,0.521,Overturned/Recovered,0.6459,1047.68,0.6825,3,0.48
+197,CLM-0042-008580,Medicare FFS,CO-16,N29,Coding & Billing,291.96,0.762,Not Appealed,0.9278,195.03,0.682,2,0.72
+198,CLM-0042-007533,Medicaid,CO-97,N19,Coding & Billing,1916.25,0.775,Not Appealed,0.727,668.72,0.6814,3,0.48
+199,CLM-0042-010196,Aetna,CO-97,N19,Coding & Billing,2275.61,0.8,Overturned/Recovered,0.6746,736.84,0.6812,3,0.48
+200,CLM-0042-000044,Medicaid,CO-97,N19,Coding & Billing,2442.64,0.751,Not Appealed,0.6718,787.69,0.6809,3,0.48
+201,CLM-0042-004439,Medicaid,CO-50,N115,Medical Necessity,864.05,0.841,Overturned/Recovered,0.8284,393.66,0.6808,3,0.55
+202,CLM-0042-001985,BCBS,CO-16,N29,Coding & Billing,1732.82,0.685,Not Appealed,0.7804,973.65,0.6806,2,0.72
+203,CLM-0042-003931,BCBS,CO-16,N29,Coding & Billing,3214.71,0.698,Upheld,0.5969,1381.61,0.6801,2,0.72
+204,CLM-0042-000318,UnitedHealthcare,CO-50,N115,Medical Necessity,2667.96,0.851,Upheld,0.6068,890.37,0.68,3,0.55
+205,CLM-0042-002972,BCBS,CO-16,N29,Prior Authorization,1056.13,0.839,Overturned/Recovered,0.804,611.34,0.6797,2,0.72
+206,CLM-0042-011662,Medicaid,CO-16,N29,Coding & Billing,903.67,0.937,Overturned/Recovered,0.7862,511.53,0.6795,2,0.72
+207,CLM-0042-008217,UnitedHealthcare,CO-16,N29,Coding & Billing,894.92,0.953,Not Appealed,0.781,503.25,0.6792,2,0.72
+208,CLM-0042-002932,Medicare FFS,CO-16,N29,Coding & Billing,595.24,0.86,Overturned/Recovered,0.8507,364.6,0.6792,2,0.72
+209,CLM-0042-008179,BCBS,CO-16,N29,Coding & Billing,1392.65,0.781,Overturned/Recovered,0.7819,783.97,0.6781,2,0.72
+210,CLM-0042-007603,BCBS,CO-16,N29,Coding & Billing,1509.21,0.788,Not Appealed,0.7651,831.37,0.678,2,0.72
+211,CLM-0042-010241,Medicaid,CO-50,N115,Medical Necessity,1470.73,0.499,Upheld,0.8734,706.48,0.6772,3,0.55
+212,CLM-0042-008099,Medicaid,CO-50,N115,Medical Necessity,3027.8,0.811,Upheld,0.5723,953.05,0.6768,3,0.55
+213,CLM-0042-011108,Medicaid,CO-50,N115,Medical Necessity,3023.67,0.812,Not Appealed,0.5723,951.75,0.6768,3,0.55
+214,CLM-0042-003485,UnitedHealthcare,CO-16,N29,Coding & Billing,2146.77,0.838,Upheld,0.6672,1031.22,0.6762,2,0.72
+215,CLM-0042-007874,Medicare FFS,CO-16,N29,Coding & Billing,448.9,0.855,Overturned/Recovered,0.8638,279.18,0.6757,2,0.72
+216,CLM-0042-009013,Aetna,CO-97,N19,Coding & Billing,301.97,0.892,Overturned/Recovered,0.8673,125.71,0.6753,3,0.48
+217,CLM-0042-006345,Medicaid,CO-16,N29,Coding & Billing,1403.05,0.917,Not Appealed,0.7251,732.49,0.6748,2,0.72
+218,CLM-0042-004030,Aetna,CO-97,N19,Coding & Billing,1523.13,0.855,Not Appealed,0.7315,534.83,0.6739,3,0.48
+219,CLM-0042-002120,Medicare FFS,CO-16,N29,Coding & Billing,399.39,0.859,Not Appealed,0.8638,248.39,0.6732,2,0.72
+220,CLM-0042-004427,Medicare FFS,CO-16,N29,Coding & Billing,700.07,0.884,Not Appealed,0.8183,412.46,0.6731,2,0.72
+221,CLM-0042-001746,BCBS,CO-16,N29,Coding & Billing,1303.37,0.761,Upheld,0.7893,740.69,0.6723,2,0.72
+222,CLM-0042-000045,UnitedHealthcare,CO-16,N29,Coding & Billing,215.9,0.963,Overturned/Recovered,0.845,131.35,0.6716,2,0.72
+223,CLM-0042-010861,Medicaid,CO-16,N29,Coding & Billing,1098.73,0.876,Not Appealed,0.7703,609.37,0.6714,2,0.72
+224,CLM-0042-009857,BCBS,CO-50,N115,Medical Necessity,1494.66,0.805,Overturned/Recovered,0.7481,615.0,0.6711,3,0.55
+225,CLM-0042-006159,Medicare FFS,CO-16,N29,Coding & Billing,701.29,0.857,Overturned/Recovered,0.8244,416.28,0.6711,2,0.72
+226,CLM-0042-012014,Medicare FFS,CO-50,N115,Medical Necessity,423.06,0.841,Overturned/Recovered,0.8635,200.93,0.6711,3,0.55
+227,CLM-0042-011878,Medicare FFS,CO-16,N29,Coding & Billing,376.34,0.869,Not Appealed,0.8588,232.7,0.671,2,0.72
+228,CLM-0042-006474,BCBS,CO-50,N115,Medical Necessity,3229.18,0.693,Not Appealed,0.5802,1030.43,0.6709,3,0.55
+229,CLM-0042-002475,Medicaid,CO-50,N115,Medical Necessity,1263.47,0.79,Not Appealed,0.7784,540.92,0.6695,3,0.55
+230,CLM-0042-012250,Medicaid,CO-50,N115,Medical Necessity,1296.9,0.794,Overturned/Recovered,0.7716,550.35,0.6688,3,0.55
+231,CLM-0042-000735,Medicare FFS,CO-50,N115,Medical Necessity,748.47,0.817,Not Appealed,0.8286,341.09,0.6685,3,0.55
+232,CLM-0042-003897,Medicaid,CO-50,N115,Medical Necessity,1495.75,0.785,Not Appealed,0.7501,617.06,0.6683,3,0.55
+233,CLM-0042-003332,Medicare FFS,CO-97,N19,Coding & Billing,3856.12,0.428,Not Appealed,0.6046,1119.06,0.6681,3,0.48
+234,CLM-0042-001647,Medicaid,CO-16,N29,Coding & Billing,1471.26,0.909,Overturned/Recovered,0.7055,747.38,0.667,2,0.72
+235,CLM-0042-004207,Medicare FFS,CO-16,N29,Coding & Billing,203.58,0.906,Overturned/Recovered,0.858,125.77,0.6666,2,0.72
+236,CLM-0042-000928,UnitedHealthcare,CO-50,N115,Medical Necessity,1874.91,0.788,Not Appealed,0.6992,720.98,0.6659,3,0.55
+237,CLM-0042-010417,BCBS,CO-16,N29,Coding & Billing,3000.93,0.695,Not Appealed,0.5969,1289.74,0.6654,2,0.72
+238,CLM-0042-005470,Medicare FFS,CO-50,N115,Medical Necessity,737.8,0.842,Overturned/Recovered,0.8148,330.64,0.6652,3,0.55
+239,CLM-0042-009517,Aetna,CO-16,N29,Timely Filing,698.11,0.814,Overturned/Recovered,0.826,415.19,0.6632,2,0.72
+240,CLM-0042-010049,Aetna,CO-16,N29,Timely Filing,571.86,0.824,Overturned/Recovered,0.8355,344.0,0.6621,2,0.72
+241,CLM-0042-001591,Medicare FFS,CO-16,N29,Coding & Billing,611.65,0.923,Overturned/Recovered,0.794,349.68,0.6617,2,0.72
+242,CLM-0042-005632,Medicare FFS,CO-16,N29,Coding & Billing,2797.16,0.575,Overturned/Recovered,0.6574,1323.95,0.6612,2,0.72
+243,CLM-0042-004807,Medicaid,CO-97,N19,Coding & Billing,1647.16,0.643,Overturned/Recovered,0.7704,609.11,0.6611,3,0.48
+244,CLM-0042-009620,UnitedHealthcare,CO-97,N19,Coding & Billing,1092.86,0.89,Not Appealed,0.7472,391.95,0.6611,3,0.48
+245,CLM-0042-002804,BCBS,CO-97,N19,Coding & Billing,175.93,0.836,Overturned/Recovered,0.8766,74.02,0.6609,3,0.48
+246,CLM-0042-006336,Medicaid,CO-97,N19,Coding & Billing,208.53,0.823,Not Appealed,0.8766,87.74,0.6605,3,0.48
+247,CLM-0042-011414,BCBS,CO-16,N29,Coding & Billing,1219.12,0.804,Overturned/Recovered,0.7617,668.61,0.6602,2,0.72
+248,CLM-0042-003264,BCBS,CO-16,N29,Coding & Billing,538.42,0.834,Overturned/Recovered,0.8308,322.09,0.6593,2,0.72
+249,CLM-0042-000921,Medicare FFS,CO-16,N29,Coding & Billing,1357.04,0.65,Not Appealed,0.7971,778.83,0.658,2,0.72
+250,CLM-0042-010136,Medicare FFS,CO-16,N29,Coding & Billing,2116.73,0.579,Overturned/Recovered,0.7316,1114.96,0.6579,2,0.72
+251,CLM-0042-004947,BCBS,CO-16,N29,Prior Authorization,512.43,0.833,Not Appealed,0.8308,306.54,0.6574,2,0.72
+252,CLM-0042-001028,Medicaid,CO-50,N115,Medical Necessity,2934.6,0.721,Upheld,0.5802,936.43,0.657,3,0.55
+253,CLM-0042-008405,Aetna,CO-16,N29,Coding & Billing,235.5,0.838,Upheld,0.8612,146.03,0.6568,2,0.72
+254,CLM-0042-008740,BCBS,CO-50,N115,Medical Necessity,1265.65,0.795,Overturned/Recovered,0.7527,523.97,0.6565,3,0.55
+255,CLM-0042-008175,Medicare FFS,CO-16,N29,Coding & Billing,617.15,0.977,Not Appealed,0.7635,339.27,0.6561,2,0.72
+256,CLM-0042-007615,Medicaid,CO-97,N19,Coding & Billing,175.36,0.841,Not Appealed,0.866,72.9,0.6561,3,0.48
+257,CLM-0042-002526,Medicare FFS,CO-97,N19,Coding & Billing,802.98,0.897,Overturned/Recovered,0.7699,296.76,0.6559,3,0.48
+258,CLM-0042-005704,UnitedHealthcare,CO-16,N29,Coding & Billing,2360.43,0.789,Not Appealed,0.621,1055.39,0.6552,2,0.72
+259,CLM-0042-010443,Aetna,CO-97,N19,Coding & Billing,2419.17,0.784,Not Appealed,0.6144,713.44,0.6544,3,0.48
+260,CLM-0042-007218,UnitedHealthcare,CO-16,N29,Timely Filing,1819.69,0.776,Not Appealed,0.6888,902.48,0.6542,2,0.72
+261,CLM-0042-008316,BCBS,CO-16,N29,Coding & Billing,1198.38,0.773,Overturned/Recovered,0.7636,658.86,0.6537,2,0.72
+262,CLM-0042-002076,BCBS,CO-97,N19,Coding & Billing,1530.08,0.645,Upheld,0.7704,565.82,0.6537,3,0.48
+263,CLM-0042-001738,Medicare FFS,CO-16,N29,Coding & Billing,1200.55,0.679,Overturned/Recovered,0.7971,689.02,0.6535,2,0.72
+264,CLM-0042-002008,Medicare FFS,CO-16,N29,Coding & Billing,847.25,0.751,Overturned/Recovered,0.8123,495.54,0.6529,2,0.72
+265,CLM-0042-005478,Medicaid,CO-50,N115,Prior Authorization,2345.19,0.628,Not Appealed,0.6765,872.55,0.6525,3,0.55
+266,CLM-0042-001796,Medicaid,CO-16,N29,Coding & Billing,13934.1,0.804,Not Appealed,0.4391,4404.9,0.6523,2,0.72
+267,CLM-0042-010164,BCBS,CO-50,N115,Prior Authorization,2930.47,0.674,Not Appealed,0.5884,948.31,0.6518,3,0.55
+268,CLM-0042-001302,BCBS,CO-16,N29,Coding & Billing,2785.9,0.664,Not Appealed,0.605,1213.53,0.6494,2,0.72
+269,CLM-0042-008082,BCBS,CO-97,N19,Coding & Billing,2908.41,0.588,Not Appealed,0.6179,862.62,0.6494,3,0.48
+270,CLM-0042-000477,Medicaid,CO-16,N29,Timely Filing,1033.86,0.854,Overturned/Recovered,0.7457,555.11,0.6492,2,0.72
+271,CLM-0042-000410,Aetna,CO-16,N29,Timely Filing,285.27,0.854,Overturned/Recovered,0.8353,171.56,0.649,2,0.72
+272,CLM-0042-010216,BCBS,CO-50,N115,Medical Necessity,1380.88,0.907,Not Appealed,0.6837,519.28,0.6486,3,0.55
+273,CLM-0042-011083,Medicare FFS,CO-16,N29,Coding & Billing,257.26,0.828,Overturned/Recovered,0.8472,156.92,0.6485,2,0.72
+274,CLM-0042-001395,UnitedHealthcare,CO-16,N29,Coding & Billing,861.84,0.876,Overturned/Recovered,0.7565,469.46,0.6482,2,0.72
+275,CLM-0042-000319,Medicaid,CO-50,N115,Medical Necessity,5330.31,0.436,Overturned/Recovered,0.5641,1653.66,0.6474,3,0.55
+276,CLM-0042-006302,BCBS,CO-50,N115,Medical Necessity,2497.15,0.703,Not Appealed,0.6216,853.79,0.6473,3,0.55
+277,CLM-0042-008895,Medicaid,CO-16,N29,Coding & Billing,355.77,0.82,Overturned/Recovered,0.8354,213.99,0.647,2,0.72
+278,CLM-0042-008840,UnitedHealthcare,CO-50,N115,Medical Necessity,2200.02,0.481,Not Appealed,0.7373,892.14,0.6469,3,0.55
+279,CLM-0042-000773,BCBS,CO-50,N115,Medical Necessity,1540.31,0.408,Upheld,0.8416,713.01,0.6462,3,0.55
+280,CLM-0042-007780,UnitedHealthcare,CO-97,N19,Coding & Billing,2428.99,0.769,Not Appealed,0.6018,701.63,0.6451,3,0.48
+281,CLM-0042-003124,Medicaid,CO-50,N115,Medical Necessity,1330.95,0.902,Not Appealed,0.6837,500.51,0.6443,3,0.55
+282,CLM-0042-007217,UnitedHealthcare,CO-16,N29,Coding & Billing,1009.95,0.51,Not Appealed,0.8645,628.6,0.6441,2,0.72
+283,CLM-0042-007851,BCBS,CO-16,N29,Coding & Billing,94.64,0.89,Not Appealed,0.8349,56.89,0.6434,2,0.72
+284,CLM-0042-012378,Aetna,CO-97,N19,Coding & Billing,2808.06,0.793,Upheld,0.5436,732.69,0.6429,3,0.48
+285,CLM-0042-001948,Aetna,CO-50,N115,Medical Necessity,1822.68,0.679,Overturned/Recovered,0.7028,704.58,0.6427,3,0.55
+286,CLM-0042-005604,Aetna,CO-50,N115,Medical Necessity,1756.01,0.716,Not Appealed,0.6958,671.97,0.6418,3,0.55
+287,CLM-0042-008429,Aetna,CO-50,N115,Medical Necessity,2214.89,0.951,Not Appealed,0.555,676.13,0.6417,3,0.55
+288,CLM-0042-000068,Medicaid,CO-16,N29,Timely Filing,429.0,0.954,Not Appealed,0.7682,237.29,0.6416,2,0.72
+289,CLM-0042-009252,Medicaid,CO-16,N29,Prior Authorization,344.7,0.933,Not Appealed,0.7851,194.86,0.6412,2,0.72
+290,CLM-0042-009650,Medicaid,CO-16,N29,Timely Filing,2681.99,0.586,Not Appealed,0.6294,1215.3,0.6404,2,0.72
+291,CLM-0042-008248,Medicare FFS,CO-16,N29,Coding & Billing,506.13,0.804,Not Appealed,0.8112,295.62,0.6404,2,0.72
+292,CLM-0042-003664,BCBS,CO-97,N19,Coding & Billing,3162.85,0.277,Overturned/Recovered,0.6831,1037.02,0.6399,3,0.48
+293,CLM-0042-009617,Medicare FFS,CO-97,N19,Prior Authorization,511.67,0.89,Overturned/Recovered,0.7784,191.18,0.6399,3,0.48
+294,CLM-0042-000604,UnitedHealthcare,CO-16,N29,Coding & Billing,1181.01,0.505,Upheld,0.8375,712.17,0.6396,2,0.72
+295,CLM-0042-008063,BCBS,CO-50,N115,Medical Necessity,2180.24,0.667,Overturned/Recovered,0.6585,789.57,0.6395,3,0.55
+296,CLM-0042-000394,UnitedHealthcare,CO-50,N115,Medical Necessity,1214.8,0.515,Not Appealed,0.829,553.89,0.6391,3,0.55
+297,CLM-0042-010747,BCBS,CO-16,N29,Prior Authorization,502.68,0.932,Overturned/Recovered,0.7623,275.91,0.6389,2,0.72
+298,CLM-0042-002411,UnitedHealthcare,CO-50,N115,Medical Necessity,1680.68,0.639,Overturned/Recovered,0.7271,672.09,0.6386,3,0.55
+299,CLM-0042-001933,UnitedHealthcare,CO-97,N19,Coding & Billing,2579.19,0.795,Not Appealed,0.5623,696.16,0.6385,3,0.48
+300,CLM-0042-001905,BCBS,CO-97,N19,Coding & Billing,2843.04,0.656,Upheld,0.5807,792.41,0.6382,3,0.48
+301,CLM-0042-004866,Medicare FFS,CO-16,N29,Coding & Billing,2847.2,0.622,Not Appealed,0.5907,1210.93,0.6372,2,0.72
+302,CLM-0042-010437,Medicare FFS,CO-50,N115,Medical Necessity,907.63,0.76,Overturned/Recovered,0.7727,385.71,0.6369,3,0.55
+303,CLM-0042-000689,UnitedHealthcare,CO-16,N29,Coding & Billing,196.6,0.876,Not Appealed,0.8149,115.35,0.6364,2,0.72
+304,CLM-0042-007388,Medicare FFS,CO-16,N29,Coding & Billing,654.47,0.503,Overturned/Recovered,0.8943,421.43,0.6357,2,0.72
+305,CLM-0042-002556,UnitedHealthcare,CO-50,N115,Medical Necessity,769.4,0.817,Overturned/Recovered,0.7648,323.66,0.6348,3,0.55
+306,CLM-0042-012036,Aetna,CO-50,N115,Medical Necessity,965.23,0.87,Overturned/Recovered,0.7218,383.19,0.6347,3,0.55
+307,CLM-0042-003385,Medicare FFS,CO-16,N29,Coding & Billing,597.22,0.77,Overturned/Recovered,0.8013,344.56,0.6341,2,0.72
+308,CLM-0042-001291,BCBS,CO-27,N30,Eligibility/Coverage,2251.17,0.605,Overturned/Recovered,0.6627,268.53,0.6341,4,0.18
+309,CLM-0042-000782,Aetna,CO-16,N29,Coding & Billing,444.98,0.824,Overturned/Recovered,0.7998,256.25,0.6341,2,0.72
+310,CLM-0042-006446,Medicare FFS,CO-50,N115,Prior Authorization,932.0,0.95,Not Appealed,0.6945,355.99,0.6335,3,0.55
+311,CLM-0042-002130,Medicare FFS,CO-50,N115,Medical Necessity,325.3,0.823,Not Appealed,0.8111,145.12,0.6322,3,0.55
+312,CLM-0042-010308,Medicare FFS,CO-50,N115,Prior Authorization,318.31,0.825,Not Appealed,0.8111,142.0,0.6321,3,0.55
+313,CLM-0042-000076,Medicaid,CO-50,N115,Medical Necessity,107.54,0.835,Overturned/Recovered,0.8327,49.25,0.6321,3,0.55
+314,CLM-0042-005031,Medicare FFS,CO-16,N29,Coding & Billing,2624.9,0.734,Not Appealed,0.565,1067.87,0.6308,2,0.72
+315,CLM-0042-012077,Medicaid,CO-16,N29,Coding & Billing,845.94,0.489,Overturned/Recovered,0.8673,528.22,0.6306,2,0.72
+316,CLM-0042-001358,BCBS,CO-16,N29,Coding & Billing,945.36,0.846,Not Appealed,0.7244,493.09,0.63,2,0.72
+317,CLM-0042-006009,UnitedHealthcare,CO-50,N115,Medical Necessity,1794.66,0.654,Overturned/Recovered,0.6917,682.72,0.6297,3,0.55
+318,CLM-0042-001795,Aetna,CO-16,N29,Coding & Billing,410.48,0.899,Not Appealed,0.7681,227.01,0.6293,2,0.72
+319,CLM-0042-011455,UnitedHealthcare,CO-16,N29,Coding & Billing,1485.01,0.486,Not Appealed,0.789,843.56,0.6292,2,0.72
+320,CLM-0042-003616,UnitedHealthcare,CO-16,N29,Coding & Billing,348.24,0.898,Overturned/Recovered,0.7755,194.44,0.6291,2,0.72
+321,CLM-0042-010582,Medicaid,CO-50,N115,Prior Authorization,347.84,0.828,Not Appealed,0.8005,153.14,0.6288,3,0.55
+322,CLM-0042-005455,Aetna,CO-16,N29,Coding & Billing,107.1,0.832,Not Appealed,0.8277,63.82,0.6287,2,0.72
+323,CLM-0042-006812,Medicaid,CO-50,N115,Medical Necessity,2790.7,0.607,Not Appealed,0.5855,898.68,0.6276,3,0.55
+324,CLM-0042-002551,BCBS,CO-16,N29,Timely Filing,9745.05,0.604,Not Appealed,0.4648,3261.41,0.6265,2,0.72
+325,CLM-0042-001034,Aetna,CO-16,N29,Coding & Billing,149.22,0.841,Not Appealed,0.8138,87.44,0.6257,2,0.72
+326,CLM-0042-008443,Medicaid,CO-16,N29,Coding & Billing,2138.0,0.67,Not Appealed,0.6368,980.23,0.6254,2,0.72
+327,CLM-0042-010718,UnitedHealthcare,CO-97,N19,Coding & Billing,673.99,0.891,Not Appealed,0.7322,236.87,0.6254,3,0.48
+328,CLM-0042-002393,Medicaid,CO-97,N19,Coding & Billing,2193.35,0.585,Overturned/Recovered,0.6603,695.12,0.6249,3,0.48
+329,CLM-0042-009687,UnitedHealthcare,CO-50,N115,Medical Necessity,693.79,0.839,Overturned/Recovered,0.7475,285.24,0.6247,3,0.55
+330,CLM-0042-002280,BCBS,CO-50,N115,Medical Necessity,3444.07,0.45,Not Appealed,0.5578,1056.62,0.6241,3,0.55
+331,CLM-0042-010990,Aetna,CO-16,N29,Coding & Billing,280.96,0.86,Not Appealed,0.7874,159.29,0.6236,2,0.72
+332,CLM-0042-008877,Aetna,CO-16,N29,Coding & Billing,613.31,0.868,Overturned/Recovered,0.7435,328.34,0.623,2,0.72
+333,CLM-0042-003415,Medicaid,CO-50,N115,Prior Authorization,418.2,0.837,Not Appealed,0.778,178.96,0.6229,3,0.55
+334,CLM-0042-004048,Medicare FFS,CO-50,N115,Medical Necessity,85.23,0.853,Not Appealed,0.8117,38.05,0.6227,3,0.55
+335,CLM-0042-000920,BCBS,CO-16,N29,Coding & Billing,1340.27,0.743,Not Appealed,0.7005,675.96,0.6223,2,0.72
+336,CLM-0042-003727,Aetna,CO-50,N115,Medical Necessity,1716.03,0.616,Overturned/Recovered,0.7015,662.13,0.6223,3,0.55
+337,CLM-0042-009803,UnitedHealthcare,CO-97,N19,Coding & Billing,293.17,0.869,Overturned/Recovered,0.7804,109.81,0.6223,3,0.48
+338,CLM-0042-005533,BCBS,CO-97,N19,Coding & Billing,1462.94,0.919,Not Appealed,0.6212,436.23,0.622,3,0.48
+339,CLM-0042-000755,UnitedHealthcare,CO-50,N115,Medical Necessity,1289.46,0.497,Not Appealed,0.7951,563.91,0.6218,3,0.55
+340,CLM-0042-008739,UnitedHealthcare,CO-16,N29,Coding & Billing,1287.92,0.514,Overturned/Recovered,0.789,731.6,0.6217,2,0.72
+341,CLM-0042-003423,BCBS,PR-1,N130,Eligibility/Coverage,9675.77,0.809,Not Appealed,0.3809,184.28,0.6213,5,0.05
+342,CLM-0042-002859,UnitedHealthcare,CO-97,N19,Coding & Billing,784.08,0.825,Not Appealed,0.7353,276.74,0.6212,3,0.48
+343,CLM-0042-004816,Medicare FFS,CO-97,N19,Coding & Billing,1061.51,0.845,Not Appealed,0.6947,353.94,0.6211,3,0.48
+344,CLM-0042-003896,BCBS,CO-16,N29,Coding & Billing,994.16,0.482,Not Appealed,0.834,596.95,0.6207,2,0.72
+345,CLM-0042-010217,UnitedHealthcare,CO-16,N29,Coding & Billing,1297.6,0.503,Overturned/Recovered,0.789,737.1,0.6202,2,0.72
+346,CLM-0042-003843,BCBS,CO-50,N115,Medical Necessity,199.62,0.853,Overturned/Recovered,0.7906,86.8,0.6186,3,0.55
+347,CLM-0042-006595,Aetna,CO-16,N29,Coding & Billing,413.67,0.949,Not Appealed,0.7229,215.33,0.6147,2,0.72
+348,CLM-0042-004916,UnitedHealthcare,CO-97,N19,Coding & Billing,3825.71,0.799,Not Appealed,0.3717,682.65,0.6143,3,0.48
+349,CLM-0042-007977,UnitedHealthcare,CO-97,N19,Coding & Billing,777.39,0.844,Overturned/Recovered,0.7166,267.39,0.6142,3,0.48
+350,CLM-0042-003580,Medicare FFS,CO-50,N115,Medical Necessity,591.5,0.851,Not Appealed,0.7357,239.33,0.6139,3,0.55
+351,CLM-0042-000877,Medicaid,CO-16,N29,Coding & Billing,610.53,0.878,Overturned/Recovered,0.7225,317.62,0.6133,2,0.72
+352,CLM-0042-003824,Medicare FFS,CO-50,N115,Medical Necessity,4179.72,0.624,Upheld,0.4329,995.19,0.6129,3,0.55
+353,CLM-0042-010013,Medicare FFS,CO-50,N115,Medical Necessity,1986.07,0.608,Overturned/Recovered,0.6544,714.84,0.6126,3,0.55
+354,CLM-0042-002545,BCBS,CO-97,N19,Coding & Billing,1510.3,0.64,Not Appealed,0.6983,506.24,0.6118,3,0.48
+355,CLM-0042-007096,Medicare FFS,CO-97,N19,Coding & Billing,1119.8,0.771,Not Appealed,0.6972,374.73,0.6116,3,0.48
+356,CLM-0042-001202,BCBS,CO-16,N29,Coding & Billing,1470.05,0.669,Not Appealed,0.6922,732.63,0.6115,2,0.72
+357,CLM-0042-001375,Aetna,CO-97,N19,Coding & Billing,2245.68,0.679,Overturned/Recovered,0.5947,641.0,0.6111,3,0.48
+358,CLM-0042-001983,UnitedHealthcare,CO-16,N29,Coding & Billing,3161.98,0.667,Not Appealed,0.4875,1109.91,0.6103,2,0.72
+359,CLM-0042-011505,Aetna,CO-16,N29,Coding & Billing,1804.06,0.65,Not Appealed,0.6557,851.72,0.6097,2,0.72
+360,CLM-0042-012484,UnitedHealthcare,CO-16,N29,Coding & Billing,768.25,0.514,Overturned/Recovered,0.8288,458.42,0.6093,2,0.72
+361,CLM-0042-005371,Medicare FFS,CO-16,N29,Coding & Billing,364.9,0.983,Overturned/Recovered,0.7049,185.2,0.6084,2,0.72
+362,CLM-0042-003730,UnitedHealthcare,CO-16,N29,Timely Filing,438.78,0.937,Overturned/Recovered,0.7117,224.83,0.6078,2,0.72
+363,CLM-0042-002346,Medicare FFS,CO-50,N115,Medical Necessity,811.54,0.914,Overturned/Recovered,0.6749,301.25,0.6076,3,0.55
+364,CLM-0042-004998,BCBS,CO-16,N29,Coding & Billing,298.81,0.774,Not Appealed,0.7874,169.41,0.6076,2,0.72
+365,CLM-0042-000096,BCBS,CO-16,N29,Coding & Billing,1406.74,0.689,Overturned/Recovered,0.685,693.76,0.6074,2,0.72
+366,CLM-0042-012167,BCBS,CO-50,N115,Medical Necessity,779.53,0.823,Not Appealed,0.7115,305.05,0.6074,3,0.55
+367,CLM-0042-000722,Medicaid,CO-97,N19,Coding & Billing,956.37,0.854,Not Appealed,0.6771,310.82,0.6063,3,0.48
+368,CLM-0042-000247,BCBS,CO-97,N19,Coding & Billing,960.12,0.851,Not Appealed,0.6771,312.04,0.606,3,0.48
+369,CLM-0042-000385,Medicaid,CO-16,N29,Timely Filing,158.54,0.848,Overturned/Recovered,0.7742,88.37,0.6059,2,0.72
+370,CLM-0042-008022,Medicare FFS,CO-50,N115,Medical Necessity,602.27,0.482,Overturned/Recovered,0.8502,281.62,0.6037,3,0.55
+371,CLM-0042-000702,Medicaid,CO-97,N19,Coding & Billing,2147.54,0.596,Not Appealed,0.6225,641.73,0.6034,3,0.48
+372,CLM-0042-002767,Medicaid,CO-97,N19,Coding & Billing,1547.39,0.586,Overturned/Recovered,0.6983,518.68,0.6034,3,0.48
+373,CLM-0042-002864,Medicare FFS,CO-50,N115,Medical Necessity,2037.44,0.627,Overturned/Recovered,0.6238,699.04,0.603,3,0.55
+374,CLM-0042-009439,BCBS,CO-50,N115,Medical Necessity,3562.65,0.596,Not Appealed,0.4503,882.27,0.602,3,0.55
+375,CLM-0042-008959,Medicare FFS,CO-16,N29,Coding & Billing,2085.03,0.423,Overturned/Recovered,0.6904,1036.38,0.6019,2,0.72
+376,CLM-0042-004261,Aetna,CO-16,N29,Coding & Billing,694.39,0.479,Not Appealed,0.8365,418.22,0.6017,2,0.72
+377,CLM-0042-012136,BCBS,CO-97,N19,Coding & Billing,1373.71,0.505,Not Appealed,0.7452,491.35,0.6015,3,0.48
+378,CLM-0042-000111,Medicaid,CO-50,N115,Medical Necessity,1038.99,0.79,Not Appealed,0.6814,389.36,0.6013,3,0.55
+379,CLM-0042-002555,Medicaid,CO-50,N115,Medical Necessity,1431.78,0.653,Overturned/Recovered,0.6816,536.78,0.6,3,0.55
+380,CLM-0042-003906,BCBS,CO-50,N115,Medical Necessity,1425.66,0.653,Not Appealed,0.6816,534.49,0.5996,3,0.55
+381,CLM-0042-007166,Medicaid,CO-50,N115,Prior Authorization,1269.84,0.724,Overturned/Recovered,0.6743,470.93,0.5995,3,0.55
+382,CLM-0042-000938,Medicare FFS,CO-97,N19,Coding & Billing,1064.6,0.764,Overturned/Recovered,0.6843,349.69,0.5994,3,0.48
+383,CLM-0042-007666,Medicaid,CO-50,N115,Medical Necessity,1232.16,0.733,Overturned/Recovered,0.6743,456.96,0.5988,3,0.55
+384,CLM-0042-003837,UnitedHealthcare,CO-50,N115,Medical Necessity,820.6,0.51,Not Appealed,0.8047,363.19,0.5988,3,0.55
+385,CLM-0042-009899,UnitedHealthcare,CO-16,N29,Timely Filing,1761.66,0.698,Not Appealed,0.6229,790.12,0.5985,2,0.72
+386,CLM-0042-006237,Medicaid,CO-50,N115,Medical Necessity,1066.77,0.853,Not Appealed,0.6494,380.99,0.5982,3,0.55
+387,CLM-0042-008068,Medicaid,CO-16,N29,Coding & Billing,1495.53,0.67,Not Appealed,0.6641,715.14,0.598,2,0.72
+388,CLM-0042-010538,UnitedHealthcare,CO-16,N29,Coding & Billing,1476.59,0.759,Overturned/Recovered,0.6337,673.72,0.5978,2,0.72
+389,CLM-0042-003482,UnitedHealthcare,CO-16,N29,Coding & Billing,321.06,0.831,Overturned/Recovered,0.7425,171.65,0.5958,2,0.72
+390,CLM-0042-008154,Aetna,CO-97,N19,Prior Authorization,4776.48,0.529,Not Appealed,0.4356,998.79,0.5954,3,0.48
+391,CLM-0042-003144,Medicare FFS,CO-50,N115,Medical Necessity,529.09,0.499,Overturned/Recovered,0.8375,243.72,0.5954,3,0.55
+392,CLM-0042-009716,BCBS,CO-27,N30,Eligibility/Coverage,2078.91,0.877,Overturned/Recovered,0.5136,192.17,0.5951,4,0.18
+393,CLM-0042-006376,Medicare FFS,CO-97,N19,Coding & Billing,2010.3,0.676,Overturned/Recovered,0.5943,573.45,0.5948,3,0.48
+394,CLM-0042-010551,Aetna,CO-16,N29,Coding & Billing,1223.91,0.765,Not Appealed,0.655,577.15,0.594,2,0.72
+395,CLM-0042-006636,Medicare FFS,CO-97,N19,Coding & Billing,899.01,0.928,Not Appealed,0.6341,273.62,0.5937,3,0.48
+396,CLM-0042-006585,BCBS,CO-50,N115,Medical Necessity,1260.08,0.676,Overturned/Recovered,0.6816,472.41,0.5933,3,0.55
+397,CLM-0042-012384,Medicaid,CO-97,N19,Prior Authorization,2512.77,0.573,Not Appealed,0.5683,685.42,0.593,3,0.48
+398,CLM-0042-010281,BCBS,PR-1,N130,Eligibility/Coverage,8724.84,0.649,Not Appealed,0.387,168.85,0.5927,5,0.05
+399,CLM-0042-000697,UnitedHealthcare,CO-97,N19,Coding & Billing,3006.66,0.578,Overturned/Recovered,0.5034,726.48,0.5909,3,0.48
+400,CLM-0042-012301,Medicare FFS,CO-50,N115,Medical Necessity,200.35,0.813,Not Appealed,0.7545,83.14,0.5908,3,0.55
+401,CLM-0042-011648,Medicaid,CO-97,N19,Coding & Billing,1230.46,0.774,Not Appealed,0.6446,380.71,0.5905,3,0.48
+402,CLM-0042-012207,Medicaid,CO-50,N115,Medical Necessity,1189.95,0.681,Overturned/Recovered,0.6816,446.12,0.5897,3,0.55
+403,CLM-0042-006765,Medicaid,CO-50,N115,Medical Necessity,920.96,0.506,Overturned/Recovered,0.7775,393.8,0.5896,3,0.55
+404,CLM-0042-009233,BCBS,CO-50,N115,Medical Necessity,1203.99,0.675,Overturned/Recovered,0.6816,451.38,0.5894,3,0.55
+405,CLM-0042-009310,BCBS,CO-16,N29,Coding & Billing,206.61,0.787,Not Appealed,0.7577,112.72,0.5878,2,0.72
+406,CLM-0042-003132,Aetna,CO-97,N19,Coding & Billing,3524.7,0.982,Upheld,0.2851,482.35,0.5859,3,0.48
+407,CLM-0042-011807,BCBS,CO-16,N29,Prior Authorization,442.88,0.867,Not Appealed,0.6958,221.88,0.5853,2,0.72
+408,CLM-0042-007753,Aetna,CO-97,N19,Coding & Billing,467.8,0.842,Not Appealed,0.701,157.39,0.5848,3,0.48
+409,CLM-0042-009413,Medicare FFS,CO-16,N29,Coding & Billing,303.56,0.405,Overturned/Recovered,0.8782,191.94,0.5841,2,0.72
+410,CLM-0042-008170,Medicaid,CO-16,N29,Timely Filing,870.2,0.766,Not Appealed,0.6786,425.19,0.5839,2,0.72
+411,CLM-0042-006209,Medicare FFS,CO-50,N115,Medical Necessity,1237.89,0.703,Not Appealed,0.6567,447.13,0.5835,3,0.55
+412,CLM-0042-007767,UnitedHealthcare,CO-16,N29,Coding & Billing,1629.19,0.788,Not Appealed,0.5785,678.61,0.5833,2,0.72
+413,CLM-0042-000057,Medicaid,CO-16,N29,Timely Filing,1269.31,0.601,Not Appealed,0.6897,630.28,0.5833,2,0.72
+414,CLM-0042-011151,Medicare FFS,CO-50,N115,Medical Necessity,354.73,0.915,Not Appealed,0.6849,133.63,0.5831,3,0.55
+415,CLM-0042-010635,BCBS,CO-16,N29,Prior Authorization,545.02,0.848,Not Appealed,0.6863,269.32,0.583,2,0.72
+416,CLM-0042-009174,Medicare FFS,CO-50,N115,Medical Necessity,353.77,0.766,Not Appealed,0.7386,143.7,0.5828,3,0.55
+417,CLM-0042-010400,UnitedHealthcare,CO-50,N115,Medical Necessity,2541.31,0.625,Not Appealed,0.5271,736.75,0.5827,3,0.55
+418,CLM-0042-011981,BCBS,CO-50,N115,Medical Necessity,1027.24,0.781,Not Appealed,0.6518,368.28,0.5825,3,0.55
+419,CLM-0042-005076,Medicare FFS,CO-16,N29,Coding & Billing,1063.35,0.688,Not Appealed,0.6805,520.98,0.5821,2,0.72
+420,CLM-0042-008690,UnitedHealthcare,CO-50,N115,Medical Necessity,2327.23,0.583,Overturned/Recovered,0.5648,722.87,0.5808,3,0.55
+421,CLM-0042-003827,Medicare FFS,CO-16,N29,Timely Filing,879.06,0.686,Overturned/Recovered,0.7008,443.54,0.5807,2,0.72
+422,CLM-0042-004181,UnitedHealthcare,CO-16,N29,Coding & Billing,1061.33,0.847,Not Appealed,0.6184,472.56,0.5796,2,0.72
+423,CLM-0042-006999,Aetna,CO-97,N19,Coding & Billing,571.69,0.838,Overturned/Recovered,0.6797,186.52,0.5792,3,0.48
+424,CLM-0042-005511,Medicare FFS,CO-97,N19,Coding & Billing,1507.87,0.474,Overturned/Recovered,0.6988,505.76,0.5787,3,0.48
+425,CLM-0042-010589,Medicare FFS,CO-16,N29,Coding & Billing,790.49,0.552,Overturned/Recovered,0.7565,430.55,0.5786,2,0.72
+426,CLM-0042-007994,Aetna,CO-50,N115,Medical Necessity,271.52,0.947,Not Appealed,0.6747,100.75,0.5784,3,0.55
+427,CLM-0042-010961,Medicare FFS,CO-16,N29,Coding & Billing,822.53,0.712,Overturned/Recovered,0.6937,410.81,0.5782,2,0.72
+428,CLM-0042-001288,Medicaid,CO-16,N29,Coding & Billing,581.53,0.856,Overturned/Recovered,0.6702,280.61,0.5782,2,0.72
+429,CLM-0042-008885,BCBS,CO-97,N19,Coding & Billing,1112.07,0.515,Not Appealed,0.7295,389.42,0.5776,3,0.48
+430,CLM-0042-006757,UnitedHealthcare,CO-16,N29,Coding & Billing,979.49,0.758,Overturned/Recovered,0.6566,463.06,0.5774,2,0.72
+431,CLM-0042-006225,BCBS,CO-50,N115,Medical Necessity,989.79,0.472,Not Appealed,0.7594,413.4,0.5774,3,0.55
+432,CLM-0042-001102,Medicaid,CO-16,N29,Coding & Billing,1250.32,0.611,Not Appealed,0.6769,609.38,0.577,2,0.72
+433,CLM-0042-000215,UnitedHealthcare,CO-16,N29,Coding & Billing,1401.49,0.802,Overturned/Recovered,0.5889,594.22,0.5768,2,0.72
+434,CLM-0042-011082,UnitedHealthcare,CO-50,N115,Medical Necessity,1005.24,0.762,Overturned/Recovered,0.651,359.93,0.5768,3,0.55
+435,CLM-0042-002209,Medicare FFS,CO-97,N19,Coding & Billing,398.84,0.759,Upheld,0.7242,138.64,0.5764,3,0.48
+436,CLM-0042-007372,UnitedHealthcare,CO-97,N19,Prior Authorization,792.07,0.878,Overturned/Recovered,0.633,240.68,0.5761,3,0.48
+437,CLM-0042-001364,Medicare FFS,CO-50,N115,Medical Necessity,3802.88,0.634,Upheld,0.3621,757.36,0.576,3,0.55
+438,CLM-0042-005859,BCBS,CO-16,N29,Coding & Billing,914.45,0.605,Overturned/Recovered,0.7173,472.25,0.5759,2,0.72
+439,CLM-0042-002066,Aetna,CO-50,N115,Medical Necessity,559.13,0.933,Overturned/Recovered,0.6399,196.8,0.5755,3,0.55
+440,CLM-0042-009475,Medicaid,CO-16,N29,Coding & Billing,984.16,0.774,Upheld,0.6452,457.19,0.5746,2,0.72
+441,CLM-0042-004294,BCBS,CO-97,N19,Coding & Billing,1206.59,0.791,Upheld,0.6121,354.51,0.5745,3,0.48
+442,CLM-0042-007611,UnitedHealthcare,CO-16,N29,Coding & Billing,984.95,0.766,Overturned/Recovered,0.6466,458.53,0.5738,2,0.72
+443,CLM-0042-001839,UnitedHealthcare,CO-16,N29,Coding & Billing,846.85,0.801,Not Appealed,0.6504,396.58,0.5738,2,0.72
+444,CLM-0042-000619,Medicare FFS,CO-50,N115,Medical Necessity,1215.7,0.58,Not Appealed,0.6846,457.73,0.5728,3,0.55
+445,CLM-0042-010430,BCBS,CO-16,N29,Coding & Billing,180.42,0.791,Not Appealed,0.7313,94.99,0.5723,2,0.72
+446,CLM-0042-009032,Aetna,CO-16,N29,Coding & Billing,21189.88,0.778,Not Appealed,0.301,4592.08,0.5711,2,0.72
+447,CLM-0042-005784,Aetna,CO-16,N29,Coding & Billing,616.28,0.889,Overturned/Recovered,0.6408,284.34,0.5709,2,0.72
+448,CLM-0042-003584,UnitedHealthcare,CO-50,N115,Medical Necessity,3512.08,0.889,Overturned/Recovered,0.293,565.91,0.5708,3,0.55
+449,CLM-0042-006227,BCBS,CO-16,N29,Coding & Billing,285.6,0.728,Not Appealed,0.7382,151.81,0.5705,2,0.72
+450,CLM-0042-011280,Medicaid,CO-16,N29,Coding & Billing,287.54,0.718,Not Appealed,0.7382,152.84,0.5686,2,0.72
+451,CLM-0042-003886,Medicare FFS,CO-50,N115,Medical Necessity,492.45,0.798,Overturned/Recovered,0.6844,185.37,0.5685,3,0.55
+452,CLM-0042-004155,BCBS,CO-16,N29,Coding & Billing,284.49,0.718,Overturned/Recovered,0.7382,151.22,0.5684,2,0.72
+453,CLM-0042-006127,Medicare FFS,CO-16,N29,Timely Filing,208.25,0.515,Overturned/Recovered,0.8209,123.08,0.5682,2,0.72
+454,CLM-0042-003789,Medicaid,CO-50,N115,Medical Necessity,983.29,0.795,Not Appealed,0.6242,337.55,0.5672,3,0.55
+455,CLM-0042-005730,Medicaid,CO-16,N29,Coding & Billing,1131.5,0.746,Overturned/Recovered,0.624,508.39,0.5671,2,0.72
+456,CLM-0042-010628,Medicare FFS,CO-16,N29,Timely Filing,790.23,0.561,Overturned/Recovered,0.7302,415.48,0.566,2,0.72
+457,CLM-0042-005448,Medicaid,CO-97,N19,Coding & Billing,344.67,0.962,Upheld,0.6379,105.54,0.566,3,0.48
+458,CLM-0042-009285,BCBS,CO-50,N115,Prior Authorization,932.8,0.497,Overturned/Recovered,0.7346,376.88,0.565,3,0.55
+459,CLM-0042-007050,Medicaid,CO-16,N29,Coding & Billing,720.67,0.885,Not Appealed,0.6187,321.03,0.5649,2,0.72
+460,CLM-0042-007864,BCBS,CO-16,N29,Coding & Billing,1116.08,0.736,Not Appealed,0.624,501.46,0.5641,2,0.72
+461,CLM-0042-000333,UnitedHealthcare,CO-97,N19,Coding & Billing,662.87,0.927,Overturned/Recovered,0.6082,193.51,0.5637,3,0.48
+462,CLM-0042-005624,BCBS,CO-50,N115,Medical Necessity,597.96,0.859,Overturned/Recovered,0.64,210.47,0.5632,3,0.55
+463,CLM-0042-001301,Medicare FFS,CO-16,N29,Coding & Billing,186.79,0.732,Not Appealed,0.7345,98.78,0.5627,2,0.72
+464,CLM-0042-008180,Medicaid,CO-50,N115,Medical Necessity,493.0,0.935,Not Appealed,0.6226,168.82,0.562,3,0.55
+465,CLM-0042-003271,Aetna,CO-50,N115,Medical Necessity,893.58,0.769,Not Appealed,0.6347,311.95,0.5619,3,0.55
+466,CLM-0042-009924,Medicare FFS,CO-16,N29,Timely Filing,469.43,0.601,Overturned/Recovered,0.7463,252.23,0.5616,2,0.72
+467,CLM-0042-008889,UnitedHealthcare,CO-16,N29,Coding & Billing,1268.71,0.863,Upheld,0.5537,505.82,0.5609,2,0.72
+468,CLM-0042-010732,Medicare FFS,CO-50,N115,Medical Necessity,911.18,0.739,Overturned/Recovered,0.6413,321.37,0.5606,3,0.55
+469,CLM-0042-005659,Medicare FFS,CO-97,N19,Coding & Billing,3222.56,0.271,Not Appealed,0.5327,823.94,0.5599,3,0.48
+470,CLM-0042-004446,Medicaid,CO-27,N30,Eligibility/Coverage,2060.12,0.881,Not Appealed,0.4501,166.9,0.5597,4,0.18
+471,CLM-0042-009188,BCBS,CO-16,N29,Coding & Billing,1906.12,0.733,Upheld,0.5201,713.77,0.5585,2,0.72
+472,CLM-0042-012078,Aetna,CO-16,N29,Coding & Billing,289.43,0.752,Not Appealed,0.7052,146.95,0.5574,2,0.72
+473,CLM-0042-006090,UnitedHealthcare,CO-50,N115,Medical Necessity,6410.99,0.472,Not Appealed,0.386,1360.89,0.5567,3,0.55
+474,CLM-0042-003579,UnitedHealthcare,CO-50,N115,Medical Necessity,952.17,0.695,Not Appealed,0.6435,337.01,0.5558,3,0.55
+475,CLM-0042-005012,BCBS,CO-16,N29,Coding & Billing,199.62,0.736,Not Appealed,0.719,103.34,0.5558,2,0.72
+476,CLM-0042-003518,Medicare FFS,CO-97,N19,Coding & Billing,2044.8,0.589,Upheld,0.5502,540.05,0.5554,3,0.48
+477,CLM-0042-006070,Medicare FFS,CO-16,N29,Timely Filing,4736.22,0.4,Upheld,0.406,1384.38,0.5533,2,0.72
+478,CLM-0042-003802,Medicare FFS,CO-50,N115,Prior Authorization,3554.74,0.596,Not Appealed,0.3621,707.97,0.553,3,0.55
+479,CLM-0042-010629,UnitedHealthcare,CO-16,N29,Coding & Billing,116.22,0.87,Not Appealed,0.6719,56.22,0.5512,2,0.72
+480,CLM-0042-006484,UnitedHealthcare,CO-50,N115,Prior Authorization,1294.59,0.766,Upheld,0.5677,404.2,0.5509,3,0.55
+481,CLM-0042-004821,UnitedHealthcare,CO-97,N19,Coding & Billing,1591.81,0.606,Not Appealed,0.5901,450.85,0.5508,3,0.48
+482,CLM-0042-006187,UnitedHealthcare,CO-97,N19,Coding & Billing,1068.89,0.967,Not Appealed,0.5215,267.55,0.5508,3,0.48
+483,CLM-0042-001140,BCBS,CO-50,N115,Medical Necessity,982.9,0.599,Not Appealed,0.6655,359.79,0.5507,3,0.55
+484,CLM-0042-003609,Medicare FFS,CO-16,N29,Coding & Billing,341.05,0.588,Overturned/Recovered,0.7466,183.32,0.5507,2,0.72
+485,CLM-0042-002639,UnitedHealthcare,CO-16,N29,Coding & Billing,908.11,0.629,Overturned/Recovered,0.6621,432.9,0.5499,2,0.72
+486,CLM-0042-002619,UnitedHealthcare,CO-50,N115,Medical Necessity,3734.97,0.702,Upheld,0.2947,605.49,0.5491,3,0.55
+487,CLM-0042-000607,Aetna,CO-16,N29,Coding & Billing,614.03,0.924,Not Appealed,0.5886,260.22,0.5491,2,0.72
+488,CLM-0042-001548,UnitedHealthcare,CO-97,N19,Coding & Billing,508.6,0.502,Overturned/Recovered,0.7548,184.27,0.5491,3,0.48
+489,CLM-0042-002676,BCBS,CO-16,N29,Coding & Billing,1041.17,0.632,Overturned/Recovered,0.6434,482.33,0.549,2,0.72
+490,CLM-0042-000341,Medicare FFS,CO-16,N29,Coding & Billing,606.84,0.568,Not Appealed,0.7187,314.0,0.5489,2,0.72
+491,CLM-0042-000968,Medicare FFS,CO-50,N115,Medical Necessity,961.87,0.7,Overturned/Recovered,0.6267,331.52,0.5482,3,0.55
+492,CLM-0042-007931,Medicaid,CO-16,N29,Coding & Billing,291.0,0.605,Not Appealed,0.7417,155.41,0.5482,2,0.72
+493,CLM-0042-004460,UnitedHealthcare,CO-50,N115,Medical Necessity,1240.74,0.747,Overturned/Recovered,0.5759,393.03,0.5481,3,0.55
+494,CLM-0042-004766,Medicare FFS,CO-16,N29,Prior Authorization,527.94,0.702,Upheld,0.6779,257.66,0.5481,2,0.72
+495,CLM-0042-010945,Aetna,CO-97,N19,Coding & Billing,957.92,0.785,Not Appealed,0.5952,273.67,0.5476,3,0.48
+496,CLM-0042-007142,UnitedHealthcare,CO-50,N115,Prior Authorization,1252.48,0.739,Upheld,0.5759,396.75,0.5472,3,0.55
+497,CLM-0042-003563,Aetna,CO-50,N115,Medical Necessity,1240.63,0.684,Overturned/Recovered,0.597,407.33,0.547,3,0.55
+498,CLM-0042-001212,UnitedHealthcare,CO-16,N29,Coding & Billing,1424.05,0.608,Not Appealed,0.6024,617.64,0.5469,2,0.72
+499,CLM-0042-007969,Medicare FFS,CO-97,N19,Coding & Billing,433.61,0.923,Not Appealed,0.6068,126.29,0.5469,3,0.48
+500,CLM-0042-004200,Medicare FFS,CO-16,N29,Coding & Billing,178.27,0.627,Not Appealed,0.7435,95.43,0.5461,2,0.72
+501,CLM-0042-000836,BCBS,CO-97,N19,Prior Authorization,1371.45,0.611,Not Appealed,0.6055,398.57,0.5457,3,0.48
+502,CLM-0042-001149,BCBS,CO-16,N29,Coding & Billing,625.71,0.85,Overturned/Recovered,0.6076,273.73,0.5455,2,0.72
+503,CLM-0042-011770,Medicare FFS,CO-97,N19,Coding & Billing,6870.18,0.73,Not Appealed,0.2714,894.96,0.5453,3,0.48
+504,CLM-0042-006573,BCBS,CO-16,N29,Timely Filing,598.1,0.458,Not Appealed,0.7529,324.24,0.5452,2,0.72
+505,CLM-0042-007331,Medicare FFS,CO-16,N29,Timely Filing,593.2,0.662,Overturned/Recovered,0.6794,290.15,0.5452,2,0.72
+506,CLM-0042-006570,Aetna,CO-16,N29,Coding & Billing,798.01,0.799,Overturned/Recovered,0.6039,347.0,0.5446,2,0.72
+507,CLM-0042-005451,Medicare FFS,CO-16,N29,Timely Filing,765.85,0.647,Not Appealed,0.6625,365.28,0.5443,2,0.72
+508,CLM-0042-001806,UnitedHealthcare,CO-50,N115,Medical Necessity,1529.51,0.69,Upheld,0.555,466.87,0.5442,3,0.55
+509,CLM-0042-008851,Medicaid,CO-16,N29,Coding & Billing,1013.66,0.601,Not Appealed,0.6481,473.04,0.5436,2,0.72
+510,CLM-0042-005014,UnitedHealthcare,CO-16,N29,Coding & Billing,3067.19,0.619,Upheld,0.395,872.41,0.5435,2,0.72
+511,CLM-0042-002640,Medicare FFS,CO-16,N29,Coding & Billing,365.64,0.711,Not Appealed,0.685,180.33,0.5431,2,0.72
+512,CLM-0042-010686,BCBS,CO-16,N29,Coding & Billing,599.18,0.756,Overturned/Recovered,0.6396,275.92,0.5425,2,0.72
+513,CLM-0042-012161,Medicare FFS,CO-97,N19,Coding & Billing,356.24,0.777,Overturned/Recovered,0.6608,113.0,0.5424,3,0.48
+514,CLM-0042-008174,BCBS,CO-16,N29,Coding & Billing,647.94,0.853,Not Appealed,0.5973,278.64,0.5419,2,0.72
+515,CLM-0042-002445,BCBS,CO-16,N29,Coding & Billing,965.4,0.582,Not Appealed,0.6568,456.54,0.5414,2,0.72
+516,CLM-0042-000544,Aetna,CO-50,N115,Medical Necessity,1337.71,0.905,Not Appealed,0.4932,362.86,0.5406,3,0.55
+517,CLM-0042-002438,BCBS,CO-50,N115,Medical Necessity,901.47,0.791,Not Appealed,0.587,291.06,0.5406,3,0.55
+518,CLM-0042-006147,UnitedHealthcare,CO-16,N29,Coding & Billing,883.88,0.579,Not Appealed,0.6658,423.7,0.5403,2,0.72
+519,CLM-0042-001557,Aetna,CO-16,N29,Coding & Billing,281.02,0.632,Overturned/Recovered,0.7183,145.34,0.54,2,0.72
+520,CLM-0042-002359,Aetna,CO-50,N115,Medical Necessity,490.75,0.484,Overturned/Recovered,0.7462,201.42,0.5396,3,0.55
+521,CLM-0042-003838,Medicare FFS,CO-16,N29,Coding & Billing,357.42,0.578,Overturned/Recovered,0.7277,187.26,0.5394,2,0.72
+522,CLM-0042-006790,UnitedHealthcare,CO-50,N115,Medical Necessity,617.53,0.862,Not Appealed,0.5931,201.43,0.5393,3,0.55
+523,CLM-0042-010169,Aetna,CO-16,N29,Coding & Billing,1017.8,0.532,Overturned/Recovered,0.6635,486.22,0.5385,2,0.72
+524,CLM-0042-000632,UnitedHealthcare,CO-16,N29,Timely Filing,1243.64,0.699,Overturned/Recovered,0.5743,514.26,0.5378,2,0.72
+525,CLM-0042-008529,UnitedHealthcare,CO-50,N115,Medical Necessity,1012.84,0.73,Overturned/Recovered,0.5905,328.92,0.5376,3,0.55
+526,CLM-0042-010292,UnitedHealthcare,CO-50,N115,Medical Necessity,1232.12,0.697,Not Appealed,0.5759,390.3,0.5375,3,0.55
+527,CLM-0042-003480,BCBS,CO-50,N115,Prior Authorization,456.89,0.86,Overturned/Recovered,0.6096,153.18,0.5374,3,0.55
+528,CLM-0042-008791,Aetna,CO-16,N29,Coding & Billing,1485.68,0.641,Overturned/Recovered,0.5653,604.71,0.5372,2,0.72
+529,CLM-0042-010232,UnitedHealthcare,CO-16,N29,Coding & Billing,1543.31,0.601,Not Appealed,0.5712,634.76,0.5363,2,0.72
+530,CLM-0042-003252,BCBS,CO-50,N115,Medical Necessity,1125.11,0.671,Upheld,0.5956,368.55,0.536,3,0.55
+531,CLM-0042-001078,BCBS,CO-16,N29,Prior Authorization,871.93,0.728,Overturned/Recovered,0.6046,379.54,0.5357,2,0.72
+532,CLM-0042-000088,BCBS,CO-50,N115,Prior Authorization,847.15,0.773,Not Appealed,0.5911,275.42,0.5356,3,0.55
+533,CLM-0042-011344,Medicare FFS,CO-97,N19,Prior Authorization,687.79,0.883,Overturned/Recovered,0.5699,188.14,0.5354,3,0.48
+534,CLM-0042-011067,Aetna,CO-16,N29,Coding & Billing,867.72,0.657,Upheld,0.6271,391.8,0.5336,2,0.72
+535,CLM-0042-006564,Aetna,CO-50,N115,Medical Necessity,2833.02,0.538,Not Appealed,0.4337,675.76,0.5331,3,0.55
+536,CLM-0042-011448,Medicare FFS,CO-16,N29,Coding & Billing,1233.66,0.523,Not Appealed,0.6311,560.58,0.5331,2,0.72
+537,CLM-0042-001476,BCBS,CO-50,N115,Prior Authorization,3401.48,0.647,Upheld,0.325,607.96,0.5327,3,0.55
+538,CLM-0042-001470,Medicare FFS,CO-97,N19,Coding & Billing,1600.19,0.54,Not Appealed,0.5797,445.24,0.5325,3,0.48
+539,CLM-0042-009301,UnitedHealthcare,CO-50,N115,Medical Necessity,1420.06,0.89,Not Appealed,0.4718,368.48,0.5312,3,0.55
+540,CLM-0042-011645,BCBS,CO-16,N29,Coding & Billing,846.11,0.712,Not Appealed,0.6046,368.31,0.5308,2,0.72
+541,CLM-0042-009514,UnitedHealthcare,CO-16,N29,Coding & Billing,284.96,0.598,Not Appealed,0.7134,146.36,0.5308,2,0.72
+542,CLM-0042-011951,UnitedHealthcare,CO-16,N29,Prior Authorization,215.11,0.807,Overturned/Recovered,0.6454,99.96,0.5306,2,0.72
+543,CLM-0042-000569,Medicaid,CO-16,N29,Coding & Billing,959.25,0.636,Not Appealed,0.6179,426.77,0.5304,2,0.72
+544,CLM-0042-007242,Medicaid,CO-97,N19,Prior Authorization,410.93,0.878,Not Appealed,0.5958,117.53,0.5304,3,0.48
+545,CLM-0042-003130,Aetna,CO-16,N29,Coding & Billing,509.51,0.788,Overturned/Recovered,0.6164,226.13,0.5303,2,0.72
+546,CLM-0042-002913,BCBS,CO-16,N29,Coding & Billing,483.94,0.646,Overturned/Recovered,0.671,233.8,0.5302,2,0.72
+547,CLM-0042-007959,Medicare FFS,CO-50,N115,Medical Necessity,1919.68,0.688,Not Appealed,0.4831,510.07,0.53,3,0.55
+548,CLM-0042-003847,UnitedHealthcare,CO-50,N115,Medical Necessity,1321.06,0.641,Not Appealed,0.5718,415.49,0.5299,3,0.55
+549,CLM-0042-000389,Medicare FFS,CO-50,N115,Medical Necessity,459.55,0.744,Not Appealed,0.637,161.0,0.5295,3,0.55
+550,CLM-0042-004513,Aetna,CO-16,N29,Prior Authorization,2021.65,0.764,Upheld,0.4415,642.67,0.5291,2,0.72
+551,CLM-0042-005623,BCBS,CO-16,N29,Coding & Billing,467.55,0.645,Not Appealed,0.671,225.88,0.5289,2,0.72
+552,CLM-0042-008930,Medicaid,CO-97,N19,Coding & Billing,420.75,0.867,Overturned/Recovered,0.5958,120.34,0.5289,3,0.48
+553,CLM-0042-011191,Medicaid,CO-16,N29,Timely Filing,991.9,0.603,Upheld,0.6228,444.78,0.5286,2,0.72
+554,CLM-0042-000241,UnitedHealthcare,CO-16,N29,Coding & Billing,1318.6,0.639,Overturned/Recovered,0.5702,541.35,0.5285,2,0.72
+555,CLM-0042-001264,Aetna,CO-97,N19,Coding & Billing,300.29,0.777,Not Appealed,0.6417,92.49,0.5282,3,0.48
+556,CLM-0042-001684,Medicaid,CO-16,N29,Coding & Billing,1204.63,0.617,Not Appealed,0.5903,511.99,0.5276,2,0.72
+557,CLM-0042-012135,Aetna,CO-16,N29,Coding & Billing,1122.55,0.743,Overturned/Recovered,0.5532,447.1,0.5269,2,0.72
+558,CLM-0042-001166,Aetna,CO-50,N115,Prior Authorization,2195.38,0.75,Upheld,0.4216,509.12,0.5268,3,0.55
+559,CLM-0042-009661,Medicaid,CO-16,N29,Coding & Billing,884.62,0.608,Not Appealed,0.6298,401.15,0.5264,2,0.72
+560,CLM-0042-002706,BCBS,CO-16,N29,Coding & Billing,940.12,0.75,Not Appealed,0.5683,384.7,0.5246,2,0.72
+561,CLM-0042-000411,BCBS,CO-16,N29,Coding & Billing,809.41,0.759,Not Appealed,0.5804,338.22,0.5244,2,0.72
+562,CLM-0042-005329,Medicaid,CO-27,N30,Eligibility/Coverage,1775.32,0.815,Not Appealed,0.444,141.87,0.5244,4,0.18
+563,CLM-0042-003500,UnitedHealthcare,CO-16,N29,Coding & Billing,511.26,0.801,Not Appealed,0.6007,221.11,0.5243,2,0.72
+564,CLM-0042-006922,UnitedHealthcare,CO-50,N115,Medical Necessity,1112.16,0.593,Not Appealed,0.6038,369.35,0.5241,3,0.55
+565,CLM-0042-001176,UnitedHealthcare,CO-97,N19,Coding & Billing,2107.52,0.778,Not Appealed,0.4168,421.68,0.524,3,0.48
+566,CLM-0042-011260,Medicare FFS,CO-97,N19,Coding & Billing,680.26,0.877,Upheld,0.5506,179.8,0.5232,3,0.48
+567,CLM-0042-006581,UnitedHealthcare,CO-16,N29,Coding & Billing,788.16,0.759,Upheld,0.5797,328.97,0.5227,2,0.72
+568,CLM-0042-009279,Medicaid,CO-16,N29,Coding & Billing,247.58,0.838,Not Appealed,0.6159,109.79,0.5227,2,0.72
+569,CLM-0042-002423,UnitedHealthcare,CO-97,N19,Coding & Billing,5441.87,0.452,Upheld,0.3297,861.24,0.5217,3,0.48
+570,CLM-0042-008803,Medicare FFS,CO-50,N115,Medical Necessity,339.97,0.893,Not Appealed,0.5828,108.98,0.5216,3,0.55
+571,CLM-0042-006778,BCBS,CO-16,N29,Coding & Billing,1003.62,0.713,Not Appealed,0.5683,410.69,0.5214,2,0.72
+572,CLM-0042-011526,UnitedHealthcare,CO-50,N115,Medical Necessity,1314.13,0.597,Overturned/Recovered,0.5719,413.32,0.5207,3,0.55
+573,CLM-0042-002144,UnitedHealthcare,CO-16,N29,Timely Filing,1073.26,0.799,Not Appealed,0.526,406.43,0.5199,2,0.72
+574,CLM-0042-007762,Aetna,CO-16,N29,Coding & Billing,559.18,0.866,Upheld,0.5628,226.58,0.5196,2,0.72
+575,CLM-0042-007082,UnitedHealthcare,CO-50,N115,Medical Necessity,1085.45,0.606,Not Appealed,0.5926,353.8,0.5188,3,0.55
+576,CLM-0042-003292,UnitedHealthcare,CO-16,N29,Coding & Billing,702.65,0.765,Overturned/Recovered,0.5797,293.28,0.5182,2,0.72
+577,CLM-0042-011239,UnitedHealthcare,CO-50,N115,Medical Necessity,2204.29,0.599,Not Appealed,0.4593,556.8,0.5179,3,0.55
+578,CLM-0042-001001,Medicare FFS,CO-16,N29,Prior Authorization,707.86,0.703,Upheld,0.5999,305.77,0.5173,2,0.72
+579,CLM-0042-011866,BCBS,CO-50,N115,Medical Necessity,3475.6,0.622,Not Appealed,0.2967,567.1,0.517,3,0.55
+580,CLM-0042-007457,UnitedHealthcare,CO-16,N29,Timely Filing,1543.06,0.594,Upheld,0.5385,598.26,0.5168,2,0.72
+581,CLM-0042-011774,BCBS,CO-50,N115,Medical Necessity,283.71,0.86,Not Appealed,0.5927,92.48,0.5167,3,0.55
+582,CLM-0042-000788,Medicaid,CO-50,N115,Medical Necessity,1162.99,0.905,Upheld,0.4694,300.25,0.5159,3,0.55
+583,CLM-0042-004075,Medicare FFS,CO-97,N19,Coding & Billing,1330.88,0.612,Not Appealed,0.5556,354.92,0.5158,3,0.48
+584,CLM-0042-003933,BCBS,CO-50,N115,Prior Authorization,191.36,0.754,Overturned/Recovered,0.6405,67.41,0.5157,3,0.55
+585,CLM-0042-008403,BCBS,CO-50,N115,Medical Necessity,358.21,0.474,Not Appealed,0.722,142.25,0.5156,3,0.55
+586,CLM-0042-011459,Aetna,CO-16,N29,Coding & Billing,976.16,0.572,Not Appealed,0.6109,429.4,0.5149,2,0.72
+587,CLM-0042-007418,Aetna,CO-50,N115,Medical Necessity,1054.38,0.797,Not Appealed,0.5198,301.43,0.5149,3,0.55
+588,CLM-0042-011554,Medicare FFS,CO-97,N19,Coding & Billing,2108.34,0.735,Upheld,0.4154,420.43,0.5147,3,0.48
+589,CLM-0042-005038,Medicare FFS,CO-50,N115,Medical Necessity,494.53,0.896,Not Appealed,0.5497,149.51,0.5142,3,0.55
+590,CLM-0042-000030,UnitedHealthcare,CO-50,N115,Medical Necessity,1486.05,0.736,Not Appealed,0.4888,399.52,0.5141,3,0.55
+591,CLM-0042-008226,Medicare FFS,CO-97,N19,Coding & Billing,785.86,0.505,Upheld,0.6569,247.78,0.5141,3,0.48
+592,CLM-0042-005392,Medicaid,CO-16,N29,Coding & Billing,414.69,0.786,Overturned/Recovered,0.5986,178.74,0.5138,2,0.72
+593,CLM-0042-007690,Medicaid,CO-16,N29,Coding & Billing,419.99,0.783,Overturned/Recovered,0.5986,181.02,0.5136,2,0.72
+594,CLM-0042-008426,BCBS,CO-16,N29,Coding & Billing,590.52,0.804,Upheld,0.5702,242.44,0.5134,2,0.72
+595,CLM-0042-005083,Medicaid,CO-50,N115,Prior Authorization,3491.41,0.52,Upheld,0.3246,623.23,0.513,3,0.55
+596,CLM-0042-009026,BCBS,CO-16,N29,Coding & Billing,982.68,0.655,Upheld,0.5766,407.95,0.513,2,0.72
+597,CLM-0042-005763,UnitedHealthcare,CO-16,N29,Coding & Billing,1011.71,0.806,Upheld,0.518,377.31,0.5129,2,0.72
+598,CLM-0042-006534,Medicare FFS,CO-97,N19,Coding & Billing,300.08,0.65,Overturned/Recovered,0.6599,95.05,0.5127,3,0.48
+599,CLM-0042-002832,Medicaid,CO-16,N29,Coding & Billing,376.16,0.762,Not Appealed,0.6092,164.99,0.5123,2,0.72
+600,CLM-0042-001201,BCBS,CO-18,N111,Coding & Billing,2304.26,0.583,Not Appealed,0.443,153.11,0.5123,4,0.15
+601,CLM-0042-000228,BCBS,CO-16,N29,Coding & Billing,374.54,0.761,Overturned/Recovered,0.6092,164.28,0.512,2,0.72
+602,CLM-0042-008904,Medicaid,CO-16,N29,Prior Authorization,929.55,0.667,Not Appealed,0.5766,385.9,0.5119,2,0.72
+603,CLM-0042-006889,BCBS,CO-27,N30,Eligibility/Coverage,1256.83,0.88,Not Appealed,0.4599,104.05,0.5119,4,0.18
+604,CLM-0042-009464,Medicare FFS,CO-97,N19,Coding & Billing,1316.32,0.645,Upheld,0.5373,339.48,0.5114,3,0.48
+605,CLM-0042-010933,UnitedHealthcare,CO-50,N115,Medical Necessity,737.98,0.861,Upheld,0.527,213.9,0.5108,3,0.55
+606,CLM-0042-003841,UnitedHealthcare,CO-50,N115,Medical Necessity,1202.75,0.807,Not Appealed,0.4907,324.58,0.5107,3,0.55
+607,CLM-0042-010054,Medicaid,CO-16,N29,Coding & Billing,570.52,0.788,Upheld,0.5728,235.27,0.5103,2,0.72
+608,CLM-0042-003535,UnitedHealthcare,CO-50,N115,Medical Necessity,984.58,0.653,Not Appealed,0.572,309.76,0.5102,3,0.55
+609,CLM-0042-007796,UnitedHealthcare,CO-50,N115,Medical Necessity,1934.9,0.935,Upheld,0.3534,376.09,0.5091,3,0.55
+610,CLM-0042-005382,UnitedHealthcare,CO-16,N29,Coding & Billing,922.66,0.812,Overturned/Recovered,0.518,344.1,0.5082,2,0.72
+611,CLM-0042-005259,Medicaid,CO-50,N115,Medical Necessity,733.17,0.857,Not Appealed,0.5235,211.09,0.5077,3,0.55
+612,CLM-0042-000105,UnitedHealthcare,CO-50,N115,Medical Necessity,1144.84,0.73,Not Appealed,0.52,327.45,0.5076,3,0.55
+613,CLM-0042-001737,Aetna,CO-16,N29,Timely Filing,1052.21,0.791,Upheld,0.5077,384.63,0.5069,2,0.72
+614,CLM-0042-000383,UnitedHealthcare,CO-16,N29,Timely Filing,1489.72,0.676,Upheld,0.4956,531.55,0.5061,2,0.72
+615,CLM-0042-004800,UnitedHealthcare,CO-50,N115,Medical Necessity,786.08,0.867,Overturned/Recovered,0.5105,220.71,0.5061,3,0.55
+616,CLM-0042-006538,BCBS,CO-16,N29,Coding & Billing,2101.27,0.268,Not Appealed,0.5704,863.0,0.506,2,0.72
+617,CLM-0042-003305,UnitedHealthcare,CO-16,N29,Coding & Billing,891.73,0.567,Not Appealed,0.6049,388.34,0.5049,2,0.72
+618,CLM-0042-010300,Aetna,CO-97,N19,Coding & Billing,9242.16,0.779,Upheld,0.1791,794.58,0.5043,3,0.48
+619,CLM-0042-005628,UnitedHealthcare,CO-16,N29,Coding & Billing,780.86,0.793,Upheld,0.5345,300.51,0.5041,2,0.72
+620,CLM-0042-005576,Medicare FFS,CO-97,N19,Coding & Billing,479.55,0.748,Overturned/Recovered,0.5861,134.91,0.5036,3,0.48
+621,CLM-0042-003581,UnitedHealthcare,CO-16,N29,Timely Filing,1514.16,0.655,Overturned/Recovered,0.4956,540.27,0.5035,2,0.72
+622,CLM-0042-008817,Aetna,CO-97,N19,Coding & Billing,997.91,0.777,Not Appealed,0.5128,245.62,0.5033,3,0.48
+623,CLM-0042-002249,Medicaid,CO-16,N29,Coding & Billing,737.52,0.644,Overturned/Recovered,0.5913,313.97,0.5027,2,0.72
+624,CLM-0042-000581,BCBS,CO-50,N115,Prior Authorization,874.73,0.734,Not Appealed,0.5419,260.7,0.5026,3,0.55
+625,CLM-0042-003304,Aetna,CO-97,N19,Coding & Billing,12636.86,0.798,Upheld,0.1685,1022.1,0.5023,3,0.48
+626,CLM-0042-007153,Aetna,CO-97,N19,Coding & Billing,955.56,0.602,Not Appealed,0.5793,265.71,0.5021,3,0.48
+627,CLM-0042-001541,UnitedHealthcare,CO-50,N115,Medical Necessity,722.97,0.868,Not Appealed,0.5105,202.99,0.5021,3,0.55
+628,CLM-0042-006197,UnitedHealthcare,CO-50,N115,Medical Necessity,1482.99,0.653,Upheld,0.4972,405.56,0.502,3,0.55
+629,CLM-0042-002977,BCBS,CO-97,N19,Coding & Billing,915.57,0.939,Upheld,0.4609,202.56,0.5017,3,0.48
+630,CLM-0042-010958,BCBS,CO-50,N115,Medical Necessity,915.03,0.414,Not Appealed,0.6498,327.0,0.5006,3,0.55
+631,CLM-0042-010537,UnitedHealthcare,CO-18,N111,Coding & Billing,5797.89,0.975,Upheld,0.1001,87.03,0.5,4,0.15
+632,CLM-0042-004803,Medicare FFS,CO-27,N30,Eligibility/Coverage,2341.47,0.742,Not Appealed,0.3573,150.58,0.4995,4,0.18
+633,CLM-0042-001345,Aetna,CO-97,N19,Coding & Billing,442.74,0.874,Not Appealed,0.5372,114.16,0.4995,3,0.48
+634,CLM-0042-006576,BCBS,CO-27,N30,Eligibility/Coverage,2077.67,0.785,Upheld,0.3724,139.25,0.4989,4,0.18
+635,CLM-0042-006953,Medicare FFS,CO-97,N19,Coding & Billing,800.71,0.866,Upheld,0.4959,190.58,0.4988,3,0.48
+636,CLM-0042-002181,UnitedHealthcare,CO-16,N29,Coding & Billing,211.0,0.905,Not Appealed,0.5525,83.93,0.4988,2,0.72
+637,CLM-0042-003341,Medicaid,CO-16,N29,Timely Filing,614.73,0.666,Not Appealed,0.5896,260.97,0.4981,2,0.72
+638,CLM-0042-004362,BCBS,CO-97,N19,Coding & Billing,1003.72,0.787,Not Appealed,0.4974,239.62,0.4972,3,0.48
+639,CLM-0042-010219,Medicare FFS,CO-97,N19,Coding & Billing,299.09,0.531,Overturned/Recovered,0.675,96.9,0.4972,3,0.48
+640,CLM-0042-007300,BCBS,CO-16,N29,Coding & Billing,863.85,0.909,Not Appealed,0.469,291.68,0.4968,2,0.72
+641,CLM-0042-004453,BCBS,CO-16,N29,Coding & Billing,352.54,0.603,Overturned/Recovered,0.6411,162.73,0.4965,2,0.72
+642,CLM-0042-011763,Medicare FFS,CO-97,N19,Coding & Billing,1481.27,0.664,Upheld,0.4822,342.82,0.4958,3,0.48
+643,CLM-0042-005095,Aetna,CO-97,N19,Coding & Billing,525.13,0.853,Not Appealed,0.5279,133.06,0.4956,3,0.48
+644,CLM-0042-002256,BCBS,CO-50,N115,Prior Authorization,885.55,0.723,Not Appealed,0.5314,258.82,0.4953,3,0.55
+645,CLM-0042-009846,BCBS,CO-16,N29,Coding & Billing,575.75,0.969,Not Appealed,0.4791,198.61,0.4953,2,0.72
+646,CLM-0042-011959,UnitedHealthcare,CO-97,N19,Coding & Billing,1316.26,0.609,Not Appealed,0.5206,328.94,0.495,3,0.48
+647,CLM-0042-002473,UnitedHealthcare,CO-50,N115,Medical Necessity,609.46,0.864,Not Appealed,0.5112,171.35,0.4942,3,0.55
+648,CLM-0042-011484,UnitedHealthcare,CO-16,N29,Prior Authorization,653.96,0.722,Not Appealed,0.557,262.27,0.4939,2,0.72
+649,CLM-0042-003434,Medicare FFS,CO-50,N115,Medical Necessity,1048.6,0.688,Not Appealed,0.5214,300.73,0.4936,3,0.55
+650,CLM-0042-000942,UnitedHealthcare,CO-97,N19,Coding & Billing,1198.14,0.579,Not Appealed,0.543,312.27,0.4935,3,0.48
+651,CLM-0042-002408,Medicaid,CO-16,N29,Coding & Billing,2556.37,0.528,Upheld,0.3983,733.09,0.4934,2,0.72
+652,CLM-0042-003618,Medicare FFS,CO-97,N19,Coding & Billing,627.71,0.502,Overturned/Recovered,0.6391,192.55,0.4933,3,0.48
+653,CLM-0042-007436,Medicaid,CO-50,N115,Medical Necessity,894.33,0.709,Not Appealed,0.5314,261.39,0.4931,3,0.55
+654,CLM-0042-006854,Medicaid,CO-27,N30,Eligibility/Coverage,6705.55,0.593,Not Appealed,0.226,272.76,0.4929,4,0.18
+655,CLM-0042-009596,BCBS,CO-50,N115,Medical Necessity,845.77,0.8,Upheld,0.5033,234.11,0.4926,3,0.55
+656,CLM-0042-008602,Medicare FFS,CO-50,N115,Medical Necessity,2154.93,0.546,Upheld,0.4379,518.98,0.4923,3,0.55
+657,CLM-0042-011221,Medicaid,CO-16,N29,Timely Filing,773.95,0.799,Not Appealed,0.5115,285.01,0.4922,2,0.72
+658,CLM-0042-011445,Medicaid,CO-16,N29,Coding & Billing,775.73,0.76,Not Appealed,0.5251,293.28,0.492,2,0.72
+659,CLM-0042-000384,BCBS,CO-27,N30,Eligibility/Coverage,5897.58,0.694,Upheld,0.1872,198.72,0.4918,4,0.18
+660,CLM-0042-003626,BCBS,CO-16,N29,Coding & Billing,431.25,0.752,Not Appealed,0.5679,176.35,0.4912,2,0.72
+661,CLM-0042-007353,Aetna,CO-16,N29,Coding & Billing,366.53,0.889,Not Appealed,0.5257,138.73,0.4911,2,0.72
+662,CLM-0042-001546,Medicaid,CO-50,N115,Medical Necessity,365.49,0.879,Upheld,0.5292,106.38,0.491,3,0.55
+663,CLM-0042-005303,UnitedHealthcare,CO-16,N29,Coding & Billing,799.49,0.671,Not Appealed,0.5522,317.88,0.4907,2,0.72
+664,CLM-0042-010291,Medicaid,CO-16,N29,Coding & Billing,547.49,0.641,Not Appealed,0.5919,233.33,0.4899,2,0.72
+665,CLM-0042-010146,Aetna,CO-50,N115,Medical Necessity,1138.89,0.553,Not Appealed,0.5525,346.11,0.4897,3,0.55
+666,CLM-0042-009060,UnitedHealthcare,CO-16,N29,Timely Filing,762.49,0.629,Not Appealed,0.5701,312.99,0.4897,2,0.72
+667,CLM-0042-008625,Medicaid,CO-50,N115,Medical Necessity,429.12,0.915,Not Appealed,0.5062,119.46,0.4897,3,0.55
+668,CLM-0042-002361,UnitedHealthcare,CO-27,N30,Eligibility/Coverage,2353.97,0.596,Not Appealed,0.3885,164.61,0.4883,4,0.18
+669,CLM-0042-009152,Medicaid,CO-50,N115,Medical Necessity,570.31,0.87,Not Appealed,0.5026,157.64,0.4881,3,0.55
+670,CLM-0042-008464,UnitedHealthcare,CO-16,N29,Coding & Billing,676.89,0.655,Overturned/Recovered,0.5653,275.51,0.4866,2,0.72
+671,CLM-0042-002360,Medicare FFS,PR-1,N130,Eligibility/Coverage,2247.29,0.95,Not Appealed,0.2691,30.23,0.4863,5,0.05
+672,CLM-0042-005220,Medicare FFS,PR-1,N130,Eligibility/Coverage,2289.8,0.934,Not Appealed,0.2691,30.8,0.4859,5,0.05
+673,CLM-0042-008642,Aetna,CO-97,N19,Coding & Billing,635.52,0.984,Not Appealed,0.4489,136.92,0.4856,3,0.48
+674,CLM-0042-000760,BCBS,CO-50,N115,Medical Necessity,340.11,0.646,Overturned/Recovered,0.6072,113.57,0.4856,3,0.55
+675,CLM-0042-000704,Aetna,CO-16,N29,Coding & Billing,640.8,0.752,Not Appealed,0.5321,245.51,0.4854,2,0.72
+676,CLM-0042-010245,Medicaid,CO-16,N29,Coding & Billing,1083.89,0.755,Upheld,0.4776,372.69,0.4852,2,0.72
+677,CLM-0042-006670,UnitedHealthcare,CO-50,N115,Medical Necessity,553.58,0.8,Overturned/Recovered,0.5234,159.37,0.4844,3,0.55
+678,CLM-0042-001018,UnitedHealthcare,CO-16,N29,Coding & Billing,1907.53,0.862,Not Appealed,0.3373,463.26,0.4838,2,0.72
+679,CLM-0042-003756,Medicaid,CO-50,N115,Medical Necessity,635.1,0.846,Upheld,0.4952,172.97,0.4835,3,0.55
+680,CLM-0042-004165,BCBS,CO-27,N30,Eligibility/Coverage,1089.92,0.521,Overturned/Recovered,0.5578,109.44,0.483,4,0.18
+681,CLM-0042-001300,Medicaid,CO-16,N29,Coding & Billing,1967.5,0.534,Overturned/Recovered,0.4474,633.8,0.4828,2,0.72
+682,CLM-0042-009911,Medicare FFS,CO-50,N115,Medical Necessity,911.26,0.628,Not Appealed,0.5399,270.61,0.4827,3,0.55
+683,CLM-0042-008781,BCBS,CO-97,N19,Coding & Billing,1005.97,0.865,Upheld,0.4423,213.59,0.4827,3,0.48
+684,CLM-0042-003647,Medicaid,CO-97,N19,Coding & Billing,555.3,0.85,Upheld,0.5011,133.56,0.4823,3,0.48
+685,CLM-0042-007027,BCBS,CO-16,N29,Coding & Billing,828.63,0.708,Not Appealed,0.5199,310.15,0.4822,2,0.72
+686,CLM-0042-003723,UnitedHealthcare,CO-97,N19,Coding & Billing,1477.99,0.723,Overturned/Recovered,0.4364,309.6,0.4822,3,0.48
+687,CLM-0042-009232,UnitedHealthcare,CO-16,N29,Coding & Billing,592.49,0.736,Not Appealed,0.536,228.64,0.4811,2,0.72
+688,CLM-0042-004743,UnitedHealthcare,CO-16,N29,Coding & Billing,506.84,0.798,Upheld,0.5236,191.08,0.481,2,0.72
+689,CLM-0042-003234,Medicare FFS,CO-16,N29,Coding & Billing,633.4,0.573,Not Appealed,0.5887,268.48,0.4802,2,0.72
+690,CLM-0042-010824,Medicaid,CO-16,N29,Timely Filing,570.69,0.632,Not Appealed,0.574,235.84,0.4798,2,0.72
+691,CLM-0042-011872,BCBS,CO-50,N115,Medical Necessity,404.18,0.437,Upheld,0.6648,147.79,0.4797,3,0.55
+692,CLM-0042-012142,BCBS,CO-97,N19,Coding & Billing,506.1,0.852,Not Appealed,0.5011,121.73,0.4794,3,0.48
+693,CLM-0042-008914,Medicaid,CO-16,N29,Coding & Billing,2237.22,0.454,Not Appealed,0.4355,701.55,0.478,2,0.72
+694,CLM-0042-008421,Medicaid,CO-18,N111,Coding & Billing,1832.38,0.65,Overturned/Recovered,0.4121,113.27,0.4776,4,0.15
+695,CLM-0042-007620,UnitedHealthcare,CO-50,N115,Medical Necessity,1919.44,0.868,Upheld,0.3198,337.57,0.4762,3,0.55
+696,CLM-0042-003505,UnitedHealthcare,CO-16,N29,Coding & Billing,575.46,0.715,Not Appealed,0.536,222.07,0.4758,2,0.72
+697,CLM-0042-009187,UnitedHealthcare,CO-50,N115,Medical Necessity,1241.96,0.618,Not Appealed,0.4909,335.32,0.4756,3,0.55
+698,CLM-0042-010756,BCBS,CO-16,N29,Prior Authorization,567.85,0.678,Not Appealed,0.5498,224.8,0.4755,2,0.72
+699,CLM-0042-011545,Medicaid,CO-50,N115,Medical Necessity,518.4,0.646,Overturned/Recovered,0.5665,161.52,0.475,3,0.55
+700,CLM-0042-010074,UnitedHealthcare,CO-16,N29,Coding & Billing,2168.76,0.73,Not Appealed,0.3362,524.94,0.4741,2,0.72
+701,CLM-0042-001597,Medicare FFS,CO-50,N115,Medical Necessity,345.37,0.643,Overturned/Recovered,0.5861,111.32,0.4737,3,0.55
+702,CLM-0042-001065,Medicaid,CO-16,N29,Coding & Billing,485.9,0.58,Not Appealed,0.5912,206.82,0.4732,2,0.72
+703,CLM-0042-000117,UnitedHealthcare,CO-16,N29,Coding & Billing,1220.54,0.617,Upheld,0.4892,429.94,0.473,2,0.72
+704,CLM-0042-010210,Medicaid,CO-16,N29,Coding & Billing,492.67,0.69,Not Appealed,0.5496,194.96,0.4728,2,0.72
+705,CLM-0042-000588,Medicaid,CO-16,N29,Coding & Billing,454.05,0.702,Overturned/Recovered,0.5496,179.68,0.4727,2,0.72
+706,CLM-0042-003661,Medicare FFS,CO-16,N29,Coding & Billing,425.24,0.618,Not Appealed,0.5836,178.69,0.4727,2,0.72
+707,CLM-0042-009578,UnitedHealthcare,CO-97,N19,Coding & Billing,1066.56,0.609,Not Appealed,0.5088,260.5,0.4721,3,0.48
+708,CLM-0042-006000,UnitedHealthcare,CO-50,N115,Medical Necessity,700.03,0.785,Not Appealed,0.4887,188.16,0.472,3,0.55
+709,CLM-0042-006918,BCBS,CO-16,N29,Coding & Billing,556.87,0.661,Not Appealed,0.5498,220.46,0.4714,2,0.72
+710,CLM-0042-004618,BCBS,CO-50,N115,Medical Necessity,404.92,0.643,Not Appealed,0.5745,127.95,0.4713,3,0.55
+711,CLM-0042-003462,UnitedHealthcare,CO-16,N29,Coding & Billing,1285.61,0.648,Overturned/Recovered,0.4667,432.03,0.4712,2,0.72
+712,CLM-0042-004328,UnitedHealthcare,CO-16,N29,Coding & Billing,740.4,0.661,Not Appealed,0.5276,281.25,0.4712,2,0.72
+713,CLM-0042-005433,BCBS,CO-50,N115,Medical Necessity,929.28,0.754,Not Appealed,0.4711,240.78,0.4712,3,0.55
+714,CLM-0042-002807,Medicaid,CO-97,N19,Coding & Billing,483.9,0.79,Overturned/Recovered,0.5113,118.76,0.4712,3,0.48
+715,CLM-0042-001241,Aetna,CO-50,N115,Medical Necessity,741.77,0.766,Not Appealed,0.4887,199.37,0.4709,3,0.55
+716,CLM-0042-003861,BCBS,CO-18,N111,Coding & Billing,5262.74,0.583,Not Appealed,0.1896,149.71,0.4709,4,0.15
+717,CLM-0042-001691,UnitedHealthcare,CO-97,N19,Prior Authorization,2037.35,0.607,Upheld,0.3892,380.64,0.47,3,0.48
+718,CLM-0042-007190,BCBS,CO-16,N29,Timely Filing,1072.5,0.733,Upheld,0.4591,354.48,0.4699,2,0.72
+719,CLM-0042-011150,UnitedHealthcare,CO-16,N29,Timely Filing,581.12,0.659,Upheld,0.5443,227.76,0.4695,2,0.72
+720,CLM-0042-011684,Aetna,CO-16,N29,Coding & Billing,631.89,0.581,Not Appealed,0.5664,257.68,0.4694,2,0.72
+721,CLM-0042-007192,Medicare FFS,CO-50,N115,Medical Necessity,902.77,0.723,Upheld,0.4822,239.42,0.4694,3,0.55
+722,CLM-0042-008672,Medicaid,CO-16,N29,Timely Filing,617.84,0.547,Overturned/Recovered,0.5803,258.13,0.4693,2,0.72
+723,CLM-0042-001027,Aetna,CO-97,N19,Coding & Billing,1140.53,0.607,Not Appealed,0.4954,271.22,0.4692,3,0.48
+724,CLM-0042-006571,UnitedHealthcare,CO-97,N19,Coding & Billing,1420.69,0.653,Not Appealed,0.4447,303.26,0.469,3,0.48
+725,CLM-0042-000219,Aetna,CO-97,N19,Coding & Billing,8883.25,0.723,Upheld,0.1351,575.86,0.4689,3,0.48
+726,CLM-0042-002951,Medicare FFS,CO-50,N115,Medical Necessity,889.66,0.718,Not Appealed,0.4822,235.94,0.4675,3,0.55
+727,CLM-0042-000905,Aetna,CO-27,N30,Eligibility/Coverage,1778.81,0.754,Not Appealed,0.3612,115.65,0.4669,4,0.18
+728,CLM-0042-011402,BCBS,CO-27,N30,Eligibility/Coverage,3385.81,0.876,Upheld,0.124,75.59,0.4669,4,0.18
+729,CLM-0042-000804,BCBS,CO-50,N115,Medical Necessity,1047.71,0.807,Not Appealed,0.4294,247.42,0.4667,3,0.55
+730,CLM-0042-006625,Medicare FFS,CO-97,N19,Coding & Billing,715.77,0.771,Upheld,0.4823,165.71,0.4667,3,0.48
+731,CLM-0042-003611,BCBS,CO-16,N29,Timely Filing,596.3,0.673,Not Appealed,0.5315,228.19,0.4663,2,0.72
+732,CLM-0042-006192,Medicare FFS,CO-97,N19,Coding & Billing,962.81,0.712,Not Appealed,0.4732,218.67,0.4662,3,0.48
+733,CLM-0042-001307,BCBS,CO-50,N115,Medical Necessity,521.01,0.786,Not Appealed,0.4992,143.05,0.4662,3,0.55
+734,CLM-0042-011224,BCBS,CO-50,N115,Medical Necessity,443.37,0.759,Upheld,0.5184,126.42,0.4662,3,0.55
+735,CLM-0042-001699,Aetna,CO-16,N29,Prior Authorization,647.25,0.704,Not Appealed,0.5136,239.33,0.466,2,0.72
+736,CLM-0042-004492,UnitedHealthcare,CO-50,N115,Prior Authorization,159.24,0.914,Not Appealed,0.4947,43.32,0.4654,3,0.55
+737,CLM-0042-010395,BCBS,CO-16,N29,Coding & Billing,380.64,0.689,Upheld,0.5496,150.63,0.4652,2,0.72
+738,CLM-0042-004701,Aetna,CO-50,N115,Medical Necessity,709.6,0.921,Not Appealed,0.4245,165.67,0.4645,3,0.55
+739,CLM-0042-001500,BCBS,CO-16,N29,Prior Authorization,307.2,0.415,Overturned/Recovered,0.6567,145.24,0.4644,2,0.72
+740,CLM-0042-000753,Medicare FFS,CO-50,N115,Medical Necessity,839.48,0.715,Not Appealed,0.4822,222.63,0.4636,3,0.55
+741,CLM-0042-004754,BCBS,CO-16,N29,Coding & Billing,699.63,0.755,Not Appealed,0.4825,243.05,0.4626,2,0.72
+742,CLM-0042-006299,Medicare FFS,CO-50,N115,Medical Necessity,873.19,0.699,Upheld,0.4822,231.57,0.4626,3,0.55
+743,CLM-0042-007325,UnitedHealthcare,CO-50,N115,Prior Authorization,646.56,0.754,Not Appealed,0.4864,172.98,0.461,3,0.55
+744,CLM-0042-003142,Medicare FFS,CO-97,N19,Coding & Billing,1177.87,0.627,Upheld,0.468,264.61,0.4606,3,0.48
+745,CLM-0042-009416,BCBS,CO-16,N29,Timely Filing,1137.45,0.619,Upheld,0.4724,386.88,0.4587,2,0.72
+746,CLM-0042-007063,Medicare FFS,CO-50,N115,Medical Necessity,442.1,0.624,Overturned/Recovered,0.553,134.46,0.4581,3,0.55
+747,CLM-0042-009061,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,5477.93,0.907,Not Appealed,0.0476,13.03,0.4576,5,0.05
+748,CLM-0042-008087,Aetna,CO-16,N29,Coding & Billing,734.42,0.806,Not Appealed,0.4504,238.16,0.4574,2,0.72
+749,CLM-0042-008411,UnitedHealthcare,CO-97,N19,Coding & Billing,861.11,0.684,Not Appealed,0.4795,198.21,0.4574,3,0.48
+750,CLM-0042-004041,Medicaid,CO-27,N30,Eligibility/Coverage,2443.63,0.867,Upheld,0.2232,98.16,0.4574,4,0.18
+751,CLM-0042-006421,Medicaid,PR-1,N130,Eligibility/Coverage,5838.73,0.855,Not Appealed,0.0659,19.25,0.4573,5,0.05
+752,CLM-0042-008117,BCBS,CO-16,N29,Coding & Billing,1078.1,0.809,Not Appealed,0.4077,316.49,0.4572,2,0.72
+753,CLM-0042-004190,BCBS,CO-16,N29,Timely Filing,729.28,0.628,Not Appealed,0.5153,270.58,0.4572,2,0.72
+754,CLM-0042-008093,Medicare FFS,CO-97,N19,Coding & Billing,660.83,0.797,Not Appealed,0.4603,146.0,0.4562,3,0.48
+755,CLM-0042-005714,UnitedHealthcare,CO-50,N115,Medical Necessity,917.47,0.716,Not Appealed,0.4574,230.83,0.4554,3,0.55
+756,CLM-0042-002752,UnitedHealthcare,CO-50,N115,Medical Necessity,925.86,0.681,Upheld,0.4658,237.21,0.4535,3,0.55
+757,CLM-0042-005538,BCBS,CO-16,N29,Coding & Billing,767.22,0.736,Overturned/Recovered,0.464,256.29,0.453,2,0.72
+758,CLM-0042-007996,Medicaid,CO-27,N30,Eligibility/Coverage,3610.92,0.857,Not Appealed,0.077,50.05,0.4521,4,0.18
+759,CLM-0042-000698,BCBS,CO-16,N29,Coding & Billing,727.42,0.743,Upheld,0.464,243.0,0.4518,2,0.72
+760,CLM-0042-004941,UnitedHealthcare,CO-27,N30,Timely Filing,5066.88,0.736,Not Appealed,0.099,90.33,0.4517,4,0.18
+761,CLM-0042-009890,Aetna,CO-18,N111,Coding & Billing,4138.74,0.702,Not Appealed,0.1115,69.24,0.4517,4,0.15
+762,CLM-0042-003768,Medicaid,CO-97,N19,Coding & Billing,458.46,0.799,Overturned/Recovered,0.4755,104.64,0.4516,3,0.48
+763,CLM-0042-010383,Medicare FFS,CO-50,N115,Medical Necessity,557.06,0.709,Not Appealed,0.4963,152.04,0.4515,3,0.55
+764,CLM-0042-004442,Medicaid,CO-50,N115,Medical Necessity,642.29,0.863,Not Appealed,0.43,151.9,0.4515,3,0.55
+765,CLM-0042-006741,BCBS,CO-97,N19,Coding & Billing,720.72,0.872,Upheld,0.4163,144.03,0.451,3,0.48
+766,CLM-0042-007117,Medicaid,CO-97,N19,Coding & Billing,1553.13,0.523,Not Appealed,0.4432,330.42,0.4509,3,0.48
+767,CLM-0042-006071,Aetna,CO-16,N29,Timely Filing,442.66,0.492,Upheld,0.5869,187.07,0.4504,2,0.72
+768,CLM-0042-004950,UnitedHealthcare,CO-97,N19,Coding & Billing,873.36,0.908,Not Appealed,0.383,160.54,0.4499,3,0.48
+769,CLM-0042-002370,BCBS,CO-18,N111,Coding & Billing,1809.09,0.628,Not Appealed,0.3719,100.93,0.4496,4,0.15
+770,CLM-0042-009131,Medicare FFS,CO-97,N19,Coding & Billing,618.95,0.77,Upheld,0.4629,137.51,0.4494,3,0.48
+771,CLM-0042-001313,BCBS,CO-50,N115,Medical Necessity,357.57,0.921,Upheld,0.4381,86.16,0.4488,3,0.55
+772,CLM-0042-010915,Aetna,CO-16,N29,Coding & Billing,390.48,0.625,Not Appealed,0.5413,152.18,0.4485,2,0.72
+773,CLM-0042-011282,BCBS,CO-50,N115,Medical Necessity,502.56,0.608,Overturned/Recovered,0.5337,147.53,0.4483,3,0.55
+774,CLM-0042-006548,BCBS,CO-16,N29,Coding & Billing,554.4,0.572,Not Appealed,0.5403,215.66,0.4482,2,0.72
+775,CLM-0042-010333,BCBS,CO-97,N19,Coding & Billing,1073.46,0.452,Not Appealed,0.5212,268.54,0.4479,3,0.48
+776,CLM-0042-004637,Medicaid,CO-16,N29,Timely Filing,508.44,0.81,Not Appealed,0.4588,167.96,0.4479,2,0.72
+777,CLM-0042-002141,Aetna,CO-97,N19,Coding & Billing,1675.29,0.649,Upheld,0.3771,303.23,0.4478,3,0.48
+778,CLM-0042-011704,BCBS,PR-1,N130,Eligibility/Coverage,3373.96,0.868,Not Appealed,0.0936,15.8,0.4478,5,0.05
+779,CLM-0042-004318,UnitedHealthcare,CO-18,N111,Coding & Billing,4182.36,0.637,Not Appealed,0.1276,80.03,0.4476,4,0.15
+780,CLM-0042-003857,UnitedHealthcare,CO-16,N29,Coding & Billing,436.68,0.639,Upheld,0.5274,165.83,0.4467,2,0.72
+781,CLM-0042-010233,Medicaid,CO-27,N30,Eligibility/Coverage,2475.83,0.942,Upheld,0.1719,76.59,0.4464,4,0.18
+782,CLM-0042-005742,BCBS,CO-16,N29,Timely Filing,684.38,0.729,Upheld,0.464,228.62,0.4462,2,0.72
+783,CLM-0042-005456,BCBS,CO-50,N115,Medical Necessity,606.18,0.687,Overturned/Recovered,0.4875,162.54,0.4456,3,0.55
+784,CLM-0042-008601,BCBS,PR-1,N130,Eligibility/Coverage,3319.07,0.874,Not Appealed,0.0936,15.54,0.4454,5,0.05
+785,CLM-0042-009838,BCBS,CO-18,N111,Coding & Billing,5630.02,0.655,Upheld,0.1165,98.4,0.4451,4,0.15
+786,CLM-0042-008821,Medicaid,PR-1,N130,Eligibility/Coverage,4738.09,0.812,Not Appealed,0.059,13.97,0.4448,5,0.05
+787,CLM-0042-006822,Aetna,CO-97,N19,Coding & Billing,1442.12,0.68,Not Appealed,0.3882,268.7,0.4447,3,0.48
+788,CLM-0042-002026,Medicaid,CO-16,N29,Coding & Billing,758.6,0.695,Not Appealed,0.464,253.41,0.4443,2,0.72
+789,CLM-0042-009681,BCBS,CO-50,N115,Medical Necessity,553.69,0.752,Upheld,0.4677,142.43,0.4442,3,0.55
+790,CLM-0042-006557,UnitedHealthcare,CO-50,N115,Medical Necessity,1488.75,0.616,Not Appealed,0.4044,331.1,0.4439,3,0.55
+791,CLM-0042-001106,UnitedHealthcare,CO-16,N29,Coding & Billing,340.3,0.731,Not Appealed,0.5005,122.62,0.4439,2,0.72
+792,CLM-0042-002750,Medicare FFS,CO-97,N19,Coding & Billing,942.28,0.813,Not Appealed,0.398,180.01,0.4437,3,0.48
+793,CLM-0042-003765,Medicare FFS,CO-50,N115,Medical Necessity,429.34,0.664,Not Appealed,0.5129,121.11,0.4432,3,0.55
+794,CLM-0042-000272,Medicare FFS,CO-50,N115,Medical Necessity,394.09,0.587,Upheld,0.5441,117.93,0.4427,3,0.55
+795,CLM-0042-012127,Medicaid,CO-50,N115,Medical Necessity,1053.69,0.905,Upheld,0.3489,202.17,0.4424,3,0.55
+796,CLM-0042-007304,BCBS,PR-1,N130,Eligibility/Coverage,3659.42,0.876,Not Appealed,0.0454,8.31,0.4417,5,0.05
+797,CLM-0042-002152,Medicare FFS,CO-97,N19,Coding & Billing,555.22,0.812,Not Appealed,0.441,117.53,0.4416,3,0.48
+798,CLM-0042-008245,Aetna,CO-97,N19,Coding & Billing,1334.35,0.809,Not Appealed,0.3473,222.43,0.4409,3,0.48
+799,CLM-0042-002159,Medicaid,CO-50,N115,Medical Necessity,917.86,0.661,Overturned/Recovered,0.4505,227.43,0.4406,3,0.55
+800,CLM-0042-004411,Medicaid,CO-97,N19,Coding & Billing,370.88,0.646,Overturned/Recovered,0.5214,92.83,0.4405,3,0.48
+801,CLM-0042-011717,Medicaid,CO-18,N111,Prior Authorization,1734.43,0.692,Not Appealed,0.3406,88.61,0.4402,4,0.15
+802,CLM-0042-006483,Aetna,CO-16,N29,Coding & Billing,3217.95,0.453,Upheld,0.2481,574.73,0.4394,2,0.72
+803,CLM-0042-001131,Aetna,CO-18,N111,Coding & Billing,5149.95,0.737,Not Appealed,0.0765,59.06,0.4394,4,0.15
+804,CLM-0042-005815,BCBS,CO-27,N30,Timely Filing,2384.75,0.759,Not Appealed,0.2364,101.48,0.4392,4,0.18
+805,CLM-0042-000478,BCBS,CO-16,N29,Timely Filing,583.77,0.566,Upheld,0.5219,219.36,0.4388,2,0.72
+806,CLM-0042-004092,UnitedHealthcare,CO-50,N115,Medical Necessity,733.58,0.745,Upheld,0.4388,177.06,0.4388,3,0.55
+807,CLM-0042-011146,UnitedHealthcare,CO-50,N115,Medical Necessity,761.44,0.583,Overturned/Recovered,0.4926,206.31,0.4378,3,0.55
+808,CLM-0042-001020,Medicaid,CO-27,N30,Timely Filing,3732.5,0.761,Not Appealed,0.0709,47.64,0.4376,4,0.18
+809,CLM-0042-009000,BCBS,PR-1,N130,Eligibility/Coverage,5141.5,0.778,Upheld,0.0581,14.93,0.4375,5,0.05
+810,CLM-0042-012471,UnitedHealthcare,CO-50,N115,Medical Necessity,730.67,0.627,Overturned/Recovered,0.4794,192.66,0.4373,3,0.55
+811,CLM-0042-000875,UnitedHealthcare,CO-16,N29,Coding & Billing,339.58,0.675,Not Appealed,0.5089,124.42,0.4373,2,0.72
+812,CLM-0042-006785,BCBS,CO-27,N30,Eligibility/Coverage,3036.66,0.721,Upheld,0.1684,92.04,0.4373,4,0.18
+813,CLM-0042-007979,Aetna,CO-27,N30,Eligibility/Coverage,708.06,0.893,Overturned/Recovered,0.3855,49.13,0.4373,4,0.18
+814,CLM-0042-000565,BCBS,CO-27,N30,Eligibility/Coverage,625.83,0.976,Overturned/Recovered,0.3645,41.06,0.437,4,0.18
+815,CLM-0042-001312,Aetna,CO-16,N29,Coding & Billing,374.98,0.712,Not Appealed,0.49,132.29,0.4366,2,0.72
+816,CLM-0042-003166,UnitedHealthcare,CO-16,N29,Coding & Billing,340.65,0.667,Not Appealed,0.5089,124.81,0.4358,2,0.72
+817,CLM-0042-008780,Medicare FFS,CO-50,N115,Medical Necessity,359.36,0.65,Upheld,0.5129,101.37,0.4358,3,0.55
+818,CLM-0042-004971,BCBS,CO-16,N29,Coding & Billing,1758.7,0.523,Upheld,0.3901,494.01,0.4353,2,0.72
+819,CLM-0042-006554,Medicare FFS,CO-50,N115,Medical Necessity,283.18,0.883,Upheld,0.435,67.75,0.4345,3,0.55
+820,CLM-0042-011622,Medicaid,CO-97,N19,Coding & Billing,928.09,0.922,Upheld,0.3421,152.41,0.4338,3,0.48
+821,CLM-0042-008653,Aetna,CO-16,N29,Coding & Billing,3112.72,0.459,Not Appealed,0.2481,555.93,0.4337,2,0.72
+822,CLM-0042-011499,BCBS,CO-97,N19,Coding & Billing,122.19,0.786,Not Appealed,0.4864,28.53,0.4328,3,0.48
+823,CLM-0042-010527,Aetna,CO-50,N115,Medical Necessity,450.0,0.783,Not Appealed,0.4478,110.83,0.4326,3,0.55
+824,CLM-0042-007204,Aetna,CO-16,N29,Coding & Billing,446.11,0.97,Upheld,0.3797,121.97,0.4323,2,0.72
+825,CLM-0042-002922,Medicare FFS,CO-18,N111,Coding & Billing,1896.43,0.817,Not Appealed,0.261,74.25,0.4321,4,0.15
+826,CLM-0042-000118,UnitedHealthcare,CO-50,N115,Medical Necessity,406.52,0.763,Not Appealed,0.4588,102.57,0.4317,3,0.55
+827,CLM-0042-001282,Medicaid,PR-1,N130,Eligibility/Coverage,6185.74,0.704,Not Appealed,0.0708,21.89,0.4297,5,0.05
+828,CLM-0042-004828,Medicaid,CO-16,N29,Timely Filing,328.1,0.645,Not Appealed,0.5054,119.4,0.4286,2,0.72
+829,CLM-0042-004170,Medicaid,CO-16,N29,Timely Filing,229.15,0.857,Overturned/Recovered,0.4397,72.55,0.4284,2,0.72
+830,CLM-0042-000694,Medicaid,CO-50,N115,Medical Necessity,595.84,0.889,Upheld,0.3834,125.63,0.428,3,0.55
+831,CLM-0042-002252,UnitedHealthcare,CO-16,N29,Coding & Billing,409.29,0.695,Overturned/Recovered,0.4761,140.3,0.4279,2,0.72
+832,CLM-0042-004937,Medicaid,CO-18,N111,Coding & Billing,2075.33,0.912,Not Appealed,0.1971,61.36,0.4278,4,0.15
+833,CLM-0042-003842,BCBS,CO-27,N30,Eligibility/Coverage,1212.87,0.462,Not Appealed,0.463,101.08,0.4271,4,0.18
+834,CLM-0042-002993,Medicaid,CO-97,N19,Coding & Billing,844.31,0.804,Not Appealed,0.3826,155.04,0.4269,3,0.48
+835,CLM-0042-011276,Medicaid,CO-50,N115,Medical Necessity,544.0,0.893,Overturned/Recovered,0.3859,115.48,0.4268,3,0.55
+836,CLM-0042-004779,Medicare FFS,CO-50,N115,Medical Necessity,337.34,0.551,Not Appealed,0.5343,99.12,0.4263,3,0.55
+837,CLM-0042-004525,UnitedHealthcare,CO-50,N115,Medical Necessity,741.64,0.707,Not Appealed,0.4285,174.78,0.426,3,0.55
+838,CLM-0042-008047,UnitedHealthcare,CO-50,N115,Medical Necessity,695.74,0.722,Upheld,0.4285,163.96,0.426,3,0.55
+839,CLM-0042-009388,UnitedHealthcare,CO-16,N29,Coding & Billing,2031.96,0.569,Not Appealed,0.3234,473.16,0.4258,2,0.72
+840,CLM-0042-010813,Medicaid,CO-50,N115,Medical Necessity,608.94,0.806,Not Appealed,0.4078,136.59,0.4257,3,0.55
+841,CLM-0042-003545,Medicaid,CO-50,N115,Medical Necessity,360.39,0.491,Not Appealed,0.5521,109.43,0.4256,3,0.55
+842,CLM-0042-011929,UnitedHealthcare,CO-27,N30,Timely Filing,1896.08,0.714,Upheld,0.2847,97.18,0.4246,4,0.18
+843,CLM-0042-011154,UnitedHealthcare,CO-18,N111,Coding & Billing,3341.42,0.828,Not Appealed,0.0699,35.06,0.4246,4,0.15
+844,CLM-0042-012353,BCBS,CO-27,N30,Eligibility/Coverage,2448.92,0.791,Not Appealed,0.1902,83.84,0.4245,4,0.18
+845,CLM-0042-003529,UnitedHealthcare,CO-16,N29,Coding & Billing,350.24,0.58,Not Appealed,0.5185,130.75,0.4243,2,0.72
+846,CLM-0042-008481,Medicare FFS,CO-18,N111,Coding & Billing,3242.8,0.819,Not Appealed,0.0843,41.01,0.4242,4,0.15
+847,CLM-0042-002608,Medicare FFS,CO-16,N29,Prior Authorization,318.48,0.555,Upheld,0.5293,121.37,0.4231,2,0.72
+848,CLM-0042-010792,UnitedHealthcare,CO-16,N29,Coding & Billing,561.15,0.292,Overturned/Recovered,0.5954,240.55,0.4229,2,0.72
+849,CLM-0042-007752,Medicare FFS,CO-97,N19,Coding & Billing,3477.84,0.529,Upheld,0.1589,265.29,0.4228,3,0.48
+850,CLM-0042-001490,BCBS,CO-50,N115,Medical Necessity,781.4,0.792,Not Appealed,0.3867,166.2,0.4227,3,0.55
+851,CLM-0042-004073,Medicaid,CO-97,N19,Coding & Billing,874.11,0.586,Not Appealed,0.449,188.4,0.4219,3,0.48
+852,CLM-0042-006872,BCBS,CO-50,N115,Medical Necessity,582.28,0.732,Overturned/Recovered,0.431,138.04,0.4219,3,0.55
+853,CLM-0042-004053,BCBS,CO-97,N19,Coding & Billing,790.48,0.604,Overturned/Recovered,0.4523,171.62,0.4218,3,0.48
+854,CLM-0042-011358,Aetna,PR-1,N130,Eligibility/Coverage,6118.04,0.729,Not Appealed,0.0471,14.41,0.4217,5,0.05
+855,CLM-0042-001431,Aetna,CO-97,N19,Coding & Billing,489.8,0.761,Overturned/Recovered,0.4298,101.04,0.4209,3,0.48
+856,CLM-0042-010228,Medicare FFS,CO-97,N19,Coding & Billing,451.16,0.715,Not Appealed,0.451,97.66,0.4208,3,0.48
+857,CLM-0042-002829,UnitedHealthcare,CO-50,N115,Medical Necessity,729.36,0.658,Overturned/Recovered,0.4367,175.2,0.42,3,0.55
+858,CLM-0042-009133,Medicaid,CO-27,N30,Eligibility/Coverage,2849.14,0.783,Not Appealed,0.1369,70.19,0.42,4,0.18
+859,CLM-0042-011921,UnitedHealthcare,CO-97,N19,Coding & Billing,916.72,0.735,Upheld,0.3851,169.45,0.4193,3,0.48
+860,CLM-0042-003126,Medicare FFS,CO-97,N19,Coding & Billing,228.45,0.863,Not Appealed,0.421,46.16,0.4192,3,0.48
+861,CLM-0042-005159,Medicaid,CO-50,N115,Medical Necessity,353.86,0.894,Upheld,0.3937,76.63,0.4187,3,0.55
+862,CLM-0042-007120,BCBS,CO-50,N115,Medical Necessity,481.07,0.704,Upheld,0.4469,118.25,0.4184,3,0.55
+863,CLM-0042-008941,Medicare FFS,CO-97,N19,Coding & Billing,1011.77,0.658,Upheld,0.3994,193.95,0.418,3,0.48
+864,CLM-0042-010374,Medicare FFS,CO-50,N115,Medical Necessity,488.15,0.44,Not Appealed,0.5407,145.18,0.4176,3,0.55
+865,CLM-0042-011980,Aetna,CO-16,N29,Coding & Billing,1918.77,0.722,Not Appealed,0.2652,366.38,0.4169,2,0.72
+866,CLM-0042-001365,BCBS,CO-27,N30,Eligibility/Coverage,3411.19,0.722,Not Appealed,0.0853,52.38,0.4165,4,0.18
+867,CLM-0042-009645,Aetna,CO-50,N115,Prior Authorization,656.08,0.891,Not Appealed,0.3543,127.83,0.4164,3,0.55
+868,CLM-0042-001232,BCBS,CO-27,N30,Eligibility/Coverage,2670.59,0.828,Upheld,0.1346,64.7,0.4159,4,0.18
+869,CLM-0042-000213,Medicare FFS,CO-50,N115,Prior Authorization,413.78,0.566,Overturned/Recovered,0.5006,113.92,0.4158,3,0.55
+870,CLM-0042-007037,Medicare FFS,CO-97,N19,Coding & Billing,476.8,0.658,Overturned/Recovered,0.4593,105.12,0.4157,3,0.48
+871,CLM-0042-007668,Medicaid,CO-50,N115,Medical Necessity,167.53,0.697,Not Appealed,0.482,44.41,0.4156,3,0.55
+872,CLM-0042-001346,BCBS,CO-50,N115,Medical Necessity,439.47,0.678,Not Appealed,0.4552,110.04,0.415,3,0.55
+873,CLM-0042-002635,BCBS,CO-16,N29,Coding & Billing,631.88,0.536,Overturned/Recovered,0.4835,219.96,0.4148,2,0.72
+874,CLM-0042-009718,Medicare FFS,CO-50,N115,Prior Authorization,682.6,0.728,Overturned/Recovered,0.4074,152.96,0.4147,3,0.55
+875,CLM-0042-010729,UnitedHealthcare,CO-97,N19,Coding & Billing,220.59,0.819,Upheld,0.4289,45.42,0.4143,3,0.48
+876,CLM-0042-004760,Aetna,CO-97,N19,Coding & Billing,1121.69,0.811,Not Appealed,0.3233,174.08,0.4141,3,0.48
+877,CLM-0042-011100,Medicaid,PR-1,N130,Eligibility/Coverage,3097.98,0.848,Not Appealed,0.0728,11.28,0.4141,5,0.05
+878,CLM-0042-001802,BCBS,CO-50,N115,Medical Necessity,923.06,0.551,Not Appealed,0.441,223.88,0.4137,3,0.55
+879,CLM-0042-009368,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,3685.82,0.806,Not Appealed,0.0166,3.05,0.4136,5,0.05
+880,CLM-0042-007764,Medicaid,CO-50,N115,Prior Authorization,398.23,0.59,Not Appealed,0.4891,107.13,0.4133,3,0.55
+881,CLM-0042-003928,UnitedHealthcare,CO-16,N29,Coding & Billing,117.21,0.736,Not Appealed,0.4698,39.65,0.4133,2,0.72
+882,CLM-0042-001495,Medicaid,CO-16,N29,Coding & Billing,687.9,0.559,Not Appealed,0.4628,229.2,0.4117,2,0.72
+883,CLM-0042-002418,BCBS,CO-16,N29,Coding & Billing,649.47,0.544,Upheld,0.4727,221.06,0.4117,2,0.72
+884,CLM-0042-009193,BCBS,CO-16,N29,Prior Authorization,313.99,0.774,Not Appealed,0.4277,96.7,0.4108,2,0.72
+885,CLM-0042-005305,Medicare FFS,CO-27,N30,Eligibility/Coverage,2406.75,0.885,Not Appealed,0.1362,59.02,0.4108,4,0.18
+886,CLM-0042-005630,Medicaid,CO-16,N29,Coding & Billing,148.23,0.911,Upheld,0.3972,42.39,0.4104,2,0.72
+887,CLM-0042-009581,UnitedHealthcare,CO-97,N19,Coding & Billing,3304.69,0.454,Not Appealed,0.184,291.9,0.4102,3,0.48
+888,CLM-0042-012190,Medicare FFS,CO-50,N115,Medical Necessity,779.26,0.679,Not Appealed,0.4054,173.75,0.4102,3,0.55
+889,CLM-0042-010339,Medicaid,CO-50,N115,Medical Necessity,594.59,0.675,Upheld,0.429,140.28,0.4102,3,0.55
+890,CLM-0042-006189,BCBS,CO-97,N19,Coding & Billing,1010.71,0.557,Not Appealed,0.4216,204.55,0.41,3,0.48
+891,CLM-0042-009495,Medicare FFS,CO-97,N19,Coding & Billing,321.48,0.751,Not Appealed,0.4332,66.85,0.4097,3,0.48
+892,CLM-0042-010602,UnitedHealthcare,CO-97,N19,Coding & Billing,1664.85,0.616,Upheld,0.3207,256.3,0.4095,3,0.48
+893,CLM-0042-002524,BCBS,CO-50,N115,Medical Necessity,807.81,0.558,Not Appealed,0.4442,197.35,0.4092,3,0.55
+894,CLM-0042-006430,Medicare FFS,CO-27,N30,Eligibility/Coverage,2132.1,0.908,Not Appealed,0.1565,60.05,0.4084,4,0.18
+895,CLM-0042-005261,BCBS,CO-97,N19,Coding & Billing,2347.41,0.379,Not Appealed,0.3226,363.48,0.4082,3,0.48
+896,CLM-0042-004309,Aetna,CO-97,N19,Coding & Billing,787.67,0.766,Upheld,0.3689,139.47,0.4081,3,0.48
+897,CLM-0042-006316,BCBS,CO-27,N30,Eligibility/Coverage,2584.78,0.659,Not Appealed,0.1919,89.27,0.4079,4,0.18
+898,CLM-0042-000582,BCBS,CO-97,N19,Coding & Billing,883.8,0.663,Overturned/Recovered,0.3943,167.25,0.4078,3,0.48
+899,CLM-0042-004873,UnitedHealthcare,CO-97,N19,Coding & Billing,1877.77,0.553,Not Appealed,0.3144,283.4,0.4075,3,0.48
+900,CLM-0042-008112,Medicare FFS,CO-27,N30,Eligibility/Coverage,1851.09,0.816,Upheld,0.222,73.97,0.4075,4,0.18
+901,CLM-0042-009626,UnitedHealthcare,CO-50,N115,Medical Necessity,1264.58,0.531,Upheld,0.3957,275.24,0.4073,3,0.55
+902,CLM-0042-003536,UnitedHealthcare,CO-97,N19,Coding & Billing,549.72,0.728,Overturned/Recovered,0.4099,108.16,0.4073,3,0.48
+903,CLM-0042-010166,Aetna,CO-50,N115,Medical Necessity,1949.45,0.699,Not Appealed,0.252,270.14,0.4071,3,0.55
+904,CLM-0042-010841,UnitedHealthcare,CO-50,N115,Medical Necessity,971.18,0.452,Overturned/Recovered,0.4588,245.09,0.4069,3,0.55
+905,CLM-0042-011506,Medicaid,CO-27,N30,Eligibility/Coverage,2035.49,0.674,Not Appealed,0.249,91.23,0.4061,4,0.18
+906,CLM-0042-011187,Aetna,CO-50,N115,Prior Authorization,641.03,0.714,Upheld,0.401,141.38,0.4057,3,0.55
+907,CLM-0042-006120,Medicare FFS,CO-27,N30,Eligibility/Coverage,2128.4,0.917,Upheld,0.1482,56.76,0.4054,4,0.18
+908,CLM-0042-002365,BCBS,PR-1,N130,Eligibility/Coverage,2154.75,0.917,Not Appealed,0.144,15.51,0.4048,5,0.05
+909,CLM-0042-003209,Medicare FFS,CO-18,N111,Coding & Billing,2784.81,0.754,Not Appealed,0.1273,53.19,0.4047,4,0.15
+910,CLM-0042-008713,UnitedHealthcare,CO-27,N30,Eligibility/Coverage,969.88,0.518,Not Appealed,0.4308,75.2,0.4045,4,0.18
+911,CLM-0042-005920,Medicaid,CO-97,N19,Coding & Billing,488.37,0.745,Not Appealed,0.4048,94.89,0.4039,3,0.48
+912,CLM-0042-008774,UnitedHealthcare,CO-97,N19,Coding & Billing,681.13,0.714,Not Appealed,0.392,128.17,0.4034,3,0.48
+913,CLM-0042-006605,UnitedHealthcare,CO-16,N29,Prior Authorization,364.1,0.808,Overturned/Recovered,0.3948,103.5,0.4028,2,0.72
+914,CLM-0042-008230,BCBS,CO-97,N19,Coding & Billing,555.89,0.766,Not Appealed,0.387,103.28,0.4028,3,0.48
+915,CLM-0042-010262,Aetna,CO-50,N115,Medical Necessity,267.93,0.66,Not Appealed,0.4601,67.81,0.4028,3,0.55
+916,CLM-0042-009278,Medicare FFS,CO-50,N115,Medical Necessity,690.23,0.586,Not Appealed,0.4359,165.49,0.4025,3,0.55
+917,CLM-0042-009812,Medicaid,CO-97,N19,Coding & Billing,1061.1,0.749,Upheld,0.3317,168.94,0.4023,3,0.48
+918,CLM-0042-009126,Aetna,CO-97,N19,Coding & Billing,1136.12,0.912,Upheld,0.2631,143.46,0.4021,3,0.48
+919,CLM-0042-010788,Medicare FFS,CO-97,N19,Coding & Billing,1322.61,0.453,Not Appealed,0.4072,258.54,0.4019,3,0.48
+920,CLM-0042-012065,Medicaid,CO-16,N29,Coding & Billing,702.81,0.906,Upheld,0.3169,160.36,0.4019,2,0.72
+921,CLM-0042-009826,Medicare FFS,CO-50,N115,Medical Necessity,413.13,0.447,Upheld,0.5186,117.84,0.4019,3,0.55
+922,CLM-0042-008846,BCBS,CO-18,N111,Coding & Billing,1923.06,0.869,Not Appealed,0.1822,52.55,0.4009,4,0.15
+923,CLM-0042-001534,UnitedHealthcare,CO-50,N115,Medical Necessity,1937.02,0.588,Overturned/Recovered,0.2818,300.23,0.4005,3,0.55
+924,CLM-0042-009554,Medicare FFS,CO-97,N19,Coding & Billing,490.4,0.531,Not Appealed,0.4762,112.1,0.4005,3,0.48
+925,CLM-0042-004276,Medicare FFS,CO-97,N19,Coding & Billing,1299.25,0.551,Upheld,0.3716,231.73,0.4003,3,0.48
+926,CLM-0042-008065,Aetna,CO-97,N19,Coding & Billing,1140.0,0.902,Not Appealed,0.2631,143.95,0.4003,3,0.48
+927,CLM-0042-011847,UnitedHealthcare,CO-50,N115,Medical Necessity,474.51,0.632,Upheld,0.4386,114.47,0.399,3,0.55
+928,CLM-0042-001618,BCBS,CO-50,N115,Medical Necessity,466.02,0.481,Not Appealed,0.4941,126.64,0.3987,3,0.55
+929,CLM-0042-012464,Medicare FFS,CO-97,N19,Prior Authorization,611.58,0.667,Overturned/Recovered,0.4079,119.74,0.3981,3,0.48
+930,CLM-0042-010855,Aetna,CO-97,N19,Coding & Billing,1047.97,0.746,Upheld,0.3264,164.2,0.3979,3,0.48
+931,CLM-0042-005806,UnitedHealthcare,CO-16,N29,Timely Filing,404.57,0.55,Not Appealed,0.4749,138.33,0.3979,2,0.72
+932,CLM-0042-008109,BCBS,CO-27,N30,Eligibility/Coverage,965.44,0.914,Not Appealed,0.2751,47.8,0.3978,4,0.18
+933,CLM-0042-008929,Medicaid,CO-18,N111,Coding & Billing,1630.02,0.746,Not Appealed,0.2562,62.65,0.3977,4,0.15
+934,CLM-0042-006413,Medicaid,CO-97,N19,Coding & Billing,1079.56,0.587,Not Appealed,0.3794,196.62,0.3974,3,0.48
+935,CLM-0042-010090,BCBS,CO-97,N19,Coding & Billing,509.7,0.864,Upheld,0.3467,84.83,0.3971,3,0.48
+936,CLM-0042-012416,Aetna,CO-50,N115,Medical Necessity,489.58,0.726,Upheld,0.3989,107.4,0.3969,3,0.55
+937,CLM-0042-008160,Medicaid,CO-97,N19,Coding & Billing,134.84,0.754,Upheld,0.431,27.9,0.3968,3,0.48
+938,CLM-0042-000174,Aetna,CO-18,N111,Coding & Billing,3438.14,0.728,Not Appealed,0.0425,21.94,0.396,4,0.15
+939,CLM-0042-003732,Aetna,CO-18,N111,Coding & Billing,1753.04,0.743,Not Appealed,0.2387,62.77,0.3956,4,0.15
+940,CLM-0042-004793,Medicare FFS,PR-1,N130,Eligibility/Coverage,4241.31,0.654,Not Appealed,0.0263,5.58,0.3953,5,0.05
+941,CLM-0042-005907,BCBS,CO-50,N115,Medical Necessity,778.03,0.722,Not Appealed,0.3624,155.09,0.3951,3,0.55
+942,CLM-0042-011400,Aetna,CO-50,N115,Prior Authorization,340.42,0.703,Not Appealed,0.4213,78.88,0.3948,3,0.55
+943,CLM-0042-011766,Medicare FFS,CO-50,N115,Medical Necessity,6992.84,0.362,Upheld,0.13,499.87,0.3939,3,0.55
+944,CLM-0042-001683,UnitedHealthcare,CO-27,N30,Eligibility/Coverage,3555.19,0.623,Not Appealed,0.062,39.64,0.3934,4,0.18
+945,CLM-0042-005180,BCBS,CO-27,N30,Eligibility/Coverage,1184.27,0.605,Not Appealed,0.353,75.24,0.3933,4,0.18
+946,CLM-0042-012443,Medicaid,CO-50,N115,Medical Necessity,352.06,0.538,Upheld,0.475,91.98,0.3921,3,0.55
+947,CLM-0042-007987,Aetna,CO-27,N30,Eligibility/Coverage,2907.62,0.639,Not Appealed,0.1313,68.74,0.392,4,0.18
+948,CLM-0042-000330,Medicaid,CO-50,N115,Medical Necessity,743.14,0.715,Not Appealed,0.3624,148.14,0.3914,3,0.55
+949,CLM-0042-006388,Medicare FFS,CO-27,N30,Eligibility/Coverage,1114.55,0.505,Not Appealed,0.3942,79.09,0.3914,4,0.18
+950,CLM-0042-011301,BCBS,PR-1,N130,Eligibility/Coverage,1740.41,0.846,Not Appealed,0.195,16.97,0.3913,5,0.05
+951,CLM-0042-010092,Medicare FFS,CO-50,N115,Medical Necessity,1633.43,0.38,Not Appealed,0.3764,338.15,0.3908,3,0.55
+952,CLM-0042-000363,Medicare FFS,CO-50,N115,Medical Necessity,855.87,0.473,Not Appealed,0.4343,204.46,0.39,3,0.55
+953,CLM-0042-006996,UnitedHealthcare,CO-50,N115,Medical Necessity,333.62,0.655,Not Appealed,0.4296,78.82,0.3893,3,0.55
+954,CLM-0042-006079,Medicare FFS,CO-27,N30,Eligibility/Coverage,3365.22,0.661,Not Appealed,0.0628,38.05,0.3889,4,0.18
+955,CLM-0042-003699,Medicare FFS,CO-16,N29,Coding & Billing,323.82,0.729,Upheld,0.4026,93.87,0.3886,2,0.72
+956,CLM-0042-011661,UnitedHealthcare,CO-27,N30,Eligibility/Coverage,974.62,0.612,Overturned/Recovered,0.367,64.38,0.3886,4,0.18
+957,CLM-0042-009888,UnitedHealthcare,CO-50,N115,Medical Necessity,491.26,0.711,Not Appealed,0.3888,105.05,0.3885,3,0.55
+958,CLM-0042-010464,UnitedHealthcare,CO-50,N115,Medical Necessity,594.09,0.901,Upheld,0.3072,100.37,0.3884,3,0.55
+959,CLM-0042-007563,Medicare FFS,CO-50,N115,Prior Authorization,843.9,0.406,Overturned/Recovered,0.4563,211.78,0.3879,3,0.55
+960,CLM-0042-008981,BCBS,PR-1,N130,Eligibility/Coverage,2988.2,0.776,Not Appealed,0.0643,9.61,0.3878,5,0.05
+961,CLM-0042-002746,UnitedHealthcare,CO-16,N29,Coding & Billing,2509.35,0.427,Not Appealed,0.2484,448.75,0.3876,2,0.72
+962,CLM-0042-006176,Aetna,CO-50,N115,Prior Authorization,579.08,0.902,Not Appealed,0.3072,97.83,0.3876,3,0.55
+963,CLM-0042-004770,UnitedHealthcare,CO-27,N30,Eligibility/Coverage,2621.69,0.904,Upheld,0.0613,28.92,0.3876,4,0.18
+964,CLM-0042-003250,BCBS,CO-27,N30,Eligibility/Coverage,366.15,0.899,Not Appealed,0.3335,21.98,0.3874,4,0.18
+965,CLM-0042-010666,BCBS,CO-27,N30,Timely Filing,1136.82,0.857,Not Appealed,0.2556,52.31,0.387,4,0.18
+966,CLM-0042-008044,Medicaid,CO-50,N115,Medical Necessity,701.08,0.682,Overturned/Recovered,0.3703,142.77,0.3863,3,0.55
+967,CLM-0042-011230,UnitedHealthcare,CO-27,N30,Eligibility/Coverage,1617.79,0.748,Not Appealed,0.2359,68.69,0.3861,4,0.18
+968,CLM-0042-011674,UnitedHealthcare,CO-50,N115,Medical Necessity,155.17,0.713,Not Appealed,0.4228,36.09,0.3854,3,0.55
+969,CLM-0042-000871,UnitedHealthcare,CO-18,N111,Coding & Billing,1711.72,0.729,Upheld,0.2292,58.85,0.3849,4,0.15
+970,CLM-0042-006067,BCBS,CO-18,N111,Coding & Billing,1594.3,0.726,Not Appealed,0.2426,58.01,0.3839,4,0.15
+971,CLM-0042-008778,UnitedHealthcare,CO-27,N30,Eligibility/Coverage,598.18,0.752,Overturned/Recovered,0.3507,37.76,0.3828,4,0.18
+972,CLM-0042-008240,Medicaid,CO-27,N30,Eligibility/Coverage,1263.46,0.726,Upheld,0.2793,63.52,0.3822,4,0.18
+973,CLM-0042-011437,Medicaid,CO-18,N111,Coding & Billing,1507.51,0.819,Not Appealed,0.2152,48.67,0.3817,4,0.15
+974,CLM-0042-011109,Medicaid,CO-97,N19,Coding & Billing,885.15,0.557,Not Appealed,0.3851,163.61,0.3816,3,0.48
+975,CLM-0042-004061,Aetna,CO-50,N115,Medical Necessity,412.91,0.68,Upheld,0.3968,90.12,0.3815,3,0.55
+976,CLM-0042-005229,Medicare FFS,CO-18,N111,Coding & Billing,2531.89,0.832,Not Appealed,0.087,33.05,0.3814,4,0.15
+977,CLM-0042-011952,Medicaid,CO-18,N111,Coding & Billing,2546.29,0.727,Not Appealed,0.1224,46.75,0.3808,4,0.15
+978,CLM-0042-005475,UnitedHealthcare,CO-27,N30,Eligibility/Coverage,973.71,0.86,Not Appealed,0.2622,45.96,0.3805,4,0.18
+979,CLM-0042-011116,BCBS,PR-1,N130,Eligibility/Coverage,3694.16,0.579,Not Appealed,0.0365,6.74,0.3797,5,0.05
+980,CLM-0042-000187,Medicaid,CO-97,N19,Coding & Billing,776.75,0.8,Overturned/Recovered,0.3049,113.67,0.379,3,0.48
+981,CLM-0042-000025,UnitedHealthcare,CO-50,N115,Medical Necessity,10708.28,0.434,Upheld,0.0764,450.22,0.3788,3,0.55
+982,CLM-0042-008908,UnitedHealthcare,CO-27,N30,Eligibility/Coverage,3780.5,0.55,Upheld,0.0348,23.68,0.3787,4,0.18
+983,CLM-0042-000108,Medicare FFS,CO-16,N29,Coding & Billing,255.1,0.689,Not Appealed,0.4072,74.79,0.3786,2,0.72
+984,CLM-0042-008119,Medicaid,CO-16,N29,Coding & Billing,306.39,0.603,Upheld,0.4318,95.26,0.3783,2,0.72
+985,CLM-0042-007150,BCBS,CO-27,N30,Eligibility/Coverage,951.45,0.581,Not Appealed,0.3597,61.6,0.3768,4,0.18
+986,CLM-0042-003387,BCBS,PR-1,N130,Eligibility/Coverage,1824.07,0.812,Upheld,0.1697,15.47,0.3761,5,0.05
+987,CLM-0042-005295,UnitedHealthcare,CO-50,N115,Prior Authorization,410.65,0.652,Not Appealed,0.3968,89.63,0.3758,3,0.55
+988,CLM-0042-010969,BCBS,CO-18,N111,Coding & Billing,1687.58,0.516,Not Appealed,0.2931,74.18,0.3758,4,0.15
+989,CLM-0042-007883,Medicaid,CO-97,N19,Coding & Billing,807.85,0.739,Upheld,0.3173,123.05,0.3757,3,0.48
+990,CLM-0042-003326,UnitedHealthcare,CO-16,N29,Coding & Billing,325.86,0.606,Overturned/Recovered,0.4233,99.3,0.3755,2,0.72
+991,CLM-0042-004742,Medicare FFS,PR-1,N130,Eligibility/Coverage,3176.08,0.726,Not Appealed,0.0374,5.94,0.3754,5,0.05
+992,CLM-0042-006128,Medicare FFS,CO-50,N115,Medical Necessity,320.05,0.482,Not Appealed,0.4683,82.44,0.3751,3,0.55
+993,CLM-0042-009629,Aetna,CO-50,N115,Medical Necessity,664.45,0.619,Upheld,0.376,137.4,0.3745,3,0.55
+994,CLM-0042-000931,Medicaid,CO-50,N115,Medical Necessity,1008.39,0.411,Not Appealed,0.4103,227.55,0.3744,3,0.55
+995,CLM-0042-008167,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,2916.49,0.801,Not Appealed,0.0395,5.76,0.3744,5,0.05
+996,CLM-0042-005034,BCBS,CO-16,N29,Timely Filing,329.55,0.714,Not Appealed,0.3795,90.04,0.3733,2,0.72
+997,CLM-0042-011085,Medicaid,CO-50,N115,Medical Necessity,965.1,0.475,Upheld,0.3897,206.86,0.373,3,0.55
+998,CLM-0042-001190,BCBS,CO-18,N111,Coding & Billing,1558.27,0.718,Not Appealed,0.229,53.53,0.3724,4,0.15
+999,CLM-0042-012026,BCBS,CO-97,N19,Coding & Billing,696.94,0.787,Upheld,0.3071,102.73,0.3723,3,0.48
+1000,CLM-0042-007129,UnitedHealthcare,CO-16,N29,Prior Authorization,331.71,0.626,Not Appealed,0.4087,97.6,0.3719,2,0.72
+1001,CLM-0042-008744,UnitedHealthcare,CO-97,N19,Coding & Billing,3460.24,0.415,Not Appealed,0.1098,182.4,0.3718,3,0.48
+1002,CLM-0042-009739,BCBS,CO-97,N19,Coding & Billing,1114.79,0.285,Not Appealed,0.4375,234.12,0.3712,3,0.48
+1003,CLM-0042-005082,BCBS,CO-50,N115,Medical Necessity,1416.28,0.386,Not Appealed,0.3634,283.07,0.3706,3,0.55
+1004,CLM-0042-005977,UnitedHealthcare,CO-50,N115,Medical Necessity,258.04,0.95,Not Appealed,0.2967,42.11,0.3702,3,0.55
+1005,CLM-0042-009670,Aetna,CO-27,N30,Eligibility/Coverage,1631.39,0.621,Not Appealed,0.2507,73.61,0.3698,4,0.18
+1006,CLM-0042-008565,Medicaid,CO-50,N115,Medical Necessity,623.97,0.689,Upheld,0.3464,118.88,0.3695,3,0.55
+1007,CLM-0042-002182,Aetna,CO-97,N19,Coding & Billing,480.35,0.728,Upheld,0.3487,80.4,0.3691,3,0.48
+1008,CLM-0042-006047,Medicaid,CO-50,N115,Medical Necessity,1042.76,0.471,Not Appealed,0.3742,214.61,0.3688,3,0.55
+1009,CLM-0042-010220,UnitedHealthcare,CO-18,N111,Coding & Billing,2554.75,0.824,Upheld,0.0643,24.63,0.3688,4,0.15
+1010,CLM-0042-007545,BCBS,CO-50,N115,Medical Necessity,676.36,0.694,Upheld,0.3367,125.25,0.3686,3,0.55
+1011,CLM-0042-000770,BCBS,CO-97,N19,Prior Authorization,602.82,0.808,Not Appealed,0.3038,87.89,0.3685,3,0.48
+1012,CLM-0042-005844,BCBS,CO-50,N115,Medical Necessity,679.33,0.67,Not Appealed,0.3443,128.63,0.3682,3,0.55
+1013,CLM-0042-009245,Medicaid,CO-16,N29,Coding & Billing,319.85,0.579,Not Appealed,0.4202,96.76,0.368,2,0.72
+1014,CLM-0042-008238,BCBS,CO-18,N111,Coding & Billing,3286.78,0.558,Not Appealed,0.0715,35.25,0.3679,4,0.15
+1015,CLM-0042-009525,Medicare FFS,CO-97,N19,Prior Authorization,442.9,0.454,Not Appealed,0.4493,95.52,0.3672,3,0.48
+1016,CLM-0042-012183,Aetna,CO-27,N30,Eligibility/Coverage,1202.77,0.76,Not Appealed,0.2465,53.36,0.367,4,0.18
+1017,CLM-0042-002247,Medicare FFS,PR-1,N130,Eligibility/Coverage,1725.47,0.863,Not Appealed,0.146,12.6,0.3668,5,0.05
+1018,CLM-0042-012411,UnitedHealthcare,CO-27,N30,Eligibility/Coverage,976.8,0.631,Not Appealed,0.3198,56.23,0.3666,4,0.18
+1019,CLM-0042-005940,UnitedHealthcare,CO-97,N19,Coding & Billing,498.4,0.605,Not Appealed,0.3859,92.32,0.3661,3,0.48
+1020,CLM-0042-009537,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,2834.51,0.784,Not Appealed,0.0399,5.65,0.3659,5,0.05
+1021,CLM-0042-001752,Medicare FFS,PR-1,N130,Timely Filing,3469.95,0.63,Not Appealed,0.0196,3.4,0.3658,5,0.05
+1022,CLM-0042-000496,BCBS,PR-1,N130,Eligibility/Coverage,1821.46,0.7,Not Appealed,0.1915,17.44,0.3656,5,0.05
+1023,CLM-0042-008666,BCBS,CO-50,N115,Medical Necessity,786.4,0.904,Not Appealed,0.2412,104.31,0.3653,3,0.55
+1024,CLM-0042-004693,UnitedHealthcare,CO-27,N30,Eligibility/Coverage,2644.82,0.653,Upheld,0.1077,51.29,0.3644,4,0.18
+1025,CLM-0042-004466,Medicare FFS,CO-97,N19,Coding & Billing,933.87,0.696,Upheld,0.2955,132.46,0.3634,3,0.48
+1026,CLM-0042-008996,Aetna,CO-50,N115,Medical Necessity,383.17,0.544,Overturned/Recovered,0.416,87.68,0.3629,3,0.55
+1027,CLM-0042-002431,UnitedHealthcare,CO-97,N19,Coding & Billing,489.32,0.627,Upheld,0.3718,87.32,0.3622,3,0.48
+1028,CLM-0042-001741,Medicare FFS,CO-27,N30,Eligibility/Coverage,1598.79,0.61,Not Appealed,0.2446,70.4,0.3621,4,0.18
+1029,CLM-0042-002522,BCBS,PR-1,N130,Eligibility/Coverage,1769.2,0.698,Not Appealed,0.1915,16.94,0.3617,5,0.05
+1030,CLM-0042-008894,Medicare FFS,CO-27,N30,Timely Filing,3660.03,0.548,Upheld,0.0185,12.18,0.3614,4,0.18
+1031,CLM-0042-011090,BCBS,CO-97,N19,Coding & Billing,633.91,0.8,Not Appealed,0.2886,87.81,0.3606,3,0.48
+1032,CLM-0042-004036,Medicaid,PR-1,N130,Eligibility/Coverage,2436.94,0.77,Not Appealed,0.0832,10.13,0.3606,5,0.05
+1033,CLM-0042-002789,Aetna,CO-50,N115,Medical Necessity,1706.91,0.468,Not Appealed,0.2802,263.08,0.3604,3,0.55
+1034,CLM-0042-006589,Aetna,CO-27,N30,Eligibility/Coverage,2170.12,0.67,Not Appealed,0.1508,58.92,0.3602,4,0.18
+1035,CLM-0042-005414,Medicare FFS,CO-18,N111,Coding & Billing,1655.83,0.866,Not Appealed,0.1407,34.94,0.3599,4,0.15
+1036,CLM-0042-003110,Aetna,CO-27,N30,Eligibility/Coverage,1158.41,0.944,Upheld,0.1718,35.83,0.3598,4,0.18
+1037,CLM-0042-002606,Medicare FFS,CO-50,N115,Medical Necessity,680.44,0.565,Upheld,0.3669,137.31,0.3597,3,0.55
+1038,CLM-0042-009533,Aetna,CO-97,N19,Coding & Billing,553.6,0.697,Not Appealed,0.3335,88.62,0.3594,3,0.48
+1039,CLM-0042-005980,BCBS,PR-1,N130,Eligibility/Coverage,2025.62,0.737,Not Appealed,0.1411,14.29,0.3587,5,0.05
+1040,CLM-0042-007339,Medicare FFS,PR-1,N130,Eligibility/Coverage,1752.0,0.803,Not Appealed,0.1482,12.98,0.3578,5,0.05
+1041,CLM-0042-011854,Aetna,CO-97,N19,Coding & Billing,492.85,0.807,Upheld,0.2975,70.39,0.3576,3,0.48
+1042,CLM-0042-007062,Medicare FFS,CO-50,N115,Medical Necessity,621.17,0.571,Upheld,0.3669,125.35,0.357,3,0.55
+1043,CLM-0042-004777,Medicaid,CO-16,N29,Coding & Billing,395.88,0.517,Not Appealed,0.4136,117.88,0.357,2,0.72
+1044,CLM-0042-006114,Aetna,CO-50,N115,Medical Necessity,483.36,0.911,Upheld,0.2586,68.75,0.3563,3,0.55
+1045,CLM-0042-003011,Medicaid,CO-50,N115,Prior Authorization,626.24,0.602,Not Appealed,0.3505,120.72,0.3545,3,0.55
+1046,CLM-0042-008772,Aetna,CO-97,N19,Coding & Billing,826.82,0.617,Upheld,0.3183,126.34,0.3531,3,0.48
+1047,CLM-0042-010473,UnitedHealthcare,CO-97,N19,Coding & Billing,406.43,0.677,Upheld,0.3468,67.65,0.353,3,0.48
+1048,CLM-0042-004378,Medicare FFS,CO-50,N115,Medical Necessity,231.51,0.747,Upheld,0.3416,43.5,0.3526,3,0.55
+1049,CLM-0042-011447,UnitedHealthcare,CO-16,N29,Coding & Billing,460.92,0.614,Not Appealed,0.361,119.8,0.3518,2,0.72
+1050,CLM-0042-001832,Aetna,CO-97,N19,Coding & Billing,370.94,0.682,Not Appealed,0.3468,61.75,0.3516,3,0.48
+1051,CLM-0042-002527,Aetna,CO-97,N19,Coding & Billing,434.85,0.656,Not Appealed,0.3468,72.38,0.3506,3,0.48
+1052,CLM-0042-002984,BCBS,CO-50,N115,Medical Necessity,658.09,0.538,Not Appealed,0.3624,131.19,0.3504,3,0.55
+1053,CLM-0042-007408,BCBS,CO-97,N19,Coding & Billing,541.82,0.719,Not Appealed,0.3101,80.64,0.3501,3,0.48
+1054,CLM-0042-010685,UnitedHealthcare,CO-50,N115,Medical Necessity,503.77,0.648,Upheld,0.3401,94.24,0.3499,3,0.55
+1055,CLM-0042-009964,Aetna,CO-97,N19,Coding & Billing,371.13,0.809,Not Appealed,0.2975,53.01,0.3499,3,0.48
+1056,CLM-0042-006492,BCBS,CO-50,N115,Medical Necessity,309.67,0.793,Upheld,0.3099,52.79,0.3495,3,0.55
+1057,CLM-0042-001150,Aetna,CO-27,N30,Eligibility/Coverage,638.89,0.989,Upheld,0.1976,22.73,0.3487,4,0.18
+1058,CLM-0042-004867,Medicaid,CO-50,N115,Medical Necessity,672.59,0.612,Upheld,0.3276,121.2,0.347,3,0.55
+1059,CLM-0042-011259,BCBS,CO-27,N30,Eligibility/Coverage,1224.64,0.488,Upheld,0.3061,67.48,0.3468,4,0.18
+1060,CLM-0042-008380,Medicaid,PR-1,N130,Eligibility/Coverage,1517.25,0.922,Not Appealed,0.1132,8.59,0.3468,5,0.05
+1061,CLM-0042-000225,Medicaid,CO-97,N19,Coding & Billing,425.59,0.552,Upheld,0.3785,77.32,0.3467,3,0.48
+1062,CLM-0042-005660,UnitedHealthcare,CO-27,N30,Eligibility/Coverage,1232.94,0.8,Not Appealed,0.1897,42.09,0.3457,4,0.18
+1063,CLM-0042-007275,UnitedHealthcare,CO-97,N19,Prior Authorization,448.0,0.579,Not Appealed,0.3634,78.15,0.3453,3,0.48
+1064,CLM-0042-000573,BCBS,CO-18,N111,Coding & Billing,2932.75,0.559,Not Appealed,0.0715,31.46,0.3447,4,0.15
+1065,CLM-0042-012276,Medicaid,CO-27,N30,Eligibility/Coverage,1443.65,0.576,Upheld,0.2435,63.28,0.3444,4,0.18
+1066,CLM-0042-009908,UnitedHealthcare,CO-16,N29,Coding & Billing,1959.73,0.558,Upheld,0.1872,264.11,0.3439,2,0.72
+1067,CLM-0042-000970,Medicare FFS,PR-1,N130,Eligibility/Coverage,1986.99,0.784,Not Appealed,0.1018,10.11,0.3439,5,0.05
+1068,CLM-0042-011683,Aetna,CO-50,N115,Medical Necessity,304.55,0.585,Not Appealed,0.3757,62.93,0.3437,3,0.55
+1069,CLM-0042-005609,Medicaid,CO-18,N111,Coding & Billing,1437.52,0.788,Not Appealed,0.165,35.59,0.3433,4,0.15
+1070,CLM-0042-004198,Aetna,CO-97,N19,Coding & Billing,567.37,0.539,Not Appealed,0.3591,97.8,0.3428,3,0.48
+1071,CLM-0042-007213,BCBS,CO-27,N30,Eligibility/Coverage,179.77,0.785,Upheld,0.3153,10.2,0.3423,4,0.18
+1072,CLM-0042-011184,Aetna,PR-1,N130,Eligibility/Coverage,1846.69,0.66,Not Appealed,0.1587,14.66,0.3412,5,0.05
+1073,CLM-0042-008531,BCBS,PR-1,N130,Timely Filing,214.25,0.891,Not Appealed,0.2705,2.9,0.3411,5,0.05
+1074,CLM-0042-007913,Medicaid,CO-50,N115,Medical Necessity,494.2,0.622,Upheld,0.3344,90.88,0.3409,3,0.55
+1075,CLM-0042-012186,Medicaid,CO-27,N30,Eligibility/Coverage,3564.02,0.435,Not Appealed,0.0317,20.34,0.3397,4,0.18
+1076,CLM-0042-000902,Medicare FFS,CO-50,N115,Medical Necessity,630.17,0.732,Not Appealed,0.2753,95.4,0.3394,3,0.55
+1077,CLM-0042-009789,Medicare FFS,PR-1,N130,Eligibility/Coverage,2640.31,0.72,Not Appealed,0.0374,4.94,0.3389,5,0.05
+1078,CLM-0042-000153,Medicare FFS,CO-97,N19,Coding & Billing,312.21,0.489,Not Appealed,0.4002,59.97,0.3385,3,0.48
+1079,CLM-0042-000469,Medicare FFS,CO-18,N111,Coding & Billing,2618.48,0.611,Not Appealed,0.0782,30.73,0.3381,4,0.15
+1080,CLM-0042-006658,Aetna,CO-27,N30,Eligibility/Coverage,1356.86,0.818,Not Appealed,0.1543,37.69,0.338,4,0.18
+1081,CLM-0042-008670,Aetna,CO-50,N115,Medical Necessity,1442.54,0.473,Upheld,0.2666,211.52,0.3365,3,0.55
+1082,CLM-0042-000624,BCBS,CO-50,N115,Medical Necessity,624.87,0.649,Upheld,0.3004,103.25,0.3363,3,0.55
+1083,CLM-0042-004307,BCBS,CO-97,N19,Coding & Billing,316.95,0.792,Not Appealed,0.2854,43.42,0.3363,3,0.48
+1084,CLM-0042-011396,BCBS,CO-16,N29,Coding & Billing,223.26,0.592,Overturned/Recovered,0.3691,59.33,0.3361,2,0.72
+1085,CLM-0042-007008,Medicare FFS,CO-18,N111,Coding & Billing,2595.84,0.606,Upheld,0.0782,30.46,0.3356,4,0.15
+1086,CLM-0042-004784,BCBS,CO-27,N30,Timely Filing,992.12,0.725,Not Appealed,0.2268,40.51,0.3353,4,0.18
+1087,CLM-0042-005852,Aetna,CO-97,N19,Coding & Billing,666.53,0.671,Not Appealed,0.2847,91.08,0.3348,3,0.48
+1088,CLM-0042-009563,Medicare FFS,CO-27,N30,Eligibility/Coverage,1168.17,0.958,Not Appealed,0.1198,25.19,0.3346,4,0.18
+1089,CLM-0042-007643,Medicaid,CO-27,N30,Eligibility/Coverage,1181.36,0.701,Not Appealed,0.2105,44.75,0.3339,4,0.18
+1090,CLM-0042-011860,BCBS,PR-1,N130,Eligibility/Coverage,1594.88,0.728,Not Appealed,0.1507,12.02,0.3338,5,0.05
+1091,CLM-0042-011848,BCBS,CO-27,N30,Eligibility/Coverage,1010.06,0.71,Not Appealed,0.2268,41.24,0.3334,4,0.18
+1092,CLM-0042-006182,BCBS,CO-18,N111,Coding & Billing,1497.21,0.808,Upheld,0.1327,29.8,0.3334,4,0.15
+1093,CLM-0042-009020,UnitedHealthcare,CO-27,N30,Eligibility/Coverage,526.97,0.968,Upheld,0.1903,18.05,0.333,4,0.18
+1094,CLM-0042-010999,BCBS,CO-50,N115,Medical Necessity,372.39,0.62,Not Appealed,0.3344,68.48,0.3325,3,0.55
+1095,CLM-0042-000224,Aetna,CO-27,N30,Eligibility/Coverage,694.62,0.868,Not Appealed,0.2051,25.65,0.3323,4,0.18
+1096,CLM-0042-001821,Aetna,CO-27,N30,Eligibility/Coverage,691.33,0.868,Upheld,0.2051,25.53,0.3321,4,0.18
+1097,CLM-0042-010106,Medicaid,CO-27,N30,Eligibility/Coverage,1276.66,0.569,Not Appealed,0.2435,55.96,0.332,4,0.18
+1098,CLM-0042-010323,Medicare FFS,CO-97,N19,Coding & Billing,711.97,0.599,Upheld,0.3001,102.57,0.3319,3,0.48
+1099,CLM-0042-003858,Medicaid,CO-97,N19,Coding & Billing,695.21,0.746,Upheld,0.2476,82.62,0.3313,3,0.48
+1100,CLM-0042-010183,Medicare FFS,PR-1,N130,Eligibility/Coverage,2576.43,0.73,Not Appealed,0.0265,3.42,0.3307,5,0.05
+1101,CLM-0042-003846,BCBS,PR-1,N130,Eligibility/Coverage,1533.51,0.764,Not Appealed,0.1389,10.65,0.3304,5,0.05
+1102,CLM-0042-002730,Aetna,CO-27,N30,Eligibility/Coverage,267.91,0.883,Not Appealed,0.2457,11.85,0.3294,4,0.18
+1103,CLM-0042-005306,BCBS,CO-16,N29,Coding & Billing,2629.61,0.221,Upheld,0.2023,382.97,0.329,2,0.72
+1104,CLM-0042-009272,UnitedHealthcare,CO-16,N29,Coding & Billing,970.16,0.417,Upheld,0.3301,230.56,0.329,2,0.72
+1105,CLM-0042-006236,Medicare FFS,CO-97,N19,Coding & Billing,420.39,0.616,Upheld,0.3217,64.91,0.3279,3,0.48
+1106,CLM-0042-010751,Medicaid,CO-16,N29,Coding & Billing,189.55,0.681,Not Appealed,0.3256,44.44,0.3278,2,0.72
+1107,CLM-0042-006423,BCBS,CO-16,N29,Coding & Billing,178.56,0.684,Not Appealed,0.3256,41.87,0.3277,2,0.72
+1108,CLM-0042-006086,UnitedHealthcare,CO-16,N29,Coding & Billing,272.82,0.926,Upheld,0.2259,44.38,0.3275,2,0.72
+1109,CLM-0042-006312,UnitedHealthcare,CO-97,N19,Prior Authorization,410.35,0.536,Not Appealed,0.3505,69.03,0.327,3,0.48
+1110,CLM-0042-010127,Medicare FFS,CO-97,N19,Coding & Billing,648.77,0.723,Upheld,0.2528,78.72,0.3265,3,0.48
+1111,CLM-0042-000859,Medicaid,CO-97,N19,Coding & Billing,781.97,0.713,Not Appealed,0.2398,90.01,0.3261,3,0.48
+1112,CLM-0042-004177,BCBS,PR-1,N130,Eligibility/Coverage,1561.6,0.725,Not Appealed,0.1413,11.03,0.3258,5,0.05
+1113,CLM-0042-006323,Aetna,CO-18,N111,Coding & Billing,1313.28,0.93,Not Appealed,0.0951,18.74,0.325,4,0.15
+1114,CLM-0042-001434,Medicare FFS,CO-97,N19,Prior Authorization,674.91,0.705,Not Appealed,0.2528,81.89,0.3246,3,0.48
+1115,CLM-0042-012204,Aetna,CO-27,N30,Timely Filing,1107.94,0.833,Not Appealed,0.1538,30.68,0.3244,4,0.18
+1116,CLM-0042-002679,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,2152.81,0.71,Not Appealed,0.072,7.75,0.3237,5,0.05
+1117,CLM-0042-005211,Medicaid,CO-97,N19,Prior Authorization,781.2,0.682,Upheld,0.246,92.25,0.3233,3,0.48
+1118,CLM-0042-004415,Medicare FFS,CO-97,N19,Coding & Billing,1083.96,0.615,Upheld,0.2324,120.9,0.3224,3,0.48
+1119,CLM-0042-011899,Medicaid,PR-1,N130,Eligibility/Coverage,2163.84,0.544,Not Appealed,0.1287,13.92,0.3224,5,0.05
+1120,CLM-0042-000072,Medicaid,CO-97,N19,Coding & Billing,753.16,0.686,Upheld,0.246,88.93,0.3222,3,0.48
+1121,CLM-0042-008534,Aetna,CO-50,N115,Medical Necessity,549.88,0.425,Overturned/Recovered,0.3638,110.01,0.3214,3,0.55
+1122,CLM-0042-006291,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,2061.15,0.728,Not Appealed,0.072,7.42,0.3213,5,0.05
+1123,CLM-0042-006891,BCBS,PR-1,N130,Eligibility/Coverage,1519.6,0.605,Not Appealed,0.1806,13.72,0.3207,5,0.05
+1124,CLM-0042-009736,BCBS,CO-97,N19,Coding & Billing,726.46,0.686,Not Appealed,0.246,85.78,0.3205,3,0.48
+1125,CLM-0042-007795,BCBS,CO-97,N19,Prior Authorization,715.09,0.706,Not Appealed,0.2398,82.31,0.3203,3,0.48
+1126,CLM-0042-007513,Medicare FFS,PR-1,N130,Eligibility/Coverage,2477.99,0.658,Not Appealed,0.0422,5.23,0.3184,5,0.05
+1127,CLM-0042-008766,Medicaid,CO-16,N29,Timely Filing,2077.5,0.397,Upheld,0.1845,275.98,0.318,2,0.72
+1128,CLM-0042-010175,Medicare FFS,CO-27,N30,Eligibility/Coverage,1408.77,0.676,Not Appealed,0.1628,41.29,0.3178,4,0.18
+1129,CLM-0042-011003,Aetna,CO-16,N29,Coding & Billing,477.5,0.45,Not Appealed,0.3568,122.66,0.3177,2,0.72
+1130,CLM-0042-006802,BCBS,CO-18,N111,Coding & Billing,1191.88,0.607,Not Appealed,0.2133,38.13,0.3174,4,0.15
+1131,CLM-0042-009064,UnitedHealthcare,CO-50,N115,Medical Necessity,310.54,0.707,Not Appealed,0.2826,48.26,0.3173,3,0.55
+1132,CLM-0042-008472,UnitedHealthcare,CO-27,N30,Eligibility/Coverage,799.67,0.848,Not Appealed,0.1706,24.56,0.3162,4,0.18
+1133,CLM-0042-003840,Medicaid,CO-27,N30,Eligibility/Coverage,340.75,0.951,Not Appealed,0.188,11.53,0.3161,4,0.18
+1134,CLM-0042-005175,Medicare FFS,CO-16,N29,Coding & Billing,547.9,0.225,Not Appealed,0.4266,168.27,0.3158,2,0.72
+1135,CLM-0042-010948,UnitedHealthcare,CO-97,N19,Coding & Billing,1584.97,0.453,Not Appealed,0.219,166.64,0.3157,3,0.48
+1136,CLM-0042-000780,UnitedHealthcare,CO-18,N111,Coding & Billing,1150.59,0.947,Not Appealed,0.0904,15.6,0.3151,4,0.15
+1137,CLM-0042-002816,BCBS,PR-1,N130,Eligibility/Coverage,1919.16,0.632,Not Appealed,0.1105,10.6,0.3139,5,0.05
+1138,CLM-0042-007856,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,1314.59,0.984,Upheld,0.0552,3.63,0.3139,5,0.05
+1139,CLM-0042-000765,Aetna,PR-1,N130,Eligibility/Coverage,1385.53,0.949,Not Appealed,0.058,4.02,0.3132,5,0.05
+1140,CLM-0042-008767,UnitedHealthcare,CO-97,N19,Coding & Billing,1509.58,0.463,Not Appealed,0.219,158.71,0.3127,3,0.48
+1141,CLM-0042-002649,BCBS,CO-18,N111,Coding & Billing,1184.44,0.846,Upheld,0.1185,21.05,0.3125,4,0.15
+1142,CLM-0042-001631,BCBS,CO-27,N30,Eligibility/Coverage,389.2,0.869,Not Appealed,0.2049,14.36,0.3122,4,0.18
+1143,CLM-0042-004150,Medicaid,CO-97,N19,Coding & Billing,635.83,0.909,Upheld,0.1587,48.43,0.311,3,0.48
+1144,CLM-0042-009456,Medicare FFS,CO-97,N19,Prior Authorization,327.89,0.588,Not Appealed,0.3117,49.07,0.3107,3,0.48
+1145,CLM-0042-010095,Aetna,CO-18,N111,Coding & Billing,962.88,0.843,Not Appealed,0.1423,20.55,0.3104,4,0.15
+1146,CLM-0042-004659,BCBS,CO-27,N30,Eligibility/Coverage,735.19,0.468,Not Appealed,0.3057,40.45,0.3103,4,0.18
+1147,CLM-0042-010809,Medicare FFS,CO-50,N115,Medical Necessity,292.1,0.619,Upheld,0.3033,48.72,0.3099,3,0.55
+1148,CLM-0042-002253,Medicaid,CO-18,N111,Coding & Billing,1633.1,0.551,Not Appealed,0.167,40.91,0.3098,4,0.15
+1149,CLM-0042-008258,Medicare FFS,CO-27,N30,Eligibility/Coverage,838.01,0.978,Not Appealed,0.1066,16.09,0.3096,4,0.18
+1150,CLM-0042-005223,Medicare FFS,CO-97,N19,Coding & Billing,805.44,0.615,Overturned/Recovered,0.2412,93.24,0.3088,3,0.48
+1151,CLM-0042-010147,Medicare FFS,CO-27,N30,Eligibility/Coverage,1277.69,0.674,Not Appealed,0.1628,37.45,0.3087,4,0.18
+1152,CLM-0042-010261,UnitedHealthcare,CO-27,N30,Eligibility/Coverage,820.12,0.803,Not Appealed,0.1708,25.21,0.3087,4,0.18
+1153,CLM-0042-008566,Medicaid,CO-16,N29,Timely Filing,259.97,0.638,Not Appealed,0.2968,55.56,0.308,2,0.72
+1154,CLM-0042-006381,UnitedHealthcare,CO-27,N30,Eligibility/Coverage,794.82,0.838,Upheld,0.1598,22.87,0.308,4,0.18
+1155,CLM-0042-005894,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,1511.36,0.903,Not Appealed,0.0489,3.7,0.3073,5,0.05
+1156,CLM-0042-009104,UnitedHealthcare,CO-18,N111,Coding & Billing,780.36,0.878,Not Appealed,0.1445,16.91,0.3066,4,0.15
+1157,CLM-0042-007861,BCBS,CO-18,N111,Coding & Billing,1213.8,0.669,Not Appealed,0.1683,30.64,0.3065,4,0.15
+1158,CLM-0042-006059,UnitedHealthcare,CO-16,N29,Coding & Billing,2584.78,0.391,Not Appealed,0.1044,194.31,0.3062,2,0.72
+1159,CLM-0042-001400,Medicaid,CO-97,N19,Coding & Billing,648.64,0.691,Upheld,0.2259,70.32,0.3052,3,0.48
+1160,CLM-0042-004521,Medicare FFS,CO-50,N115,Medical Necessity,243.12,0.59,Overturned/Recovered,0.3111,41.6,0.3052,3,0.55
+1161,CLM-0042-008121,Medicaid,CO-18,N111,Coding & Billing,902.8,0.875,Not Appealed,0.1277,17.29,0.3048,4,0.15
+1162,CLM-0042-007299,Aetna,CO-27,N30,Eligibility/Coverage,329.89,0.898,Not Appealed,0.1881,11.17,0.3048,4,0.18
+1163,CLM-0042-000321,Aetna,CO-18,N111,Coding & Billing,631.87,0.916,Not Appealed,0.144,13.65,0.3041,4,0.15
+1164,CLM-0042-001072,BCBS,CO-18,N111,Coding & Billing,969.38,0.917,Not Appealed,0.1015,14.76,0.3032,4,0.15
+1165,CLM-0042-002588,Medicare FFS,PR-1,N130,Timely Filing,1581.09,0.728,Not Appealed,0.0968,7.65,0.3032,5,0.05
+1166,CLM-0042-006726,Medicaid,CO-27,N30,Eligibility/Coverage,1003.85,0.66,Not Appealed,0.1904,34.41,0.303,4,0.18
+1167,CLM-0042-011563,Medicaid,CO-27,N30,Eligibility/Coverage,2059.23,0.457,Not Appealed,0.1371,50.81,0.3027,4,0.18
+1168,CLM-0042-009955,UnitedHealthcare,CO-16,N29,Coding & Billing,216.99,0.764,Upheld,0.2464,38.49,0.3026,2,0.72
+1169,CLM-0042-007216,Medicare FFS,CO-97,N19,Coding & Billing,221.02,0.813,Upheld,0.2277,24.16,0.3024,3,0.48
+1170,CLM-0042-012137,BCBS,CO-27,N30,Eligibility/Coverage,1012.83,0.648,Upheld,0.1921,35.02,0.3021,4,0.18
+1171,CLM-0042-005372,Aetna,PR-1,N130,Eligibility/Coverage,1521.15,0.822,Not Appealed,0.0678,5.16,0.3021,5,0.05
+1172,CLM-0042-007438,Medicaid,PR-1,N130,Eligibility/Coverage,1332.45,0.757,Not Appealed,0.1127,7.51,0.3013,5,0.05
+1173,CLM-0042-004115,UnitedHealthcare,CO-27,N30,Eligibility/Coverage,639.53,0.814,Not Appealed,0.1744,20.07,0.3009,4,0.18
+1174,CLM-0042-005059,BCBS,CO-18,N111,Coding & Billing,1160.64,0.422,Not Appealed,0.2538,44.18,0.3006,4,0.15
+1175,CLM-0042-006911,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,3116.52,0.416,Not Appealed,0.0207,3.22,0.3003,5,0.05
+1176,CLM-0042-009721,UnitedHealthcare,CO-18,N111,Coding & Billing,3036.72,0.402,Not Appealed,0.0351,16.01,0.3002,4,0.15
+1177,CLM-0042-006360,BCBS,CO-97,N19,Prior Authorization,638.97,0.65,Upheld,0.2318,71.1,0.2997,3,0.48
+1178,CLM-0042-009825,Medicaid,CO-16,N29,Timely Filing,263.05,0.911,Upheld,0.1821,34.5,0.2997,2,0.72
+1179,CLM-0042-002756,UnitedHealthcare,CO-18,N111,Coding & Billing,907.65,0.479,Not Appealed,0.2616,35.62,0.2996,4,0.15
+1180,CLM-0042-006017,Medicare FFS,PR-1,N130,Timely Filing,1257.79,0.901,Not Appealed,0.0659,4.14,0.2994,5,0.05
+1181,CLM-0042-008434,BCBS,PR-1,N130,Eligibility/Coverage,1272.95,0.814,Not Appealed,0.0954,6.08,0.2993,5,0.05
+1182,CLM-0042-011604,Aetna,CO-18,N111,Coding & Billing,1282.67,0.838,Not Appealed,0.0843,16.23,0.2987,4,0.15
+1183,CLM-0042-003253,Medicare FFS,CO-18,N111,Coding & Billing,1034.01,0.87,Not Appealed,0.1007,15.62,0.2977,4,0.15
+1184,CLM-0042-000805,Medicare FFS,CO-27,N30,Eligibility/Coverage,176.77,0.977,Not Appealed,0.1646,5.24,0.2976,4,0.18
+1185,CLM-0042-007143,UnitedHealthcare,CO-27,N30,Eligibility/Coverage,466.55,0.955,Upheld,0.1374,11.54,0.2974,4,0.18
+1186,CLM-0042-008414,Medicaid,CO-16,N29,Coding & Billing,838.21,0.455,Not Appealed,0.2744,165.62,0.2973,2,0.72
+1187,CLM-0042-007970,Medicare FFS,PR-1,N130,Timely Filing,2865.32,0.455,Not Appealed,0.0312,4.46,0.2973,5,0.05
+1188,CLM-0042-006358,Aetna,CO-27,N30,Eligibility/Coverage,488.69,0.947,Not Appealed,0.1374,12.08,0.2972,4,0.18
+1189,CLM-0042-004599,Medicaid,CO-50,N115,Medical Necessity,314.06,0.611,Not Appealed,0.2799,48.35,0.2969,3,0.55
+1190,CLM-0042-006899,BCBS,CO-27,N30,Eligibility/Coverage,508.52,0.85,Not Appealed,0.1697,15.54,0.2969,4,0.18
+1191,CLM-0042-011404,Medicare FFS,CO-27,N30,Eligibility/Coverage,1606.73,0.405,Not Appealed,0.1994,57.68,0.2968,4,0.18
+1192,CLM-0042-005997,BCBS,PR-1,N130,Eligibility/Coverage,1287.67,0.747,Not Appealed,0.1124,7.24,0.2962,5,0.05
+1193,CLM-0042-005969,BCBS,PR-1,N130,Eligibility/Coverage,1258.2,0.812,Not Appealed,0.0922,5.8,0.2962,5,0.05
+1194,CLM-0042-000141,BCBS,CO-27,N30,Eligibility/Coverage,778.66,0.776,Not Appealed,0.1625,22.78,0.296,4,0.18
+1195,CLM-0042-004924,Aetna,CO-27,N30,Eligibility/Coverage,679.89,0.921,Not Appealed,0.1209,14.8,0.2956,4,0.18
+1196,CLM-0042-003949,Aetna,CO-18,N111,Coding & Billing,1365.38,0.726,Not Appealed,0.1093,22.39,0.2955,4,0.15
+1197,CLM-0042-004778,Medicare FFS,CO-27,N30,Eligibility/Coverage,605.77,0.598,Not Appealed,0.2465,26.88,0.2952,4,0.18
+1198,CLM-0042-007637,BCBS,PR-1,N130,Eligibility/Coverage,1218.19,0.788,Not Appealed,0.1035,6.3,0.2949,5,0.05
+1199,CLM-0042-000748,Medicaid,CO-16,N29,Coding & Billing,1501.79,0.394,Not Appealed,0.2123,229.58,0.2947,2,0.72
+1200,CLM-0042-012287,BCBS,CO-50,N115,Medical Necessity,316.18,0.576,Not Appealed,0.2872,49.95,0.294,3,0.55
+1201,CLM-0042-010067,Medicaid,CO-16,N29,Coding & Billing,769.55,0.412,Not Appealed,0.2917,161.6,0.2936,2,0.72
+1202,CLM-0042-007737,UnitedHealthcare,CO-18,N111,Coding & Billing,1156.14,0.849,Not Appealed,0.0861,14.92,0.2934,4,0.15
+1203,CLM-0042-002297,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,560.25,0.89,Not Appealed,0.1421,3.98,0.2931,5,0.05
+1204,CLM-0042-003720,BCBS,CO-27,N30,Eligibility/Coverage,796.92,0.639,Not Appealed,0.2033,29.17,0.2922,4,0.18
+1205,CLM-0042-006210,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,1380.91,0.909,Upheld,0.0349,2.41,0.2921,5,0.05
+1206,CLM-0042-007887,Medicaid,PR-1,N130,Eligibility/Coverage,1193.61,0.78,Not Appealed,0.1037,6.19,0.2919,5,0.05
+1207,CLM-0042-005515,Medicare FFS,CO-97,N19,Coding & Billing,258.24,0.511,Not Appealed,0.3115,38.61,0.2905,3,0.48
+1208,CLM-0042-009353,Medicaid,PR-1,N130,Eligibility/Coverage,1962.62,0.576,Not Appealed,0.0826,8.1,0.2902,5,0.05
+1209,CLM-0042-009501,UnitedHealthcare,CO-97,N19,Coding & Billing,738.16,0.527,Not Appealed,0.2466,87.36,0.2897,3,0.48
+1210,CLM-0042-007154,BCBS,CO-27,N30,Eligibility/Coverage,678.86,0.752,Not Appealed,0.1707,20.86,0.2891,4,0.18
+1211,CLM-0042-002684,BCBS,CO-50,N115,Medical Necessity,308.28,0.551,Not Appealed,0.2872,48.7,0.2885,3,0.55
+1212,CLM-0042-001238,Medicaid,CO-18,N111,Coding & Billing,983.91,0.85,Upheld,0.0963,14.22,0.2879,4,0.15
+1213,CLM-0042-003573,Medicaid,CO-18,N111,Coding & Billing,981.05,0.851,Upheld,0.0963,14.18,0.2879,4,0.15
+1214,CLM-0042-001870,UnitedHealthcare,CO-18,N111,Coding & Billing,992.43,0.818,Not Appealed,0.1061,15.8,0.2875,4,0.15
+1215,CLM-0042-005657,Aetna,CO-50,N115,Medical Necessity,308.7,0.653,Upheld,0.248,42.1,0.2874,3,0.55
+1216,CLM-0042-004490,BCBS,CO-50,N115,Prior Authorization,247.64,0.768,Upheld,0.2135,29.09,0.2874,3,0.55
+1217,CLM-0042-005179,BCBS,CO-27,N30,Eligibility/Coverage,545.37,0.784,Not Appealed,0.1713,16.82,0.287,4,0.18
+1218,CLM-0042-010028,Medicare FFS,PR-1,N130,Eligibility/Coverage,745.94,0.891,Not Appealed,0.1083,4.04,0.287,5,0.05
+1219,CLM-0042-010633,Aetna,CO-27,N30,Eligibility/Coverage,788.02,0.708,Not Appealed,0.1684,23.89,0.2862,4,0.18
+1220,CLM-0042-000842,UnitedHealthcare,CO-97,N19,Coding & Billing,1129.15,0.43,Upheld,0.228,123.59,0.286,3,0.48
+1221,CLM-0042-000821,Medicare FFS,CO-27,N30,Eligibility/Coverage,623.52,0.761,Not Appealed,0.1683,18.88,0.2859,4,0.18
+1222,CLM-0042-010572,BCBS,PR-1,N130,Eligibility/Coverage,1018.49,0.914,Not Appealed,0.0648,3.3,0.2857,5,0.05
+1223,CLM-0042-003788,Medicare FFS,CO-27,N30,Eligibility/Coverage,630.84,0.766,Overturned/Recovered,0.1622,18.41,0.284,4,0.18
+1224,CLM-0042-001600,Medicare FFS,CO-18,N111,Coding & Billing,985.16,0.889,Not Appealed,0.0742,10.96,0.2836,4,0.15
+1225,CLM-0042-002947,Medicaid,CO-27,N30,Eligibility/Coverage,557.06,0.643,Not Appealed,0.2147,21.53,0.2835,4,0.18
+1226,CLM-0042-003229,BCBS,PR-1,N130,Eligibility/Coverage,1412.69,0.631,Not Appealed,0.1155,8.16,0.283,5,0.05
+1227,CLM-0042-010506,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,1463.48,0.781,Not Appealed,0.053,3.88,0.282,5,0.05
+1228,CLM-0042-009492,Aetna,CO-27,N30,Eligibility/Coverage,860.63,0.563,Not Appealed,0.2045,31.68,0.2819,4,0.18
+1229,CLM-0042-000779,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,1687.84,0.617,Not Appealed,0.0856,7.22,0.2819,5,0.05
+1230,CLM-0042-009824,Medicaid,PR-1,N130,Eligibility/Coverage,982.39,0.876,Not Appealed,0.0759,3.73,0.2818,5,0.05
+1231,CLM-0042-010365,Medicare FFS,PR-1,N130,Eligibility/Coverage,1672.03,0.734,Not Appealed,0.0443,3.7,0.2815,5,0.05
+1232,CLM-0042-009913,Aetna,CO-27,N30,Eligibility/Coverage,894.75,0.545,Upheld,0.2045,32.94,0.2806,4,0.18
+1233,CLM-0042-011850,Medicare FFS,CO-97,N19,Coding & Billing,172.52,0.53,Not Appealed,0.2967,24.57,0.2806,3,0.48
+1234,CLM-0042-005643,UnitedHealthcare,CO-50,N115,Medical Necessity,808.22,0.403,Not Appealed,0.2658,118.15,0.2801,3,0.55
+1235,CLM-0042-002471,Medicaid,CO-97,N19,Coding & Billing,642.95,0.565,Upheld,0.225,69.44,0.2792,3,0.48
+1236,CLM-0042-010251,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,1602.16,0.582,Not Appealed,0.1027,8.22,0.2786,5,0.05
+1237,CLM-0042-008008,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,779.34,0.884,Not Appealed,0.0902,3.52,0.2779,5,0.05
+1238,CLM-0042-005743,UnitedHealthcare,CO-97,N19,Coding & Billing,1396.81,0.427,Not Appealed,0.181,121.38,0.2772,3,0.48
+1239,CLM-0042-003671,Medicaid,CO-97,N19,Coding & Billing,638.84,0.649,Upheld,0.1912,58.63,0.2771,3,0.48
+1240,CLM-0042-003603,BCBS,CO-18,N111,Coding & Billing,616.45,0.707,Not Appealed,0.1727,15.97,0.2771,4,0.15
+1241,CLM-0042-004107,UnitedHealthcare,CO-27,N30,Eligibility/Coverage,578.98,0.805,Not Appealed,0.1409,14.69,0.2767,4,0.18
+1242,CLM-0042-010515,Aetna,CO-18,N111,Coding & Billing,656.52,0.87,Not Appealed,0.1075,10.59,0.2765,4,0.15
+1243,CLM-0042-002544,Medicare FFS,CO-97,N19,Coding & Billing,782.93,0.459,Not Appealed,0.2404,90.33,0.2757,3,0.48
+1244,CLM-0042-005490,UnitedHealthcare,CO-27,N30,Eligibility/Coverage,759.81,0.912,Not Appealed,0.0779,10.66,0.2754,4,0.18
+1245,CLM-0042-003429,Aetna,CO-27,N30,Eligibility/Coverage,521.32,0.788,Not Appealed,0.1514,14.21,0.2753,4,0.18
+1246,CLM-0042-010477,BCBS,CO-18,N111,Coding & Billing,507.69,0.941,Upheld,0.0971,7.39,0.2751,4,0.15
+1247,CLM-0042-000269,Medicare FFS,CO-27,N30,Eligibility/Coverage,1062.57,0.775,Not Appealed,0.0904,17.29,0.2749,4,0.18
+1248,CLM-0042-001155,BCBS,PR-1,N130,Eligibility/Coverage,1359.6,0.59,Not Appealed,0.1214,8.25,0.2745,5,0.05
+1249,CLM-0042-001798,Medicaid,CO-18,N111,Coding & Billing,1246.16,0.571,Not Appealed,0.1398,26.13,0.2734,4,0.15
+1250,CLM-0042-000387,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,968.43,0.758,Not Appealed,0.1045,5.06,0.273,5,0.05
+1251,CLM-0042-003025,Medicaid,CO-27,N30,Eligibility/Coverage,696.25,0.811,Not Appealed,0.1169,14.65,0.2725,4,0.18
+1252,CLM-0042-011518,Medicaid,PR-1,N130,Timely Filing,1071.2,0.926,Not Appealed,0.0296,1.59,0.2722,5,0.05
+1253,CLM-0042-012294,BCBS,CO-18,N111,Prior Authorization,1045.02,0.805,Not Appealed,0.0753,11.81,0.2714,4,0.15
+1254,CLM-0042-002952,UnitedHealthcare,PR-1,N130,Timely Filing,1439.07,0.701,Not Appealed,0.0656,4.72,0.2713,5,0.05
+1255,CLM-0042-000827,BCBS,PR-1,N130,Eligibility/Coverage,948.52,0.838,Not Appealed,0.0744,3.53,0.2712,5,0.05
+1256,CLM-0042-009179,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,947.27,0.755,Not Appealed,0.1045,4.95,0.271,5,0.05
+1257,CLM-0042-007401,BCBS,CO-27,N30,Eligibility/Coverage,402.98,0.813,Upheld,0.1485,10.77,0.2709,4,0.18
+1258,CLM-0042-012371,Aetna,CO-97,N19,Coding & Billing,1286.54,0.411,Not Appealed,0.1886,116.45,0.2708,3,0.48
+1259,CLM-0042-011331,BCBS,CO-50,N115,Prior Authorization,117.62,0.682,Not Appealed,0.2303,14.9,0.2708,3,0.55
+1260,CLM-0042-004533,BCBS,CO-18,N111,Coding & Billing,1037.33,0.699,Not Appealed,0.1136,17.67,0.2707,4,0.15
+1261,CLM-0042-001919,BCBS,CO-18,N111,Coding & Billing,1047.81,0.8,Not Appealed,0.0753,11.84,0.2706,4,0.15
+1262,CLM-0042-001012,BCBS,CO-27,N30,Eligibility/Coverage,716.23,0.905,Not Appealed,0.0764,9.84,0.2703,4,0.18
+1263,CLM-0042-003249,Aetna,PR-1,N130,Eligibility/Coverage,1402.0,0.695,Not Appealed,0.069,4.83,0.2695,5,0.05
+1264,CLM-0042-001120,Aetna,PR-1,N130,Eligibility/Coverage,958.19,0.742,Not Appealed,0.1045,5.0,0.2691,5,0.05
+1265,CLM-0042-007486,UnitedHealthcare,CO-50,N115,Prior Authorization,768.23,0.449,Upheld,0.2334,98.62,0.2689,3,0.55
+1266,CLM-0042-005960,Medicaid,CO-18,N111,Prior Authorization,1146.74,0.61,Not Appealed,0.1293,22.24,0.2688,4,0.15
+1267,CLM-0042-004086,Aetna,PR-1,N130,Eligibility/Coverage,1297.52,0.726,Not Appealed,0.069,4.47,0.2688,5,0.05
+1268,CLM-0042-000013,BCBS,CO-27,N30,Eligibility/Coverage,471.04,0.64,Not Appealed,0.199,16.87,0.2686,4,0.18
+1269,CLM-0042-006038,Medicaid,CO-18,N111,Coding & Billing,388.15,0.938,Not Appealed,0.1,5.82,0.2682,4,0.15
+1270,CLM-0042-009548,UnitedHealthcare,CO-50,N115,Medical Necessity,283.12,0.594,Upheld,0.2368,36.87,0.2677,3,0.55
+1271,CLM-0042-009708,Aetna,PR-1,N130,Eligibility/Coverage,994.6,0.825,Not Appealed,0.065,3.23,0.2664,5,0.05
+1272,CLM-0042-009726,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,1001.77,0.822,Not Appealed,0.065,3.26,0.2663,5,0.05
+1273,CLM-0042-007158,Aetna,CO-16,N29,Coding & Billing,304.59,0.341,Not Appealed,0.3233,70.91,0.2661,2,0.72
+1274,CLM-0042-010407,UnitedHealthcare,CO-16,N29,Coding & Billing,222.82,0.695,Not Appealed,0.2038,32.69,0.2658,2,0.72
+1275,CLM-0042-003511,Aetna,CO-97,N19,Coding & Billing,783.69,0.525,Not Appealed,0.1974,74.24,0.2653,3,0.48
+1276,CLM-0042-006456,UnitedHealthcare,CO-18,N111,Prior Authorization,1263.91,0.488,Not Appealed,0.1525,28.91,0.2649,4,0.15
+1277,CLM-0042-002430,UnitedHealthcare,CO-16,N29,Coding & Billing,102.88,0.494,Not Appealed,0.2895,21.45,0.2648,2,0.72
+1278,CLM-0042-010227,UnitedHealthcare,CO-16,N29,Coding & Billing,2044.41,0.279,Upheld,0.1341,197.36,0.2645,2,0.72
+1279,CLM-0042-008118,Medicaid,CO-18,N111,Coding & Billing,1035.83,0.657,Not Appealed,0.117,18.18,0.2641,4,0.15
+1280,CLM-0042-009321,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,997.67,0.813,Upheld,0.0628,3.13,0.263,5,0.05
+1281,CLM-0042-005694,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,1147.17,0.788,Upheld,0.0528,3.03,0.2624,5,0.05
+1282,CLM-0042-004612,Medicaid,CO-18,N111,Coding & Billing,185.98,0.815,Not Appealed,0.1572,4.39,0.2618,4,0.15
+1283,CLM-0042-006984,UnitedHealthcare,CO-27,N30,Eligibility/Coverage,945.33,0.575,Not Appealed,0.1523,25.92,0.2612,4,0.18
+1284,CLM-0042-012188,Medicare FFS,CO-27,N30,Timely Filing,847.48,0.784,Not Appealed,0.088,13.43,0.2612,4,0.18
+1285,CLM-0042-010552,Medicare FFS,CO-27,N30,Eligibility/Coverage,446.25,0.933,Upheld,0.0819,6.58,0.2611,4,0.18
+1286,CLM-0042-004223,Medicaid,CO-27,N30,Eligibility/Coverage,687.52,0.64,Not Appealed,0.1587,19.64,0.2607,4,0.18
+1287,CLM-0042-005898,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,1333.91,0.682,Not Appealed,0.0656,4.38,0.2606,5,0.05
+1288,CLM-0042-000986,Aetna,PR-1,N130,Eligibility/Coverage,598.7,0.766,Not Appealed,0.1225,3.67,0.2601,5,0.05
+1289,CLM-0042-000566,BCBS,PR-1,N130,Eligibility/Coverage,914.35,0.856,Not Appealed,0.0518,2.37,0.2601,5,0.05
+1290,CLM-0042-002920,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,1363.02,0.638,Not Appealed,0.077,5.25,0.2599,5,0.05
+1291,CLM-0042-007681,Aetna,PR-1,N130,Eligibility/Coverage,1129.96,0.737,Not Appealed,0.0687,3.88,0.2598,5,0.05
+1292,CLM-0042-000152,Aetna,CO-50,N115,Medical Necessity,183.17,0.608,Not Appealed,0.2291,23.08,0.2597,3,0.55
+1293,CLM-0042-007468,Medicare FFS,CO-97,N19,Coding & Billing,624.68,0.618,Upheld,0.1722,51.65,0.2596,3,0.48
+1294,CLM-0042-012264,Medicare FFS,CO-50,N115,Medical Necessity,319.12,0.53,Upheld,0.241,42.3,0.2596,3,0.55
+1295,CLM-0042-008551,BCBS,CO-27,N30,Eligibility/Coverage,2022.65,0.341,Upheld,0.1051,38.28,0.2595,4,0.18
+1296,CLM-0042-010336,Aetna,CO-18,N111,Coding & Billing,759.63,0.816,Upheld,0.0839,9.56,0.2595,4,0.15
+1297,CLM-0042-006720,Medicaid,CO-27,N30,Eligibility/Coverage,769.73,0.665,Not Appealed,0.1371,18.99,0.2592,4,0.18
+1298,CLM-0042-000643,Medicare FFS,CO-27,N30,Eligibility/Coverage,1048.2,0.676,Upheld,0.0997,18.82,0.2592,4,0.18
+1299,CLM-0042-011695,Medicaid,PR-1,N130,Eligibility/Coverage,937.81,0.863,Not Appealed,0.0435,2.04,0.2585,5,0.05
+1300,CLM-0042-011723,BCBS,CO-27,N30,Eligibility/Coverage,823.45,0.481,Not Appealed,0.1952,28.93,0.2579,4,0.18
+1301,CLM-0042-005524,BCBS,CO-18,N111,Coding & Billing,193.06,0.774,Not Appealed,0.164,4.75,0.2577,4,0.15
+1302,CLM-0042-003782,UnitedHealthcare,PR-1,N130,Timely Filing,1294.04,0.677,Not Appealed,0.0656,4.25,0.2569,5,0.05
+1303,CLM-0042-008371,Medicaid,PR-1,N130,Eligibility/Coverage,465.71,0.961,Not Appealed,0.0613,1.43,0.2566,5,0.05
+1304,CLM-0042-012107,UnitedHealthcare,CO-27,N30,Eligibility/Coverage,1816.21,0.448,Not Appealed,0.0856,27.97,0.2565,4,0.18
+1305,CLM-0042-011203,BCBS,CO-18,N111,Coding & Billing,963.86,0.648,Not Appealed,0.115,16.63,0.2565,4,0.15
+1306,CLM-0042-002718,Aetna,CO-27,N30,Eligibility/Coverage,941.1,0.552,Not Appealed,0.1523,25.81,0.2563,4,0.18
+1307,CLM-0042-010889,Medicaid,PR-1,N130,Eligibility/Coverage,751.09,0.915,Not Appealed,0.0421,1.58,0.2557,5,0.05
+1308,CLM-0042-010667,Medicaid,PR-1,N130,Eligibility/Coverage,1180.72,0.493,Not Appealed,0.1427,8.42,0.255,5,0.05
+1309,CLM-0042-001659,Medicaid,CO-18,N111,Coding & Billing,825.51,0.816,Not Appealed,0.0679,8.4,0.255,4,0.15
+1310,CLM-0042-006073,Medicare FFS,PR-1,N130,Eligibility/Coverage,1266.34,0.731,Not Appealed,0.0458,2.9,0.255,5,0.05
+1311,CLM-0042-010525,Aetna,CO-27,N30,Eligibility/Coverage,700.82,0.619,Not Appealed,0.1542,19.45,0.2549,4,0.18
+1312,CLM-0042-003915,Medicaid,PR-1,N130,Eligibility/Coverage,884.73,0.79,Not Appealed,0.07,3.1,0.2549,5,0.05
+1313,CLM-0042-005537,Medicaid,CO-18,N111,Prior Authorization,922.23,0.791,Not Appealed,0.064,8.86,0.2543,4,0.15
+1314,CLM-0042-012218,Medicaid,CO-18,N111,Prior Authorization,793.63,0.822,Not Appealed,0.0679,8.08,0.2541,4,0.15
+1315,CLM-0042-002482,Medicare FFS,CO-50,N115,Medical Necessity,388.41,0.34,Not Appealed,0.2906,62.08,0.2535,3,0.55
+1316,CLM-0042-004776,Medicare FFS,CO-27,N30,Eligibility/Coverage,85.0,0.876,Not Appealed,0.1321,2.02,0.2534,4,0.18
+1317,CLM-0042-011119,Medicaid,PR-1,N130,Eligibility/Coverage,857.03,0.908,Upheld,0.0273,1.17,0.2532,5,0.05
+1318,CLM-0042-010603,Aetna,CO-18,N111,Coding & Billing,869.66,0.58,Not Appealed,0.1445,18.85,0.2529,4,0.15
+1319,CLM-0042-008127,Medicaid,CO-27,N30,Eligibility/Coverage,359.03,0.521,Not Appealed,0.2273,14.69,0.2529,4,0.18
+1320,CLM-0042-012232,Aetna,PR-1,N130,Eligibility/Coverage,632.72,0.915,Not Appealed,0.0509,1.61,0.2528,5,0.05
+1321,CLM-0042-003008,Medicare FFS,PR-1,N130,Eligibility/Coverage,565.99,0.96,Not Appealed,0.0425,1.2,0.2527,5,0.05
+1322,CLM-0042-005947,Medicare FFS,CO-18,N111,Coding & Billing,809.66,0.824,Not Appealed,0.0615,7.47,0.2521,4,0.15
+1323,CLM-0042-004429,Medicare FFS,CO-27,N30,Eligibility/Coverage,569.3,0.742,Not Appealed,0.1199,12.28,0.2519,4,0.18
+1324,CLM-0042-004403,Medicare FFS,CO-27,N30,Eligibility/Coverage,729.11,0.812,Not Appealed,0.0749,9.83,0.2517,4,0.18
+1325,CLM-0042-004739,Medicare FFS,CO-18,N111,Coding & Billing,1016.2,0.697,Not Appealed,0.082,12.5,0.2516,4,0.15
+1326,CLM-0042-010081,BCBS,CO-50,N115,Medical Necessity,270.97,0.67,Upheld,0.1805,26.9,0.2512,3,0.55
+1327,CLM-0042-000482,Medicare FFS,CO-18,N111,Coding & Billing,820.17,0.809,Upheld,0.0634,7.8,0.2508,4,0.15
+1328,CLM-0042-007590,Medicaid,CO-18,N111,Coding & Billing,850.33,0.68,Not Appealed,0.1062,13.54,0.2505,4,0.15
+1329,CLM-0042-000951,BCBS,CO-97,N19,Coding & Billing,275.14,0.755,Not Appealed,0.1478,19.51,0.2504,3,0.48
+1330,CLM-0042-000217,Medicare FFS,CO-27,N30,Eligibility/Coverage,541.15,0.741,Not Appealed,0.1199,11.67,0.2498,4,0.18
+1331,CLM-0042-012248,UnitedHealthcare,CO-50,N115,Prior Authorization,272.5,0.746,Not Appealed,0.1489,22.31,0.2491,3,0.55
+1332,CLM-0042-009024,BCBS,PR-1,N130,Eligibility/Coverage,1013.86,0.714,Not Appealed,0.0716,3.63,0.2491,5,0.05
+1333,CLM-0042-011628,Aetna,PR-1,N130,Eligibility/Coverage,870.15,0.737,Not Appealed,0.0801,3.49,0.2489,5,0.05
+1334,CLM-0042-007601,Aetna,CO-27,N30,Eligibility/Coverage,476.09,0.751,Not Appealed,0.1218,10.44,0.2486,4,0.18
+1335,CLM-0042-006993,Aetna,PR-1,N130,Eligibility/Coverage,1061.64,0.74,Not Appealed,0.0553,2.93,0.2485,5,0.05
+1336,CLM-0042-008811,UnitedHealthcare,CO-50,N115,Medical Necessity,199.09,0.587,Not Appealed,0.2125,23.27,0.2474,3,0.55
+1337,CLM-0042-011495,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,698.08,0.854,Not Appealed,0.055,1.92,0.2471,5,0.05
+1338,CLM-0042-007816,Medicaid,PR-1,N130,Eligibility/Coverage,681.78,0.889,Not Appealed,0.0442,1.51,0.2471,5,0.05
+1339,CLM-0042-009723,BCBS,CO-50,N115,Medical Necessity,251.65,0.654,Upheld,0.1805,24.99,0.2467,3,0.55
+1340,CLM-0042-004211,UnitedHealthcare,CO-27,N30,Eligibility/Coverage,532.96,0.59,Not Appealed,0.1691,16.22,0.2462,4,0.18
+1341,CLM-0042-010052,Medicare FFS,CO-27,N30,Eligibility/Coverage,122.86,0.754,Not Appealed,0.1583,3.5,0.246,4,0.18
+1342,CLM-0042-011369,BCBS,PR-1,N130,Eligibility/Coverage,838.97,0.839,Not Appealed,0.0408,1.71,0.2456,5,0.05
+1343,CLM-0042-010037,Aetna,CO-27,N30,Eligibility/Coverage,270.42,0.693,Not Appealed,0.1592,7.75,0.244,4,0.18
+1344,CLM-0042-010730,Aetna,CO-18,N111,Coding & Billing,1433.0,0.539,Upheld,0.0753,16.19,0.2438,4,0.15
+1345,CLM-0042-007890,BCBS,CO-27,N30,Eligibility/Coverage,755.82,0.277,Not Appealed,0.2514,34.21,0.2436,4,0.18
+1346,CLM-0042-004111,Medicaid,PR-1,N130,Eligibility/Coverage,286.96,0.827,Not Appealed,0.1078,1.55,0.2436,5,0.05
+1347,CLM-0042-009865,Medicare FFS,CO-27,N30,Eligibility/Coverage,850.95,0.674,Not Appealed,0.0935,14.32,0.2424,4,0.18
+1348,CLM-0042-008991,Aetna,CO-18,N111,Prior Authorization,364.61,0.872,Not Appealed,0.0796,4.35,0.2422,4,0.15
+1349,CLM-0042-005386,UnitedHealthcare,CO-18,N111,Coding & Billing,363.1,0.872,Not Appealed,0.0796,4.33,0.2421,4,0.15
+1350,CLM-0042-002568,Medicare FFS,PR-1,N130,Eligibility/Coverage,1103.19,0.501,Not Appealed,0.1252,6.91,0.2419,5,0.05
+1351,CLM-0042-002833,BCBS,CO-27,N30,Eligibility/Coverage,673.33,0.482,Not Appealed,0.1832,22.21,0.2416,4,0.18
+1352,CLM-0042-004575,UnitedHealthcare,CO-27,N30,Eligibility/Coverage,405.26,0.864,Not Appealed,0.0759,5.54,0.2413,4,0.18
+1353,CLM-0042-006575,Medicaid,PR-1,N130,Eligibility/Coverage,759.3,0.904,Not Appealed,0.0186,0.71,0.2412,5,0.05
+1354,CLM-0042-001866,UnitedHealthcare,CO-97,N19,Prior Authorization,522.72,0.473,Upheld,0.2034,51.04,0.241,3,0.48
+1355,CLM-0042-005063,Medicaid,CO-27,N30,Eligibility/Coverage,840.81,0.566,Not Appealed,0.1313,19.87,0.2409,4,0.18
+1356,CLM-0042-002167,Aetna,CO-27,N30,Eligibility/Coverage,247.07,0.672,Not Appealed,0.1638,7.28,0.2408,4,0.18
+1357,CLM-0042-001323,Medicare FFS,PR-1,N130,Eligibility/Coverage,1224.32,0.586,Not Appealed,0.0756,4.63,0.2396,5,0.05
+1358,CLM-0042-008391,BCBS,CO-18,N111,Coding & Billing,941.95,0.64,Not Appealed,0.0898,12.68,0.2395,4,0.15
+1359,CLM-0042-011500,Medicaid,CO-97,N19,Coding & Billing,722.84,0.525,Not Appealed,0.1571,54.52,0.2391,3,0.48
+1360,CLM-0042-008242,Aetna,PR-1,N130,Eligibility/Coverage,936.31,0.727,Not Appealed,0.0574,2.69,0.2388,5,0.05
+1361,CLM-0042-001555,Medicare FFS,CO-27,N30,Eligibility/Coverage,449.63,0.839,Not Appealed,0.0749,6.07,0.2387,4,0.18
+1362,CLM-0042-009118,BCBS,PR-1,N130,Eligibility/Coverage,101.1,0.959,Not Appealed,0.0732,0.37,0.2387,5,0.05
+1363,CLM-0042-001130,Aetna,CO-18,N111,Coding & Billing,640.88,0.732,Not Appealed,0.0898,8.63,0.2381,4,0.15
+1364,CLM-0042-006274,Medicare FFS,PR-1,N130,Eligibility/Coverage,1142.73,0.654,Not Appealed,0.0555,3.17,0.2368,5,0.05
+1365,CLM-0042-011496,Medicaid,CO-18,N111,Coding & Billing,705.97,0.744,Upheld,0.0748,7.92,0.2366,4,0.15
+1366,CLM-0042-004116,Medicare FFS,CO-18,N111,Coding & Billing,330.34,0.946,Not Appealed,0.0456,2.26,0.2361,4,0.15
+1367,CLM-0042-001074,Aetna,CO-27,N30,Eligibility/Coverage,349.48,0.768,Upheld,0.1079,6.79,0.236,4,0.18
+1368,CLM-0042-008541,Medicare FFS,CO-27,N30,Eligibility/Coverage,784.17,0.607,Not Appealed,0.1141,16.11,0.2359,4,0.18
+1369,CLM-0042-010838,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,2321.87,0.311,Not Appealed,0.0369,4.29,0.2358,5,0.05
+1370,CLM-0042-009331,BCBS,PR-1,N130,Eligibility/Coverage,1116.02,0.487,Not Appealed,0.1162,6.48,0.235,5,0.05
+1371,CLM-0042-009107,Medicare FFS,CO-18,N111,Coding & Billing,848.51,0.487,Not Appealed,0.1481,18.85,0.2349,4,0.15
+1372,CLM-0042-000910,Medicaid,CO-18,N111,Coding & Billing,492.96,0.8,Not Appealed,0.0771,5.7,0.2349,4,0.15
+1373,CLM-0042-002142,Medicaid,CO-18,N111,Coding & Billing,755.97,0.723,Not Appealed,0.0719,8.16,0.2341,4,0.15
+1374,CLM-0042-002213,Aetna,CO-27,N30,Eligibility/Coverage,364.22,0.732,Not Appealed,0.1141,7.48,0.2332,4,0.18
+1375,CLM-0042-000506,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,293.09,0.786,Not Appealed,0.1029,1.51,0.2332,5,0.05
+1376,CLM-0042-002255,Aetna,CO-27,N30,Eligibility/Coverage,1425.55,0.436,Not Appealed,0.094,24.12,0.233,4,0.18
+1377,CLM-0042-001356,Medicare FFS,CO-27,N30,Timely Filing,434.56,0.814,Not Appealed,0.0749,5.86,0.2327,4,0.18
+1378,CLM-0042-004315,Medicare FFS,PR-1,N130,Eligibility/Coverage,795.6,0.779,Not Appealed,0.0436,1.73,0.2323,5,0.05
+1379,CLM-0042-001451,UnitedHealthcare,CO-50,N115,Medical Necessity,228.41,0.679,Not Appealed,0.1478,18.57,0.2322,3,0.55
+1380,CLM-0042-006402,Medicare FFS,CO-18,N111,Coding & Billing,421.41,0.741,Not Appealed,0.1017,6.43,0.232,4,0.15
+1381,CLM-0042-010234,Medicare FFS,CO-50,N115,Medical Necessity,239.95,0.451,Upheld,0.2283,30.13,0.2316,3,0.55
+1382,CLM-0042-000134,Medicaid,PR-1,N130,Timely Filing,363.07,0.871,Upheld,0.0606,1.1,0.2315,5,0.05
+1383,CLM-0042-012109,Medicaid,CO-18,N111,Coding & Billing,661.89,0.746,Not Appealed,0.0696,6.91,0.2312,4,0.15
+1384,CLM-0042-007355,BCBS,PR-1,N130,Eligibility/Coverage,863.64,0.692,Upheld,0.0647,2.79,0.231,5,0.05
+1385,CLM-0042-008812,Aetna,PR-1,N130,Eligibility/Coverage,460.1,0.867,Not Appealed,0.0483,1.11,0.2303,5,0.05
+1386,CLM-0042-009082,Medicaid,PR-1,N130,Eligibility/Coverage,408.37,0.919,Not Appealed,0.0352,0.72,0.2301,5,0.05
+1387,CLM-0042-007899,Aetna,CO-97,N19,Coding & Billing,844.4,0.464,Not Appealed,0.148,59.97,0.2299,3,0.48
+1388,CLM-0042-001558,BCBS,CO-97,N19,Coding & Billing,278.32,0.642,Upheld,0.151,20.18,0.2298,3,0.48
+1389,CLM-0042-012021,Medicare FFS,CO-18,N111,Coding & Billing,854.03,0.687,Upheld,0.0653,8.37,0.2297,4,0.15
+1390,CLM-0042-011621,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,681.54,0.757,Not Appealed,0.0606,2.07,0.2297,5,0.05
+1391,CLM-0042-007387,BCBS,CO-27,N30,Eligibility/Coverage,397.02,0.532,Not Appealed,0.176,12.58,0.2294,4,0.18
+1392,CLM-0042-006260,Medicare FFS,CO-27,N30,Eligibility/Coverage,370.87,0.865,Upheld,0.0568,3.79,0.2287,4,0.18
+1393,CLM-0042-010500,UnitedHealthcare,CO-16,N29,Coding & Billing,1299.78,0.399,Upheld,0.1139,106.64,0.2283,2,0.72
+1394,CLM-0042-002134,Aetna,CO-18,N111,Coding & Billing,224.9,0.824,Not Appealed,0.0884,2.98,0.2283,4,0.15
+1395,CLM-0042-002565,BCBS,CO-97,N19,Coding & Billing,278.78,0.67,Upheld,0.1376,18.42,0.2281,3,0.48
+1396,CLM-0042-004283,BCBS,CO-18,N111,Coding & Billing,782.32,0.517,Not Appealed,0.1329,15.6,0.2281,4,0.15
+1397,CLM-0042-006926,Medicare FFS,CO-27,N30,Eligibility/Coverage,125.83,0.787,Not Appealed,0.1128,2.56,0.2278,4,0.18
+1398,CLM-0042-004402,UnitedHealthcare,CO-18,N111,Coding & Billing,431.53,0.835,Not Appealed,0.0573,3.71,0.227,4,0.15
+1399,CLM-0042-003859,UnitedHealthcare,CO-27,N30,Eligibility/Coverage,229.34,0.885,Upheld,0.0621,2.57,0.2263,4,0.18
+1400,CLM-0042-012457,Medicare FFS,CO-27,N30,Timely Filing,666.49,0.639,Not Appealed,0.0982,11.78,0.2258,4,0.18
+1401,CLM-0042-009949,BCBS,CO-27,N30,Eligibility/Coverage,331.29,0.724,Not Appealed,0.1072,6.39,0.2256,4,0.18
+1402,CLM-0042-012277,Aetna,CO-27,N30,Eligibility/Coverage,1116.11,0.424,Not Appealed,0.1217,24.46,0.2254,4,0.18
+1403,CLM-0042-011638,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,569.59,0.8,Upheld,0.0502,1.43,0.2252,5,0.05
+1404,CLM-0042-010108,Aetna,CO-18,N111,Coding & Billing,343.83,0.79,Upheld,0.0799,4.12,0.2246,4,0.15
+1405,CLM-0042-012152,Aetna,PR-1,N130,Eligibility/Coverage,558.31,0.799,Not Appealed,0.0502,1.4,0.2243,5,0.05
+1406,CLM-0042-004148,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,214.96,0.83,Not Appealed,0.0794,0.85,0.2239,5,0.05
+1407,CLM-0042-006684,UnitedHealthcare,CO-27,N30,Eligibility/Coverage,1017.76,0.427,Upheld,0.1296,23.74,0.2238,4,0.18
+1408,CLM-0042-004463,Medicaid,PR-1,N130,Eligibility/Coverage,1063.15,0.608,Not Appealed,0.057,3.03,0.2231,5,0.05
+1409,CLM-0042-008849,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,354.05,0.917,Not Appealed,0.0279,0.49,0.2221,5,0.05
+1410,CLM-0042-003650,UnitedHealthcare,CO-16,N29,Coding & Billing,860.25,0.309,Upheld,0.1877,116.28,0.2218,2,0.72
+1411,CLM-0042-007444,Medicare FFS,CO-27,N30,Eligibility/Coverage,457.33,0.684,Upheld,0.0984,8.1,0.2211,4,0.18
+1412,CLM-0042-001391,Aetna,CO-18,N111,Coding & Billing,437.32,0.786,Upheld,0.0623,4.09,0.2203,4,0.15
+1413,CLM-0042-012312,BCBS,CO-50,N115,Medical Necessity,191.79,0.618,Upheld,0.1524,16.08,0.2201,3,0.55
+1414,CLM-0042-011841,Aetna,CO-18,N111,Coding & Billing,298.02,0.566,Not Appealed,0.1576,7.05,0.2196,4,0.15
+1415,CLM-0042-002760,BCBS,PR-1,N130,Eligibility/Coverage,584.23,0.784,Not Appealed,0.0425,1.24,0.2188,5,0.05
+1416,CLM-0042-002855,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,428.89,0.85,Not Appealed,0.0371,0.8,0.2187,5,0.05
+1417,CLM-0042-007515,UnitedHealthcare,CO-27,N30,Eligibility/Coverage,2095.38,0.333,Not Appealed,0.0244,9.22,0.2184,4,0.18
+1418,CLM-0042-005163,Medicare FFS,PR-1,N130,Eligibility/Coverage,1281.61,0.535,Not Appealed,0.0475,3.05,0.2177,5,0.05
+1419,CLM-0042-004636,Medicare FFS,CO-18,N111,Coding & Billing,635.98,0.721,Not Appealed,0.0562,5.37,0.2171,4,0.15
+1420,CLM-0042-000638,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,176.4,0.798,Not Appealed,0.0823,0.73,0.2165,5,0.05
+1421,CLM-0042-000092,UnitedHealthcare,CO-97,N19,Coding & Billing,569.92,0.41,Upheld,0.1752,47.93,0.216,3,0.48
+1422,CLM-0042-004556,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,494.63,0.819,Not Appealed,0.0344,0.85,0.2154,5,0.05
+1423,CLM-0042-001468,Medicare FFS,PR-1,N130,Eligibility/Coverage,546.47,0.77,Not Appealed,0.0452,1.23,0.2149,5,0.05
+1424,CLM-0042-010314,Aetna,CO-18,N111,Coding & Billing,353.1,0.786,Not Appealed,0.0623,3.3,0.2148,4,0.15
+1425,CLM-0042-010226,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,750.62,0.613,Not Appealed,0.0744,2.79,0.2131,5,0.05
+1426,CLM-0042-010345,Medicaid,PR-1,N130,Eligibility/Coverage,620.85,0.657,Not Appealed,0.074,2.3,0.2131,5,0.05
+1427,CLM-0042-005662,Medicare FFS,CO-97,N19,Coding & Billing,892.69,0.391,Not Appealed,0.1378,59.05,0.2129,3,0.48
+1428,CLM-0042-003844,BCBS,CO-18,N111,Prior Authorization,514.93,0.638,Not Appealed,0.0929,7.18,0.2127,4,0.15
+1429,CLM-0042-010857,BCBS,PR-1,N130,Eligibility/Coverage,836.29,0.658,Upheld,0.0467,1.95,0.2125,5,0.05
+1430,CLM-0042-007070,UnitedHealthcare,CO-97,N19,Coding & Billing,377.75,0.439,Not Appealed,0.18,32.63,0.2117,3,0.48
+1431,CLM-0042-006876,BCBS,CO-27,N30,Eligibility/Coverage,308.34,0.597,Not Appealed,0.1308,7.26,0.2117,4,0.18
+1432,CLM-0042-006292,Aetna,PR-1,N130,Timely Filing,566.82,0.724,Not Appealed,0.0532,1.51,0.2115,5,0.05
+1433,CLM-0042-005412,UnitedHealthcare,CO-97,N19,Coding & Billing,355.36,0.475,Not Appealed,0.1691,28.84,0.2114,3,0.48
+1434,CLM-0042-002051,Aetna,PR-1,N130,Eligibility/Coverage,518.12,0.733,Not Appealed,0.0554,1.43,0.2112,5,0.05
+1435,CLM-0042-004791,BCBS,PR-1,N130,Eligibility/Coverage,509.16,0.762,Upheld,0.0457,1.16,0.2111,5,0.05
+1436,CLM-0042-004608,Medicare FFS,PR-1,N130,Eligibility/Coverage,1041.19,0.536,Not Appealed,0.0629,3.28,0.2105,5,0.05
+1437,CLM-0042-004416,UnitedHealthcare,PR-1,N130,Timely Filing,1599.24,0.412,Not Appealed,0.0397,3.18,0.2098,5,0.05
+1438,CLM-0042-005853,Medicare FFS,PR-1,N130,Timely Filing,1947.14,0.353,Not Appealed,0.0192,1.87,0.2097,5,0.05
+1439,CLM-0042-006544,BCBS,PR-1,N130,Eligibility/Coverage,789.59,0.653,Not Appealed,0.0468,1.85,0.2085,5,0.05
+1440,CLM-0042-012147,Medicaid,CO-27,N30,Eligibility/Coverage,270.99,0.83,Upheld,0.0436,2.13,0.2079,4,0.18
+1441,CLM-0042-007878,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,171.87,0.734,Not Appealed,0.0905,0.78,0.2079,5,0.05
+1442,CLM-0042-006502,Medicaid,CO-27,N30,Eligibility/Coverage,250.64,0.836,Not Appealed,0.0436,1.97,0.2077,4,0.18
+1443,CLM-0042-011413,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,515.86,0.72,Upheld,0.0532,1.37,0.2073,5,0.05
+1444,CLM-0042-002850,Medicaid,CO-27,N30,Eligibility/Coverage,1414.57,0.401,Not Appealed,0.0599,15.25,0.2065,4,0.18
+1445,CLM-0042-008306,Medicare FFS,CO-27,N30,Eligibility/Coverage,446.93,0.593,Not Appealed,0.1062,8.54,0.2065,4,0.18
+1446,CLM-0042-012163,Medicare FFS,CO-18,N111,Coding & Billing,466.46,0.674,Not Appealed,0.0745,5.21,0.2065,4,0.15
+1447,CLM-0042-001492,UnitedHealthcare,CO-16,N29,Coding & Billing,162.93,0.516,Upheld,0.1673,19.63,0.206,2,0.72
+1448,CLM-0042-007897,BCBS,CO-18,N111,Coding & Billing,843.22,0.555,Upheld,0.0709,8.97,0.2057,4,0.15
+1449,CLM-0042-005889,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,384.17,0.799,Not Appealed,0.0372,0.71,0.2056,5,0.05
+1450,CLM-0042-006945,Medicaid,PR-1,N130,Eligibility/Coverage,383.28,0.768,Not Appealed,0.0472,0.9,0.2049,5,0.05
+1451,CLM-0042-009607,BCBS,CO-18,N111,Coding & Billing,805.18,0.563,Upheld,0.0709,8.56,0.2047,4,0.15
+1452,CLM-0042-010408,BCBS,PR-1,N130,Eligibility/Coverage,531.64,0.716,Not Appealed,0.0479,1.27,0.2046,5,0.05
+1453,CLM-0042-011690,BCBS,PR-1,N130,Eligibility/Coverage,164.38,0.797,Upheld,0.0625,0.51,0.2046,5,0.05
+1454,CLM-0042-011334,Medicaid,CO-18,N111,Prior Authorization,1231.01,0.46,Not Appealed,0.0566,10.46,0.2044,4,0.15
+1455,CLM-0042-000273,Medicare FFS,PR-1,N130,Eligibility/Coverage,679.68,0.7,Not Appealed,0.0351,1.19,0.2042,5,0.05
+1456,CLM-0042-004329,UnitedHealthcare,CO-27,N30,Eligibility/Coverage,368.33,0.648,Not Appealed,0.0909,6.03,0.2039,4,0.18
+1457,CLM-0042-005428,UnitedHealthcare,CO-97,N19,Coding & Billing,416.2,0.453,Upheld,0.1559,31.15,0.2038,3,0.48
+1458,CLM-0042-004408,Medicaid,CO-27,N30,Eligibility/Coverage,1413.36,0.38,Upheld,0.0611,15.55,0.2029,4,0.18
+1459,CLM-0042-001701,Aetna,CO-16,N29,Coding & Billing,625.55,0.346,Not Appealed,0.1669,75.18,0.2023,2,0.72
+1460,CLM-0042-005425,Aetna,CO-16,N29,Prior Authorization,208.89,0.424,Not Appealed,0.1883,28.31,0.2021,2,0.72
+1461,CLM-0042-006476,Medicare FFS,CO-18,N111,Coding & Billing,226.99,0.86,Upheld,0.027,0.92,0.2018,4,0.15
+1462,CLM-0042-002881,Medicare FFS,CO-18,N111,Coding & Billing,728.51,0.582,Not Appealed,0.0677,7.4,0.2017,4,0.15
+1463,CLM-0042-001787,Medicaid,PR-1,N130,Eligibility/Coverage,1603.67,0.394,Not Appealed,0.0306,2.46,0.2015,5,0.05
+1464,CLM-0042-000926,Medicare FFS,CO-18,N111,Coding & Billing,920.43,0.544,Not Appealed,0.0571,7.89,0.201,4,0.15
+1465,CLM-0042-008881,UnitedHealthcare,CO-97,N19,Prior Authorization,2125.05,0.183,Not Appealed,0.0433,44.2,0.2007,3,0.48
+1466,CLM-0042-003913,Aetna,CO-18,N111,Coding & Billing,383.73,0.7,Not Appealed,0.0635,3.66,0.2003,4,0.15
+1467,CLM-0042-007973,BCBS,PR-1,N130,Eligibility/Coverage,445.57,0.715,Not Appealed,0.0494,1.1,0.1996,5,0.05
+1468,CLM-0042-011786,Medicare FFS,PR-1,N130,Eligibility/Coverage,641.81,0.685,Not Appealed,0.0351,1.13,0.1987,5,0.05
+1469,CLM-0042-010563,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,473.28,0.723,Not Appealed,0.0394,0.93,0.1975,5,0.05
+1470,CLM-0042-003258,Medicaid,CO-18,N111,Coding & Billing,748.81,0.531,Upheld,0.0757,8.5,0.1972,4,0.15
+1471,CLM-0042-007925,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,832.05,0.556,Not Appealed,0.0555,2.31,0.1966,5,0.05
+1472,CLM-0042-007345,Medicaid,CO-27,N30,Timely Filing,263.07,0.77,Not Appealed,0.0458,2.17,0.1965,4,0.18
+1473,CLM-0042-006204,Medicare FFS,CO-97,N19,Coding & Billing,222.53,0.448,Upheld,0.1675,17.89,0.1964,3,0.48
+1474,CLM-0042-008758,Medicare FFS,PR-1,N130,Eligibility/Coverage,1695.34,0.369,Not Appealed,0.0191,1.62,0.1962,5,0.05
+1475,CLM-0042-011577,Medicaid,PR-1,N130,Eligibility/Coverage,593.78,0.636,Upheld,0.0527,1.57,0.1954,5,0.05
+1476,CLM-0042-008843,Medicare FFS,PR-1,N130,Eligibility/Coverage,553.18,0.673,Not Appealed,0.044,1.22,0.1953,5,0.05
+1477,CLM-0042-001425,Medicaid,CO-50,N115,Medical Necessity,132.28,0.529,Not Appealed,0.146,10.62,0.1948,3,0.55
+1478,CLM-0042-002168,Medicaid,CO-27,N30,Eligibility/Coverage,277.66,0.745,Not Appealed,0.0486,2.43,0.194,4,0.18
+1479,CLM-0042-012441,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,371.84,0.729,Not Appealed,0.0411,0.76,0.1929,5,0.05
+1480,CLM-0042-005598,Medicaid,CO-16,N29,Timely Filing,672.34,0.399,Not Appealed,0.1246,60.32,0.1927,2,0.72
+1481,CLM-0042-010956,Aetna,CO-27,N30,Eligibility/Coverage,932.62,0.47,Upheld,0.0674,11.31,0.1926,4,0.18
+1482,CLM-0042-009689,Medicare FFS,CO-18,N111,Coding & Billing,344.44,0.596,Not Appealed,0.0912,4.71,0.1921,4,0.15
+1483,CLM-0042-003945,Medicare FFS,CO-27,N30,Eligibility/Coverage,456.94,0.559,Not Appealed,0.0907,7.46,0.1919,4,0.18
+1484,CLM-0042-001947,Medicare FFS,CO-27,N30,Eligibility/Coverage,113.64,0.588,Not Appealed,0.1211,2.48,0.1917,4,0.18
+1485,CLM-0042-009004,Medicare FFS,PR-1,N130,Eligibility/Coverage,428.7,0.733,Not Appealed,0.0297,0.64,0.1913,5,0.05
+1486,CLM-0042-006280,Medicare FFS,PR-1,N130,Eligibility/Coverage,899.44,0.559,Not Appealed,0.0363,1.63,0.1911,5,0.05
+1487,CLM-0042-003189,Medicare FFS,PR-1,N130,Eligibility/Coverage,544.69,0.632,Not Appealed,0.0522,1.42,0.1911,5,0.05
+1488,CLM-0042-001030,Medicaid,CO-18,N111,Coding & Billing,255.67,0.801,Not Appealed,0.0254,0.97,0.1911,4,0.15
+1489,CLM-0042-012404,Medicaid,CO-16,N29,Coding & Billing,657.76,0.395,Not Appealed,0.1246,59.01,0.191,2,0.72
+1490,CLM-0042-011541,UnitedHealthcare,CO-27,N30,Eligibility/Coverage,254.31,0.769,Upheld,0.0364,1.67,0.1906,4,0.18
+1491,CLM-0042-000781,Medicare FFS,PR-1,N130,Eligibility/Coverage,153.11,0.728,Not Appealed,0.0622,0.48,0.1899,5,0.05
+1492,CLM-0042-010018,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,734.56,0.559,Not Appealed,0.0532,1.95,0.1895,5,0.05
+1493,CLM-0042-010373,Medicare FFS,CO-27,N30,Eligibility/Coverage,239.73,0.778,Not Appealed,0.0322,1.39,0.1891,4,0.18
+1494,CLM-0042-001645,Medicare FFS,PR-1,N130,Eligibility/Coverage,709.72,0.595,Not Appealed,0.0411,1.46,0.1885,5,0.05
+1495,CLM-0042-001303,UnitedHealthcare,CO-18,N111,Coding & Billing,523.27,0.549,Upheld,0.0801,6.29,0.1884,4,0.15
+1496,CLM-0042-001290,BCBS,CO-27,N30,Eligibility/Coverage,255.79,0.694,Not Appealed,0.0594,2.73,0.1884,4,0.18
+1497,CLM-0042-008229,Aetna,CO-18,N111,Coding & Billing,494.11,0.582,Not Appealed,0.0704,5.22,0.1878,4,0.15
+1498,CLM-0042-004377,UnitedHealthcare,CO-18,N111,Coding & Billing,272.43,0.794,Not Appealed,0.0201,0.82,0.1878,4,0.15
+1499,CLM-0042-008297,BCBS,CO-18,N111,Coding & Billing,536.74,0.561,Not Appealed,0.0725,5.84,0.1875,4,0.15
+1500,CLM-0042-005919,Aetna,CO-27,N30,Eligibility/Coverage,1288.72,0.394,Not Appealed,0.0419,9.73,0.1869,4,0.18
+1501,CLM-0042-012247,BCBS,PR-1,N130,Eligibility/Coverage,552.04,0.582,Not Appealed,0.0575,1.59,0.1845,5,0.05
+1502,CLM-0042-006497,Medicaid,PR-1,N130,Eligibility/Coverage,585.19,0.611,Not Appealed,0.0417,1.22,0.1838,5,0.05
+1503,CLM-0042-010121,Medicare FFS,PR-1,N130,Eligibility/Coverage,462.03,0.505,Not Appealed,0.0916,2.12,0.1819,5,0.05
+1504,CLM-0042-011983,Medicaid,CO-18,N111,Coding & Billing,1056.46,0.422,Not Appealed,0.0495,7.84,0.1813,4,0.15
+1505,CLM-0042-005484,Medicaid,PR-1,N130,Eligibility/Coverage,530.73,0.608,Not Appealed,0.0447,1.19,0.1812,5,0.05
+1506,CLM-0042-002400,BCBS,CO-97,N19,Coding & Billing,724.79,0.367,Not Appealed,0.1064,37.02,0.1798,3,0.48
+1507,CLM-0042-003717,UnitedHealthcare,CO-50,N115,Medical Necessity,586.56,0.349,Upheld,0.1283,41.38,0.1791,3,0.55
+1508,CLM-0042-007156,UnitedHealthcare,CO-27,N30,Eligibility/Coverage,743.82,0.464,Not Appealed,0.067,8.97,0.1787,4,0.18
+1509,CLM-0042-007315,Medicaid,PR-1,N130,Eligibility/Coverage,481.69,0.587,Not Appealed,0.0533,1.28,0.1785,5,0.05
+1510,CLM-0042-011347,UnitedHealthcare,CO-97,N19,Coding & Billing,533.23,0.355,Not Appealed,0.1308,33.47,0.1781,3,0.48
+1511,CLM-0042-006096,Medicaid,PR-1,N130,Eligibility/Coverage,319.11,0.695,Not Appealed,0.03,0.48,0.1766,5,0.05
+1512,CLM-0042-007346,BCBS,PR-1,N130,Eligibility/Coverage,320.66,0.644,Not Appealed,0.0475,0.76,0.1761,5,0.05
+1513,CLM-0042-008677,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,385.11,0.624,Not Appealed,0.0465,0.9,0.1758,5,0.05
+1514,CLM-0042-000301,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,569.73,0.541,Not Appealed,0.0542,1.55,0.1756,5,0.05
+1515,CLM-0042-009536,Medicaid,PR-1,N130,Eligibility/Coverage,435.12,0.585,Not Appealed,0.0533,1.16,0.175,5,0.05
+1516,CLM-0042-007428,Medicare FFS,CO-18,N111,Coding & Billing,362.75,0.564,Not Appealed,0.0685,3.73,0.1744,4,0.15
+1517,CLM-0042-000345,UnitedHealthcare,CO-27,N30,Eligibility/Coverage,213.3,0.629,Upheld,0.0604,2.32,0.1731,4,0.18
+1518,CLM-0042-002244,Medicare FFS,PR-1,N130,Eligibility/Coverage,454.49,0.58,Not Appealed,0.0492,1.12,0.1731,5,0.05
+1519,CLM-0042-005192,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,524.77,0.541,Not Appealed,0.0542,1.42,0.1727,5,0.05
+1520,CLM-0042-004281,Medicare FFS,PR-1,N130,Eligibility/Coverage,509.64,0.576,Not Appealed,0.0404,1.03,0.171,5,0.05
+1521,CLM-0042-007231,Medicaid,PR-1,N130,Eligibility/Coverage,277.83,0.715,Not Appealed,0.016,0.22,0.1701,5,0.05
+1522,CLM-0042-005508,Medicaid,CO-27,N30,Eligibility/Coverage,981.61,0.373,Not Appealed,0.0555,9.81,0.1699,4,0.18
+1523,CLM-0042-009676,Medicare FFS,PR-1,N130,Eligibility/Coverage,463.67,0.615,Not Appealed,0.028,0.65,0.169,5,0.05
+1524,CLM-0042-007252,BCBS,CO-27,N30,Eligibility/Coverage,240.92,0.448,Not Appealed,0.1153,5.0,0.1689,4,0.18
+1525,CLM-0042-005438,Medicare FFS,PR-1,N130,Eligibility/Coverage,462.73,0.575,Not Appealed,0.0416,0.96,0.1684,5,0.05
+1526,CLM-0042-009930,BCBS,CO-18,N111,Coding & Billing,174.3,0.683,Not Appealed,0.0364,0.95,0.1681,4,0.15
+1527,CLM-0042-009394,Medicare FFS,CO-18,N111,Coding & Billing,758.54,0.41,Not Appealed,0.0654,7.44,0.168,4,0.15
+1528,CLM-0042-006393,Medicaid,CO-27,N30,Eligibility/Coverage,659.94,0.445,Not Appealed,0.0625,7.43,0.167,4,0.18
+1529,CLM-0042-006220,Medicaid,CO-27,N30,Eligibility/Coverage,222.06,0.6,Not Appealed,0.0567,2.27,0.1659,4,0.18
+1530,CLM-0042-000639,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,281.64,0.693,Upheld,0.0154,0.22,0.1657,5,0.05
+1531,CLM-0042-002647,UnitedHealthcare,CO-27,N30,Eligibility/Coverage,245.13,0.579,Upheld,0.0522,2.3,0.1607,4,0.18
+1532,CLM-0042-006400,UnitedHealthcare,CO-97,N19,Coding & Billing,436.9,0.389,Not Appealed,0.0906,19.01,0.1565,3,0.48
+1533,CLM-0042-010944,Medicaid,CO-18,N111,Coding & Billing,217.86,0.648,Not Appealed,0.0213,0.7,0.1557,4,0.15
+1534,CLM-0042-012451,Medicare FFS,CO-27,N30,Eligibility/Coverage,126.45,0.438,Not Appealed,0.1055,2.4,0.154,4,0.18
+1535,CLM-0042-004080,Medicaid,PR-1,N130,Eligibility/Coverage,228.65,0.626,Not Appealed,0.0241,0.28,0.1536,5,0.05
+1536,CLM-0042-005316,Medicaid,CO-18,N111,Coding & Billing,211.08,0.588,Upheld,0.0392,1.24,0.1531,4,0.15
+1537,CLM-0042-002701,UnitedHealthcare,CO-27,N30,Eligibility/Coverage,208.11,0.51,Not Appealed,0.0661,2.48,0.1521,4,0.18
+1538,CLM-0042-007257,Medicaid,CO-18,N111,Coding & Billing,517.27,0.439,Not Appealed,0.0537,4.17,0.1515,4,0.15
+1539,CLM-0042-005605,BCBS,PR-1,N130,Eligibility/Coverage,116.04,0.654,Not Appealed,0.0216,0.13,0.1503,5,0.05
+1540,CLM-0042-003023,BCBS,PR-1,N130,Eligibility/Coverage,694.29,0.302,Not Appealed,0.0743,2.58,0.1471,5,0.05
+1541,CLM-0042-005719,Medicare FFS,CO-18,N111,Coding & Billing,234.26,0.557,Not Appealed,0.0319,1.12,0.1444,4,0.15
+1542,CLM-0042-006062,Medicaid,CO-97,N19,Coding & Billing,633.28,0.346,Upheld,0.0562,17.09,0.1419,3,0.48
+1543,CLM-0042-004317,Aetna,PR-1,N130,Eligibility/Coverage,514.77,0.436,Not Appealed,0.0378,0.97,0.1419,5,0.05
+1544,CLM-0042-010415,Medicaid,CO-97,N19,Coding & Billing,703.89,0.309,Not Appealed,0.0605,20.45,0.1415,3,0.48
+1545,CLM-0042-002018,Medicare FFS,PR-1,N130,Eligibility/Coverage,349.96,0.443,Not Appealed,0.0521,0.91,0.1403,5,0.05
+1546,CLM-0042-003324,UnitedHealthcare,CO-18,N111,Coding & Billing,145.9,0.569,Upheld,0.0263,0.57,0.1379,4,0.15
+1547,CLM-0042-012064,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,210.0,0.572,Not Appealed,0.0155,0.16,0.1368,5,0.05
+1548,CLM-0042-003477,UnitedHealthcare,CO-50,N115,Medical Necessity,395.59,0.235,Upheld,0.1127,24.53,0.1351,3,0.55
+1549,CLM-0042-011079,Medicare FFS,CO-27,N30,Eligibility/Coverage,638.38,0.373,Not Appealed,0.0317,3.64,0.1342,4,0.18
+1550,CLM-0042-003006,UnitedHealthcare,CO-97,N19,Coding & Billing,522.65,0.185,Not Appealed,0.1068,26.8,0.1302,3,0.48
+1551,CLM-0042-010661,Medicare FFS,PR-1,N130,Eligibility/Coverage,757.02,0.362,Upheld,0.0138,0.52,0.1299,5,0.05
+1552,CLM-0042-006008,UnitedHealthcare,CO-97,N19,Coding & Billing,94.01,0.431,Upheld,0.0659,2.97,0.1287,3,0.48
+1553,CLM-0042-003695,UnitedHealthcare,PR-1,N130,Eligibility/Coverage,450.82,0.41,Not Appealed,0.023,0.52,0.1244,5,0.05
+1554,CLM-0042-003342,UnitedHealthcare,CO-16,N29,Coding & Billing,276.18,0.329,Not Appealed,0.0711,14.13,0.1231,2,0.72
+1555,CLM-0042-006504,Aetna,CO-27,N30,Eligibility/Coverage,362.94,0.393,Upheld,0.0368,2.4,0.1228,4,0.18
+1556,CLM-0042-008526,UnitedHealthcare,CO-97,N19,Coding & Billing,312.77,0.317,Upheld,0.0581,8.73,0.116,3,0.48
+1557,CLM-0042-010243,Medicare FFS,CO-18,N111,Coding & Billing,371.86,0.36,Not Appealed,0.0347,1.94,0.1156,4,0.15
+1558,CLM-0042-001496,BCBS,CO-97,N19,Coding & Billing,118.76,0.391,Upheld,0.0536,3.06,0.1155,3,0.48
+1559,CLM-0042-005135,Aetna,CO-97,N19,Coding & Billing,201.46,0.32,Not Appealed,0.0422,4.09,0.1005,3,0.48
+1560,CLM-0042-005173,UnitedHealthcare,CO-18,N111,Coding & Billing,114.59,0.392,Not Appealed,0.0075,0.13,0.0901,4,0.15
+1561,CLM-0042-003421,Aetna,CO-50,N115,Medical Necessity,184.59,0.239,Overturned/Recovered,0.0544,5.52,0.0899,3,0.55
+1562,CLM-0042-001014,Aetna,CO-16,N29,Timely Filing,94.78,0.252,Not Appealed,0.0575,3.92,0.0883,2,0.72
+1563,CLM-0042-002660,Medicare FFS,PR-1,N130,Timely Filing,248.96,0.337,Not Appealed,0.0079,0.1,0.0882,5,0.05
+1564,CLM-0042-008646,Medicaid,PR-1,N130,Eligibility/Coverage,279.17,0.224,Not Appealed,0.0061,0.09,0.0666,5,0.05
