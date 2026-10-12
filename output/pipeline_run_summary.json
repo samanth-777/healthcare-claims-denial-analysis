@@ -1,0 +1,99 @@
+{
+  "kpis": {
+    "total_claims": 12500,
+    "denied_claims": 1564,
+    "paid_claims": 10936,
+    "gross_denial_rate": 0.12512,
+    "gross_denial_rate_pct": 12.51,
+    "initial_clean_claim_rate": 0.87488,
+    "initial_clean_claim_rate_pct": 87.49,
+    "total_billed_amount": 16353385.49,
+    "denied_revenue": 2094501.77,
+    "paid_revenue": 14258883.72,
+    "appealed_claims": 610,
+    "overturned_claims": 306,
+    "appeal_overturn_rate_pct": 50.16,
+    "recovered_revenue_actual": 428027.63,
+    "estimated_recoverable_revenue": 924794.71,
+    "medicare_ffs_benchmark_pct": 10.8,
+    "medicare_ffs_observed_denial_rate_pct": 10.01
+  },
+  "model": {
+    "name": "GradientBoostingClassifier",
+    "n_train": 457,
+    "n_appealed": 610,
+    "metrics": {
+      "roc_auc": 0.7179,
+      "precision": 0.6517,
+      "recall": 0.7532,
+      "accuracy": 0.6732,
+      "n_test": 153,
+      "positive_rate_test": 0.5033,
+      "confusion_matrix": [
+        [
+          45,
+          31
+        ],
+        [
+          19,
+          58
+        ]
+      ],
+      "top_features": [
+        {
+          "feature": "doc_score",
+          "importance": 0.322225
+        },
+        {
+          "feature": "log_claim_amount",
+          "importance": 0.300585
+        },
+        {
+          "feature": "carc_severity",
+          "importance": 0.202699
+        },
+        {
+          "feature": "payer_weight",
+          "importance": 0.044444
+        },
+        {
+          "feature": "payer_Medicare FFS",
+          "importance": 0.024354
+        },
+        {
+          "feature": "carc_CO-50",
+          "importance": 0.023758
+        },
+        {
+          "feature": "carc_CO-16",
+          "importance": 0.015092
+        },
+        {
+          "feature": "tier_T2_500-1500",
+          "importance": 0.011256
+        },
+        {
+          "feature": "carc_CO-97",
+          "importance": 0.010229
+        },
+        {
+          "feature": "tier_T3_1500-5k",
+          "importance": 0.01
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "raw_claims": "data/raw_claims.csv",
+    "sanitized_claims": "data/processed_claims_sanitized.csv",
+    "kpi_csv": "output/claims_denial_kpi_summary.csv",
+    "executive_xlsx": "output/rcm_executive_metrics.xlsx",
+    "appeal_worklist": "output/appeal_worklist_prioritized.csv",
+    "figures": {
+      "payer_benchmark": "reports/figures/payer_denial_rates_vs_benchmark.png",
+      "carc_pareto": "reports/figures/carc_rarc_root_cause_pareto.png",
+      "recovery_curve": "reports/figures/cumulative_revenue_recovery_curve.png"
+    }
+  },
+  "data_disclaimer": "Claim-level data is synthetic. No PHI. Generated for portfolio demonstration and calibrated to industry denial-rate benchmarks."
+}

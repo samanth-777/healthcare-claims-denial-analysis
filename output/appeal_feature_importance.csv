@@ -1,0 +1,20 @@
+feature,importance
+doc_score,0.322225
+log_claim_amount,0.300585
+carc_severity,0.202699
+payer_weight,0.044444
+payer_Medicare FFS,0.024354
+carc_CO-50,0.023758
+carc_CO-16,0.015092
+tier_T2_500-1500,0.011256
+carc_CO-97,0.010229
+tier_T3_1500-5k,0.01
+payer_BCBS,0.008849
+payer_Aetna,0.008825
+carc_CO-27,0.008198
+payer_UnitedHealthcare,0.00657
+payer_Medicaid,0.002069
+carc_PR-1,0.000834
+tier_T1_<500,1.3e-05
+tier_T4_5k-15k,0.0
+carc_CO-18,0.0
