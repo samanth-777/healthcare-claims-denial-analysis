@@ -1,0 +1,11 @@
+HCPCS_Code,Procedure_Description,Code_Family,Avg_Submitted_Charge,Avg_Allowed_Amount,State,Source_Note
+99213,Office/outpatient visit est,E&M,110.50,79.20,WI,CMS PUF 2024 WI calibration anchor
+99214,Office/outpatient visit est,E&M,165.00,112.40,WI,CMS PUF 2024 WI calibration anchor
+99215,Office/outpatient visit est,E&M,220.00,158.10,WI,CMS PUF 2024 WI calibration anchor
+97110,Therapeutic exercises,Physical Therapy,95.00,68.40,WI,CMS PUF 2024 WI calibration anchor
+97140,Manual therapy,Physical Therapy,88.00,62.10,WI,CMS PUF 2024 WI calibration anchor
+97530,Therapeutic activities,Physical Therapy,102.00,73.50,WI,CMS PUF 2024 WI calibration anchor
+70450,CT head/brain w/o contrast,Radiology,285.00,142.80,WI,CMS PUF 2024 WI calibration anchor
+72148,MRI lumbar spine w/o dye,Radiology,620.00,298.40,WI,CMS PUF 2024 WI calibration anchor
+73721,MRI joint of lower extremity,Radiology,540.00,265.00,WI,CMS PUF 2024 WI calibration anchor
+93000,Electrocardiogram complete,Other,55.00,28.90,WI,CMS PUF 2024 WI calibration anchor
